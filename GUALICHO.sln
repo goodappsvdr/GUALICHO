@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GUALICHO.BACKEND", "GUALICHO.BACKEND\GUALICHO.BACKEND.vbproj", "{B9C8F902-313C-4E22-A561-6B8A9C5F6114}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GUALICHO", "GUALICHO\GUALICHO.vbproj", "{1495AE6E-D6CF-48BF-9D53-271395A7028A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GUALICHO.AD", "GUALICHO.AD\GUALICHO.AD.vbproj", "{A2CBF9B0-1C8C-47BB-A5B1-82D3D822679F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C8F902-313C-4E22-A561-6B8A9C5F6114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C8F902-313C-4E22-A561-6B8A9C5F6114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C8F902-313C-4E22-A561-6B8A9C5F6114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C8F902-313C-4E22-A561-6B8A9C5F6114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1495AE6E-D6CF-48BF-9D53-271395A7028A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1495AE6E-D6CF-48BF-9D53-271395A7028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1495AE6E-D6CF-48BF-9D53-271395A7028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1495AE6E-D6CF-48BF-9D53-271395A7028A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CBF9B0-1C8C-47BB-A5B1-82D3D822679F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CBF9B0-1C8C-47BB-A5B1-82D3D822679F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CBF9B0-1C8C-47BB-A5B1-82D3D822679F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CBF9B0-1C8C-47BB-A5B1-82D3D822679F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
