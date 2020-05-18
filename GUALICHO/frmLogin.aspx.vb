@@ -438,7 +438,7 @@ Public Class frmLogin
         Dim twitter As String = ""
         Dim instagram As String = ods.Tables(0).Rows(0).Item("Url").ToString
         Dim facebook As String = ods.Tables(0).Rows(1).Item("Url").ToString
-        Dim whatsapp As String = ods.Tables(0).Rows(2).Item("Url").ToString
+        'Dim whatsapp As String = ods.Tables(0).Rows(2).Item("Url").ToString
 
         If twitter <> "" Then
             HrefTwitter.Visible = True
@@ -461,12 +461,12 @@ Public Class frmLogin
             HrefFacebook.Visible = False
         End If
 
-        If whatsapp <> "" Then
-            HrefWhatsapp.Visible = True
-            HrefWhatsapp.HRef = whatsapp
-        Else
-            HrefInstagram.Visible = False
-        End If
+        'If whatsapp <> "" Then
+        '    HrefWhatsapp.Visible = True
+        '    HrefWhatsapp.HRef = whatsapp
+        'Else
+        '    HrefInstagram.Visible = False
+        'End If
 
 
     End Sub
