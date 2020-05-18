@@ -92,9 +92,506 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\ajax-loader.gif" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\core.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\material-design-iconic-font.min.css" />
+    <Content Include="css\owl.carousel.min.css" />
+    <Content Include="css\owl.theme.default.min.css" />
+    <Content Include="css\owl.video.play.png" />
+    <Content Include="css\plugins\ajax-loader.gif" />
+    <Content Include="css\plugins\AjaxLoader.gif" />
+    <Content Include="css\plugins\animate-slider.css" />
+    <Content Include="css\plugins\animate.css" />
+    <Content Include="css\plugins\animation.css" />
+    <Content Include="css\plugins\fonts\slick.svg" />
+    <Content Include="css\plugins\images\ui-icons_444444_256x240.png" />
+    <Content Include="css\plugins\images\ui-icons_555555_256x240.png" />
+    <Content Include="css\plugins\images\ui-icons_777620_256x240.png" />
+    <Content Include="css\plugins\images\ui-icons_777777_256x240.png" />
+    <Content Include="css\plugins\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="css\plugins\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\plugins\jquery-ui.css" />
+    <Content Include="css\plugins\meanmenu.css" />
+    <Content Include="css\plugins\slick-theme.css" />
+    <Content Include="css\plugins\slick.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\shortcode\default.css" />
+    <Content Include="css\shortcode\footer.css" />
+    <Content Include="css\shortcode\header.css" />
+    <Content Include="css\shortcode\shortcodes.css" />
+    <Content Include="css\shortcode\slider.css" />
+    <Content Include="css\simple-line-icons.css" />
+    <Content Include="css\style-customizer.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="fonts\Simple-Line-Icons.svg" />
+    <Content Include="frmActivarUsuario.aspx" />
+    <Content Include="frmBusquedaItems.aspx" />
+    <Content Include="frmContacto.aspx" />
+    <Content Include="frmCuentaError.aspx" />
+    <Content Include="frmCuentaExito.aspx" />
+    <Content Include="frmDetalleProducto.aspx" />
+    <Content Include="FrmInicio.aspx" />
+    <Content Include="frmLogin.aspx" />
+    <Content Include="FrmNosotros.aspx" />
+    <Content Include="FrmRegistro.aspx" />
+    <Content Include="frmRubros.aspx" />
+    <Content Include="FrmServicios.aspx" />
+    <Content Include="frmServiciosDetalle.aspx" />
+    <Content Include="frmSitioEnConstruccion.aspx" />
+    <Content Include="frmSubRubro.aspx" />
+    <Content Include="Imagenes\btngif.gif" />
+    <Content Include="Imagenes\checked.png" />
+    <Content Include="Imagenes\copmaco.png" />
+    <Content Include="Imagenes\favicon.png" />
+    <Content Include="Imagenes\gifbtn.gif" />
+    <Content Include="Imagenes\icono facebook trazo negro.png" />
+    <Content Include="Imagenes\icono instagram trazo negro.png" />
+    <Content Include="Imagenes\icono whatsapp trazo negro.png" />
+    <Content Include="Imagenes\imgRubros.jpg" />
+    <Content Include="Imagenes\logo.jpg" />
+    <Content Include="Imagenes\logo.png" />
+    <Content Include="Imagenes\p1.jpg" />
+    <Content Include="Imagenes\p2.jpg" />
+    <Content Include="Imagenes\slider1.jpg" />
+    <Content Include="Imagenes\slider2.jpg" />
+    <Content Include="Imagenes\slider3.jpg" />
+    <Content Include="Imagenes\warning.png" />
+    <Content Include="images\banner\big-img\1.png" />
+    <Content Include="images\banner\big-img\2.png" />
+    <Content Include="images\bg\1.jpg" />
+    <Content Include="images\bg\4.jpg" />
+    <Content Include="images\blog\big-images\1.jpg" />
+    <Content Include="images\blog\bl-sm-2\1.png" />
+    <Content Include="images\blog\bl-sm-2\2.png" />
+    <Content Include="images\blog\bl-sm-2\3.png" />
+    <Content Include="images\blog\blog-img\1.jpg" />
+    <Content Include="images\blog\blog-img\2.jpg" />
+    <Content Include="images\blog\blog-img\3.jpg" />
+    <Content Include="images\blog\md-img\1.jpg" />
+    <Content Include="images\blog\md-img\2.jpg" />
+    <Content Include="images\brand\1.png" />
+    <Content Include="images\brand\2.png" />
+    <Content Include="images\brand\3.png" />
+    <Content Include="images\brand\4.png" />
+    <Content Include="images\brand\5.png" />
+    <Content Include="images\cart\1.jpg" />
+    <Content Include="images\cart\1.png" />
+    <Content Include="images\cart\2.jpg" />
+    <Content Include="images\cart\2.png" />
+    <Content Include="images\cart\3.jpg" />
+    <Content Include="images\cart\4.jpg" />
+    <Content Include="images\comment\1.png" />
+    <Content Include="images\comment\2.png" />
+    <Content Include="images\comment\3.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\iconofacebook.png" />
+    <Content Include="images\iconofacebooknaranja.png" />
+    <Content Include="images\iconoinstagram.png" />
+    <Content Include="images\iconoinstagramnaranja.png" />
+    <Content Include="images\iconotwitter.png" />
+    <Content Include="images\iconowhatsapp.png" />
+    <Content Include="images\iconowhatsappnaranja.png" />
+    <Content Include="images\icons\ajax-loader.gif" />
+    <Content Include="images\icons\arrow-down-long.png" />
+    <Content Include="images\icons\close-20.png" />
+    <Content Include="images\icons\close.png" />
+    <Content Include="images\icons\loading.gif" />
+    <Content Include="images\icons\map-2.png" />
+    <Content Include="images\icons\map.png" />
+    <Content Include="images\icons\next.png" />
+    <Content Include="images\icons\prev.png" />
+    <Content Include="images\icons\select-option-white.png" />
+    <Content Include="images\icons\select-option.png" />
+    <Content Include="images\logo\4.png" />
+    <Content Include="images\others\shape\1.png" />
+    <Content Include="images\others\shape\2.png" />
+    <Content Include="images\others\shape\3.png" />
+    <Content Include="images\others\shape\4.png" />
+    <Content Include="images\others\shape\5.png" />
+    <Content Include="images\others\shape\lan.png" />
+    <Content Include="images\others\shape\line.png" />
+    <Content Include="images\others\shape\new.png" />
+    <Content Include="images\others\shape\paypol.png" />
+    <Content Include="images\others\shape\quote.png" />
+    <Content Include="images\product-2\big-img\1.jpg" />
+    <Content Include="images\product-2\big-img\2.jpg" />
+    <Content Include="images\product-2\big-img\3.jpg" />
+    <Content Include="images\product-2\cart-img\1.jpg" />
+    <Content Include="images\product-2\cart-img\2.jpg" />
+    <Content Include="images\product-2\cart-img\3.jpg" />
+    <Content Include="images\product-2\cart-img\4.jpg" />
+    <Content Include="images\product-2\pro-1\1.jpg" />
+    <Content Include="images\product-2\pro-1\2.jpg" />
+    <Content Include="images\product-2\pro-1\3.jpg" />
+    <Content Include="images\product-2\pro-1\4.jpg" />
+    <Content Include="images\product-2\sm-img-2\1.jpg" />
+    <Content Include="images\product-2\sm-img-2\2.jpg" />
+    <Content Include="images\product-2\sm-img-2\3.jpg" />
+    <Content Include="images\product-2\sm-img-3\1.jpg" />
+    <Content Include="images\product-2\sm-img-3\2.jpg" />
+    <Content Include="images\product-2\sm-img-3\3.jpg" />
+    <Content Include="images\product-2\sm-smg\1.jpg" />
+    <Content Include="images\product-2\sm-smg\2.jpg" />
+    <Content Include="images\product-3\1.jpg" />
+    <Content Include="images\product-3\2.jpg" />
+    <Content Include="images\product-3\3.jpg" />
+    <Content Include="images\product-3\4.jpg" />
+    <Content Include="images\product-3\5.jpg" />
+    <Content Include="images\product-3\6.jpg" />
+    <Content Include="images\product-3\7.jpg" />
+    <Content Include="images\product-3\8.jpg" />
+    <Content Include="images\product-3\9.jpg" />
+    <Content Include="images\product\1.jpg" />
+    <Content Include="images\product\10.jpg" />
+    <Content Include="images\product\11.jpg" />
+    <Content Include="images\product\12.jpg" />
+    <Content Include="images\product\2.jpg" />
+    <Content Include="images\product\3.jpg" />
+    <Content Include="images\product\4.jpg" />
+    <Content Include="images\product\5.jpg" />
+    <Content Include="images\product\6.jpg" />
+    <Content Include="images\product\7.jpg" />
+    <Content Include="images\product\8.jpg" />
+    <Content Include="images\product\9.jpg" />
+    <Content Include="images\slider\bg\1.jpg" />
+    <Content Include="images\slider\bg\2.jpg" />
+    <Content Include="images\slider\fornt-img\1.png" />
+    <Content Include="images\slider\fornt-img\2.png" />
+    <Content Include="images\test\client\1.png" />
+    <Content Include="images\test\client\2.png" />
+    <Content Include="js\ajax-mail.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\contact-map.js" />
+    <Content Include="js\jplist.min.js" />
+    <Content Include="js\jplist.styles.css" />
+    <Content Include="js\main.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\slick.min.js" />
+    <Content Include="js\style-customizer.js" />
+    <Content Include="js\vendor\jquery-3.2.1.min.js" />
+    <Content Include="js\vendor\modernizr-3.5.0.min.js" />
+    <Content Include="js\waypoints.min.js" />
+    <Content Include="obj\Debug\GUALICHO.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HIERCONS.dll" />
+    <Content Include="obj\Debug\HIERCONS.pdb" />
+    <Content Include="obj\Debug\HIERCONS.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HIERCONS.xml" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="obj\Release\HIERCONS.dll" />
+    <Content Include="obj\Release\HIERCONS.pdb" />
+    <Content Include="obj\Release\HIERCONS.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\HIERCONS.xml" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\HIERCONS.AD.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\HIERCONS.AD.pdb" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\HIERCONS.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\HIERCONS.pdb" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\HIERCONS.xml" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Microsoft.Practices.Unity.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\css\ajax-loader.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\css\bootstrap.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\core.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\custom.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\font-awesome.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\jquery-ui.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\material-design-iconic-font.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\owl.carousel.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\owl.theme.default.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\owl.video.play.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\ajax-loader.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\AjaxLoader.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\animate-slider.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\animate.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\animation.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\fonts\slick.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\images\ui-icons_444444_256x240.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\images\ui-icons_555555_256x240.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\images\ui-icons_777620_256x240.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\images\ui-icons_777777_256x240.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\jquery-ui.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\meanmenu.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\slick-theme.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\slick.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\responsive.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\shortcode\default.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\shortcode\footer.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\shortcode\header.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\shortcode\shortcodes.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\shortcode\slider.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\simple-line-icons.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\style-customizer.css" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Material-Design-Iconic-Font.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Simple-Line-Icons.svg" />
+    <Content Include="obj\Release\Package\PackageTmp\frmActivarUsuario.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmBusquedaItems.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmContacto.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmCuentaError.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmCuentaExito.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmDetalleProducto.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\FrmInicio.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmLogin.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\FrmNosotros.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\FrmRegistro.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmRubros.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\FrmServicios.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmServiciosDetalle.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmSitioEnConstruccion.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\frmSubRubro.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\btngif.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\checked.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\copmaco.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\favicon.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\gifbtn.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\icono facebook trazo negro.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\icono instagram trazo negro.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\icono whatsapp trazo negro.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\imgRubros.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\logo.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\logo.png" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\p1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\p2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\slider1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\slider2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\slider3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\Imagenes\warning.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\banner\big-img\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\banner\big-img\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\bg\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\bg\4.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\big-images\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\bl-sm-2\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\bl-sm-2\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\bl-sm-2\3.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\blog-img\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\blog-img\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\blog-img\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\md-img\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\blog\md-img\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\brand\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\brand\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\brand\3.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\brand\4.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\brand\5.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\4.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\comment\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\comment\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\comment\3.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\favicon.ico" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\ajax-loader.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\arrow-down-long.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\close-20.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\close.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\loading.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\map-2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\map.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\next.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\prev.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\select-option-white.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\select-option.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\logo\4.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\3.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\4.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\5.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\lan.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\line.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\new.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\paypol.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\quote.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\big-img\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\big-img\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\big-img\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\cart-img\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\cart-img\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\cart-img\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\cart-img\4.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\pro-1\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\pro-1\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\pro-1\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\pro-1\4.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-2\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-2\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-2\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-3\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-3\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-3\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-smg\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-smg\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\4.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\5.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\6.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\7.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\8.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-3\9.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\10.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\11.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\12.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\3.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\4.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\5.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\6.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\7.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\8.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\9.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\slider\bg\1.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\slider\bg\2.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\images\slider\fornt-img\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\slider\fornt-img\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\test\client\1.png" />
+    <Content Include="obj\Release\Package\PackageTmp\images\test\client\2.png" />
+    <Content Include="obj\Release\Package\PackageTmp\js\ajax-mail.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\bootstrap.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\contact-map.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jplist.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jplist.styles.css" />
+    <Content Include="obj\Release\Package\PackageTmp\js\main.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\owl.carousel.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\plugins.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\slick.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\style-customizer.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\vendor\jquery-3.2.1.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\vendor\modernizr-3.5.0.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\waypoints.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\style.css" />
+    <Content Include="obj\Release\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="obj\Release\_WPPLastBuildInfo.txt" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactoWS.vb" />
+    <Compile Include="CriteriosWS.vb" />
+    <Compile Include="frmActivarUsuario.aspx.designer.vb">
+      <DependentUpon>frmActivarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmActivarUsuario.aspx.vb">
+      <DependentUpon>frmActivarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmBusquedaItems.aspx.designer.vb">
+      <DependentUpon>frmBusquedaItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusquedaItems.aspx.vb">
+      <DependentUpon>frmBusquedaItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmContacto.aspx.designer.vb">
+      <DependentUpon>frmContacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmContacto.aspx.vb">
+      <DependentUpon>frmContacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCuentaError.aspx.designer.vb">
+      <DependentUpon>frmCuentaError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCuentaError.aspx.vb">
+      <DependentUpon>frmCuentaError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCuentaExito.aspx.designer.vb">
+      <DependentUpon>frmCuentaExito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCuentaExito.aspx.vb">
+      <DependentUpon>frmCuentaExito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDetalleProducto.aspx.designer.vb">
+      <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleProducto.aspx.vb">
+      <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.aspx.designer.vb">
+      <DependentUpon>FrmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.aspx.vb">
+      <DependentUpon>FrmInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmLogin.aspx.designer.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.aspx.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmNosotros.aspx.designer.vb">
+      <DependentUpon>FrmNosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNosotros.aspx.vb">
+      <DependentUpon>FrmNosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmRegistro.aspx.designer.vb">
+      <DependentUpon>FrmRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistro.aspx.vb">
+      <DependentUpon>FrmRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmRubros.aspx.designer.vb">
+      <DependentUpon>frmRubros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRubros.aspx.vb">
+      <DependentUpon>frmRubros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmServicios.aspx.designer.vb">
+      <DependentUpon>FrmServicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServicios.aspx.vb">
+      <DependentUpon>FrmServicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmServiciosDetalle.aspx.designer.vb">
+      <DependentUpon>frmServiciosDetalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmServiciosDetalle.aspx.vb">
+      <DependentUpon>frmServiciosDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSitioEnConstruccion.aspx.designer.vb">
+      <DependentUpon>frmSitioEnConstruccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSitioEnConstruccion.aspx.vb">
+      <DependentUpon>frmSitioEnConstruccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSubRubro.aspx.designer.vb">
+      <DependentUpon>frmSubRubro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSubRubro.aspx.vb">
+      <DependentUpon>frmSubRubro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuloPrincipal.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -114,6 +611,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UsuariosWeb.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -122,8 +620,43 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\GUALICHO.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\HIERCONS.Resources.resources" />
+    <EmbeddedResource Include="obj\Release\HIERCONS.Resources.resources" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\plugins\fonts\slick.eot" />
+    <Content Include="css\plugins\fonts\slick.ttf" />
+    <Content Include="css\plugins\fonts\slick.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="fonts\Simple-Line-Icons.eot" />
+    <Content Include="fonts\Simple-Line-Icons.ttf" />
+    <Content Include="fonts\Simple-Line-Icons.woff" />
+    <Content Include="fonts\Simple-Line-Icons.woff2" />
+    <Content Include="images\bg\Thumbs.db" />
+    <Content Include="images\cart\Thumbs.db" />
+    <Content Include="images\icons\Thumbs.db" />
+    <Content Include="images\others\shape\Thumbs.db" />
+    <Content Include="images\product-2\big-img\Thumbs.db" />
+    <Content Include="images\product-2\cart-img\Thumbs.db" />
+    <Content Include="images\product-2\pro-1\Thumbs.db" />
+    <Content Include="images\product-2\sm-img-2\Thumbs.db" />
+    <Content Include="images\product-2\sm-smg\Thumbs.db" />
+    <Content Include="images\product\Thumbs.db" />
+    <Content Include="images\test\client\Thumbs.db" />
+    <Content Include="js\jplist.min.js.map" />
+    <Content Include="js\jplist.styles.css.map" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -133,6 +666,56 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\GUALICHO.vbproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\GUALICHO.vbproj.GenerateResource.cache" />
+    <Content Include="obj\Debug\GUALICHO.vbprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\HIERCONS.vbproj.CopyComplete" />
+    <Content Include="obj\Debug\HIERCONS.vbproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\HIERCONS.vbproj.GenerateResource.cache" />
+    <Content Include="obj\Debug\HIERCONS.vbprojAssemblyReference.cache" />
+    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\HIERCONS.vbproj.CopyComplete" />
+    <Content Include="obj\Release\HIERCONS.vbproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Release\HIERCONS.vbproj.GenerateResource.cache" />
+    <Content Include="obj\Release\HIERCONS.vbprojAssemblyReference.cache" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\fonts\slick.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\fonts\slick.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\css\plugins\fonts\slick.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Material-Design-Iconic-Font.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Material-Design-Iconic-Font.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Material-Design-Iconic-Font.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Material-Design-Iconic-Font.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Simple-Line-Icons.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Simple-Line-Icons.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\images\bg\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\cart\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\icons\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\others\shape\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\big-img\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\cart-img\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\pro-1\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-img-2\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product-2\sm-smg\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\product\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\images\test\client\Thumbs.db" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jplist.min.js.map" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jplist.styles.css.map" />
+    <Content Include="obj\Release\Package\PackageTmp\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\assist\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\transformed\Web.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -140,6 +723,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="obj\Release\ProfileTransformWebConfig\transformed\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GUALICHO.AD\GUALICHO.AD.vbproj">
+      <Project>{46405258-d9dc-4f46-b455-04f8309e6264}</Project>
+      <Name>GUALICHO.AD</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
