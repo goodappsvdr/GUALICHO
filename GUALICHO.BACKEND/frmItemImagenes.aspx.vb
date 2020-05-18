@@ -1,4 +1,4 @@
-﻿Imports HIERCONS.AD
+﻿Imports GUALICHO.AD
 Public Class frmItemImagenes
     Inherits System.Web.UI.Page
 

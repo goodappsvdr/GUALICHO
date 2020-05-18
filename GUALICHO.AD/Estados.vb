@@ -4,7 +4,6 @@ Imports System.Data.SqlClient
 Imports Microsoft.Practices.EnterpriseLibrary.Data
 Imports System.IO
 
-
 Public Class Estados
 
      Dim oDatabase As Database

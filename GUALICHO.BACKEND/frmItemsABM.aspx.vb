@@ -1,4 +1,4 @@
-﻿Imports HIERCONS.AD
+﻿Imports GUALICHO.AD
 Public Class frmItemsABM
     Inherits System.Web.UI.Page
     Dim id_item As String

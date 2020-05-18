@@ -1,4 +1,4 @@
-﻿Imports HIERCONS.AD
+﻿Imports GUALICHO.AD
 Imports System.Globalization
 Imports System.Data
 Imports System.Data.SqlClient

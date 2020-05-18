@@ -2,7 +2,7 @@
 Imports System.Web.Script.Serialization
 Imports System.Web.Script.Services
 Imports System.Web.Services
-Imports HIERCONS.AD
+Imports GUALICHO.AD
 Public Class frmDetalleProducto
     Inherits System.Web.UI.Page
 

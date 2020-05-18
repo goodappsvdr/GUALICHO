@@ -1,4 +1,4 @@
-﻿Imports HIERCONS.AD
+﻿Imports GUALICHO.AD
 Imports System.Net.Mail
 Imports System.Web.Script.Serialization
 Imports System.Web.Script.Services

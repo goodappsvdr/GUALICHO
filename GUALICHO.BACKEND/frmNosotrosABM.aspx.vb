@@ -1,4 +1,4 @@
-﻿Imports HIERCONS.AD
+﻿Imports GUALICHO.AD
 Public Class frmNosotrosABM
     Inherits System.Web.UI.Page
 

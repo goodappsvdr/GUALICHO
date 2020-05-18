@@ -1983,13 +1983,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\GUALICHO.AD\GUALICHO.AD.vbproj">
       <Project>{a2cbf9b0-1c8c-47bb-a5b1-82d3d822679f}</Project>
       <Name>GUALICHO.AD</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
