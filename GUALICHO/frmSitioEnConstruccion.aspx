@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmSitioEnConstruccion.aspx.vb" Inherits="HIERCONS.frmSitioEnConstruccion" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmSitioEnConstruccion.aspx.vb" Inherits="GUALICHO.frmSitioEnConstruccion" %>
 
 <!DOCTYPE html>
 

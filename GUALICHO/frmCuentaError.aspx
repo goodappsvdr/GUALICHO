@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmCuentaError.aspx.vb" Inherits="HIERCONS.frmCuentaError" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmCuentaError.aspx.vb" Inherits="GUALICHO.frmCuentaError" %>
 
 <!doctype html>
 <html class="no-js" lang="zxx">

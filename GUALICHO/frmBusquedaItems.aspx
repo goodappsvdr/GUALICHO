@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmBusquedaItems.aspx.vb" Inherits="HIERCONS.frmBusquedaItems" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmBusquedaItems.aspx.vb" Inherits="GUALICHO.frmBusquedaItems" %>
 
 <!doctype html>
 <html class="no-js" lang="zxx">

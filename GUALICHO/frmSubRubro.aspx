@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmSubRubro.aspx.vb" Inherits="HIERCONS.frmSubRubro" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmSubRubro.aspx.vb" Inherits="GUALICHO.frmSubRubro" %>
 
 <!doctype html>
 <html class="no-js" lang="zxx">

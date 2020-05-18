@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmRegistro.aspx.vb" Inherits="HIERCONS.FrmRegistro" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmRegistro.aspx.vb" Inherits="GUALICHO.FrmRegistro" %>
 
 <!doctype html>
 <html class="no-js" lang="zxx">

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmActivarUsuario.aspx.vb" Inherits="HIERCONS.frmActivarUsuario" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmActivarUsuario.aspx.vb" Inherits="GUALICHO.frmActivarUsuario" %>
 
 <!DOCTYPE html>
 

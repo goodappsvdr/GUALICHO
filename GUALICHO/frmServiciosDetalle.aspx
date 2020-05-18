@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmServiciosDetalle.aspx.vb" Inherits="HIERCONS.frmServiciosDetalle" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmServiciosDetalle.aspx.vb" Inherits="GUALICHO.frmServiciosDetalle" %>
 
 
 <!doctype html>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmInicio.aspx.vb" Inherits="HIERCONS.FrmInicio" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmInicio.aspx.vb" Inherits="GUALICHO.FrmInicio" %>
 
 <!DOCTYPE html>
 
