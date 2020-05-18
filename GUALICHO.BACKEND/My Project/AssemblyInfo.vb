@@ -7,17 +7,17 @@ Imports System.Runtime.InteropServices
 ' asociada a un ensamblado.
 
 ' Revisar los valores de los atributos del ensamblado
-<Assembly: AssemblyTitle("GUALICHO.BACKEND")>
+<Assembly: AssemblyTitle("HIERCONS.BACKEND")>
 <Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("GUALICHO.BACKEND")>
-<Assembly: AssemblyCopyright("Copyright ©  2020")>
+<Assembly: AssemblyCompany("Hewlett-Packard")>
+<Assembly: AssemblyProduct("HIERCONS.BACKEND")>
+<Assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'El siguiente GUID es para el Id. typelib cuando este proyecto esté expuesto a COM
-<Assembly: Guid("89cb89ad-654a-44d1-8965-2f8306280882")>
+<Assembly: Guid("dc06e7cc-aa64-416a-8bd2-8b110c551137")>
 
 ' La información de versión de un ensamblado consta de los siguientes cuatro valores:
 '

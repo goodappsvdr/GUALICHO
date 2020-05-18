@@ -63,9 +63,9 @@ Namespace My
     Friend Module MySettingsProperty
 
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.GUALICHO.BACKEND.My.MySettings
+        Friend ReadOnly Property Settings() As Global.HIERCONS.BACKEND.My.MySettings
             Get
-                Return Global.GUALICHO.BACKEND.My.MySettings.Default
+                Return Global.HIERCONS.BACKEND.My.MySettings.Default
             End Get
         End Property
     End Module
