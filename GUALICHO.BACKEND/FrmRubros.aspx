@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmRubros.aspx.vb" Inherits="HIERCONS.BACKEND.FrmRubros" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FrmRubros.aspx.vb" Inherits="GUALICHO.BACKEND.FrmRubros" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
