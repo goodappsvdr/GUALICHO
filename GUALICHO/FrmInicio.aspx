@@ -92,7 +92,7 @@
        }
 
 
-       .social__link li a:hover i {
+       /*.social__link li a:hover i {
     background: rgba(0, 0, 0, 0.212) none repeat scroll 0 0;
     color: rgba(0, 0, 0, 0.212);
 }
@@ -108,7 +108,7 @@
     text-align: center;
     transition: all 0.4s ease 0s;
     width: 32px;
-}
+}*/
                      
 
     </style>
@@ -134,7 +134,7 @@
                         <div class="menumenu__container clearfix">
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style=" padding: 0px 10px 0px 0px;"> 
                                 <div class="logo">
-                                     <a href="frminicio.aspx"><img src="imagenes/logo.png" alt="logo images" style="max-height: 80px;"></a>
+                                     <a href="frminicio.aspx"><img src="Imagenes/logo.png" alt="logo images" style="max-height: 80px;"></a>
                                 </div>
                                 
                             </div>

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
-    <link rel="shortcut icon" href="Imagenes/Fv.png">
+    <!-- App Favicon -->
+    <link rel="shortcut icon" href="Imagenes/favicon.png">
     <title>Hiercons - Backend</title>
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
@@ -146,7 +147,7 @@ if it's not present, don't show loader */
                     <div style="padding: 15px; -webkit-filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
                         background: white;">
                         <a href="frmInicio.aspx">
-                            <img style="height: 55px;" src="Imagenes/logo1.png" /></a>
+                            <img style="height: 55px;" src="Imagenes/logo.png" /></a>
                         <br />
                         <br />
                         <asp:Label ID="lblUsuario" Style="color: #000000;" runat="server" Text=""></asp:Label>
@@ -291,7 +292,7 @@ if it's not present, don't show loader */
                         <div class="row">
                              <div class="col-md-3">
                                 <a href="FrmQuienesSomos.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">QUIENES SOMOS</span>
@@ -304,7 +305,7 @@ if it's not present, don't show loader */
                             </div>
                             <div class="col-md-3">
                                 <a href="frmNosotrosABM.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">NOSOTROS</span>
@@ -318,7 +319,7 @@ if it's not present, don't show loader */
 
                              <div class="col-md-3">
                                 <a href="frmServicios.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">SERVICIOS</span>
@@ -333,7 +334,7 @@ if it's not present, don't show loader */
 
                             <div class="col-md-3">
                                 <a href="frmBannersABM.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">NUEVO SLIDER</span>
@@ -359,7 +360,7 @@ if it's not present, don't show loader */
                             
                             <div class="col-md-3">
                                 <a href="frmSponsors.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">AGREGAR SPONSOR</span>
@@ -373,7 +374,7 @@ if it's not present, don't show loader */
 
                             <div class="col-md-3">
                                 <a href="frmMarcasABM.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                       <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">NUEVA MARCA</span>
@@ -386,7 +387,7 @@ if it's not present, don't show loader */
                             </div>
                             <div class="col-md-3">
                                 <a href="frmRubrosABM.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">NUEVO RUBRO</span>
@@ -399,7 +400,7 @@ if it's not present, don't show loader */
                             </div>
                             <div class="col-md-3">
                                 <a href="frmSubRubrosABM.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">NUEVO SUB RUBRO</span>
@@ -417,7 +418,7 @@ if it's not present, don't show loader */
 
                                <div class="col-md-3">
                                 <a href="frmItems.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">ITEMS</span>
@@ -432,7 +433,7 @@ if it's not present, don't show loader */
 
                             <div class="col-md-3">
                                 <a href="frmItemImagenes.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">AGREGAR IMÁGEN</span>
@@ -445,7 +446,7 @@ if it's not present, don't show loader */
                             </div>
                             <div class="col-md-3">
                                 <a href="frmConsultas.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">CONSULTAS</span>
@@ -458,7 +459,7 @@ if it's not present, don't show loader */
                             </div>
                             <div class="col-md-3">
                                 <a href="frmContactoABM.aspx">
-                                    <div class="wrap">
+                                    <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
                                             <span style="font-size: 17px; color: White; font-weight: bold;">CONTACTO</span>
@@ -475,7 +476,7 @@ if it's not present, don't show loader */
                         <div class="row">
                             <div class="col-md-12">
                             <center>
-                                <img src="Imagenes/logoblanco.png" style=" height:70px; margin-top:170px;" />
+                                <img src="Imagenes/logoblanco.png" style=" height:70px; margin-top:170px;"/>
              </center>
              
                             </div>

@@ -10,26 +10,24 @@
 Option Strict On
 Option Explicit On
 
-Namespace GAULICHO.BACKEND
 
-    Partial Public Class frmLogin
+Partial Public Class frmLogin
 
-        '''<summary>
-        '''Control form1.
-        '''</summary>
-        '''<remarks>
-        '''Campo generado automáticamente.
-        '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        '''</remarks>
-        Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    '''<summary>
+    '''Control form1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-        '''<summary>
-        '''Control Login1.
-        '''</summary>
-        '''<remarks>
-        '''Campo generado automáticamente.
-        '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        '''</remarks>
-        Protected WithEvents Login1 As Global.System.Web.UI.WebControls.Login
-    End Class
-End Namespace
+    '''<summary>
+    '''Control Login1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Login1 As Global.System.Web.UI.WebControls.Login
+End Class
