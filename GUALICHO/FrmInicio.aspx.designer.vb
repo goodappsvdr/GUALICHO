@@ -158,6 +158,15 @@ Partial Public Class FrmInicio
     Protected WithEvents ImgQuienesSomos As Global.System.Web.UI.HtmlControls.HtmlImage
 
     '''<summary>
+    '''Control TxtTooltip1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtTooltip1 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
     '''Control TxtTooltip3.
     '''</summary>
     '''<remarks>
@@ -165,15 +174,6 @@ Partial Public Class FrmInicio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TxtTooltip3 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''Control TxtTooltip4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip4 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control TxtTooltip5.

@@ -124,7 +124,7 @@
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
                                         <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
-                                             <li class="drop"><a href="frmNosotros.aspx">NOSOTROS</a></li>
+                                             <li class="drop"><a href="frmNosotros.aspx">LA FABRICA</a></li>
                                        <%-- <li class="drop"><a href="#">women</a>--%>
                                           
                                             
@@ -498,13 +498,13 @@
                                 <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
                             </div>
                             <div class="banner__info">
-                                <%--<div class="pointer__tooltip pointer--3 align-left">
+                                <div class="pointer__tooltip pointer--3 align-left">
                                     <div class="tooltip__box">
                                      
                                         <p runat="server" id="TxtTooltip1"></p>
                                     </div>
-                                </div>--%>
-                                <%--<div class="pointer__tooltip pointer--4 align-top">
+                                </div>
+                               <%-- <div class="pointer__tooltip pointer--4 align-top">
                                     <div class="tooltip__box">
                                      
                                         <p runat="server" id="TxtTooltip2"></p>
@@ -516,12 +516,12 @@
                                         <p runat="server" id="TxtTooltip3"></p>
                                     </div>
                                 </div>
-                                <div class="pointer__tooltip pointer--6 align-top">
+                                <%--<div class="pointer__tooltip pointer--6 align-top">
                                     <div class="tooltip__box">
                                      
                                         <p runat="server" id="TxtTooltip4"></p>
                                     </div>
-                                </div>
+                                </div>--%>
                                 <div class="pointer__tooltip pointer--7 align-top">
                                     <div class="tooltip__box">
                                     
@@ -665,7 +665,7 @@
                             <div class="footer">
                                 <h2 class="title__line--2">ABOUT US</h2>
                                 <div class="ft__details">
-                                    <p   style="font-family: 'Poppins', sans-serif;">Para qué lidiar con muchas empresas para una remodelación? En HIERCONS usted cuenta con el apoyo para cubrir todas las necesidades de su proyecto.</p>
+                                    <p   style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
                                             <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#ef7f2d;"></i></a></li>

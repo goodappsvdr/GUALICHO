@@ -328,10 +328,10 @@ Public Class FrmInicio
         TxtDescripcionQS.InnerHtml = ods.Tables(0).Rows(0).Item("Descripcion").ToString
 
         'ImgQuienesSomos.Src = ods.Tables(0).Rows(0).Item("Imagen").ToString
-        'TxtTooltip1.InnerText = ods.Tables(0).Rows(0).Item("Tooltip1").ToString
+        TxtTooltip1.InnerText = ods.Tables(0).Rows(0).Item("Tooltip1").ToString
         'TxtTooltip2.InnerText = ods.Tables(0).Rows(0).Item("Tooltip2").ToString
         TxtTooltip3.InnerText = ods.Tables(0).Rows(0).Item("Tooltip3").ToString
-        TxtTooltip4.InnerText = ods.Tables(0).Rows(0).Item("Tooltip4").ToString
+        'TxtTooltip4.InnerText = ods.Tables(0).Rows(0).Item("Tooltip4").ToString
         TxtTooltip5.InnerText = ods.Tables(0).Rows(0).Item("Tooltip5").ToString
     End Sub
 #End Region

@@ -41,42 +41,6 @@ Partial Public Class frmDetalleProducto
     Protected WithEvents RepeaterMenuRubros As Global.System.Web.UI.WebControls.Repeater
 
     '''<summary>
-    '''Control MenuMisConsultas.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents MenuMisConsultas As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''Control A4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents A4 As Global.System.Web.UI.HtmlControls.HtmlAnchor
-
-    '''<summary>
-    '''Control A5.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents A5 As Global.System.Web.UI.HtmlControls.HtmlAnchor
-
-    '''<summary>
-    '''Control A6.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents A6 As Global.System.Web.UI.HtmlControls.HtmlAnchor
-
-    '''<summary>
     '''Control MenuIniciarSesion.
     '''</summary>
     '''<remarks>

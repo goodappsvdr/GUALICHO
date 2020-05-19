@@ -23,15 +23,6 @@ Partial Public Class frmSubRubro
     Protected WithEvents RepeaterMenuRubros As Global.System.Web.UI.WebControls.Repeater
 
     '''<summary>
-    '''Control MenuMisConsultas.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents MenuMisConsultas As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
     '''Control MenuIniciarSesion.
     '''</summary>
     '''<remarks>

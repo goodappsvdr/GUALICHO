@@ -117,7 +117,7 @@ Public Class FrmNosotros
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-            MenuMisConsultas.Visible = True
+            '  MenuMisConsultas.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
@@ -128,7 +128,7 @@ Public Class FrmNosotros
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False
-            MenuMisConsultas.Visible = True
+            'MenuMisConsultas.Visible = True
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
             MenuMisConsultasMobile.Visible = True

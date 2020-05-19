@@ -110,11 +110,11 @@
     <!-- Body main wrapper start -->
     <div class="wrapper">
         <!-- Start Header Style -->
-   <header id="htc__header" class="htc__header__area header--one">
+        <header id="htc__header" class="htc__header__area header--one">
             <!-- Start Mainmenu Area -->
             <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
                 
-                <div class="container" style="margin-right: auto; margin-left: auto;padding-left: 30px; padding-right: 50px; width:100%;" >
+                <div class="container" style="margin-right: auto; margin-left: auto;padding-left:30px; padding-right: 50px; width:100%;" >
                   
                     
                     <div class="row" >
@@ -132,7 +132,7 @@
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
                                         <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
-                                             <li class="drop"><a href="frmNosotros.aspx">NOSOTROS</a></li>
+                                             <li class="drop"><a href="frmNosotros.aspx">LA FABRICA</a></li>
                                        <%-- <li class="drop"><a href="#">women</a>--%>
                                           
                                             
@@ -199,7 +199,7 @@
                                                 
                                             </ul>
                                         </li>
-                                        <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>
+                                       <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
                                          <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#ef7f2d;" href="frmLogin.aspx">INGRESAR</a></li>
                                         <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#ef7f2d;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
@@ -244,9 +244,9 @@
                             </div>
 
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style=" padding: 0px 10px 0px 0px;"> 
-                                <div class="logo">
+                                <%--<div class="logo">
                                      <a href="frminicio.aspx"><img src="imagenes/copmaco.png"  style="max-height: 90px;" alt="logo images"></a>
-                                </div>
+                                </div>--%>
                                 
                             </div>
 
