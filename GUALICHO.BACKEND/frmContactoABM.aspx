@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmContactoABM.aspx.vb" Inherits="HIERCONS.BACKEND.frmContactoABM_aspx" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmContactoABM.aspx.vb" Inherits="GUALICHO.BACKEND.frmContactoABM_aspx" %>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
