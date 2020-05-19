@@ -103,11 +103,11 @@
     <!-- Body main wrapper start -->
     <div class="wrapper">
         <!-- Start Header Style -->
-<header id="htc__header" class="htc__header__area header--one">
+        <header id="htc__header" class="htc__header__area header--one">
             <!-- Start Mainmenu Area -->
             <div id="sticky-header-with-topbar" class="mainmenu__wrap sticky__header">
                 
-                <div class="container" style="margin-right: auto; margin-left: auto;padding-left: 30px; padding-right: 50px; width:100%;" >
+                <div class="container" style="margin-right: auto; margin-left: auto;padding-left:30px; padding-right: 50px; width:100%;" >
                   
                     
                     <div class="row" >
@@ -122,12 +122,10 @@
                             </div>
     
                             <div class="col-md-6 col-lg-6 col-sm-4 col-xs-3">
-                                <nav class="main__menu__nav hidden-xs hidden-sm" >
+                                <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
-                                        
-                                                                                          
                                         <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
-                                             <li class="drop"><a href="frmNosotros.aspx">NOSOTROS</a></li>
+                                             <li class="drop"><a href="frmNosotros.aspx">LA FABRICA</a></li>
                                        <%-- <li class="drop"><a href="#">women</a>--%>
                                           
                                             
@@ -194,20 +192,8 @@
                                                 
                                             </ul>
                                         </li>
-
-                                        <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>
+                                       <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
-
-                                    <!--<div class="ft__social__link">
-                                        <ul class="social__link">
-                                            
-                                            <li><a href="#" id="A4" runat="server"><i><img style="width:18px; height:18px"  src="Imagenes/icono%20instagram%20trazo%20negro.png" /></i></a></li>
-                                            <li><a href="#" id="A5" runat="server"><i><img style="width:18px; height:18px" src="Imagenes/icono%20facebook%20trazo%20negro.png" /></i></a></li>
-                                             <li><a href="#" id="A6" runat="server"><i><img style="width:18px; height:18px" src="Imagenes/icono%20whatsapp%20trazo%20negro.png" /></i></a></li>
-
-                                        </ul>
-                                    </div>-->
-                                        
                                          <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#ef7f2d;" href="frmLogin.aspx">INGRESAR</a></li>
                                         <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#ef7f2d;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
@@ -230,18 +216,15 @@
                                             </li>
                                              <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>
                                             <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                           
-
                                              <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#ef7f2d;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
                                              <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#ef7f2d;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
-                                            
                                         </ul>
                                     </nav>
                                 </div>  
                             </div>
                             <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
-                                <div class="header__right" style="padding-right:30px;">
-                                    <div class="header__search search search__open" >
+                                <div class="header__right" style="padding-right: 40px;">
+                                    <div class="header__search search search__open">
                                         <a href="#"><i class="icon-magnifier icons"></i></a>
                                     </div>
                                     <div class="header__account search search__open" style="cursor:pointer;">
@@ -253,11 +236,10 @@
                                 </div>
                             </div>
 
-
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style=" padding: 0px 10px 0px 0px;"> 
-                                <div class="logo">
+                                <%--<div class="logo">
                                      <a href="frminicio.aspx"><img src="imagenes/copmaco.png"  style="max-height: 90px;" alt="logo images"></a>
-                                </div>
+                                </div>--%>
                                 
                             </div>
 

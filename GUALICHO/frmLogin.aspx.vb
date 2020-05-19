@@ -299,7 +299,7 @@ Public Class frmLogin
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-            MenuMisConsultas.Visible = True
+            '  MenuMisConsultas.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
@@ -310,7 +310,7 @@ Public Class frmLogin
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False
-            MenuMisConsultas.Visible = true
+            '  MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
             MenuMisConsultasMobile.Visible = true

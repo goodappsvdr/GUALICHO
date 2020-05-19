@@ -40,7 +40,7 @@ Public Class frmCuentaError
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-            MenuMisConsultas.Visible = true
+            '  MenuMisConsultas.Visible = true
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
@@ -51,7 +51,7 @@ Public Class frmCuentaError
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False
-            MenuMisConsultas.Visible = true
+            '  MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
             MenuMisConsultasMobile.Visible = true
