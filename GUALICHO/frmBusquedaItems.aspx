@@ -806,7 +806,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="copyright__inner">
-                                <p style="font-family: 'Poppins', sans-serif;">Copyright© <a href="https://www.goodapps.com.ar/">GoodApps</a> 2019-2020. Todos los derechos reservados.</p>
+                                <p style="font-family: 'Poppins', sans-serif;">Copyright© <a style="color:white" href="https://www.goodapps.com.ar/">GoodApps</a> 2019-2020. Todos los derechos reservados.</p>
                                 <a style="display:none;" href="#"><img src="images/others/shape/paypol.png" alt="payment images"></a>
                             </div>
                         </div>
