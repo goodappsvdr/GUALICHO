@@ -8,7 +8,7 @@
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
     <!-- App Favicon -->
-    <link rel="shortcut icon" href="Imagenes/Fv.png">
+    <link rel="shortcut icon" href="Imagenes/favicon.png">
     <!-- App title -->
       <title>Hiercons - Backend</title>
     <!-- App CSS -->
@@ -26,6 +26,17 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     <script src="assets/js/modernizr.min.js"></script>
+
+    <style>
+        .account-pages {
+    background: url("Imagenes/bg3.jpg") center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+    </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -36,7 +47,7 @@
     <div class="wrapper-page">
          <div class="m-t-40 card-box">
         <div class="text-center">
-            <img  style=" height:75px;" src="Imagenes/logo1.png" />
+            <img src="Imagenes/logo.png" alt="logo images" style="max-height: 80px;">
         <%--    <a href="Login.aspx" class="logo"><span>Login<span> Coovilros</span></span></a>--%>
             <h5 class="text-muted m-t-0 font-600">
             </h5>
@@ -72,7 +83,7 @@
                         <div class="form-group text-center m-t-30">
                             <div class="col-xs-12">
                              <br />  
-                               <asp:Button class="btn btn-primary btn-block btn-flat" style=" background:#ff6600 !important; border: 1px solid #ff6600 !important;" ID="LoginButton" runat="server" CommandName="Login" Text="Ingresar"
+                               <asp:Button class="btn btn-primary btn-block btn-flat" style=" background:#000 !important; border: 1px solid #000 !important;" ID="LoginButton" runat="server" CommandName="Login" Text="Ingresar"
                         ValidationGroup="Login1"></asp:Button>
                              <%--   <button class="btn btn-custom btn-bordred btn-block waves-effect waves-light" type="submit">
                                     Ingresar</button>--%>
