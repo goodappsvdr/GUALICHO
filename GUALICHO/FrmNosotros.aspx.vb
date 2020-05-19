@@ -200,10 +200,10 @@ Public Class FrmNosotros
 
 
 
-            Dim Desde As New MailAddress(Email_evento, "HIERCONS")
+            Dim Desde As New MailAddress(Email_evento, "GUALICHO")
 
             Dim destinatarios As String = Email_evento_consulta
-            Dim msg As New MailMessage(Desde.ToString, destinatarios, "Nuevo Email para recibir información", "Email: " & Email + vbCrLf + vbCrLf + "HIERCONS - NUEVO EMAIL PARA RECIBIR INFORMACIÓN -")
+            Dim msg As New MailMessage(Desde.ToString, destinatarios, "Nuevo Email para recibir información", "Email: " & Email + vbCrLf + vbCrLf + "GUALICHO - NUEVO EMAIL PARA RECIBIR INFORMACIÓN -")
 
             Dim smptHost As String
             smptHost = "smtp.gmail.com"

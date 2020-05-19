@@ -55,7 +55,7 @@
     margin-bottom: 11px;
 }
 .ft__address:hover .ft__title h4::before {
-    background: #ef7f2d none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     width: 40px;
 }
 .ft__details p {
@@ -64,7 +64,7 @@
 }
 
 .footer__top h2.ft__top__title {
-    color: #ef7f2d;
+    color: black;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 30px;
@@ -124,8 +124,8 @@
     padding-right: 8px;
 }
 .ft__btn a:hover {
-    background: #ef7f2d none repeat scroll 0 0;
-    border: 1px solid #ef7f2d;
+    background: black none repeat scroll 0 0;
+    border: 1px solid black;
     color: #fff;
 }
 
@@ -313,7 +313,7 @@
     text-transform: capitalize;
 }
 .copyright__inner p a {
-    color: #ef7f2d;
+    color: black;
 }
 
 

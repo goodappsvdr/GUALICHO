@@ -480,7 +480,7 @@
                                         <h4><a href='<%# Eval("url")%>' style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("descripcion")%></a></h4>
                                         <ul class="fr__pro__prize">
                                             <li style="                                                    font-family: 'Poppins', sans-serif;
-                                                    color: #ef7f2d;
+                                                    color: black;
                                                     font-weight: 700;
                                             "><%# Eval("precio")%></li>
                                         </ul>
@@ -728,7 +728,7 @@
                                         <input type="text" id="TxtEmailContacto" style="font-family: 'Poppins', sans-serif;"  placeholder="Su email*">
                                         <div class="send__btn">
                                             
-                                            <button class="fr__btn" style="border:none;" onclick="EnviarEmailContacto()" id="btnEnviarEmailContacto" type="button">Enviar</button>
+                                            <button class="fr__btn" style="border:none;background-color:black" onclick="EnviarEmailContacto()" id="btnEnviarEmailContacto" type="button">Enviar</button>
                                         <button class="fr__btn" style="border:none; display:none; " id="btnEnviarEmailContactoGif" type="button">Enviando<img src="Imagenes/btngif.gif" style="height:20px; margin-left:10px;" /></button>
                                        
 
