@@ -57,7 +57,7 @@
     text-transform: uppercase;
 }
 .cr__btn a {
-    background: #ef7f2d none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
     font-family: Poppins;
@@ -106,7 +106,7 @@
     position: relative;
 }
 .slider__activation__wrap .owl-nav div {
-    background: #ef7f2d none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     border-radius: 100%;
     color: #fff;
     font-size: 17px;

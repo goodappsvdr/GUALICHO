@@ -240,14 +240,14 @@ body {
   background: #fff;
 }
 .mark, mark {
-    background: #ef7f2d none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     color: #ffffff;
 }
 /*-------------------------------
   06. Bg-Color
 -------------------------------------*/
 .bg__theme {
-    background: #ef7f2d;
+    background: black;
 }
 .bg__white {
   background: #fff;
@@ -324,10 +324,10 @@ body {
   09. Text Color
 --------------------------------*/
 .text--theme { 
-  color: #ef7f2d;
+  color: black;
  }
 .text--blue { 
-  color: #ef7f2d;
+  color: black;
  }
 .text--white { 
   color: #fff ;
@@ -483,20 +483,20 @@ select {
 }
 input:focus {
     background: transparent;
-    border: 1px solid #ef7f2d;
+    border: 1px solid black;
     outline: none;
 }
 textarea {
     resize: none;
-    background: #ef7f2d;
-    border: 1px solid #ef7f2d;
+    background: black;
+    border: 1px solid black;
     padding: 10px;
     width: 100%;
     font-size: 14px;
 }
 textarea:focus {
     background: transparent;
-    border: 1px solid #ef7f2d;
+    border: 1px solid black;
     outline: none;
 }
 /*----------------------------
@@ -695,17 +695,17 @@ p.error {
 ------------------------------------------*/
 
 *::-moz-selection {
-    background: #ef7f2d;
+    background: black;
     color: #fff;
     text-shadow: none;
 }
 ::-moz-selection {
-    background: #ef7f2d;
+    background: black;
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: #ef7f2d;
+    background: black;
     color: #fff;
     text-shadow: none;
 }

@@ -66,7 +66,7 @@ Public Class frmDetalleProducto
 
 
 
-        Me.Title = "HIERCONS -  " & oDs.Tables(0).Rows(0).Item("Descripcion").ToString
+        Me.Title = "GUALICHO -  " & oDs.Tables(0).Rows(0).Item("Descripcion").ToString
         imagenRedesSociales.Content = oDs.Tables(0).Rows(0).Item("ImagenPrincipal").ToString
         DescripcionRedesSociales.Content = oDs.Tables(0).Rows(0).Item("Detalle").ToString
 
@@ -262,10 +262,10 @@ Public Class frmDetalleProducto
 
 
 
-        Dim Desde As New MailAddress(Email_evento, "HIERCONS")
+        Dim Desde As New MailAddress(Email_evento, "GUALICHO")
 
         Dim destinatarios As String = Email_evento_consulta
-        Dim msg As New MailMessage(Desde.ToString, destinatarios, "Nueva Consulta", "Nombre y Apellido: " & Nombre_Consulta + vbCrLf + "Email: " & emailCliente + vbCrLf + "Teléfono: " & telefono_consulta + vbCrLf + "Mensaje: " & mensaje_consulta + vbCrLf + "HIERCONS - NUEVA CONSULTA -")
+        Dim msg As New MailMessage(Desde.ToString, destinatarios, "Nueva Consulta", "Nombre y Apellido: " & Nombre_Consulta + vbCrLf + "Email: " & emailCliente + vbCrLf + "Teléfono: " & telefono_consulta + vbCrLf + "Mensaje: " & mensaje_consulta + vbCrLf + "GUALICHO - NUEVA CONSULTA -")
 
         Dim smptHost As String
         smptHost = "smtp.gmail.com"

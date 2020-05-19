@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>.:: HIERCONS ::.</title>
+    <title>.:: GUALICHO ::.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -226,7 +226,7 @@
                                     <nav id="mobile_dropdown">
                                         <ul>
                                             <li><a href="frmInicio.aspx">PRINCIPAL</a></li>
-                                           <li><a href="frmNosotros.aspx">NOSOTROS</a></li>
+                                           <li><a href="frmNosotros.aspx">LA FABRICA</a></li>
                                             <li><a href="#">RUBROS</a>
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
@@ -324,15 +324,15 @@
         <!-- End Offset Wrapper -->
         <!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(imagenes/imgRubros.jpg) no-repeat scroll center center / cover ;">
-            <div class="ht__bradcaump__wrap">
+            <div class="ht__bradcaump__wrap"style="background-color:black">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner" >
+                                <nav class="bradcaump-inner" style="background-color:black" >
                                   <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Principal</a>
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
-                                  <span class="breadcrumb-item active" style="color:white;">Nosotros</span>
+                                  <span class="breadcrumb-item active" style="color:white;">La Fabrica</span>
                                 </nav>
                             </div>
                         </div>
@@ -509,7 +509,7 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
                                 <div class="ft__inner">
                                     <ul class="ft__list"  style="font-family: 'Poppins', sans-serif;">
                                         <li><a href="frminicio.aspx">Principal</a></li>
-                                        <li><a href="frmnosotros.aspx">Nosotros</a></li>
+                                        <li><a href="frmnosotros.aspx">La Fabrica</a></li>
                                         <li><a href="frmContacto.aspx">Contacto</a></li>
                                     <%--    <li><a href="#">Terms  & Condition</a></li>
                                         <li><a href="#">Manufactures</a></li>--%>
