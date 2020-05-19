@@ -441,7 +441,7 @@
                                 <div class="ft__inner">
                                     <ul class="ft__list"  style="font-family: 'Poppins', sans-serif;">
                                         <li><a href="frminicio.aspx">Principal</a></li>
-                                        <li><a href="frmnosotros.aspx">Nosotros</a></li>
+                                       <li><a href="frmnosotros.aspx">La Fabrica</a></li>
                                         <li><a href="frmContacto.aspx">Contacto</a></li>
                                     <%--    <li><a href="#">Terms  & Condition</a></li>
                                         <li><a href="#">Manufactures</a></li>--%>
