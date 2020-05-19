@@ -66,7 +66,7 @@ Public Class frmDetalleProducto
 
 
 
-        Me.Title = "HIERCONS -  " & oDs.Tables(0).Rows(0).Item("Descripcion").ToString
+        Me.Title = "GUALICHO -  " & oDs.Tables(0).Rows(0).Item("Descripcion").ToString
         imagenRedesSociales.Content = oDs.Tables(0).Rows(0).Item("ImagenPrincipal").ToString
         DescripcionRedesSociales.Content = oDs.Tables(0).Rows(0).Item("Detalle").ToString
 
