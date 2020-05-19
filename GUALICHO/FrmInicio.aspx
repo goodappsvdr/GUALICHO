@@ -6,12 +6,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>.:: HIERCONS ::.</title>
+    <title>.:: GUALICHO ::.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="Imagenes/favicon.png">
+
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     
 
@@ -190,7 +191,7 @@
                                                 
                                             </ul>
                                         </li>
-                                        <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>
+                                       <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
                                          <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#ef7f2d;" href="frmLogin.aspx">INGRESAR</a></li>
                                         <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#ef7f2d;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
@@ -235,9 +236,9 @@
                             </div>
 
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style=" padding: 0px 10px 0px 0px;"> 
-                                <div class="logo">
+                                <%--<div class="logo">
                                      <a href="frminicio.aspx"><img src="imagenes/copmaco.png"  style="max-height: 90px;" alt="logo images"></a>
-                                </div>
+                                </div>--%>
                                 
                             </div>
 
@@ -494,36 +495,36 @@
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                         <div class="prize__inner">
                             <div class="prize__thumb">
-                                <img runat="server" id="ImgQuienesSomos" src="imagenes/logo.png" alt="banner images">
+                                <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
                             </div>
                             <div class="banner__info">
-                                <div class="pointer__tooltip pointer--3 align-left">
+                                <%--<div class="pointer__tooltip pointer--3 align-left">
                                     <div class="tooltip__box">
-                                      <%--  <h4>Tooltip Left</h4>--%>
+                                     
                                         <p runat="server" id="TxtTooltip1"></p>
                                     </div>
-                                </div>
-                                <div class="pointer__tooltip pointer--4 align-top">
+                                </div>--%>
+                                <%--<div class="pointer__tooltip pointer--4 align-top">
                                     <div class="tooltip__box">
-                                      <%--  <h4>Tooltip Top</h4>--%>
+                                     
                                         <p runat="server" id="TxtTooltip2"></p>
                                     </div>
-                                </div>
+                                </div>--%>
                                 <div class="pointer__tooltip pointer--5 align-bottom">
                                     <div class="tooltip__box">
-                                     <%--   <h4>Tooltip Bottom</h4>--%>
+                                    
                                         <p runat="server" id="TxtTooltip3"></p>
                                     </div>
                                 </div>
                                 <div class="pointer__tooltip pointer--6 align-top">
                                     <div class="tooltip__box">
-                                        <%--<h4>Tooltip Bottom</h4>--%>
+                                     
                                         <p runat="server" id="TxtTooltip4"></p>
                                     </div>
                                 </div>
                                 <div class="pointer__tooltip pointer--7 align-top">
                                     <div class="tooltip__box">
-                                      <%--  <h4>Tooltip Bottom</h4>--%>
+                                    
                                         <p runat="server" id="TxtTooltip5"></p>
                                     </div>
                                 </div>

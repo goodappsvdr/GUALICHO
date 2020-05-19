@@ -61,7 +61,7 @@ Public Class FrmInicio
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-            MenuMisConsultas.Visible = True
+            'MenuMisConsultas.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
@@ -72,7 +72,7 @@ Public Class FrmInicio
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False
-            MenuMisConsultas.Visible = true
+            'MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
             MenuMisConsultasMobile.Visible = true
@@ -327,9 +327,9 @@ Public Class FrmInicio
         TxtSubTituloQS.InnerText = ods.Tables(0).Rows(0).Item("Subtitulo").ToString
         TxtDescripcionQS.InnerHtml = ods.Tables(0).Rows(0).Item("Descripcion").ToString
 
-        ImgQuienesSomos.Src = ods.Tables(0).Rows(0).Item("Imagen").ToString
-        TxtTooltip1.InnerText = ods.Tables(0).Rows(0).Item("Tooltip1").ToString
-        TxtTooltip2.InnerText = ods.Tables(0).Rows(0).Item("Tooltip2").ToString
+        'ImgQuienesSomos.Src = ods.Tables(0).Rows(0).Item("Imagen").ToString
+        'TxtTooltip1.InnerText = ods.Tables(0).Rows(0).Item("Tooltip1").ToString
+        'TxtTooltip2.InnerText = ods.Tables(0).Rows(0).Item("Tooltip2").ToString
         TxtTooltip3.InnerText = ods.Tables(0).Rows(0).Item("Tooltip3").ToString
         TxtTooltip4.InnerText = ods.Tables(0).Rows(0).Item("Tooltip4").ToString
         TxtTooltip5.InnerText = ods.Tables(0).Rows(0).Item("Tooltip5").ToString

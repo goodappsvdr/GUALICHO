@@ -32,15 +32,6 @@ Partial Public Class FrmInicio
     Protected WithEvents RepeaterMenuRubros As Global.System.Web.UI.WebControls.Repeater
 
     '''<summary>
-    '''Control MenuMisConsultas.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents MenuMisConsultas As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
     '''Control MenuIniciarSesion.
     '''</summary>
     '''<remarks>
@@ -165,24 +156,6 @@ Partial Public Class FrmInicio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents ImgQuienesSomos As Global.System.Web.UI.HtmlControls.HtmlImage
-
-    '''<summary>
-    '''Control TxtTooltip1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip1 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''Control TxtTooltip2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip2 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control TxtTooltip3.
