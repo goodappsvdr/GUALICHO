@@ -165,7 +165,77 @@ background-color:rgba(0, 0, 0, 0.5);
     bottom: 0;
     left: 0;
     }
-      
+     
+
+/*estilos del menu*/
+#sidebar-menu ul ul li.active a {
+  color: #fff;
+}
+#sidebar-menu ul ul a {
+  color: #838F9A;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid transparent;
+  display: block;
+  padding: 10px 20px 10px 65px;
+}
+#sidebar-menu ul ul a:hover {
+  color: #ffffff;
+}
+#sidebar-menu ul ul a i {
+  margin-right: 5px;
+}
+#sidebar-menu ul ul ul a {
+  padding-left: 80px;
+}
+#sidebar-menu .label {
+  margin-top: 2px;
+}
+#sidebar-menu .subdrop {
+  border-left: 3px solid #fff;
+  color: #fff !important;
+}
+#sidebar-menu > ul > li > a {
+  color: #838F9A;
+  display: block;
+  padding: 12px 20px;
+  margin: 4px 0px;
+  border-left: 3px solid transparent;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#sidebar-menu > ul > li > a > span {
+  vertical-align: middle;
+}
+#sidebar-menu ul li a i {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+}
+#sidebar-menu ul li a i.md {
+  font-size: 18px;
+}
+#sidebar-menu ul li a .drop-arrow {
+  float: right;
+}
+#sidebar-menu ul li a .drop-arrow i {
+  margin-right: 0px;
+}
+#sidebar-menu > ul > li > a.active {
+  border-left: 3px solid #fff;
+  color: #fff !important;
+}
+
       
 </style>
 <body class="fixed-left">
@@ -205,12 +275,12 @@ background-color:rgba(0, 0, 0, 0.5);
         <!-- Top Bar Start -->
         <div class="topbar">
             <!-- LOGO -->
-            <div class="topbar-left">
+            <div class="topbar-left" style="background:#000;">
               
               
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
-            <div class="navbar navbar-default" style="" role="navigation">
+            <div class="navbar navbar-default" role="navigation">
 
 
 
@@ -244,22 +314,22 @@ background-color:rgba(0, 0, 0, 0.5);
         <!-- Top Bar End -->
         <!-- ========== Left Sidebar Start ========== -->
       
-        <div class="left side-menu">
+        <div class="left side-menu" style="background:#000;">
             <div class="sidebar-inner slimscrollleft">
                 <!-- User -->
-                <div class="user-box"  style=" padding: 10px 10px 0px 10px;">
-                    
-                     <div style=" padding:15px;   -webkit-filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));    background:white;">
-
-                                 <a href="frmInicio.aspx"> <img style="height: 55px; " src="Imagenes/logo1.png" /></a>
-                                 <br /><br />
-                                   <asp:Label ID="lblUsuario" style=" color:#000000;" runat="server"  Text=""></asp:Label>
-               </div>
-               
+                <div class="user-box" style="padding: 10px 10px 0px 10px;">
+                    <div style="padding: 15px; -webkit-filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));
+                        background: white;">
+                        <a href="frmInicio.aspx">
+                            <img style="height: 55px;" src="Imagenes/logo.png"/></a>
+                        <br />
+                        <br />
+                        <asp:Label ID="lblUsuario" Style="color: #000000;" runat="server" Text=""></asp:Label>
+                    </div>
                 </div>
                 <!-- End User -->
                 <!--- Sidemenu -->
-            <div id="sidebar-menu">
+            <<div id="sidebar-menu">
                     <ul>
                         <br />
                         <br />
@@ -268,7 +338,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                            <li id="Men_QuienesSomos" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Quienes Somos</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Quienes Somos</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="FrmQuienesSomos.aspx">Editar Quienes Somos</a></li>
@@ -276,14 +346,14 @@ background-color:rgba(0, 0, 0, 0.5);
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Nosotros</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Nosotros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="FrmNosotros.aspx">Editar Nosotros</a></li>
+                                <li><a href="frmNosotrosABM.aspx">Editar Nosotros</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                     <li><a href="frmServiciosABM.aspx">Nuevo Servicio</a></li>
@@ -293,7 +363,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmBannersABM.aspx">Nuevo Slider</a></li>
@@ -302,7 +372,7 @@ background-color:rgba(0, 0, 0, 0.5);
                         </li>
 
                            <li id="Men_Sponsors" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Sponsors</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Sponsors</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmSponsorABM.aspx">Nuevo Sponsor</a></li>
@@ -313,7 +383,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                         <li id="men_Marcas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmMarcasABM.aspx">Nueva marca</a></li>
@@ -321,15 +391,15 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
                         <li id="men_Rubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmRubrosABM.aspx">Nuevo Rubro</a></li>
                                 <li><a href="frmRubros.aspx">Editar Rubros</a></li>
                             </ul>
                         </li>
-                        <li id="men_SubRubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
+                        <li id="men_SubRubros" visible="false" runat="server" class="has_sub" style="left: 0px; top: 0px"><a href="javascript:void(0);"
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmSubRubrosABM.aspx">Nuevo SubRubro</a></li>
@@ -337,28 +407,28 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmItemsABM.aspx">Nuevo Item</a></li>
                                 <li><a href="frmItems.aspx">Editar Items</a></li>
                             </ul>
                         </li>
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmItemImagenes.aspx">Agregar Imágenes</a></li>
                             </ul>
                         </li>
                         <li id="men_Consultas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmConsultas.aspx">Ver Consultas</a></li>
                             </ul>
                         </li>
                          <li id="men_Contacto" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmConsultas.aspx">Ver Contacto</a></li>
@@ -367,10 +437,10 @@ background-color:rgba(0, 0, 0, 0.5);
 
                         
                         <li id="men_CambiarPass" visible="false" runat="server"><a href="frmCambiarPass.aspx"
-                            class="waves-effect"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
                         </a></li>
                         <li id="men_CerrarSesion" visible="false" runat="server"><a onserverclick="CerrarSesion"
-                            runat="server" class="waves-effect"><i class="zmdi zmdi-lock"></i><span>Cerrar Sesión
+                            runat="server" class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-lock"></i><span>Cerrar Sesión
                             </span></a></li>
                     </ul>
                     <div class="clearfix">
@@ -391,7 +461,7 @@ background-color:rgba(0, 0, 0, 0.5);
             <div class="content">
                  <div class="content">
                 <div class="container">
-                    <div class="row"  runat="server" id="PanelControles">
+                    <div class="row" runat="server" id="PanelControles">
                         <div class="col-lg-12">
                             <div class="card-box">
                                 <section class="icon-list-demo">
@@ -405,13 +475,13 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Título</span>
+                                         <span style="color:#000; font-size:18px; ">Título</span>
                                              <asp:TextBox ID="TxtTitulo" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                       
                                        <div class="col col-md-6">
-                                           <span runat="server" id="TituloOrden" style="color:#ef7f2d; font-size:18px;  " >Sub Título</span>
+                                           <span runat="server" id="TituloOrden" style="color:#000; font-size:18px;  " >Sub Título</span>
                                              <asp:TextBox ID="TxtSubtitulo" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                       </div>
@@ -421,7 +491,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                             <div class="row">
 
                                            <div class="col col-md-12">
-                                           <span runat="server" id="Span1" style="color:#ef7f2d; font-size:18px;  " >Descripción</span>
+                                           <span runat="server" id="Span1" style="color:#000; font-size:18px;  " >Descripción</span>
                                              <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="200px" Width="100%"></asp:TextBox>
                                       </div>
@@ -433,7 +503,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                                     <div class="col col-md-6">
                                                    <br />
-                                            <span style="color:#ef7f2d; font-size:18px; ">Subir Imágen</span>
+                                            <span style="color:#000; font-size:18px; ">Subir Imágen</span>
                                         
                                         <script type="text/javascript">
                                             function readURL(input) {
@@ -479,17 +549,17 @@ background-color:rgba(0, 0, 0, 0.5);
                                                <div class="row">
                                       
                                        <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 1</span>
+                                         <span style="color:#000; font-size:18px; ">Texto 1</span>
                                              <asp:TextBox ID="TxtTooltip1" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 2</span>
+                                         <span style="color:#000; font-size:18px; ">Texto 2</span>
                                              <asp:TextBox ID="TxtTooltip2" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 3</span>
+                                         <span style="color:#000; font-size:18px; ">Texto 3</span>
                                              <asp:TextBox ID="TxtTooltip3" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
@@ -500,12 +570,12 @@ background-color:rgba(0, 0, 0, 0.5);
                                              <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 4</span>
+                                         <span style="color:#000; font-size:18px; ">Texto 4</span>
                                              <asp:TextBox ID="TxtTooltip4" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 5</span>
+                                         <span style="color:#000; font-size:18px; ">Texto 5</span>
                                              <asp:TextBox ID="TxtTooltip5" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
@@ -529,7 +599,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                       <%--  <button type="button" style=" width:100%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR</button>--%>
 
-                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
+                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
 
 
                                        </div>
