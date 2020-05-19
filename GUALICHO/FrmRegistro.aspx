@@ -414,7 +414,7 @@
                             <div class="footer">
                                 <h2 class="title__line--2">ABOUT US</h2>
                                 <div class="ft__details">
-                                    <p   style="font-family: 'Poppins', sans-serif;">Para qué lidiar con muchas empresas para una remodelación? En HIERCONS usted cuenta con el apoyo para cubrir todas las necesidades de su proyecto.</p>
+ <p   style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
                                             <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#ef7f2d;"></i></a></li>
@@ -508,7 +508,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="copyright__inner">
-                                <p style="font-family: 'Poppins', sans-serif;">Copyright© <a href="https://www.goodapps.com.ar/">GoodApps</a> 2019-2020. Todos los derechos reservados.</p>
+                                <p style="font-family: 'Poppins', sans-serif;">Copyright© <a style="color:white" href="https://www.goodapps.com.ar/">GoodApps</a> 2019-2020. Todos los derechos reservados.</p>
                                 <a style="display:none;" href="#"><img src="images/others/shape/paypol.png" alt="payment images"></a>
                             </div>
                         </div>
