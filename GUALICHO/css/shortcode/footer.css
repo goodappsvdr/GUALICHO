@@ -162,7 +162,7 @@
       transition: 0.3s;
 }
 .footer__btn a:hover{
-    color: #ef7f2d;
+    color: #000000;
 }
 .footer__btn {
     margin-top: 22px;
@@ -176,7 +176,7 @@
     padding-top: 9px;
 }
 .ft__list li a:hover {
-    color: #ef7f2d;
+    color: #000000;
     padding-left: 3px;
 }
 .ft__social__link span {
@@ -210,7 +210,7 @@
     margin-left: 4px;
 }
 .social__link li a:hover i {
-    background: #ef7f2d none repeat scroll 0 0;
+    background: #000000 none repeat scroll 0 0;
     color: #fff;
 }
 .lan__select > li {
@@ -249,7 +249,7 @@
     line-height: 26px;
 }
 .lan__select li:hover > a {
-    color: #ef7f2d;
+    color: #000;
 }
 .lan__select > li::before {
     color: #ffffff;

@@ -90,6 +90,25 @@
         }
        
        }
+
+
+       .social__link li a:hover i {
+    background: rgba(0, 0, 0, 0.212) none repeat scroll 0 0;
+    color: rgba(0, 0, 0, 0.212);
+}
+
+       .social__link li a i {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 65px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 32px;
+}
                      
 
     </style>
@@ -235,7 +254,8 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style=" padding: 0px 10px 0px 0px;"> 
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style="                                    padding: 0px 10px 0px 0px;
+                            "> 
                                 <%--<div class="logo">
                                      <a href="frminicio.aspx"><img src="imagenes/copmaco.png"  style="max-height: 90px;" alt="logo images"></a>
                                 </div>--%>
@@ -670,11 +690,11 @@
                                         <ul class="social__link">
                                             <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#ef7f2d;"></i></a></li>
 
-                                            <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:38px; height:35px"  src="images/iconofacebooknaranja.png" /></i></a></li>
+                                            <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:33px; height:30px;"  src="imagenes/icono facebook trazo negro.png" /></i></a></li>
 
-                                            <li><a href="#" id="HrefInstagram" runat="server"><i><img style="width:38px; height:35px"  src="images/iconoinstagramnaranja.png" /></i></a></li>
+                                            <li><a href="#" id="HrefInstagram" runat="server"><i><img style="width:33px; height:30px"  src="imagenes/icono instagram trazo negro.png" /></i></a></li>
 
-                                            <li><a href="#" id="HrefWhatsapp" runat="server"><i><img style="width:38px; height:35px"  src="images/iconowhatsappnaranja.png" /></i></a></li>
+                                            <li><a href="#" id="HrefWhatsapp" runat="server"><i><img style="width:33px; height:30px"  src="imagenes/icono whatsapp trazo negro.png" /></i></a></li>
 
                                         </ul>
                                     </div>
