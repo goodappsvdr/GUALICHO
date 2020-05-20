@@ -1591,7 +1591,7 @@
     transition: all 0.4s ease 0s;
 }
 .htc__compare__list li a:hover i {
-    color: #ee393e;
+    color: darkgray;
 }
 .ht__com__btn {
     display: flex;
@@ -1603,7 +1603,7 @@
     margin-top: 39px;
 }
 .ht__com__btn li a {
-    color: #ed1c24;
+    color: darkgray;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
