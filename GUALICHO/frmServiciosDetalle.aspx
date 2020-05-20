@@ -460,11 +460,11 @@
                                         <ul class="social__link">
                                             <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#000;"></i></a></li>
 
-                                             <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:38px; height:35px"  src="images/iconofacebooknaranja.png" /></i></a></li>
+                                             <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:33px; height:30px;"  src="imagenes/icono facebook gualicho.png" /></i></a></li>
 
-                                            <li><a href="#" id="HrefInstagram" runat="server"><i><img style="width:38px; height:35px"  src="images/iconoinstagramnaranja.png" /></i></a></li>
+                                            <li><a href="#" id="HrefInstagram" runat="server"><i><img style="width:33px; height:30px"  src="imagenes/icono instagram gualicho.png" /></i></a></li>
 
-                                            <li><a href="#" id="HrefWhatsapp" runat="server"><i><img style="width:38px; height:35px"  src="images/iconowhatsappnaranja.png" /></i></a></li>
+                                            <li><a href="#" id="HrefWhatsapp" runat="server"><i><img style="width:33px; height:30px"  src="imagenes/icono whatsapp gualicho.png" /></i></a></li>
 
                                              
 

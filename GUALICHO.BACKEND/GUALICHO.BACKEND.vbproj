@@ -1501,6 +1501,7 @@
     <Content Include="Imagenes\cruz.png" />
     <Content Include="Imagenes\deportia.png" />
     <Content Include="Imagenes\ErrorTickets.png" />
+    <Content Include="Imagenes\favicon.png" />
     <Content Include="Imagenes\Fv.png" />
     <Content Include="Imagenes\history.png" />
     <Content Include="Imagenes\home.png" />
@@ -1518,8 +1519,10 @@
     <Content Include="Imagenes\Items\2329.png" />
     <Content Include="Imagenes\Items\2351.png" />
     <Content Include="Imagenes\Items\2352.png" />
+    <Content Include="Imagenes\logo.png" />
     <Content Include="Imagenes\logo1.png" />
     <Content Include="Imagenes\logoblanco.png" />
+    <Content Include="Imagenes\logonegro.png" />
     <Content Include="Imagenes\Logo_Coovilros_horizontal.png" />
     <Content Include="Imagenes\Marca.png" />
     <Content Include="Imagenes\noti.jpg" />
