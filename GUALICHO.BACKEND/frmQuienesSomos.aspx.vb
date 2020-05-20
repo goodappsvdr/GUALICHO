@@ -19,7 +19,7 @@ Public Class frmQuienesSomos
 
                 Men_QuienesSomos.Visible = True
                 Men_Nosotros.Visible = True
-                Men_Servicios.Visible = True
+                ''Men_Servicios.Visible = True
                 Men_Banners.Visible = True
                 Men_Sponsors.Visible = True
 
