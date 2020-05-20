@@ -129,7 +129,7 @@ Public Class frmImagenesNosotrosABM
         oDs = oObjeto.Modificar(HfID_ImagenesNosotros.Value, chkActivo.Checked)
 
         Dim urlImagen As String
-        urlImagen = "/Imagenes/ImagenesNosotros/"
+        urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/ImagenesNosotros/"
 
 
 
@@ -167,7 +167,7 @@ Public Class frmImagenesNosotrosABM
 
 
             Dim urlImagen As String
-            urlImagen = "/Imagenes/ImagenesNosotros/"
+            urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/ImagenesNosotros/"
 
 
             btnSubirImg.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/ImagenesNosotros/") & id_banner & ".png")

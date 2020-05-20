@@ -113,6 +113,10 @@
   background: black none repeat scroll 0 0;
 }
 
+.drop :hover{
+color: darkgrey;
+}
+
 /*---------------------------------------
   End Scroll To Top
 ----------------------------------------*/
