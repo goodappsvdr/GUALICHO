@@ -40,7 +40,7 @@
 </head>
 <style>
     a {
-        color: #ef7f2d;
+        color: #000;
         cursor: pointer;
         text-decoration: none;
     }
@@ -51,8 +51,8 @@
         z-index: 3;
         color: #fff;
         cursor: default;
-        background-color: #ef7f2d;
-        border-color: #ef7f2d;
+        background-color: #000;
+        border-color: #000;
     }
 
 

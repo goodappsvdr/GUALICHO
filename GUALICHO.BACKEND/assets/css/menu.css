@@ -12,7 +12,7 @@ File: Menu
   z-index: 999;
 }
 .topbar .topbar-left {
-  background: #ef7f2d;
+  background: #000;
   border-top: 3px solid #ff6600;
   float: left;
   text-align: center;
@@ -186,7 +186,7 @@ File: Menu
   top: 70px;
   width: 250px;
   z-index: 10;
-  background: #ef7f2d;
+  background: #000;
   bottom: 50px;
   height: 100%;
   margin-bottom: -70px;
@@ -307,7 +307,7 @@ File: Menu
   display: block;
   padding: 12px 20px;
   margin: 4px 0px;
-  background-color: #ef7f2d;
+  background-color: #000;
   color:White;
   border-left: 3px solid transparent;
 }

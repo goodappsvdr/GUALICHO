@@ -96,18 +96,18 @@ input[type=checkbox], input[type=radio] {
   -moz-appearance: none;
   background: lightgray;
   appearance: none;
-    border:1px solid #ef7f2d;
+    border:1px solid #000;
         }
         
         .BigCheckBox input[type=checkbox]:checked + label
         {
-            color: #ef7f2d !important;
+            color: #000 !important;
             
         }
         
       
       input[type="checkbox"]:checked {
-  background: #ef7f2d;
+  background: #000;
   
 }
 
@@ -395,7 +395,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                              <div class="col col-md-6">
                                                    <br />
-                                            <span style="color:#ef7f2d; font-size:18px; ">Subir Imágen</span>
+                                            <span style="color:#000; font-size:18px; ">Subir Imágen</span>
                                         
                                         <script type="text/javascript">
                                             function readURL(input) {
@@ -444,7 +444,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                                                <div class="col col-md-6">
-                                        <span style="color:#ef7f2d; font-size:18px; ">¿Activa?</span>
+                                        <span style="color:#000; font-size:18px; ">¿Activa?</span>
                                           <br />
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivo" runat="server"></asp:CheckBox>
                                        </div>
@@ -453,8 +453,8 @@ background-color:rgba(0, 0, 0, 0.5);
                                           <div class="col col-md-6">
                                            <br />
                                      
-<%--<asp:Button ID="cmdAceptar" runat="server"  style=" width:100%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;"  class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5" Text="ACEPTAR"></asp:Button>--%>
-<asp:Button  runat="server" id="BtnAceptar"  style=" width:100%; min-width:220px; color:White; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
+<%--<asp:Button ID="cmdAceptar" runat="server"  style=" width:100%; background:#000 !important; border: 1px solid #000 !important;"  class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5" Text="ACEPTAR"></asp:Button>--%>
+<asp:Button  runat="server" id="BtnAceptar"  style=" width:100%; min-width:220px; color:White; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
 
                                           </div>
 
@@ -483,7 +483,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                        <br />
                                        <center>
-                                        <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button  type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A IMÁGENES NOSOTROS</button>
                     </center>
                                        </div>

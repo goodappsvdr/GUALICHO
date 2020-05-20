@@ -141,18 +141,18 @@ input[type=checkbox], input[type=radio] {
   -moz-appearance: none;
   background: lightgray;
   appearance: none;
-    border:1px solid #ef7f2d;
+    border:1px solid #000;
         }
         
         .BigCheckBox input[type=checkbox]:checked + label
         {
-            color: #ef7f2d !important;
+            color: #000 !important;
             
         }
         
       
       input[type="checkbox"]:checked {
-  background: #ef7f2d;
+  background: #000;
   
 }
 
@@ -628,7 +628,7 @@ span.round-tab:hover {
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; "> Rubro</span>
+                                         <span style="color:#000; font-size:18px; "> Rubro</span>
                                                <asp:DropDownList class="form-control select2"  Height="50px" style=" width:100%;" 
                                                ID="CboRubro" runat="server" AppendDataBoundItems="True"
                                  AutoPostBack="true">
@@ -636,7 +636,7 @@ span.round-tab:hover {
                                        </div>
 
                                            <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Sub Rubro</span>
+                                         <span style="color:#000; font-size:18px; ">Sub Rubro</span>
                                                <asp:DropDownList class="form-control select2"  Height="50px" style=" width:100%;" 
                                                ID="CboSubRubro" runat="server" AppendDataBoundItems="True">
                             </asp:DropDownList>
@@ -653,7 +653,7 @@ span.round-tab:hover {
                                       
                                       
                                          <div class="col col-md-6">
-                                      <span style="color:#ef7f2d; font-size:18px; ">Marca</span>
+                                      <span style="color:#000; font-size:18px; ">Marca</span>
                                                <asp:DropDownList class="form-control select2"  Height="50px" style=" width:100%;" 
                                                ID="CboMarca" runat="server" AppendDataBoundItems="True">
                             </asp:DropDownList>
@@ -663,7 +663,7 @@ span.round-tab:hover {
                                 
                                 <div class="col col-md-6">
 
-  <span style="color:#ef7f2d; font-size:18px; "> Nombre del Producto</span>
+  <span style="color:#000; font-size:18px; "> Nombre del Producto</span>
                                              <asp:TextBox ID="TxtDescripcion"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
 
@@ -684,7 +684,7 @@ span.round-tab:hover {
 
                                     <div class="col col-md-6">
 
-  <span style="color:#ef7f2d; font-size:18px; "> Descripción del Producto</span>
+  <span style="color:#000; font-size:18px; "> Descripción del Producto</span>
                                              <asp:TextBox ID="TxtDetalle"  runat="server"  ForeColor="Black"
                                                     class="form-control" textMode="MultiLine" Height="80px" Width="100%"></asp:TextBox>
 
@@ -697,7 +697,7 @@ span.round-tab:hover {
                                     
                                     <div class="col col-md-6">
 
-  <span style="color:#ef7f2d; font-size:18px; "> Observaciones Internas</span>
+  <span style="color:#000; font-size:18px; "> Observaciones Internas</span>
                                              <asp:TextBox ID="TxtObservaciones"  runat="server"  ForeColor="Black"
                                                     class="form-control" textMode="MultiLine" Height="80px"   Width="100%"></asp:TextBox>
 
@@ -733,7 +733,7 @@ span.round-tab:hover {
 
 
                         <ul class="list-inline pull-right">
-                            <li><button runat="server" id="btnSiguiente1" type="button" style=" width:100%; min-width:220px; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;" class="btn btn-primary next-step">SIGUIENTE</button></li>
+                            <li><button runat="server" id="btnSiguiente1" type="button" style=" width:100%; min-width:220px; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" class="btn btn-primary next-step">SIGUIENTE</button></li>
 
                         </ul>
                     </div>
@@ -759,7 +759,7 @@ span.round-tab:hover {
                                       
                                       <div class="col col-md-6">
 
-  <span style="color:#ef7f2d; font-size:18px; "> Precio Sugerido</span>
+  <span style="color:#000; font-size:18px; "> Precio Sugerido</span>
                                              <asp:TextBox ID="TxtPrecio"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
 
@@ -772,7 +772,7 @@ span.round-tab:hover {
                                       
                                       <div class="col col-md-6">
 
-  <span style="color:#ef7f2d; font-size:18px; "> Stock</span>
+  <span style="color:#000; font-size:18px; "> Stock</span>
                                              <asp:TextBox ID="TxtStock"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
 
@@ -789,7 +789,7 @@ span.round-tab:hover {
                                        
                                        <div class="col col-md-12">
 
-  <span style="color:#ef7f2d; font-size:18px; "> Estado del Item</span>
+  <span style="color:#000; font-size:18px; "> Estado del Item</span>
                                             
 
 
@@ -823,7 +823,7 @@ span.round-tab:hover {
                         <ul class="list-inline pull-right">
                             <li><button type="button" class="btn btn-default prev-step" style=" width:100%; min-width:220px;  border-radius: 2em; padding: 6px 18px;" >ANTERIOR</button></li>
 
-                            <li><button type="button" class="btn btn-primary next-step" style=" width:100%; min-width:220px; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;" >SIGUIENTE</button></li>
+                            <li><button type="button" class="btn btn-primary next-step" style=" width:100%; min-width:220px; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" >SIGUIENTE</button></li>
                         </ul>
                     </div>
                     
@@ -850,7 +850,7 @@ span.round-tab:hover {
 
                                              <div class="col col-md-4">
                                                    <br />
-                                            <span style="color:#ef7f2d; font-size:18px; ">Subir Imágen</span>
+                                            <span style="color:#000; font-size:18px; ">Subir Imágen</span>
                                         
                                         <script type="text/javascript">
                                             function readURL(input) {
@@ -885,7 +885,7 @@ span.round-tab:hover {
                                                <div class="col col-md-4">
 
                                                 <br />
-                                            <span style="color:#ef7f2d; font-size:18px; ">Imágen del Item</span><br />
+                                            <span style="color:#000; font-size:18px; ">Imágen del Item</span><br />
                                         <img src="" id="ImgItem" runat="server"  style=" width:220px;  height:220px;border: 8px solid #fff;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover;" />
 
@@ -896,7 +896,7 @@ span.round-tab:hover {
                                   <div class="col col-md-4">
 
                                                 <br />
- <span style="color:#ef7f2d; font-size:18px; ">¿Activo?</span>
+ <span style="color:#000; font-size:18px; ">¿Activo?</span>
                                           <br />
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivo" runat="server"></asp:CheckBox>
                                      </div>
@@ -921,7 +921,7 @@ span.round-tab:hover {
                         <ul class="list-inline pull-right">
                             <li><button type="button" class="btn btn-default prev-step" style=" width:100%; min-width:220px;  border-radius: 2em; padding: 6px 18px;">ANTERIOR</button></li>
                           
-                            <li><button type="button" class="btn btn-primary btn-info-full next-step" style=" width:100%; min-width:220px; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;">SIGUIENTE</button></li>
+                            <li><button type="button" class="btn btn-primary btn-info-full next-step" style=" width:100%; min-width:220px; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;">SIGUIENTE</button></li>
                         </ul>
                     </div>
                    
@@ -941,7 +941,7 @@ span.round-tab:hover {
                    
                      <ul class="list-inline">
                     <li><button type="button" class="btn btn-default prev-step" style=" width:100%; min-width:220px;  border-radius: 2em; padding: 6px 18px;">ANTERIOR</button></li>
-                    <li><asp:Button  runat="server" id="BtnAceptar"  style=" width:100%; min-width:220px; color:White; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="GUARDAR Y SUBIR"></asp:Button></li>
+                    <li><asp:Button  runat="server" id="BtnAceptar"  style=" width:100%; min-width:220px; color:White; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="GUARDAR Y SUBIR"></asp:Button></li>
                    
                       
                    
@@ -968,7 +968,7 @@ span.round-tab:hover {
 
                                        <br />
                                        <center>
-                                        <button type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A ITEMS</button>
 
 

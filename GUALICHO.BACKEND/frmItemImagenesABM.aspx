@@ -98,18 +98,18 @@ input[type=checkbox], input[type=radio] {
   -moz-appearance: none;
   background: lightgray;
   appearance: none;
-    border:1px solid #ef7f2d;
+    border:1px solid #000;
         }
         
         .BigCheckBox input[type=checkbox]:checked + label
         {
-            color: #ef7f2d !important;
+            color: #000 !important;
             
         }
         
       
       input[type="checkbox"]:checked {
-  background: #ef7f2d;
+  background: #000;
   
 }
 
@@ -404,14 +404,14 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                           <div class="row">
                                              <div class="col col-md-6" style=" ">
-                                        <span style="color:#ef7f2d; font-size:18px; ">Producto</span>
+                                        <span style="color:#000; font-size:18px; ">Producto</span>
                                         <br />
                                       <h3  runat="server" id="lblItem"></h3>
                                       </div>
 
 
                                        <div class="row">
-                                       <span style="color:#ef7f2d; font-size:18px; ">Imágen principal</span>
+                                       <span style="color:#000; font-size:18px; ">Imágen principal</span>
 
                                        <br />
 
@@ -430,7 +430,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-3">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Imágen 1</span>
+                                         <span style="color:#000; font-size:18px; ">Imágen 1</span>
 
                                           <script type="text/javascript">
                                               function readURL1(input) {
@@ -460,11 +460,11 @@ background-color:rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover;" />
        <br />  
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivoImagen1" runat="server"></asp:CheckBox>
-                                           <span style="color:#ef7f2d; font-size:18px;  "> ¿Activa?</span>
+                                           <span style="color:#000; font-size:18px;  "> ¿Activa?</span>
                                        </div>
                                       
                                        <div class="col col-md-3">
-                                          <span style="color:#ef7f2d; font-size:18px; ">Imágen 2</span>
+                                          <span style="color:#000; font-size:18px; ">Imágen 2</span>
                                        
                                        <script type="text/javascript">
                                            function readURL2(input) {
@@ -494,7 +494,7 @@ background-color:rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover;" />
         <br />  
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivoImagen2" runat="server"></asp:CheckBox>
-                                           <span style="color:#ef7f2d; font-size:18px;  "> ¿Activa?</span>
+                                           <span style="color:#000; font-size:18px;  "> ¿Activa?</span>
 
                                       </div>
                                        
@@ -509,7 +509,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                                         <div class="col col-md-3">
-                                          <span style="color:#ef7f2d; font-size:18px; ">Imágen 3</span>
+                                          <span style="color:#000; font-size:18px; ">Imágen 3</span>
                                        
                                          <script type="text/javascript">
                                              function readURL3(input) {
@@ -539,7 +539,7 @@ background-color:rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover; margin-top:15px;" />
       <br />  
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivoImagen3" runat="server"></asp:CheckBox>
-                                           <span style="color:#ef7f2d; font-size:18px;  "> ¿Activa?</span>
+                                           <span style="color:#000; font-size:18px;  "> ¿Activa?</span>
 
                                       </div>
 
@@ -551,7 +551,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                                        <div class="col col-md-3">
-                                          <span style="color:#ef7f2d; font-size:18px; ">Imágen 4</span>
+                                          <span style="color:#000; font-size:18px; ">Imágen 4</span>
                                        
                                             <script type="text/javascript">
                                                 function readURL4(input) {
@@ -580,7 +580,7 @@ background-color:rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover; margin-top:15px;" />
                                         <br />  
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivoImagen4" runat="server"></asp:CheckBox>
-                                           <span style="color:#ef7f2d; font-size:18px;  "> ¿Activa?</span>
+                                           <span style="color:#000; font-size:18px;  "> ¿Activa?</span>
                                       </div>
                                       
                                        
@@ -594,7 +594,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                         <div class="col col-md-12">
                                        <br />
-                                        <button type="button" style=" width:100%; margin-right:15px; max-width:250px; float:right; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button type="button" style=" width:100%; margin-right:15px; max-width:250px; float:right; background:#000 !important; border: 1px solid #000 !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR</button>
                                        </div>
                                        </div>
@@ -638,7 +638,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                        <br />
                                        <center>
-                                        <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button  type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A ITEM IMÁGENES</button>
                     </center>
                                        </div>

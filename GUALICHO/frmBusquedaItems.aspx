@@ -40,8 +40,8 @@
         .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     z-index: 3;
     color: #fff;
-    background-color: #ef7f2d;
-    border-color: #ef7f2d;
+    background-color: #000;
+    border-color: #000;
     cursor: default;
 }
 
@@ -69,7 +69,7 @@
 
         .BtnBusquedaClase:hover::before {
     color: #fff;
-    background:#ef7f2d;
+    background:#000;
 
 }
 .BtnBusquedaClase::before {
@@ -201,8 +201,8 @@
                                         </li>
                                        <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                         <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#ef7f2d;" href="frmLogin.aspx">INGRESAR</a></li>
-                                        <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#ef7f2d;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                         <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
+                                        <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
                                     </ul>
                                 </nav>
@@ -223,8 +223,8 @@
                                             </li>
                                              <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>
                                             <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                             <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#ef7f2d;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                             <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#ef7f2d;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                             <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
+                                             <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
                                 </div>  
@@ -348,7 +348,7 @@
                                 </div>
 
                                 <div class="ht__pro__qun">
-                                    <h2 style="color:#ef7f2d">RESULTADO DE TU BUSQUEDA</h2>
+                                    <h2 style="color:#000">RESULTADO DE TU BUSQUEDA</h2>
                                     <hr />
                                    
                                     <center>
@@ -398,7 +398,7 @@
                                                 <div class="fr__product__inner" >
                                                     <h4><a href="<%# Eval("url")%>" style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("producto")%></a></h4>
                                         <ul class="fr__pro__prize">
-                                            <li style="font-family: 'Poppins', sans-serif; color:#ef7f2d; font-weight:700;">$540.55</li>
+                                            <li style="font-family: 'Poppins', sans-serif; color:#000; font-weight:700;">$540.55</li>
                                          <%-- <span style="display:none" class="badge badge-info <%# Eval("marcas").ToString.ToLower%>"><%# Eval("marcas").ToString.ToLower%></span>--%>
                                         </ul>
                                                     
@@ -557,8 +557,8 @@
 
                                 <!-- first and previous buttons -->
                                 <ul class="pagination d-inline-flex">
-                                    <li class="page-item d-none d-sm-none d-lg-inline-block" data-type="first"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-left" style="color:#ef7f2d;"></i><i class="zmdi zmdi-chevron-left" style="color:#ef7f2d;"></i></a></li>
-                                    <li class="page-item" data-type="prev"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-left" style="color:#ef7f2d;"></i></a></li>
+                                    <li class="page-item d-none d-sm-none d-lg-inline-block" data-type="first"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-left" style="color:#000;"></i><i class="zmdi zmdi-chevron-left" style="color:#000;"></i></a></li>
+                                    <li class="page-item" data-type="prev"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-left" style="color:#000;"></i></a></li>
                                 </ul>
 
                                 <!-- pages buttons -->
@@ -568,12 +568,12 @@
 
                                 <!-- next and last buttons -->
                                 <ul class="pagination d-inline-flex" style=" margin-left:4px; ">
-                                    <li class="page-item" data-type="next"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-right" style="color:#ef7f2d;"></i></a></li>
-                                    <li class="page-item d-none d-sm-none d-lg-inline-block" data-type="last"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-right" style="color:#ef7f2d;"></i><i class="zmdi zmdi-chevron-right" style="color:#ef7f2d;"></i></a></li>
+                                    <li class="page-item" data-type="next"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-right" style="color:#000;"></i></a></li>
+                                    <li class="page-item d-none d-sm-none d-lg-inline-block" data-type="last"><a class="page-link" href="#"><i class="zmdi zmdi-chevron-right" style="color:#000;"></i><i class="zmdi zmdi-chevron-right" style="color:#000;"></i></a></li>
                                 </ul>
 
                                 <!-- information labels -->
-                                <span id="TxtCantidadItem" data-type="info" class="d-none d-sm-none d-lg-inline-flex badge badge-secondary" style=" margin-left:20px; margin-top: -70px;color:#ef7f2d; background:white; border:none;font-family: 'Poppins',sans-serif;">
+                                <span id="TxtCantidadItem" data-type="info" class="d-none d-sm-none d-lg-inline-flex badge badge-secondary" style=" margin-left:20px; margin-top: -70px;color:#000; background:white; border:none;font-family: 'Poppins',sans-serif;">
                                 {endItem} de {itemsNumber}
                                 </span>
 
@@ -631,7 +631,7 @@
                                    
                                     	 <asp:Repeater ID="RepeaterSubRubros" runat="server">
               <ItemTemplate>
-                                    <li><a  style="font-family: 'Poppins', sans-serif; color:#ef7f2d;" href='<%# Eval("URL")%>'><%# Eval("DescripcionSubRubro")%></a></li>
+                                    <li><a  style="font-family: 'Poppins', sans-serif; color:#000;" href='<%# Eval("URL")%>'><%# Eval("DescripcionSubRubro")%></a></li>
                                 	 </ItemTemplate>
   </asp:Repeater>
                                 
@@ -715,7 +715,7 @@
  <p   style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
-                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#ef7f2d;"></i></a></li>
+                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#000;"></i></a></li>
 
                                               <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:38px; height:35px"  src="images/iconofacebooknaranja.png" /></i></a></li>
 

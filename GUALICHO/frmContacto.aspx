@@ -40,8 +40,8 @@
         .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     z-index: 3;
     color: #fff;
-    background-color: #ef7f2d;
-    border-color: #ef7f2d;
+    background-color: #000;
+    border-color: #000;
     cursor: default;
 }
 
@@ -80,7 +80,7 @@
 
         .BtnBusquedaClase:hover::before {
     color: #fff;
-    background:#ef7f2d;
+    background:#000;
 
 }
 .BtnBusquedaClase::before {
@@ -217,8 +217,8 @@
                                         </li>
                                        <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                         <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#ef7f2d;" href="frmLogin.aspx">INGRESAR</a></li>
-                                        <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#ef7f2d;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                         <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
+                                        <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
                                     </ul>
                                 </nav>
@@ -239,8 +239,8 @@
                                             </li>
                                              <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>
                                             <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                             <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#ef7f2d;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                             <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#ef7f2d;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                             <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
+                                             <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
                                 </div>  
@@ -463,7 +463,7 @@
  <p   style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
-                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#ef7f2d;"></i></a></li>
+                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#000;"></i></a></li>
 
                                              <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:38px; height:35px"  src="images/iconofacebooknaranja.png" /></i></a></li>
 

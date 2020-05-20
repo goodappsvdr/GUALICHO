@@ -42,7 +42,7 @@
     
     
     a {
-    color:#ef7f2d;
+    color:#000;
        cursor: pointer;
     text-decoration: none;
 }
@@ -53,8 +53,8 @@
     z-index: 3;
     color: #fff;
     cursor: default;
-    background-color: #ef7f2d;
-    border-color: #ef7f2d;
+    background-color: #000;
+    border-color: #000;
 }
 
 
@@ -311,7 +311,7 @@ if it's not present, don't show loader */
                                 </table>
                                 
  <center>
-                              <%--  <a href="./frmItemImagenesABM.aspx" style=" background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5"> NUEVA MARCA</a>--%>
+                              <%--  <a href="./frmItemImagenesABM.aspx" style=" background:#000 !important; border: 1px solid #000 !important;" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5"> NUEVA MARCA</a>--%>
                            
                         
                             </center>

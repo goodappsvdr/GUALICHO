@@ -99,18 +99,18 @@ input[type=checkbox], input[type=radio] {
   -moz-appearance: none;
   background: lightgray;
   appearance: none;
-    border:1px solid #ef7f2d;
+    border:1px solid #000;
         }
         
         .BigCheckBox input[type=checkbox]:checked + label
         {
-            color: #ef7f2d !important;
+            color: #000 !important;
             
         }
         
       
       input[type="checkbox"]:checked {
-  background: #ef7f2d;
+  background: #000;
   
 }
 
@@ -403,17 +403,17 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; "> Dirección</span>
+                                         <span style="color:#000; font-size:18px; "> Dirección</span>
                                              <asp:TextBox ID="txtDireccion" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                             <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; "> Email</span>
+                                         <span style="color:#000; font-size:18px; "> Email</span>
                                              <asp:TextBox ID="txtEmail" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                             <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; "> Teléfono</span>
+                                         <span style="color:#000; font-size:18px; "> Teléfono</span>
                                              <asp:TextBox ID="txtTelefono" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
@@ -426,14 +426,14 @@ background-color:rgba(0, 0, 0, 0.5);
                                              <div class="row">
 
                                                  <div class="col col-md-6">
-                                                      <span style="color:#ef7f2d; font-size:18px; "> Instagram</span>
+                                                      <span style="color:#000; font-size:18px; "> Instagram</span>
                                              <asp:TextBox ID="TxtInstagram" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
 
                                                  </div>
 
                                                  <div class="col col-md-6">
-                                                         <span style="color:#ef7f2d; font-size:18px; "> Facebook</span>
+                                                         <span style="color:#000; font-size:18px; "> Facebook</span>
                                              <asp:TextBox ID="TxtFacebook" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
 
@@ -449,7 +449,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-6">
                                        <br />
-                                        <button type="button" style=" width:100%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button type="button" style=" width:100%; background:#000 !important; border: 1px solid #000 !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR</button>
                                        </div>
                                        
@@ -494,7 +494,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                        <br />
                                        <center>
-                                        <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button  type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A CONTACTO</button>
                     </center>
                                        </div>

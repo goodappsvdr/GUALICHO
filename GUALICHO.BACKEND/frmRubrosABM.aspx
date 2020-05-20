@@ -98,18 +98,18 @@ input[type=checkbox], input[type=radio] {
   -moz-appearance: none;
   background: lightgray;
   appearance: none;
-    border:1px solid #ef7f2d;
+    border:1px solid #000;
         }
         
         .BigCheckBox input[type=checkbox]:checked + label
         {
-            color: #ef7f2d !important;
+            color: #000 !important;
             
         }
         
       
       input[type="checkbox"]:checked {
-  background: #ef7f2d;
+  background: #000;
   
 }
 
@@ -402,13 +402,13 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; "> Nombre del Rubro</span>
+                                         <span style="color:#000; font-size:18px; "> Nombre del Rubro</span>
                                              <asp:TextBox ID="txtDescripcion" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                       
                                        <div class="col col-md-6">
-                                           <span runat="server" id="TituloOrden" style="color:#ef7f2d; font-size:18px;  " > </span>
+                                           <span runat="server" id="TituloOrden" style="color:#000; font-size:18px;  " > </span>
                                              <asp:TextBox ID="TxtOrden" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                       </div>
@@ -417,7 +417,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                          <div class="row">
 
                                              <div class="col col-md-6">
-                                             <span style="color:#ef7f2d; font-size:18px; ">¿Activo?</span>
+                                             <span style="color:#000; font-size:18px; ">¿Activo?</span>
                                           <br />
                                      <asp:CheckBox CssClass="BigCheckBox" ID="chkActivo" runat="server"></asp:CheckBox>
                                              </div>
@@ -425,7 +425,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                        <div class="col col-md-6">
                                        <br />
-                                        <button type="button" style=" width:100%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button type="button" style=" width:100%; background:#000 !important; border: 1px solid #000 !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR</button>
                                        </div>
 
@@ -479,7 +479,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                        <br />
                                        <center>
-                                        <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                        <button  type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A RUBROS</button>
                     </center>
                                        </div>

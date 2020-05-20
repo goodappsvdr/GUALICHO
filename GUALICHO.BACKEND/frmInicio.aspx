@@ -59,7 +59,7 @@ if it's not present, don't show loader */
     .wrap
     {
         margin-top: 20px;
-        background: #ef7f2d;
+        background: #000;
         /*background: linear-gradient(135deg,#ff822f 0%,#9f4000 100%);*/
         padding: 20px 20px 20px 20px;
         text-align: center;

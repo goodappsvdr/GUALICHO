@@ -63,7 +63,7 @@
 
         .BtnBusquedaClase:hover::before {
     color: #fff;
-    background:#ef7f2d;
+    background:#000;
 
 }
 .BtnBusquedaClase::before {
@@ -194,8 +194,8 @@
                                         </li>
                                        <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                         <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#ef7f2d;" href="frmLogin.aspx">INGRESAR</a></li>
-                                        <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#ef7f2d;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                         <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
+                                        <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
                                     </ul>
                                 </nav>
@@ -216,8 +216,8 @@
                                             </li>
                                              <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>
                                             <li><a href="frmContacto.aspx">CONTACTO</a></li>
-                                             <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#ef7f2d;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                             <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#ef7f2d;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                             <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
+                                             <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
                                 </div>  
@@ -414,7 +414,7 @@
                         </div>
                         <div class="col-md-7 col-lg-7 col-sm-12 col-xs-12 smt-40 xmt-40">
                             <div class="ht__product__dtl">
-                                <h2 id="TxtTitulo" runat="server" style="color:#ef7f2d; font-family: 'Poppins', sans-serif;">jean shirt to sassy girl</h2>
+                                <h2 id="TxtTitulo" runat="server" style="color:#000; font-family: 'Poppins', sans-serif;">jean shirt to sassy girl</h2>
                                 <h6 >Marca: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtMarca" runat="server">MNG001</span></i></h6>
                                       <h6 >Rubro: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtRubro" runat="server">MNG001</span></i></h6>
                                                        <h6 >Sub Rubro: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtSubRubro" runat="server">MNG001</span></i></h6>
@@ -434,11 +434,11 @@
 
                                      <ul  class="pro__prize">
                                    
-                                    <li  style="font-size:35px; color:#ef7f2d;"  id="TxtPrecio" runat="server"></li>
+                                    <li  style="font-size:35px; color:#000;"  id="TxtPrecio" runat="server"></li>
                                 </ul><br /><br />
 
 
-                                        <button runat="server" id="CmdAbrirConsulta" type="button" style=" background:#ef7f2d; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " data-toggle="modal" data-target="#miModal">Hacer una consulta</button>
+                                        <button runat="server" id="CmdAbrirConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " data-toggle="modal" data-target="#miModal">Hacer una consulta</button>
 
                                    <%-- <div class="sin__desc align--left">
                                         <p><span>color:</span></p>
@@ -704,7 +704,7 @@
  <p   style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
-                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#ef7f2d;"></i></a></li>
+                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#000;"></i></a></li>
 
                                              <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:38px; height:35px"  src="images/iconofacebooknaranja.png" /></i></a></li>
 
@@ -847,18 +847,18 @@
              <br />
 
 
-                <input id="TxtNombre" runat="server" placeholder="Nombre y Apellido" style="border:none; border-bottom:1px solid #ef7f2d; color:#ef7f2d; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
+                <input id="TxtNombre" runat="server" placeholder="Nombre y Apellido" style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
                 <br />  <br />
-                <input id="TxtEmail" runat="server" placeholder="Email" style="border:none; border-bottom:1px solid #ef7f2d; color:#ef7f2d; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
+                <input id="TxtEmail" runat="server" placeholder="Email" style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
                  <br />  <br />
-                <input id="TxtTelefono" runat="server" placeholder="Teléfono" style="border:none; border-bottom:1px solid #ef7f2d; color:#ef7f2d; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
+                <input id="TxtTelefono" runat="server" placeholder="Teléfono" style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
                  <br />  <br />
-                <textarea id="TxtMensaje" placeholder="Escribe tu consulta sobre este producto..." style="border:none; border-bottom:1px solid #ef7f2d; color:#ef7f2d; width:100%; font-size:14px;font-family: 'Poppins', sans-serif; background:white;"></textarea>
+                <textarea id="TxtMensaje" placeholder="Escribe tu consulta sobre este producto..." style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif; background:white;"></textarea>
                     <br />  <br />
 
                 
 
-                                        <button onclick="EnviarConsulta()" id="cmdEnviarConsulta" type="button" style=" background:#ef7f2d; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:100%;    font-size:14px;  ">Enviar</button>
+                                        <button onclick="EnviarConsulta()" id="cmdEnviarConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:100%;    font-size:14px;  ">Enviar</button>
                         <%--     <asp:TextBox ID="txtNombre" title="Se necesita un nombre" class="span1" Width="96%" required  placeholder="Nombre y Apellido"  runat="server"></asp:TextBox>
                                              <br />
                              <asp:TextBox ID="txtTelefono" class="span1" Width="96%" required  placeholder="Telefono"  runat="server"></asp:TextBox>
