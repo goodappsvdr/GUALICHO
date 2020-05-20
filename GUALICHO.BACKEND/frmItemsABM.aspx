@@ -218,7 +218,7 @@ background-color:rgba(0, 0, 0, 0.5);
         position: relative;
         margin: 40px auto;
         margin-bottom: 0;
-        border-bottom-color: #ff822f;
+        border-bottom-color: #000;
     }
 
     .wizard > div.wizard-inner {
@@ -227,7 +227,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 .connecting-line {
     height: 2px;
-    background: #ff822f;
+    background: #000;
     position: absolute;
     width: 80%;
     margin: 0 auto;
@@ -263,11 +263,11 @@ span.round-tab i{
 }
 .wizard li.active span.round-tab {
     background: #fff;
-    border: 2px solid #ff822f;
+    border: 2px solid #000;
     
 }
 .wizard li.active span.round-tab i{
-    color: #ff822f;
+    color: #000;
 }
 
 span.round-tab:hover {
@@ -287,7 +287,7 @@ span.round-tab:hover {
     margin: 0 auto;
     bottom: 0px;
     border: 5px solid transparent;
-    border-bottom-color: #ff822f;
+    border-bottom-color: #000;
     transition: 0.1s ease-in-out;
 }
 
@@ -299,7 +299,7 @@ span.round-tab:hover {
     margin: 0 auto;
     bottom: 0px;
     border: 10px solid transparent;
-    border-bottom-color: #ff822f;
+    border-bottom-color: #000;
 }
 
 .wizard .nav-tabs > li a {
@@ -352,7 +352,7 @@ span.round-tab:hover {
 
 .tab-content {
     padding: 20px;
-    border: 2px solid #ff822f;
+    border: 2px solid #000;
     border-top: none;
 }
 
@@ -362,6 +362,75 @@ span.round-tab:hover {
      -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
     transform: scale(1.5);
+}
+
+ /*estilos del menu*/
+#sidebar-menu ul ul li.active a {
+  color: #fff;
+}
+#sidebar-menu ul ul a {
+  color: #838F9A;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid transparent;
+  display: block;
+  padding: 10px 20px 10px 65px;
+}
+#sidebar-menu ul ul a:hover {
+  color: #ffffff;
+}
+#sidebar-menu ul ul a i {
+  margin-right: 5px;
+}
+#sidebar-menu ul ul ul a {
+  padding-left: 80px;
+}
+#sidebar-menu .label {
+  margin-top: 2px;
+}
+#sidebar-menu .subdrop {
+  border-left: 3px solid #fff;
+  color: #fff !important;
+}
+#sidebar-menu > ul > li > a {
+  color: #838F9A;
+  display: block;
+  padding: 12px 20px;
+  margin: 4px 0px;
+  border-left: 3px solid transparent;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#sidebar-menu > ul > li > a > span {
+  vertical-align: middle;
+}
+#sidebar-menu ul li a i {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+}
+#sidebar-menu ul li a i.md {
+  font-size: 18px;
+}
+#sidebar-menu ul li a .drop-arrow {
+  float: right;
+}
+#sidebar-menu ul li a .drop-arrow i {
+  margin-right: 0px;
+}
+#sidebar-menu > ul > li > a.active {
+  border-left: 3px solid #fff;
+  color: #fff !important;
 }
 
 </style>
@@ -394,10 +463,10 @@ span.round-tab:hover {
                 <!-- Top Bar Start -->
                 <div class="topbar">
                     <!-- LOGO -->
-                    <div class="topbar-left">
+                    <div class="topbar-left" style="background:#000; border-top-color:#000;">
                     </div>
                     <!-- Button mobile view to collapse sidebar menu -->
-                    <div class="navbar navbar-default" style="" role="navigation">
+                    <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
                         <div class="container">
                             <!-- Page title -->
                             <ul class="nav navbar-nav navbar-left">
@@ -419,7 +488,7 @@ span.round-tab:hover {
                 </div>
                 <!-- Top Bar End -->
                 <!-- ========== Left Sidebar Start ========== -->
-                <div class="left side-menu">
+                <div class="left side-menu" style="background:#000;">
                     <div class="sidebar-inner slimscrollleft">
                         <!-- User -->
                         <div class="user-box" style="padding: 10px 10px 0px 10px;">
@@ -443,7 +512,7 @@ span.round-tab:hover {
 
 
                            <li id="Men_QuienesSomos" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Quienes Somos</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Quienes Somos</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="FrmQuienesSomos.aspx">Editar Quienes Somos</a></li>
@@ -451,14 +520,14 @@ span.round-tab:hover {
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Nosotros</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Nosotros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="FrmNosotros.aspx">Editar Nosotros</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                     <li><a href="frmServiciosABM.aspx">Nuevo Servicio</a></li>
@@ -468,7 +537,7 @@ span.round-tab:hover {
 
 
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmBannersABM.aspx">Nuevo Slider</a></li>
@@ -477,7 +546,7 @@ span.round-tab:hover {
                         </li>
 
                            <li id="Men_Sponsors" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Sponsors</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Sponsors</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmSponsorABM.aspx">Nuevo Sponsor</a></li>
@@ -488,7 +557,7 @@ span.round-tab:hover {
 
 
                         <li id="men_Marcas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmMarcasABM.aspx">Nueva marca</a></li>
@@ -496,7 +565,7 @@ span.round-tab:hover {
                             </ul>
                         </li>
                         <li id="men_Rubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmRubrosABM.aspx">Nuevo Rubro</a></li>
@@ -504,7 +573,7 @@ span.round-tab:hover {
                             </ul>
                         </li>
                         <li id="men_SubRubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmSubRubrosABM.aspx">Nuevo SubRubro</a></li>
@@ -512,28 +581,28 @@ span.round-tab:hover {
                             </ul>
                         </li>
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmItemsABM.aspx">Nuevo Item</a></li>
                                 <li><a href="frmItems.aspx">Editar Items</a></li>
                             </ul>
                         </li>
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmItemImagenes.aspx">Agregar Imágenes</a></li>
                             </ul>
                         </li>
                         <li id="men_Consultas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmConsultas.aspx">Ver Consultas</a></li>
                             </ul>
                         </li>
                          <li id="men_Contacto" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmConsultas.aspx">Ver Contacto</a></li>
@@ -542,10 +611,10 @@ span.round-tab:hover {
 
                         
                         <li id="men_CambiarPass" visible="false" runat="server"><a href="frmCambiarPass.aspx"
-                            class="waves-effect"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
                         </a></li>
                         <li id="men_CerrarSesion" visible="false" runat="server"><a onserverclick="CerrarSesion"
-                            runat="server" class="waves-effect"><i class="zmdi zmdi-lock"></i><span>Cerrar Sesión
+                            runat="server" class="waves-effect" style="background:#000;"><i class="zmdi zmdi-lock"></i><span>Cerrar Sesión
                             </span></a></li>
                     </ul>
                     <div class="clearfix">
@@ -614,12 +683,12 @@ span.round-tab:hover {
                 </ul>
             </div>
 
-            <form role="form">
+            <form role="form" style="background:#000;">
                 <div class="tab-content">
                     <asp:HiddenField ID="HfID_Item" runat="server"></asp:HiddenField>
                     
                     <div class="tab-pane active" role="tabpanel" id="step1">
-                        <h3 style="color:#ff822f;">PASO 1</h3>
+                        <h3 style="color:#000;">PASO 1</h3>
                         
                          <div  class="form-group">
                                    <br />
@@ -749,7 +818,7 @@ span.round-tab:hover {
 
 
                     <div class="tab-pane" role="tabpanel" id="step2">
-                           <h3 style="color:#ff822f;">PASO 2</h3>
+                           <h3 style="color:#000;">PASO 2</h3>
                         
                          <div  class="form-group">
                                    <br />
@@ -772,7 +841,9 @@ span.round-tab:hover {
                                       
                                       <div class="col col-md-6">
 
-  <span style="color:#000; font-size:18px; "> Stock</span>
+  <span style="          color: #000;
+          font-size: 18px;
+  "> Stock</span>
                                              <asp:TextBox ID="TxtStock"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
 
@@ -838,7 +909,7 @@ span.round-tab:hover {
                     
                     
                     <div class="tab-pane" role="tabpanel" id="step3">
-                         <h3 style="color:#ff822f;">PASO 3</h3>
+                         <h3 style="color:#000;">PASO 3</h3>
                         
                          <div  class="form-group">
                                    <br />
@@ -937,7 +1008,7 @@ span.round-tab:hover {
                    
                    
                     <div class="tab-pane" role="tabpanel" id="complete">
-                   <h3 style="color:#ff822f;">COMPLETADO</h3>
+                   <h3 style="color:#000;">COMPLETADO</h3>
                    
                      <ul class="list-inline">
                     <li><button type="button" class="btn btn-default prev-step" style=" width:100%; min-width:220px;  border-radius: 2em; padding: 6px 18px;">ANTERIOR</button></li>

@@ -199,10 +199,10 @@ background-color:rgba(0, 0, 0, 0.5);
                 <!-- Top Bar Start -->
                 <div class="topbar">
                     <!-- LOGO -->
-                    <div class="topbar-left">
+                    <div class="topbar-left" style="border-top-color:#000;">
                     </div>
                     <!-- Button mobile view to collapse sidebar menu -->
-                    <div class="navbar navbar-default" style="" role="navigation">
+                    <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
                         <div class="container">
                             <!-- Page title -->
                             <ul class="nav navbar-nav navbar-left">
@@ -549,8 +549,13 @@ background-color:rgba(0, 0, 0, 0.5);
     <asp:UpdateProgress ID="UpdateProgress1" AssociatedUpdatePanelID="UpdatePanel1" runat="server">
         <ProgressTemplate>
             <div id="FondoProgeso">
-                <img style="margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%); height: 100px;" src="https://gifimage.net/wp-content/uploads/2018/04/loading-gif-orange-8.gif" />
+                <img style="                        margin: 0;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                        height: 100px;" src="https://gifimage.net/wp-content/uploads/2018/04/loading-gif-orange-8.gif" />
             </div>
         </ProgressTemplate>
     </asp:UpdateProgress>

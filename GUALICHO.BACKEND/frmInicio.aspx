@@ -178,7 +178,7 @@ if it's not present, don't show loader */
 
 </style>
 
-<body class="fixed-left">
+<body class="fixed-left" >
     <div class="se-pre-con">
     </div>
     <!-- Begin page -->
@@ -186,10 +186,10 @@ if it's not present, don't show loader */
         <!-- Top Bar Start -->
         <div class="topbar">
             <!-- LOGO -->
-            <div class="topbar-left" style="background-color:#000;">
+            <div class="topbar-left" style="background-color:#000; border-top-color:#000;">
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
-            <div class="navbar navbar-default"  style="background-color:#000;" role="navigation">
+            <div class="navbar navbar-default"  style="background-color:#000; border-top-color:#000;" role="navigation">
                 <div class="container">
                     <!-- Page title -->
                     <ul class="nav navbar-nav navbar-left">
@@ -329,7 +329,7 @@ if it's not present, don't show loader */
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmConsultas.aspx">Ver Contacto</a></li>
+                                <li><a href="frmContactoABM.aspx">Ver Contacto</a></li>
                             </ul>
                         </li>
 
@@ -390,21 +390,6 @@ if it's not present, don't show loader */
                             </div>
 
                              <div class="col-md-3">
-                                <a href="frmServicios.aspx">
-                                    <div class="wrap" style="background:#000">
-                                           <div class="divPrueba">
-                                        <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">SERVICIOS</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/servicios.png" style="height: 60px;" />
-                                        </center></div>
-                                    </div>
-                                </a>
-                            </div>
-
-
-                            <div class="col-md-3">
                                 <a href="frmBannersABM.aspx">
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
@@ -419,17 +404,6 @@ if it's not present, don't show loader */
                             </div>
 
 
-
-                            
-
-                            
-                            
-                           
-                        </div>
-                        <div class="row">
-
-
-                            
                             <div class="col-md-3">
                                 <a href="frmSponsors.aspx">
                                     <div class="wrap" style="background:#000">
@@ -442,8 +416,12 @@ if it's not present, don't show loader */
                                         </center></div>
                                     </div>
                                 </a>
-                            </div> 
+                            
+                           
+                        </div>
+                        <div class="row">
 
+                            
                             <div class="col-md-3">
                                 <a href="frmMarcasABM.aspx">
                                     <div class="wrap" style="background:#000">
@@ -457,6 +435,7 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
+
                             <div class="col-md-3">
                                 <a href="frmRubrosABM.aspx">
                                     <div class="wrap" style="background:#000">
@@ -470,6 +449,7 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
+
                             <div class="col-md-3">
                                 <a href="frmSubRubrosABM.aspx">
                                     <div class="wrap" style="background:#000">
@@ -483,12 +463,8 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
-                         
-                        </div>
 
-                        <div class="row">
-
-                               <div class="col-md-3">
+                            <div class="col-md-3">
                                 <a href="frmItems.aspx">
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
@@ -501,9 +477,12 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
-                      
+                         
+                        </div>
 
-                            <div class="col-md-3">
+                        <div class="row">
+
+                               <div class="col-md-3">
                                 <a href="frmItemImagenes.aspx">
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
@@ -516,6 +495,8 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
+                      
+
                             <div class="col-md-3">
                                 <a href="frmConsultas.aspx">
                                     <div class="wrap" style="background:#000">
@@ -529,6 +510,7 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
+
                             <div class="col-md-3">
                                 <a href="frmContactoABM.aspx">
                                     <div class="wrap" style="background:#000">
@@ -542,6 +524,8 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
+
+                            
                            
                         </div>
                        

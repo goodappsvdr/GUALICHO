@@ -91,12 +91,12 @@ if it's not present, don't show loader */
         <!-- Top Bar Start -->
         <div class="topbar">
             <!-- LOGO -->
-            <div class="topbar-left">
+            <div class="topbar-left" style="border-top-color:#000;">
               
               
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
-            <div class="navbar navbar-default" style="" role="navigation">
+            <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
 
 
 

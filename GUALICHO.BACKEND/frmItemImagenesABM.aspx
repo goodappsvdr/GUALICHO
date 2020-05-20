@@ -205,12 +205,12 @@ background-color:rgba(0, 0, 0, 0.5);
         <!-- Top Bar Start -->
         <div class="topbar">
             <!-- LOGO -->
-            <div class="topbar-left">
+            <div class="topbar-left" style="border-top-color:#000;">
               
               
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
-            <div class="navbar navbar-default" style="" role="navigation">
+            <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
 
 
 
@@ -509,7 +509,9 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                                         <div class="col col-md-3">
-                                          <span style="color:#000; font-size:18px; ">Imágen 3</span>
+                                          <span style="                                                  color: #000;
+                                                  font-size: 18px;
+                                          ">Imágen 3</span>
                                        
                                          <script type="text/javascript">
                                              function readURL3(input) {

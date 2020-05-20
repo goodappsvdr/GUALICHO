@@ -275,12 +275,12 @@ background-color:rgba(0, 0, 0, 0.5);
         <!-- Top Bar Start -->
         <div class="topbar">
             <!-- LOGO -->
-            <div class="topbar-left" style="background:#000;">
+            <div class="topbar-left" style="background:#000; border-top-color:#000;">
               
               
             </div>
             <!-- Button mobile view to collapse sidebar menu -->
-            <div class="navbar navbar-default" style="" role="navigation">
+            <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
 
 
 
@@ -515,8 +515,11 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                             <div class="col col-md-4">
                                                 
-                                        <img src="" id="ImgQS" runat="server"  style=" width:200px;  height:200px;border: 8px solid #fff;
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover;" />
+                                        <img src="" id="ImgQS" runat="server"  style="                                                width: 200px;
+                                                height: 200px;
+                                                border: 8px solid #fff;
+                                                box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+                                                object-fit: cover;" />
 
 
                                                 </div>

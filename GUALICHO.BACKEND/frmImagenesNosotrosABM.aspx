@@ -207,10 +207,10 @@ background-color:rgba(0, 0, 0, 0.5);
                 <!-- Top Bar Start -->
                 <div class="topbar">
                     <!-- LOGO -->
-                    <div class="topbar-left">
+                    <div class="topbar-left" style="border-top-color:#000;">
                     </div>
                     <!-- Button mobile view to collapse sidebar menu -->
-                    <div class="navbar navbar-default" style="" role="navigation">
+                    <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
                         <div class="container">
                             <!-- Page title -->
                             <ul class="nav navbar-nav navbar-left">

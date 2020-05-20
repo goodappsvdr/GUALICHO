@@ -277,10 +277,10 @@ background-color:rgba(0, 0, 0, 0.5);
                 <!-- Top Bar Start -->
                 <div class="topbar">
                     <!-- LOGO -->
-                    <div class="topbar-left" style="background:#000;">
+                    <div class="topbar-left" style="background:#000;border-top-color:#000;">
                     </div>
                     <!-- Button mobile view to collapse sidebar menu -->
-                    <div class="navbar navbar-default" style="" role="navigation">
+                    <div class="navbar navbar-default" style="border-top-color:#000;" role="navigation">
                         <div class="container">
                             <!-- Page title -->
                             <ul class="nav navbar-nav navbar-left">
@@ -533,7 +533,13 @@ background-color:rgba(0, 0, 0, 0.5);
                                            <br />
                                      
 <%--<asp:Button ID="cmdAceptar" runat="server"  style=" width:100%; background:#000 !important; border: 1px solid #000 !important;"  class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5" Text="ACEPTAR"></asp:Button>--%>
-  <asp:Button  runat="server" id="BtnAceptar"  style=" width:100%; min-width:220px; color:White; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" class="btn btn-success" Text="ACEPTAR"></asp:Button>
+  <asp:Button  runat="server" id="BtnAceptar"  style="          width: 100%;
+          min-width: 220px;
+          color: White;
+          background: #000 !important;
+          border: 1px solid #000 !important;
+          border-radius: 2em;
+          padding: 6px 18px;" class="btn btn-success" Text="ACEPTAR"></asp:Button>
 
                                           </div>
                                           </div>
