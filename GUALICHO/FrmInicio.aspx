@@ -117,8 +117,9 @@
         }
 
         .main__menu li a:hover{
-            color:#858483;
+            color:#AFB0B8 ;
         }
+
                      
 
     </style>
@@ -264,8 +265,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style="                                    padding: 0px 10px 0px 0px;
-                            "> 
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"  style=" padding: 0px 10px 0px 0px; "> 
                                 <%--<div class="logo">
                                      <a href="frminicio.aspx"><img src="imagenes/copmaco.png"  style="max-height: 90px;" alt="logo images"></a>
                                 </div>--%>

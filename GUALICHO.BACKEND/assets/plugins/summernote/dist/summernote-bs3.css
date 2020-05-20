@@ -2113,8 +2113,8 @@ fieldset[disabled] .note-editor .btn-warning.active {
 }
 .note-editor .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #000;
+  border-color: #000;
 }
 .note-editor .btn-danger:hover,
 .note-editor .btn-danger:focus,
@@ -2123,7 +2123,7 @@ fieldset[disabled] .note-editor .btn-warning.active {
 .open .dropdown-toggle.note-editor .btn-danger {
   color: #ffffff;
   background-color: #d2322d;
-  border-color: #ac2925;
+  border-color: #000;
 }
 .note-editor .btn-danger:active,
 .note-editor .btn-danger.active,
@@ -2145,8 +2145,8 @@ fieldset[disabled] .note-editor .btn-danger:active,
 .note-editor .btn-danger.disabled.active,
 .note-editor .btn-danger[disabled].active,
 fieldset[disabled] .note-editor .btn-danger.active {
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #000;
+  border-color: #000;
 }
 .note-editor .btn-success {
   color: #ffffff;
@@ -3799,11 +3799,11 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   background-color: #ec971f;
 }
 .note-editor .label-danger {
-  background-color: #d9534f;
+  background-color: #000;
 }
 .note-editor .label-danger[href]:hover,
 .note-editor .label-danger[href]:focus {
-  background-color: #c9302c;
+  background-color: #000;
 }
 .note-editor .badge {
   display: inline-block;
@@ -4074,7 +4074,7 @@ textarea.note-editor .input-group-sm > .input-group-btn > .btn {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .note-editor .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #000;
 }
 .progress-striped .note-editor .progress-bar-danger {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));

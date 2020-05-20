@@ -374,7 +374,7 @@
   box-sizing: content-box;
 }
 .sweet-alert .icon.error {
-  border-color: #d43f3a;
+  border-color: #000;
 }
 .sweet-alert .icon.error .x-mark {
   position: relative;
@@ -384,7 +384,7 @@
   position: absolute;
   height: 5px;
   width: 47px;
-  background-color: #d9534f;
+  background-color: #000;
   display: block;
   top: 37px;
   border-radius: 2px;
@@ -548,7 +548,7 @@
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 184, 218, 0.6);
 }
 .sweet-alert .btn-danger:focus {
-  border-color: #d43f3a;
+  border-color: #000;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(212, 63, 58, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(212, 63, 58, 0.6);
