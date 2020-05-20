@@ -92,7 +92,11 @@
         }
        
        }
-                     
+           
+       .main__menu li a:hover{
+            color:#AFB0B8 ;
+        }
+
     </style>
 <body>
      <form runat="server">
@@ -273,7 +277,17 @@
                         <div class="col-md-12">
                             <div class="search__inner" style="padding-right: 60px;">
                                 <form action="#" method="get">
-                                    <input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica"  type="text" style="background: #fff none repeat scroll 0 0; border: medium none; color: #333; font-size: 25px; font-weight: 300; height: 60px; margin-top: 50px; line-height: 60px; padding: 0 70px 0 20px; text-align: left; font-family: 'Poppins', sans-serif; ">
+                                    <input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica"  type="text" style="                                            background: #fff none repeat scroll 0 0;
+                                            border: medium none;
+                                            color: #333;
+                                            font-size: 25px;
+                                            font-weight: 300;
+                                            height: 60px;
+                                            margin-top: 50px;
+                                            line-height: 60px;
+                                            padding: 0 70px 0 20px;
+                                            text-align: left;
+                                            font-family: 'Poppins', sans-serif;">
                                     <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
                                 </form>
                                 <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">

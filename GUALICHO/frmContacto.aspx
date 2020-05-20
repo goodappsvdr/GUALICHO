@@ -109,7 +109,11 @@
         }
        
        }
-                     
+                 
+       .main__menu li a:hover{
+            color:#AFB0B8 ;
+        }
+
     </style>
 <body>
      <form runat="server">
@@ -250,7 +254,7 @@
                                     <div class="header__search search search__open">
                                         <a href="#"><i class="icon-magnifier icons"></i></a>
                                     </div>
-                                    <div class="header__account search search__open" style="cursor:pointer;">
+                                    <div class="header__account search search__open" style="cursor: pointer;">
                                     
                                 
                             

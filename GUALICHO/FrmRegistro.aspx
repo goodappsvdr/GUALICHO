@@ -108,6 +108,10 @@
         }
        
        }
+
+       .main__menu li a:hover{
+            color:#AFB0B8 ;
+        }
                      
     </style>
 <body>
@@ -245,7 +249,8 @@
                                 </div>  
                             </div>
                             <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
-                                <div class="header__right" style="padding-right: 40px;">
+                                <div class="header__right" style="                                        padding-right: 40px;
+                                ">
                                     <div class="header__search search search__open">
                                         <a href="#"><i class="icon-magnifier icons"></i></a>
                                     </div>
