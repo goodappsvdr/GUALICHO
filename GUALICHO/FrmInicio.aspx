@@ -111,6 +111,16 @@
 }*/
                      
 
+        .auto-style1 {
+            left: 0px;
+            top: 0px;
+        }
+
+        .main__menu li a:hover{
+            color:#858483;
+        }
+                     
+
     </style>
 <body>
     <form runat="server" id="form1">
@@ -143,7 +153,7 @@
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
                                         <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
-                                             <li class="drop"><a href="frmNosotros.aspx">LA FABRICA</a></li>
+                                             <li class="drop"><a href="frmNosotros.aspx" class="auto-style1">LA FABRICA</a></li>
                                        <%-- <li class="drop"><a href="#">women</a>--%>
                                           
                                             
