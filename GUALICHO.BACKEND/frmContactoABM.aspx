@@ -249,7 +249,7 @@ background-color:rgba(0, 0, 0, 0.5);
                     
                      <div style=" padding:15px;   -webkit-filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.5));    background:white;">
 
-                                 <a href="frmInicio.aspx"> <img style="height: 55px; " src="Imagenes/logo1.png" /></a>
+                                 <a href="frmInicio.aspx"> <img style="height: 55px; " src="Imagenes/logo.png" /></a>
                                  <br /><br />
                                    <asp:Label ID="lblUsuario" style=" color:#000000;" runat="server"  Text=""></asp:Label>
                </div>
