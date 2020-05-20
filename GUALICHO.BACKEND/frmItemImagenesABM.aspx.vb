@@ -326,7 +326,7 @@ Public Class frmItemImagenesABM
             id_itemImagen = resultado
 
             Dim urlImagen As String
-            urlImagen = "http://www.hiercons.com.ar/Admin/Imagenes/ItemsImagenes/"
+            urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/ItemsImagenes/"
 
             btnSubirImg1.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/ItemsImagenes/") & id_itemImagen & ".png")
 
@@ -355,7 +355,7 @@ Public Class frmItemImagenesABM
             id_itemImagen = resultado
 
             Dim urlImagen As String
-            urlImagen = "http://www.hiercons.com.ar/Admin/Imagenes/ItemsImagenes/"
+            urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/ItemsImagenes/"
 
             btnSubirImg2.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/ItemsImagenes/") & id_itemImagen & ".png")
 
@@ -384,7 +384,7 @@ Public Class frmItemImagenesABM
             id_itemImagen = resultado
 
             Dim urlImagen As String
-            urlImagen = "http://www.hiercons.com.ar/Admin/Imagenes/ItemsImagenes/"
+            urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/ItemsImagenes/"
 
             btnSubirImg3.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/ItemsImagenes/") & id_itemImagen & ".png")
 
@@ -413,7 +413,7 @@ Public Class frmItemImagenesABM
             id_itemImagen = resultado
 
             Dim urlImagen As String
-            urlImagen = "http://www.hiercons.com.ar/Admin/Imagenes/ItemsImagenes/"
+            urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/ItemsImagenes/"
 
             btnSubirImg4.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/ItemsImagenes/") & id_itemImagen & ".png")
 

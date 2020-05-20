@@ -117,7 +117,7 @@ Public Class frmQuienesSomos
 
 
         Dim urlImagen As String
-        urlImagen = "/Imagenes/QuienesSomos/"
+        urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/QuienesSomos/"
 
 
 
