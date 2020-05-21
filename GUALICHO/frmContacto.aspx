@@ -361,7 +361,7 @@
                     <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                           <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">UBICACIÓN</h2>
                         <div class="map-contacts--2">
-                           <iframe id="IframeMapa" runat="server" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                           
                             
                         </div>
                     </div>

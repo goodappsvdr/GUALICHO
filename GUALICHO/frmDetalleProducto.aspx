@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProducto.aspx.vb" Inherits="GUALICHO.frmDetalleProducto" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProducto.aspx.vb" Inherits="GUALICHO.frmDetalleProducto" %>
 
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
  <head runat="server">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -1105,4 +1104,10 @@
             window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
         }
     </script>
+
+    </body>
+
+   
+
+</html>
 
