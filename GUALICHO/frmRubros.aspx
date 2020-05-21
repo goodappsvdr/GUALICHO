@@ -227,7 +227,7 @@
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
-                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
+                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'>CONSULTAR</a></li>
                                         </ItemTemplate>
                                                 </asp:Repeater>
                                                 </ul>
@@ -715,7 +715,7 @@
                         <asp:Repeater id="RepeaterSponsors" runat="server">
                                     <ItemTemplate>
                                
-                                    <li><img style="width:210px; height:80px; object-fit:cover;" src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
+                                    <li><img style="width:100%; object-fit:cover;" src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
                           
                                     </ItemTemplate>
                                 </asp:Repeater>
@@ -864,23 +864,6 @@
 
 
 
-
-
-             //var owl1 = $('#DivBanners');
-             //owl1.owlCarousel({
-             //    items: 1,
-             //    loop: true,
-             //    margin: 10,
-             //    autoplay: true,
-             //    autoplayTimeout: 2000,
-             //    autoplayHoverPause: true
-             //});
-             //$('.play').on('click', function () {
-             //    owl1.trigger('play.owl.autoplay', [1000])
-             //})
-             //$('.stop').on('click', function () {
-             //    owl1.trigger('stop.owl.autoplay')
-             //})
 
 
 

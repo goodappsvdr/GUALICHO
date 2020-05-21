@@ -9,7 +9,7 @@
     <meta name="author" content="Coderthemes">
     <!-- App Favicon -->
     <link rel="shortcut icon" href="Imagenes/favicon.png">
-    <title>Hiercons - Backend</title>
+    <title>Gualicho - Backend</title>
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
     <!-- App css -->
