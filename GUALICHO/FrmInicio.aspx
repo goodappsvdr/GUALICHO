@@ -794,7 +794,7 @@
 
         
 
-        <script>
+
 
 
 
@@ -814,26 +814,24 @@
             //    owl1.trigger('stop.owl.autoplay')
             //})
 
-
-
+           <script>
             var owl = $('#DivSponsors');
             owl.owlCarousel({
-                items: 3,
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 1000
+            items: 3,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000
             //autoplayHoverPause: true
             });
             $('.play').on('click', function () {
-                owl.trigger('play.owl.autoplay', [1000])
+            owl.trigger('play.owl.autoplay', [3000])
             })
             $('.stop').on('click', function () {
-                owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay')
             })
-
+    
             </script>
-
 
   
     <!-- Waypoints.min.js. -->
@@ -859,12 +857,12 @@
         <%-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>--%>
 
         <script>
-
-        
-           
-      
-
-
+    
+            
+               
+          
+    
+    
             function EnviarEmailContacto() {
 
                 var Email = $('#TxtEmailContacto').val();
