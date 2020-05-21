@@ -92,7 +92,7 @@ Partial Public Class frmContacto
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents IframeMapa As Global.System.Web.UI.HtmlControls.HtmlIframe
+    Protected WithEvents IframeMapa As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control TxtDireccion.
