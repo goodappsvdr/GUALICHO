@@ -108,8 +108,16 @@
        
        }
               
-       .main__menu li a:hover{
-            color:#AFB0B8 ;
+       .main__menu > li:hover > a {
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown li:hover > a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
         }
 
     </style>
@@ -612,43 +620,42 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
     <script src="js/owl.carousel.min.js"></script>
     <!-- Waypoints.min.js. -->
 
-               <script>
 
-
-
-                   //var owl1 = $('#DivBanners');
-                   //owl1.owlCarousel({
-                   //    items: 1,
-                   //    loop: true,
-                   //    margin: 10,
-                   //    autoplay: true,
-                   //    autoplayTimeout: 2000,
-                   //    autoplayHoverPause: true
-                   //});
-                   //$('.play').on('click', function () {
-                   //    owl1.trigger('play.owl.autoplay', [1000])
-                   //})
-                   //$('.stop').on('click', function () {
-                   //    owl1.trigger('stop.owl.autoplay')
-                   //})
-
-
-
-                   var owl = $('#DivSponsors');
-                   owl.owlCarousel({
-                       items: 3,
+         <script>
+                   var owl1 = $('#RepeaterImagenesNosotros');
+                   owl1.owlCarousel({
+                       items: 1,
                        loop: true,
                        margin: 10,
                        autoplay: true,
-                       autoplayTimeout: 1000
-                       //autoplayHoverPause: true
+                       autoplayTimeout: 2000,
+                       autoplayHoverPause: true
                    });
                    $('.play').on('click', function () {
-                       owl.trigger('play.owl.autoplay', [1000])
+                       owl1.trigger('play.owl.autoplay', [1000])
                    })
                    $('.stop').on('click', function () {
-                       owl.trigger('stop.owl.autoplay')
+                       owl1.trigger('stop.owl.autoplay')
                    })
+          </script>
+
+
+           <script>
+               var owl = $('#DivSponsors');
+               owl.owlCarousel({
+                   items: 3,
+                   loop: true,
+                   margin: 10,
+                   autoplay: true,
+                   autoplayTimeout: 3000
+                   //autoplayHoverPause: true
+               });
+               $('.play').on('click', function () {
+                   owl.trigger('play.owl.autoplay', [3000])
+               })
+               $('.stop').on('click', function () {
+                   owl.trigger('stop.owl.autoplay')
+               })
 
             </script>
 

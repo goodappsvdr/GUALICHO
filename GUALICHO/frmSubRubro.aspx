@@ -95,8 +95,16 @@
        
        }
                      
-       .main__menu li a:hover{
-            color:#AFB0B8 ;
+       .main__menu > li:hover > a {
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown li:hover > a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
         }
 
     </style>
@@ -419,7 +427,7 @@
                                                 <div class="fr__product__inner" >
                                                     <h4><a href="<%# Eval("url")%>" style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("producto")%></a></h4>
                                         <ul class="fr__pro__prize">
-                                            <li style="font-family: 'Poppins', sans-serif; color:#000; font-weight:700;">$540.55</li>
+                                            <li style="font-family: 'Poppins', sans-serif; color:#000; font-weight:700;">CONSULTAR</li>
                                           <span style="display:none" class="badge badge-info <%# Eval("marcas").ToString.ToLower%>"><%# Eval("marcas").ToString.ToLower%></span>
                                         </ul>
                                                     
@@ -836,9 +844,6 @@
     <script src="js/owl.carousel.min.js"></script>
 
 
-         <script>
-
-
 
              //var owl1 = $('#DivBanners');
              //owl1.owlCarousel({
@@ -858,21 +863,22 @@
 
 
 
-             var owl = $('#DivSponsors');
-             owl.owlCarousel({
-                 items: 3,
-                 loop: true,
-                 margin: 10,
-                 autoplay: true,
-                 autoplayTimeout: 1000
-                 //autoplayHoverPause: true
-             });
-             $('.play').on('click', function () {
-                 owl.trigger('play.owl.autoplay', [1000])
-             })
-             $('.stop').on('click', function () {
-                 owl.trigger('stop.owl.autoplay')
-             })
+           <script>
+               var owl = $('#DivSponsors');
+               owl.owlCarousel({
+                   items: 3,
+                   loop: true,
+                   margin: 10,
+                   autoplay: true,
+                   autoplayTimeout: 3000
+                   //autoplayHoverPause: true
+               });
+               $('.play').on('click', function () {
+                   owl.trigger('play.owl.autoplay', [3000])
+               })
+               $('.stop').on('click', function () {
+                   owl.trigger('stop.owl.autoplay')
+               })
 
             </script>
 

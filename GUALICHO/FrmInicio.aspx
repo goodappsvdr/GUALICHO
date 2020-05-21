@@ -116,11 +116,17 @@
             top: 0px;
         }
 
-        .main__menu li a:hover{
-            color:#AFB0B8 ;
+        .main__menu > li:hover > a {
+        color: #AFB0B8;
         }
-
-                     
+        .main__menu li.drop ul.dropdown li:hover > a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
+        }          
 
     </style>
 <body>
@@ -313,8 +319,7 @@
         line-height: 60px;
         padding: 0 70px 0 20px;
         text-align: left;
-        font-family: 'Poppins', sans-serif;
-    ">
+        font-family: 'Poppins', sans-serif;">
                                     <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
                                 </form>
                                 <div class="search__close__btn"  style="    margin-right: -30px; margin-top: 55px;">
@@ -477,7 +482,7 @@
                                     </div>
                                     <div class="fr__hover__info">
                                         <ul class="product__action">
-                                            <li><a href='<%# Eval("url")%>'  style="                                                        font-family: 'Poppins', sans-serif;
+                                            <li><a href='<%# Eval("url")%>'  style="font-family: 'Poppins', sans-serif;
                                                         line-height: 3.7;
                                                         width: 120px;">Ver detalles</a></li>
 
@@ -489,7 +494,7 @@
                                     <div class="fr__product__inner">
                                         <h4><a href='<%# Eval("url")%>' style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("descripcion")%></a></h4>
                                         <ul class="fr__pro__prize">
-                                            <li style="                                                    font-family: 'Poppins', sans-serif;
+                                            <li style="font-family: 'Poppins', sans-serif;
                                                     color: black;
                                                     font-weight: 700;
                                             "><%# Eval("precio")%></li>
@@ -789,7 +794,7 @@
 
         
 
-        <script>
+
 
 
 
@@ -809,26 +814,24 @@
             //    owl1.trigger('stop.owl.autoplay')
             //})
 
-
-
+           <script>
             var owl = $('#DivSponsors');
             owl.owlCarousel({
-                items: 3,
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 1000
+            items: 3,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000
             //autoplayHoverPause: true
             });
             $('.play').on('click', function () {
-                owl.trigger('play.owl.autoplay', [1000])
+            owl.trigger('play.owl.autoplay', [3000])
             })
             $('.stop').on('click', function () {
-                owl.trigger('stop.owl.autoplay')
+            owl.trigger('stop.owl.autoplay')
             })
-
+    
             </script>
-
 
   
     <!-- Waypoints.min.js. -->
@@ -854,12 +857,12 @@
         <%-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>--%>
 
         <script>
-
-        
-           
-      
-
-
+    
+            
+               
+          
+    
+    
             function EnviarEmailContacto() {
 
                 var Email = $('#TxtEmailContacto').val();

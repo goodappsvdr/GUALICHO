@@ -110,10 +110,17 @@
        
        }
                  
-       .main__menu li a:hover{
-            color:#AFB0B8 ;
+       .main__menu > li:hover > a {
+        color: #AFB0B8;
         }
-
+        .main__menu li.drop ul.dropdown li:hover > a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
     </style>
 <body>
      <form runat="server">
@@ -354,8 +361,7 @@
                     <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                           <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">UBICACIÓN</h2>
                         <div class="map-contacts--2">
-                           <iframe id="IframeMapa" runat="server" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                            
+                           <iframe id="IframeMapa" runat="server" src="" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
@@ -591,7 +597,6 @@
     <script src="js/slick.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 
-         <script>
 
 
 
@@ -613,22 +618,22 @@
 
 
 
-             var owl = $('#DivSponsors');
-             owl.owlCarousel({
-                 items: 3,
-                 loop: true,
-                 margin: 10,
-                 autoplay: true,
-                 autoplayTimeout: 1000
-                 //autoplayHoverPause: true
-             });
-             $('.play').on('click', function () {
-                 owl.trigger('play.owl.autoplay', [1000])
-             })
-             $('.stop').on('click', function () {
-                 owl.trigger('stop.owl.autoplay')
-             })
-
+             <script>
+            var owl = $('#DivSponsors');
+            owl.owlCarousel({
+            items: 3,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000
+            //autoplayHoverPause: true
+            });
+            $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [3000])
+            })
+            $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+            })
             </script>
 
 
@@ -651,10 +656,10 @@
 
 
     <script>
-
-
-
-
+     
+     
+     
+     
         $(document).ready(function () {
 
 

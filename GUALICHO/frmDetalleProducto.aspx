@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProducto.aspx.vb" Inherits="GUALICHO.frmDetalleProducto" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProducto.aspx.vb" Inherits="GUALICHO.frmDetalleProducto" %>
 
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
  <head runat="server">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -93,6 +92,18 @@
         }
        
        }
+
+       .main__menu > li:hover > a {
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown li:hover > a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
                      
     </style>
 <body>
@@ -898,6 +909,27 @@
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+
+               <script>
+                   var owl = $('#DivSponsors');
+                   owl.owlCarousel({
+                       items: 3,
+                       loop: true,
+                       margin: 10,
+                       autoplay: true,
+                       autoplayTimeout: 3000
+                       //autoplayHoverPause: true
+                   });
+                   $('.play').on('click', function () {
+                       owl.trigger('play.owl.autoplay', [3000])
+                   })
+                   $('.stop').on('click', function () {
+                       owl.trigger('stop.owl.autoplay')
+                   })
+
+            </script>
+
+
     <script>
 
         function EnviarConsulta() {
@@ -1093,4 +1125,10 @@
             window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
         }
     </script>
+
+    </body>
+
+   
+
+</html>
 
