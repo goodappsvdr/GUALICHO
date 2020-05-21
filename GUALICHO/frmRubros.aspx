@@ -866,23 +866,6 @@
 
 
 
-             //var owl1 = $('#DivBanners');
-             //owl1.owlCarousel({
-             //    items: 1,
-             //    loop: true,
-             //    margin: 10,
-             //    autoplay: true,
-             //    autoplayTimeout: 2000,
-             //    autoplayHoverPause: true
-             //});
-             //$('.play').on('click', function () {
-             //    owl1.trigger('play.owl.autoplay', [1000])
-             //})
-             //$('.stop').on('click', function () {
-             //    owl1.trigger('stop.owl.autoplay')
-             //})
-
-
 
            <script>
                var owl = $('#DivSponsors');
