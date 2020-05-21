@@ -319,8 +319,7 @@
         line-height: 60px;
         padding: 0 70px 0 20px;
         text-align: left;
-        font-family: 'Poppins', sans-serif;
-    ">
+        font-family: 'Poppins', sans-serif;">
                                     <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
                                 </form>
                                 <div class="search__close__btn"  style="    margin-right: -30px; margin-top: 55px;">
@@ -483,7 +482,7 @@
                                     </div>
                                     <div class="fr__hover__info">
                                         <ul class="product__action">
-                                            <li><a href='<%# Eval("url")%>'  style="                                                        font-family: 'Poppins', sans-serif;
+                                            <li><a href='<%# Eval("url")%>'  style="font-family: 'Poppins', sans-serif;
                                                         line-height: 3.7;
                                                         width: 120px;">Ver detalles</a></li>
 
@@ -495,7 +494,7 @@
                                     <div class="fr__product__inner">
                                         <h4><a href='<%# Eval("url")%>' style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("descripcion")%></a></h4>
                                         <ul class="fr__pro__prize">
-                                            <li style="                                                    font-family: 'Poppins', sans-serif;
+                                            <li style="font-family: 'Poppins', sans-serif;
                                                     color: black;
                                                     font-weight: 700;
                                             "><%# Eval("precio")%></li>

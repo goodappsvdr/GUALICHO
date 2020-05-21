@@ -86,6 +86,15 @@ Partial Public Class frmContacto
     Protected WithEvents A2 As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
+    '''Control IframeMapa.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents IframeMapa As Global.System.Web.UI.HtmlControls.HtmlIframe
+
+    '''<summary>
     '''Control TxtDireccion.
     '''</summary>
     '''<remarks>

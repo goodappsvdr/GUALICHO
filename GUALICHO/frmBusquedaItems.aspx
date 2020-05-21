@@ -402,7 +402,7 @@
                                                 <div class="fr__product__inner" >
                                                     <h4><a href="<%# Eval("url")%>" style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("producto")%></a></h4>
                                         <ul class="fr__pro__prize">
-                                            <li style="font-family: 'Poppins', sans-serif; color:#000; font-weight:700;">$540.55</li>
+                                            <li style="font-family: 'Poppins', sans-serif; color:#000; font-weight:700;">CONSULTAR</li>
                                          <%-- <span style="display:none" class="badge badge-info <%# Eval("marcas").ToString.ToLower%>"><%# Eval("marcas").ToString.ToLower%></span>--%>
                                         </ul>
                                                     
