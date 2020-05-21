@@ -220,7 +220,7 @@
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
-                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
+                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'>CONSULTAR</a></li>
                                         </ItemTemplate>
                                                 </asp:Repeater>
                                                 </ul>
@@ -476,7 +476,7 @@
                                  
                                     <hr />
                                     <div class="sin__desc product__share__link">
-                                        <p><span>Compartí este producto</span></p>
+                                        <p><span>Compartir este producto</span></p>
                                          <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="">
 
 <a class="a2a_button_facebook" style="border: none; width: 35px;"><img src="images/iconofacebook.png"/></a>
