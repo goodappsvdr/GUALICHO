@@ -9,7 +9,7 @@
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
     <link rel="shortcut icon" href="Imagenes/favicon.png">
-    <title>Hiercons - Backend</title>
+    <title>Gualicho - Backend</title>
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="assets/plugins/morris/morris.css">
     <!-- App css -->
