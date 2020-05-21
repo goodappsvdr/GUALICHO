@@ -116,11 +116,17 @@
             top: 0px;
         }
 
-        .main__menu li a:hover{
-            color:#AFB0B8 ;
+        .main__menu > li:hover > a {
+        color: #AFB0B8;
         }
-
-                     
+        .main__menu li.drop ul.dropdown li:hover > a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
+        }          
 
     </style>
 <body>
