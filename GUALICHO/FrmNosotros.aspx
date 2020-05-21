@@ -472,7 +472,7 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
                         <asp:Repeater id="RepeaterSponsors" runat="server">
                                     <ItemTemplate>
                                
-                                    <li><img style="width:210px; height:80px; object-fit:cover;" src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
+                                    <li><img style="width:100%; object-fit:cover;" src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
                           
                                     </ItemTemplate>
                                 </asp:Repeater>
