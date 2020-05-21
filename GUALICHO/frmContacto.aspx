@@ -355,6 +355,7 @@
                           <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">UBICACIÓN</h2>
                         <div class="map-contacts--2">
                            <iframe id="IframeMapa" runat="server" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
@@ -365,7 +366,7 @@
                             </div>
                             <div class="address__details">
                                 <h2 style="font-family: 'Poppins', sans-serif;" class="ct__title">Dirección</h2>
-                                <p id="TxtDireccion" runat="server">654 5th Ave New York, NY, United </p>
+                                <p style="font-family: 'Poppins', sans-serif;" id="TxtDireccion" runat="server">654 5th Ave New York, NY, United </p>
                             </div>
                         </div>
                         <div class="address">
@@ -374,7 +375,7 @@
                             </div>
                             <div class="address__details">
                                 <h2 style="font-family: 'Poppins', sans-serif;" class="ct__title">Email</h2>
-                                <p  id="TxtEmail" runat="server">asfasf@gmail.com</p>
+                                <p style="font-family: 'Poppins', sans-serif;" id="TxtEmail" runat="server">asfasf@gmail.com</p>
                             </div>
                         </div>
 
@@ -384,7 +385,7 @@
                             </div>
                             <div class="address__details">
                                 <h2 style="font-family: 'Poppins', sans-serif;" class="ct__title">Teléfono</h2>
-                                <p  id="TxtTelefono" runat="server">123-6586-587456</p>
+                                <p style="font-family: 'Poppins', sans-serif;" id="TxtTelefono" runat="server">123-6586-587456</p>
                             </div>
                         </div>
                     </div>      
