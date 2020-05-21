@@ -99,6 +99,10 @@
        
        }
                      
+       .main__menu li a:hover{
+            color:#AFB0B8 ;
+        }
+
     </style>
 <body>
      <form runat="server">
@@ -273,7 +277,7 @@
         <!-- Start Offset Wrapper -->
         <div class="offset__wrapper">
             <!-- Start Search Popap -->
-     <div class="search__area" style="height:170px;">
+     <div class="search__area" style="height: 170px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
