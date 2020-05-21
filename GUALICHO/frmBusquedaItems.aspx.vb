@@ -93,7 +93,7 @@ Public Class frmBusquedaItems
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-            MenuMisConsultasMobile.Visible = True
+            ' MenuMisConsultasMobile.Visible = True
 
 
         Else
@@ -103,7 +103,7 @@ Public Class frmBusquedaItems
             '  MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-            MenuMisConsultasMobile.Visible = true
+            ' MenuMisConsultasMobile.Visible = True
         End If
     End Sub
 

@@ -223,27 +223,27 @@
                                     </ul>
                                 </nav>
 
-                                <div class="mobile-menu clearfix visible-xs visible-sm">
+                                   <div class="mobile-menu clearfix visible-xs visible-sm">
                                     <nav id="mobile_dropdown">
                                         <ul>
-                                            <li><a href="frmInicio.aspx">PRINCIPAL</a></li>
-                                           <li><a href="frmNosotros.aspx">NOSOTROS</a></li>
-                                            <li><a href="#">RUBROS</a>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">PRINCIPAL</a></li>
+                                           <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">NOSOTROS</a></li>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="#">RUBROS</a>
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
-                                              <li><a href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
+                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
                                         </ItemTemplate>
                                                 </asp:Repeater>
                                                 </ul>
                                             </li>
-                                             <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>
-                                            <li><a href="frmContacto.aspx">CONTACTO</a></li>
+                                            <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
                                              <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
                                              <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
-                                </div>  
+                                </div> 
                             </div>
                             <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
                                 <div class="header__right" style="padding-right: 40px;">

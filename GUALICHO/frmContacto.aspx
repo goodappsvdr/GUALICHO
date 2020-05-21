@@ -223,27 +223,27 @@
                                     </ul>
                                 </nav>
 
-                                <div class="mobile-menu clearfix visible-xs visible-sm">
+                                   <div class="mobile-menu clearfix visible-xs visible-sm">
                                     <nav id="mobile_dropdown">
                                         <ul>
-                                            <li><a href="frmInicio.aspx">PRINCIPAL</a></li>
-                                           <li><a href="frmNosotros.aspx">NOSOTROS</a></li>
-                                            <li><a href="#">RUBROS</a>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">PRINCIPAL</a></li>
+                                           <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">NOSOTROS</a></li>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="#">RUBROS</a>
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
-                                              <li><a href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
+                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
                                         </ItemTemplate>
                                                 </asp:Repeater>
                                                 </ul>
                                             </li>
-                                             <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>
-                                            <li><a href="frmContacto.aspx">CONTACTO</a></li>
+                                            <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
                                              <li style="display:none;" runat="server" visible="false" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
                                              <li style="display:none;" runat="server" visible="false" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
-                                </div>  
+                                </div> 
                             </div>
                             <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
                                 <div class="header__right" style="padding-right: 40px;">
@@ -334,7 +334,7 @@
                                 <nav class="bradcaump-inner" style="background-color:black" >
                                   <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Principal</a>
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
-                                  <span class="breadcrumb-item active" style="color:white;">Contacto</span>
+                                  <span class="breadcrumb-item active" style="color:white; font-family: 'Poppins', sans-serif;">Contacto</span>
                                 </nav>
                             </div>
                         </div>
@@ -348,19 +348,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
-                          <h2 class="title__line--6">UBICACIÓN</h2>
+                          <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">UBICACIÓN</h2>
                         <div class="map-contacts--2">
                            <iframe id="IframeMapa" runat="server" src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                        <h2 class="title__line--6">CONTACTO</h2>
+                        <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">CONTACTO</h2>
                         <div class="address">
                             <div class="address__icon">
                                 <i class="icon-location-pin icons"></i>
                             </div>
                             <div class="address__details">
-                                <h2 class="ct__title">Dirección</h2>
+                                <h2 style="font-family: 'Poppins', sans-serif;" class="ct__title">Dirección</h2>
                                 <p id="TxtDireccion" runat="server">654 5th Ave New York, NY, United </p>
                             </div>
                         </div>
@@ -369,7 +369,7 @@
                                 <i class="icon-envelope icons"></i>
                             </div>
                             <div class="address__details">
-                                <h2 class="ct__title">Email</h2>
+                                <h2 style="font-family: 'Poppins', sans-serif;" class="ct__title">Email</h2>
                                 <p  id="TxtEmail" runat="server">asfasf@gmail.com</p>
                             </div>
                         </div>
@@ -379,7 +379,7 @@
                                 <i class="icon-phone icons"></i>
                             </div>
                             <div class="address__details">
-                                <h2 class="ct__title">Teléfono</h2>
+                                <h2 style="font-family: 'Poppins', sans-serif;" class="ct__title">Teléfono</h2>
                                 <p  id="TxtTelefono" runat="server">123-6586-587456</p>
                             </div>
                         </div>
@@ -389,7 +389,7 @@
                     <div class="contact-form-wrap mt--60">
                         <div class="col-xs-12">
                             <div class="contact-title">
-                                <h2 class="title__line--6">ENVIANOS TU CONSULTA</h2>
+                                <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">ENVIANOS TU CONSULTA</h2>
                             </div>
                         </div>
                         <div class="col-xs-12">

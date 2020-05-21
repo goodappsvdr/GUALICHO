@@ -68,15 +68,6 @@ Partial Public Class FrmInicio
     Protected WithEvents RepeaterMenuRubrosMobile As Global.System.Web.UI.WebControls.Repeater
 
     '''<summary>
-    '''Control MenuMisConsultasMobile.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents MenuMisConsultasMobile As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
     '''Control MenuIniciarSesionMobile.
     '''</summary>
     '''<remarks>

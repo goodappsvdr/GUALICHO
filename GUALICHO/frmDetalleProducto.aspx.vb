@@ -368,7 +368,7 @@ Public Class frmDetalleProducto
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-            MenuMisConsultasMobile.Visible = True
+           ' MenuMisConsultasMobile.Visible = True
 
             CargarDatosUsuario()
         Else
@@ -378,7 +378,7 @@ Public Class frmDetalleProducto
             '  MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-            MenuMisConsultasMobile.Visible = true
+           ' MenuMisConsultasMobile.Visible = True
         End If
     End Sub
 

@@ -156,7 +156,6 @@
     <Content Include="Imagenes\icono instagram trazo negro.png" />
     <Content Include="Imagenes\icono whatsapp trazo negro.png" />
     <Content Include="Imagenes\imgRubros.jpg" />
-    <Content Include="Imagenes\logo.jpg" />
     <Content Include="Imagenes\logo.png" />
     <Content Include="Imagenes\p1.jpg" />
     <Content Include="Imagenes\p2.jpg" />
@@ -458,6 +457,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>

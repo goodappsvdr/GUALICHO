@@ -103,7 +103,7 @@ Public Class FrmServicios
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-            MenuMisConsultasMobile.Visible = True
+           ' MenuMisConsultasMobile.Visible = True
 
 
         Else
@@ -113,7 +113,7 @@ Public Class FrmServicios
             'MenuMisConsultas.Visible = True
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-            MenuMisConsultasMobile.Visible = True
+           ' MenuMisConsultasMobile.Visible = True
         End If
     End Sub
 

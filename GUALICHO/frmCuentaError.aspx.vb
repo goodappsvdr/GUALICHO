@@ -44,7 +44,7 @@ Public Class frmCuentaError
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-            MenuMisConsultasMobile.Visible = true
+            ' MenuMisConsultasMobile.Visible = True
 
 
         Else
@@ -54,7 +54,7 @@ Public Class frmCuentaError
             '  MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-            MenuMisConsultasMobile.Visible = true
+            ' MenuMisConsultasMobile.Visible = True
         End If
     End Sub
 

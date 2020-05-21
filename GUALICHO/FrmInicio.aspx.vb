@@ -65,7 +65,7 @@ Public Class FrmInicio
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-            MenuMisConsultasMobile.Visible = True
+           ' MenuMisConsultasMobile.Visible = True
 
 
         Else
@@ -75,7 +75,7 @@ Public Class FrmInicio
             'MenuMisConsultas.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-            MenuMisConsultasMobile.Visible = true
+           ' MenuMisConsultasMobile.Visible = True
         End If
     End Sub
 
