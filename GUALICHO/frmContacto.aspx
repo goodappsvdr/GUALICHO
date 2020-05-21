@@ -121,6 +121,26 @@
         background: transparent none repeat scroll 0 0;
         color: #AFB0B8;
         }
+
+        /*contacto*/
+       @media screen and (max-width: 450px){
+           .address{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+           }
+           .address__icon{
+               width:100%;
+           }
+           .address__details{
+               display:block;
+               vertical-align: bottom;
+               width:100%;
+               background:#fff;
+               align-items:center;
+           }
+  }
+
     </style>
 <body>
      <form runat="server">
@@ -366,6 +386,7 @@
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
                         <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">CONTACTO</h2>
+
                         <div class="address">
                             <div class="address__icon">
                                 <i class="icon-location-pin icons"></i>
@@ -375,6 +396,7 @@
                                 <p style="font-family: 'Poppins', sans-serif;" id="TxtDireccion" runat="server">654 5th Ave New York, NY, United </p>
                             </div>
                         </div>
+
                         <div class="address">
                             <div class="address__icon">
                                 <i class="icon-envelope icons"></i>
