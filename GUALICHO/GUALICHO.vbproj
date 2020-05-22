@@ -150,6 +150,7 @@
     <Content Include="Imagenes\btngif.gif" />
     <Content Include="Imagenes\checked.png" />
     <Content Include="Imagenes\copmaco.png" />
+    <Content Include="Imagenes\facebook.png" />
     <Content Include="Imagenes\favicon.png" />
     <Content Include="Imagenes\fondowebgualicho.png" />
     <Content Include="Imagenes\gifbtn.gif" />
@@ -158,6 +159,7 @@
     <Content Include="Imagenes\icono instagram trazo negro.png" />
     <Content Include="Imagenes\icono whatsapp trazo negro.png" />
     <Content Include="Imagenes\imgRubros.jpg" />
+    <Content Include="Imagenes\instagram.png" />
     <Content Include="Imagenes\logo.png" />
     <Content Include="Imagenes\p1.jpg" />
     <Content Include="Imagenes\p2.jpg" />
@@ -166,6 +168,7 @@
     <Content Include="Imagenes\slider2.jpg" />
     <Content Include="Imagenes\slider3.jpg" />
     <Content Include="Imagenes\warning.png" />
+    <Content Include="Imagenes\whatsapp.png" />
     <Content Include="images\banner\big-img\1.png" />
     <Content Include="images\banner\big-img\2.png" />
     <Content Include="images\bg\1.jpg" />
