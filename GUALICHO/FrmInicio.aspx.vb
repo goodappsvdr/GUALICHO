@@ -302,7 +302,6 @@ Public Class FrmInicio
     End Sub
 #End Region
 
-
 #Region "Banner"
     Public Sub cargarBanners()
         Dim ods As New DataSet

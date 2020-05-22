@@ -2963,18 +2963,18 @@ a.shipping-calculator-button:hover{
     top: 0;
 }
 .pointer__tooltip{
-  width: 35px;
-  height: 35px;
-  border-radius: 100%;
-  border: 5px solid #fff;
+  width: 45px;
+  height: 45px;
+ 
   background-color:transparent;
+
   position: relative;
   display: inline-block;
   text-align: center;
   cursor: pointer;
 }
 .pointer__tooltip:before{
-  
+  content: "\f129";
   position: absolute;
   left: 50%;
   top: 50%;
