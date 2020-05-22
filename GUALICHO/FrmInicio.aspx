@@ -132,6 +132,23 @@
         background: transparent none repeat scroll 0 0;
         color: #AFB0B8;
     }
+
+
+    /*icono cerveza*/
+    .pointer__tooltip:before{
+  content: "\f0fc";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-family: FontAwesome;
+  color: #000;
+  font-size: 23px;
+  width: 100%;
+  height: 100%;
+}
+
 </style>
 
 <body>
@@ -270,12 +287,14 @@
                                                         </ul>
                                                     </li>
                                                     <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
-                                                    <li><a style="font-family: 'Poppins', sans-serif;"
+                                                    <li><a style="
+        font-family: 'Poppins', sans-serif;
+   "
                                                             href="frmContacto.aspx">CONTACTO</a></li>
                                                     <li style="display:none;" runat="server" visible="false"
                                                         id="MenuIniciarSesionMobile"><a style="color:#000;"
                                                             href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                                    <li style="display:none;" runat="server" visible="false"
+                                                    <li style="display: none;" runat="server" visible="false"
                                                         id="MenuCerrarSesionMobile"><a style="color:#000;" id="A2"
                                                             runat="server" onserverclick="CerrarSesion">SALIR</a></li>
                                                 </ul>
@@ -572,8 +591,8 @@
                                 <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
                             </div>
                             <div class="banner__info">
-                                <div style="border-color:transparent" class="pointer__tooltip pointer--3 align-left">
-                                    <img src="Imagenes/icono cerveza.png" />
+                                <div style="border-color:transparent;" class="pointer__tooltip pointer--3 align-left">
+                                    <%--<img src="Imagenes/icono cerveza blanco.png" "/>--%>
                                     <div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip1">
@@ -588,7 +607,7 @@
                                 </div>--%>
                                 
                                 <div style="border-color:transparent;" class="pointer__tooltip pointer--5 align-bottom">
-                                <img  src="Imagenes/icono cerveza.png" />
+                                <%--<img src="Imagenes/icono cerveza blanco.png" />--%>
                                     <div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip3">
@@ -602,7 +621,7 @@
                                     </div>
                                 </div>--%>
                                 <div style="border-color:transparent" class="pointer__tooltip pointer--7 align-top">
-                                    <img src="Imagenes/icono cerveza.png" />
+                                    <%--<img src="Imagenes/icono cerveza blanco.png" />--%>
                                     <div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip5">
