@@ -533,7 +533,8 @@
                                 <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
                             </div>
                             <div class="banner__info">
-                                <div class="pointer__tooltip pointer--3 align-left">
+                                <div style="border-color:transparent" class="pointer__tooltip pointer--3 align-left">
+                                    <img src="Imagenes/icono cerveza.png" />
                                     <div class="tooltip__box">
                                      
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip1"></p>
@@ -545,7 +546,9 @@
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip2"></p>
                                     </div>
                                 </div>--%>
-                                <div class="pointer__tooltip pointer--5 align-bottom">
+                                
+                                <div style="border-color:transparent;" class="pointer__tooltip pointer--5 align-bottom">
+                                <img  src="Imagenes/icono cerveza.png" />
                                     <div class="tooltip__box">
                                     
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip3"></p>
@@ -557,7 +560,8 @@
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip4"></p>
                                     </div>
                                 </div>--%>
-                                <div class="pointer__tooltip pointer--7 align-top">
+                                <div style="border-color:transparent" class="pointer__tooltip pointer--7 align-top">
+                                    <img src="Imagenes/icono cerveza.png" />
                                     <div class="tooltip__box">
                                     
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip5"></p>
