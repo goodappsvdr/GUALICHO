@@ -151,7 +151,9 @@
     <Content Include="Imagenes\checked.png" />
     <Content Include="Imagenes\copmaco.png" />
     <Content Include="Imagenes\favicon.png" />
+    <Content Include="Imagenes\fondowebgualicho.png" />
     <Content Include="Imagenes\gifbtn.gif" />
+    <Content Include="Imagenes\icono cerveza.png" />
     <Content Include="Imagenes\icono facebook trazo negro.png" />
     <Content Include="Imagenes\icono instagram trazo negro.png" />
     <Content Include="Imagenes\icono whatsapp trazo negro.png" />
@@ -159,6 +161,7 @@
     <Content Include="Imagenes\logo.png" />
     <Content Include="Imagenes\p1.jpg" />
     <Content Include="Imagenes\p2.jpg" />
+    <Content Include="Imagenes\PRUEBA2.png" />
     <Content Include="Imagenes\slider1.jpg" />
     <Content Include="Imagenes\slider2.jpg" />
     <Content Include="Imagenes\slider3.jpg" />

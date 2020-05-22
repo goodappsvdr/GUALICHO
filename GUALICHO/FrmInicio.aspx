@@ -573,7 +573,7 @@
                             </div>
                             <div class="banner__info">
                                 <div style="border-color:transparent" class="pointer__tooltip pointer--3 align-left">
-                                    <img src="Imagenes/icono cerveza.png" />
+                                    <img src="Imagenes/icono%20cerveza.png" />
                                     <div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip1">
@@ -588,7 +588,7 @@
                                 </div>--%>
                                 
                                 <div style="border-color:transparent;" class="pointer__tooltip pointer--5 align-bottom">
-                                <img  src="Imagenes/icono cerveza.png" />
+                                    <img src="Imagenes/icono%20cerveza.png" />
                                     <div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip3">
@@ -602,7 +602,7 @@
                                     </div>
                                 </div>--%>
                                 <div style="border-color:transparent" class="pointer__tooltip pointer--7 align-top">
-                                    <img src="Imagenes/icono cerveza.png" />
+                                    <img src="Imagenes/icono%20cerveza.png" />
                                     <div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip5">
@@ -739,15 +739,15 @@
         <!-- Start Footer Area -->
         <footer id="htc__footer">
             <!-- Start Footer Widget -->
-            <div class="footer__container bg__white">
+            <div style="background-image:url(Imagenes/PRUEBA2.png);background-repeat:no-repeat;background-size:100%; width:100%;" class="footer__container bg__white">
                 <div class="container">
                     <div class="row">
                         <!-- Start Single Footer Widget -->
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="footer">
-                                <h2 class="title__line--2">ABOUT US</h2>
-                                <div class="ft__details">
-                                    <p style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar
+                        <div  class="col-md-4 col-sm-6 col-xs-12">
+                            <div  class="footer" >
+                                <h2 class="title__line--2"></h2>
+                                <div  class="ft__details">
+                                    <p style="font-family: 'Poppins', sans-serif;color:white">Recordás cuando ibas a tu bar
                                         favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer
                                         aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la
                                         garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos
@@ -779,12 +779,12 @@
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12 xmt-40">
                             <div class="footer">
-                                <h2 class="title__line--2">information</h2>
+                                <h2 class="title__line--2"></h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list" style="font-family: 'Poppins', sans-serif;">
-                                        <li><a href="frminicio.aspx">Principal</a></li>
-                                        <li><a href="frmnosotros.aspx">La Fabrica</a></li>
-                                        <li><a href="frmContacto.aspx">Contacto</a></li>
+                                        <li><a style="color:white" href="frminicio.aspx">Principal</a></li>
+                                        <li><a style="color:white" href="frmnosotros.aspx">La Fabrica</a></li>
+                                        <li><a style="color:white" href="frmContacto.aspx">Contacto</a></li>
                                         <%--    <li><a href="#">Terms  & Condition</a></li>
                                         <li><a href="#">Manufactures</a></li>--%>
                                     </ul>
@@ -794,21 +794,21 @@
 
                         <div class="col-md-4 col-sm-6 col-xs-12 xmt-40 smt-40">
                             <div class="footer">
-                                <h2 class="title__line--2">NEWSLETTER </h2>
+                                <h2 class="title__line--2"> </h2>
                                 <div class="ft__inner">
                                     <div class="news__input">
                                         <span
-                                            style="font-family: 'Poppins', sans-serif; color: #a4a4a4;font-size: 16px; line-height: 22px;">Recibir
+                                            style="font-family: 'Poppins', sans-serif; color: white;font-size: 16px; line-height: 22px;">Recibir
                                             mas información</span>
                                         <br />
                                         <input type="text" id="TxtEmailContacto"
-                                            style="font-family: 'Poppins', sans-serif;" placeholder="Su email*">
+                                            style="font-family: 'Poppins', sans-serif; background-color:#fff" placeholder="Su email*">
                                         <div class="send__btn">
 
-                                            <button class="fr__btn" style="border:none;background-color:black"
+                                            <button class="fr__btn" style="border:none;background-color:#fff;color:#000"
                                                 onclick="EnviarEmailContacto()" id="btnEnviarEmailContacto"
                                                 type="button">Enviar</button>
-                                            <button class="fr__btn" style="border:none; display:none; "
+                                            <button class="fr__btn" style="border:none; display:none;background-color:#fff;color:#000 "
                                                 id="btnEnviarEmailContactoGif" type="button">Enviando<img
                                                     src="Imagenes/btngif.gif"
                                                     style="height:20px; margin-left:10px;" /></button>
