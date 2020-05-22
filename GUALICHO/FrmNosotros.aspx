@@ -389,7 +389,7 @@ El Saber Hacer, nuestras Recetas y nuestros estrictos Controles de Calidad, han 
                         <br /><br /><br />
                         <div class="row">
                             <center>
-                            <img src="http://lineadorada.com.ar/img/inicioHR.png"/>
+                            
                           <br />
                                 <br />
                                 
@@ -406,7 +406,7 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
                            <br />
                                 
                                 <br />
-                            <img src="http://lineadorada.com.ar/img/finHR.png"/>
+                           
                             </center>
                            
                             

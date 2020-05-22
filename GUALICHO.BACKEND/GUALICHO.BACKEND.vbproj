@@ -1732,6 +1732,7 @@
     <Content Include="assets\plugins\tinymce\skins\lightgray\fonts\tinymce.woff" />
     <Content Include="assets\plugins\toastr\toastr.js.map" />
     <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="My Project\PublishProfiles\FolderProfile1.pubxml" />
     <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
