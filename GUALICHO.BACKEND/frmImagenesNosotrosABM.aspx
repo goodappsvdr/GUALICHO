@@ -64,7 +64,7 @@ if it's not present, don't show loader */
           
      background:white;  
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  height:300px; 
+    height:300px; 
     width:100%; 
     max-width:300px; 
     border-radius:15px; 
