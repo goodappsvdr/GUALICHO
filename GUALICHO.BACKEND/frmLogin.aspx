@@ -28,13 +28,13 @@
     <script src="assets/js/modernizr.min.js"></script>
 
     <style>
-        .account-pages {
+    .account-pages {
     background: url("Imagenes/bg3.jpg") center;
     position: absolute;
     height: 100%;
     width: 100%;
     background-size: cover;
-}
+    }
     </style>
 
 </head>

@@ -130,8 +130,8 @@ Public Class FrmInicio
 
 
 
-            Dim Email_evento As String = "logistica.ideastdi@gmail.com"
-            Dim Pass_evento As String = "password.9"
+            Dim Email_evento As String = "administracion@hiercons.com.ar"
+            Dim Pass_evento As String = "Cl4r4c3lina"
 
             'Dim Email_evento_consulta As String = "emmabria28@gmail.com"
 
@@ -301,7 +301,6 @@ Public Class FrmInicio
 
     End Sub
 #End Region
-
 
 #Region "Banner"
     Public Sub cargarBanners()
