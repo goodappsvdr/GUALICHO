@@ -387,30 +387,39 @@
             </div>
         </div>
  
-        <footer id="htc__footer">
+       <footer id="htc__footer">
             <!-- Start Footer Widget -->
-            <div class="footer__container bg__white">
+            <div class="footer__container bg__white" style="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%">
                 <div class="container">
                     <div class="row">
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="footer">
-                                <h2 class="title__line--2">ABOUT US</h2>
+                                <h2 class="title__line--2"></h2>
                                 <div class="ft__details">
- <p   style="font-family: 'Poppins', sans-serif;">Recordás cuando ibas a tu bar favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
+                                    <p style="font-family: 'Poppins', sans-serif;color:#fff">Recordás cuando ibas a tu bar
+                                        favorito y pedías esa pinta de birra que tanto te gustaba? Recordás el primer
+                                        aroma que sentías cuando la llevabas a la boca? Y cuando la pasabas por la
+                                        garganta? Esa sensación de mezcla entre gusto y regusto? Todo eso lo pensamos
+                                        cada vez que armamos una receta. Disfruta cada trago. Hasta la birra!</p>
                                     <div class="ft__social__link">
                                         <ul class="social__link">
-                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i class="icon-social-twitter icons" style="color:#000;"></i></a></li>
+                                            <li style="display:none;"><a href="#" id="HrefTwitter" runat="server"><i
+                                                        class="icon-social-twitter icons" style="color:#000;"></i></a>
+                                            </li>
 
-                                             <li><a href="#" id="HrefFacebook" runat="server"><i><img style="width:33px; height:30px;"  src="imagenes/icono facebook gualicho.png" /></i></a></li>
+                                            <li><a href="#" id="HrefFacebook" runat="server"><i><img
+                                                            style="width:33px; height:30px;"
+                                                            src="imagenes/facebook.png" /></i></a></li>
 
-                                            <li><a href="#" id="HrefInstagram" runat="server"><i><img style="width:33px; height:30px"  src="imagenes/icono instagram gualicho.png" /></i></a></li>
+                                            <li><a href="#" id="HrefInstagram" runat="server"><i><img
+                                                            style="width:33px; height:30px"
+                                                            src="imagenes/instagram.png" /></i></a></li>
 
-                                            <li><a href="#" id="HrefWhatsapp" runat="server"><i><img style="width:33px; height:30px"  src="imagenes/icono whatsapp gualicho.png" /></i></a></li>
+                                            <li><a href="#" id="HrefWhatsapp" runat="server"><i><img
+                                                            style="width:33px; height:30px"
+                                                            src="imagenes/whatsapp.png" /></i></a></li>
 
-                                             
-
-                                             
                                         </ul>
                                     </div>
                                 </div>
@@ -420,67 +429,49 @@
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12 xmt-40">
                             <div class="footer">
-                                <h2 class="title__line--2">information</h2>
+                                <h2 class="title__line--2"></h2>
                                 <div class="ft__inner">
-                                    <ul class="ft__list"  style="font-family: 'Poppins', sans-serif;">
-                                        <li><a href="frminicio.aspx">Principal</a></li>
-                                        <li><a href="frmnosotros.aspx">La Fabrica</a></li>
-                                        <li><a href="frmContacto.aspx">Contacto</a></li>
-                                    <%--    <li><a href="#">Terms  & Condition</a></li>
+                                    <ul class="ft__list" style="font-family: 'Poppins', sans-serif;">
+                                        <li><a style="color:#fff" href="frminicio.aspx">Principal</a></li>
+                                        <li><a style="color:#fff" href="frmnosotros.aspx">La Fabrica</a></li>
+                                        <li><a style="color:#fff" href="frmContacto.aspx">Contacto</a></li>
+                                        <%--    <li><a href="#">Terms  & Condition</a></li>
                                         <li><a href="#">Manufactures</a></li>--%>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <%--<div class="col-md-2 col-sm-6 col-xs-12 xmt-40 smt-40">
-                            <div class="footer">
-                                <h2 class="title__line--2">my account</h2>
-                                <div class="ft__inner">
-                                    <ul class="ft__list">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="cart.html">My Cart</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>--%>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
-                        <%--<div class="col-md-2 col-sm-6 col-xs-12 xmt-40 smt-40">
-                            <div class="footer">
-                                <h2 class="title__line--2">Our service</h2>
-                                <div class="ft__inner">
-                                    <ul class="ft__list">
-                                        <li><a href="#">My Account</a></li>
-                                        <li><a href="cart.html">My Cart</a></li>
-                                        <li><a href="#">Login</a></li>
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>--%>
-                        <!-- End Single Footer Widget -->
-                        <!-- Start Single Footer Widget -->
+
                         <div class="col-md-4 col-sm-6 col-xs-12 xmt-40 smt-40">
                             <div class="footer">
-                                <h2 class="title__line--2">NEWSLETTER </h2>
+                                <h2 class="title__line--2"> </h2>
                                 <div class="ft__inner">
                                     <div class="news__input">
-                                        <input type="text" style="font-family: 'Poppins', sans-serif;"  placeholder="Su email*">
+                                        <span
+                                            style="font-family: 'Poppins', sans-serif; color: #fff;font-size: 16px; line-height: 22px;">Recibir
+                                            mas información</span>
+                                        <br />
+                                        <input type="text" id="TxtEmailContacto"
+                                            style="font-family: 'Poppins', sans-serif;background-color:#fff" placeholder="Su email*">
                                         <div class="send__btn">
-                                            <a class="fr__btn" href="#">Enviar</a>
+
+                                            <button class="fr__btn" style="border:none;background-color:#fff;color:#000"
+                                                onclick="EnviarEmailContacto()" id="btnEnviarEmailContacto"
+                                                type="button">Enviar</button>
+                                            <button class="fr__btn" style="border:none; display:none;background-color:#fff;color:#000 "
+                                                id="btnEnviarEmailContactoGif" type="button">Enviando<img
+                                                    src="Imagenes/btngif.gif"
+                                                    style="height:20px; margin-left:10px;" /></button>
+
+
+
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Footer Widget -->
+
                     </div>
                 </div>
             </div>
@@ -491,8 +482,11 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="copyright__inner">
-                                <p style="font-family: 'Poppins', sans-serif;">Copyright© <a style="color:white" href="https://www.goodapps.com.ar/">GoodApps</a> 2019-2020. Todos los derechos reservados.</p>
-                                <a style="display:none;" href="#"><img src="images/others/shape/paypol.png" alt="payment images"></a>
+                                <p style="font-family: 'Poppins', sans-serif;">Copyright© <a style="color:#AFB0B8;"
+                                        href="https://www.goodapps.com.ar/">GoodApps</a> 2019-2020. Todos los derechos
+                                    reservados.</p>
+                                <a style="display:none;" href="#"><img src="images/others/shape/paypol.png"
+                                        alt="payment images"></a>
                             </div>
                         </div>
                     </div>
