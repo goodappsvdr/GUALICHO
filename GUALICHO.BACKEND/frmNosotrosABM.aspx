@@ -346,10 +346,10 @@ background-color:rgba(0, 0, 0, 0.5);
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Nosotros</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fabrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="FrmNosotros.aspx">Editar Nosotros</a></li>
+                                <li><a href="FrmNosotros.aspx">Editar Fabrica</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"

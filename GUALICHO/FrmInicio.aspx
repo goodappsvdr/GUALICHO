@@ -590,7 +590,7 @@
                                 <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
                             </div>
                             <div class="banner__info">
-                                <div style="border-color:transparent;" class="pointer__tooltip pointer--3 align-left">
+                                <div style="border-color:transparent; left:20px;" class="pointer__tooltip pointer--3 align-left">
                                     <%--<img src="Imagenes/icono cerveza blanco.png" "/>--%>
                                     <div class="tooltip__box">
 
@@ -619,7 +619,7 @@
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip4"></p>
                                     </div>
                                 </div>--%>
-                                <div style="border-color:transparent" class="pointer__tooltip pointer--7 align-top">
+                                <div style="border-color:transparent; left:450px" class="pointer__tooltip pointer--7 align-top">
                                     <%--<img src="Imagenes/icono cerveza blanco.png" />--%>
                                     <div class="tooltip__box">
 

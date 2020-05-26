@@ -244,10 +244,10 @@ if it's not present, don't show loader */
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Nosotros</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fabrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmNosotrosABM.aspx">Editar Nosotros</a></li>
+                                <li><a href="frmNosotrosABM.aspx">Editar Fabrica</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
@@ -380,7 +380,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">NOSOTROS</span>
+                                            <span style="font-size: 17px; color: White; font-weight: bold;">LA FABRICA</span>
                                             <br />
                                             <br />
                                             <img src="Imagenes/history.png" style="height: 60px;" />
