@@ -70,7 +70,7 @@ Public Class frmImagenesNosotrosABM
 
         If oDs.Tables(0).Rows.Count > 0 Then
             ImgBanner.Visible = True
-            lblTitulo.InnerText = "EDITAR IMÁGENES DE LA FABRICA"
+            lblTitulo.InnerText = "EDITAR IMÁGENES DE LA FÁBRICA"
             HfID_ImagenesNosotros.Value = oDs.Tables(0).Rows(0).Item("ID_ImagenNosotros")
 
             ImgBanner.Src = oDs.Tables(0).Rows(0).Item("Imagen").ToString()
@@ -78,7 +78,7 @@ Public Class frmImagenesNosotrosABM
 
             chkActivo.Checked = oDs.Tables(0).Rows(0).Item("Activo")
         Else
-            lblTitulo.InnerText = "NUEVO IMÁGENES DE LA FABRICA"
+            lblTitulo.InnerText = "NUEVO IMÁGENES DE LA FÁBRICA"
             chkActivo.Checked = True
         End If
 
@@ -114,7 +114,7 @@ Public Class frmImagenesNosotrosABM
         oDs = oObjeto.Modificar(HfID_ImagenesNosotros.Value, chkActivo.Checked)
 
         Dim tituloStatus As String
-        tituloStatus = "IMÁGEN DE LA FABRICA MODIFICADA EXITOSAMENTE"
+        tituloStatus = "IMÁGEN DE LA FÁBRICA MODIFICADA EXITOSAMENTE"
 
         Session.Add("status", 1)
 
@@ -143,7 +143,7 @@ Public Class frmImagenesNosotrosABM
         oDs = oObjeto.ModificarImagen(HfID_ImagenesNosotros.Value, urlImagen)
 
         Dim tituloStatus As String
-        tituloStatus = "IMÁGEN DE LA FABRICA MODIFICADA EXITOSAMENTE"
+        tituloStatus = "IMÁGEN DE LA FÁBRICA MODIFICADA EXITOSAMENTE"
 
         Session.Add("status", 1)
 
@@ -181,7 +181,7 @@ Public Class frmImagenesNosotrosABM
 
 
             Dim tituloStatus As String
-            tituloStatus = "IMÁGEN DE LA FABRICA AGREGADA EXITOSAMENTE"
+            tituloStatus = "IMÁGEN DE LA FÁBRICA AGREGADA EXITOSAMENTE"
 
             Session.Add("status", 1)
 

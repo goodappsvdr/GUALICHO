@@ -162,10 +162,10 @@ if it's not present, don't show loader */
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>La Fabrica</span><span
+                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>La Fábrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="FrmNosotros.aspx">Editar Fabrica</a></li>
+                                <li><a href="FrmNosotros.aspx">Editar Fábrica</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
@@ -281,7 +281,7 @@ if it's not present, don't show loader */
                             <div class="card-box table-responsive">
                          
                                 <h4 class="header-title m-t-0 m-b-30">
-                                    IMÁGENES DE LA FABRICA</h4>
+                                    IMÁGENES DE LA FÁBRICA</h4>
                                 
                                 <table id="datatable" class="table table-striped table-bordered" style="cursor:pointer;">
                                     <thead>
