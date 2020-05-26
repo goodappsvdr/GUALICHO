@@ -273,7 +273,7 @@
                                                     <li><a style="font-family: 'Poppins', sans-serif;"
                                                             href="frmInicio.aspx">PRINCIPAL</a></li>
                                                     <li><a style="font-family: 'Poppins', sans-serif;"
-                                                            href="frmNosotros.aspx">NOSOTROS</a></li>
+                                                            href="frmNosotros.aspx">LA FABRICA</a></li>
                                                     <li><a style="font-family: 'Poppins', sans-serif;"
                                                             href="#">RUBROS</a>
                                                         <ul>
@@ -756,14 +756,14 @@
         <!-- End Blog Area -->
         <!-- End Banner Area -->
         <!-- Start Footer Area -->
-        <footer id="htc__footer">
+        <footer id="htc__footer" style="background-color:#000">
             <!-- Start Footer Widget -->
-            <div class="footer__container bg__white" style="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%">
+            <div class="footer__container bg__black" background-color:#000 style ="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%; background-repeat:no-repeat">
                 <div class="container">
-                    <div class="row">
+                    <div class="row" style="background-color:#000">
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="footer">
+                            <div class="footer" >
                                 <h2 class="title__line--2"></h2>
                                 <div class="ft__details">
                                     <p style="font-family: 'Poppins', sans-serif;color:#fff">Recordás cuando ibas a tu bar
