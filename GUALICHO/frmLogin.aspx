@@ -228,7 +228,7 @@
                                         <ul>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">PRINCIPAL</a></li>
                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">LA FABRICA</a></li>
-                                            <li><a style="font-family: 'Poppins', sans-serif;" href="#">RUBROS</a>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="#">PRODUCTOS</a>
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
