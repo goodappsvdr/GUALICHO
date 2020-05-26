@@ -143,7 +143,7 @@
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
                                         <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
-                                             <li class="drop"><a href="frmNosotros.aspx">La Fábrica</a></li>
+                                             <li class="drop"><a href="frmNosotros.aspx">LA FÁBRICA</a></li>
                                        <%-- <li class="drop"><a href="#">women</a>--%>
                                           
                                             
@@ -222,7 +222,7 @@
                                     <nav id="mobile_dropdown">
                                         <ul>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">PRINCIPAL</a></li>
-                                           <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">La Fábrica</a></li>
+                                           <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">LA FÁBRICA</a></li>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="#">PRODUCTOS</a>
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
@@ -432,7 +432,10 @@
                                                 <div class="fr__product__inner" >
                                                     <h4><a href="<%# Eval("url")%>" style="font-family: 'Poppins', sans-serif; font-weight:lighter; "><%# Eval("producto")%></a></h4>
                                         <ul class="fr__pro__prize">
-                                            <li style="font-family: 'Poppins', sans-serif; color:#000; font-weight:700;">CONSULTAR</li>
+                                           <li style="font-family: 'Poppins', sans-serif;
+                                                    color: black;
+                                                    font-weight: 700;
+                                            "><%# Eval("precio")%></li>
                                           <span style="display:none" class="badge badge-info <%# Eval("marcas").ToString.ToLower%>"><%# Eval("marcas").ToString.ToLower%></span>
                                         </ul>
                                                     
@@ -772,7 +775,7 @@
                                 <div class="ft__inner">
                                     <ul class="ft__list" style="font-family: 'Poppins', sans-serif;">
                                         <li><a style="color:#fff" href="frminicio.aspx">Principal</a></li>
-                                        <li><a style="color:#fff" href="frmnosotros.aspx">La Fábrica</a></li>
+                                        <li><a style="color:#fff" href="frmnosotros.aspx">LA FÁBRICA</a></li>
                                         <li><a style="color:#fff" href="frmContacto.aspx">Contacto</a></li>
                                         <%--    <li><a href="#">Terms  & Condition</a></li>
                                         <li><a href="#">Manufactures</a></li>--%>
