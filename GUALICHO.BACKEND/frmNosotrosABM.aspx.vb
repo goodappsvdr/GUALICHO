@@ -65,7 +65,7 @@ Public Class frmNosotrosABM
 
 
 
-        lblTitulo.InnerText = "EDITAR LA FABRICA"
+        lblTitulo.InnerText = "EDITAR LA FÁBRICA"
 
         TxtTitulo.Text = oDs.Tables(0).Rows(0).Item("titulo").ToString
         TxtDescripcionPrinicipal.Text = oDs.Tables(0).Rows(0).Item("DescripcionPrincipal").ToString
@@ -90,7 +90,7 @@ Public Class frmNosotrosABM
 
 
             Dim tituloStatus As String
-            tituloStatus = "LA FABRICA MODIFICADO EXITOSAMENTE"
+            tituloStatus = "LA FÁBRICA MODIFICADO EXITOSAMENTE"
 
             Session.Add("status", 1)
 
@@ -126,7 +126,7 @@ Public Class frmNosotrosABM
         oDs = oObjeto.ModificarImagen(urlImagen)
 
         Dim tituloStatus As String
-        tituloStatus = "LA FABRICA MODIFICADO EXITOSAMENTE"
+        tituloStatus = "LA FÁBRICA MODIFICADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 
