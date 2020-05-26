@@ -244,12 +244,13 @@ if it's not present, don't show loader */
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>LA FÁBRICA</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fábrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmNosotrosABM.aspx">Editar Fabrica</a></li>
+                                <li><a href="frmNosotrosABM.aspx">Editar Fábrica</a></li>
                             </ul>
                         </li>
+
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
                                 class="menu-arrow"></span></a>
@@ -258,7 +259,6 @@ if it's not present, don't show loader */
                                 <li><a href="frmServicios.aspx">Editar Servicio</a></li>
                             </ul>
                         </li>
-
 
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
@@ -278,8 +278,6 @@ if it's not present, don't show loader */
                             </ul>
                         </li>
 
-
-
                         <li id="men_Marcas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
                                 class="menu-arrow"></span></a>
@@ -288,6 +286,7 @@ if it's not present, don't show loader */
                                 <li><a href="frmMarcas.aspx">Editar Marcas</a></li>
                             </ul>
                         </li>
+
                         <li id="men_Rubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
                                 class="menu-arrow"></span></a>
@@ -296,6 +295,7 @@ if it's not present, don't show loader */
                                 <li><a href="frmRubros.aspx">Editar Rubros</a></li>
                             </ul>
                         </li>
+
                         <li id="men_SubRubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
                                 class="menu-arrow"></span></a>
@@ -304,6 +304,7 @@ if it's not present, don't show loader */
                                 <li><a href="frmSubRubros.aspx">Editar SubRubros</a></li>
                             </ul>
                         </li>
+
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
@@ -311,6 +312,7 @@ if it's not present, don't show loader */
                                 <li><a href="frmItems.aspx">Editar Items</a></li>
                             </ul>
                         </li>
+
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
                                 class="menu-arrow"></span></a>
@@ -318,15 +320,17 @@ if it's not present, don't show loader */
                                 <li><a href="frmItemImagenes.aspx">Agregar Imágenes</a></li>
                             </ul>
                         </li>
+
                         <li id="men_Consultas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
+                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmConsultas.aspx">Ver Consultas</a></li>
                             </ul>
                         </li>
-                         <li id="men_Contacto" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
+
+                        <li id="men_Contacto" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
+                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmContactoABM.aspx">Ver Contacto</a></li>
@@ -370,7 +374,7 @@ if it's not present, don't show loader */
                                             <span style="font-size: 17px; color: White; font-weight: bold;">QUIENES SOMOS</span>
                                             <br />
                                             <br />
-                                            <img src="Imagenes/home.png" style="height: 60px;" />
+                                            <img src="Imagenes/quienes somos.png" style="height: 60px";/>
                                         </center></div>
                                     </div>
                                 </a>
