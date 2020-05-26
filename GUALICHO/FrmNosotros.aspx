@@ -390,8 +390,7 @@ El Saber Hacer, nuestras Recetas y nuestros estrictos Controles de Calidad, han 
                         <div class="row">
                             <center>
                             
-                          <br />
-                                <br />
+                         
                                 
                                                <span id="TxtDescripcion2" runat="server" style="color:black;font-family: 'Poppins', sans-serif; ">
                                     Elaboramos quesos que hacen los momentos más especiales de todas las ocasiones.
@@ -403,9 +402,7 @@ Elaborados con dedicación artesana, pero también con la garantía y posibilida
 El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dorada una empresa orientada a conseguir el máximo nivel calidad. Un compromiso que se materializa en nuestras certificaciones de calidad que se aplican en cada fase del proceso de producción para garantizar la excelencia en cada uno de nuestros productos.
 
 </span>
-                           <br />
-                                
-                                <br />
+                          
                            
                             </center>
                            
@@ -415,7 +412,7 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
 
                         </div>
                         
-                                 <br /><br /><br />
+                                
                             <div class="row">
 
                                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
