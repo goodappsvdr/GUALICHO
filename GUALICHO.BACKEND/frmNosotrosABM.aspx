@@ -44,7 +44,7 @@ if it's not present, don't show loader */
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(https://gifimage.net/wp-content/uploads/2018/04/loading-gif-orange-8.gif) center no-repeat #fff;
+	background: url(https://gifimage.net/wp-content/uploads/2018/11/loading-gif-white-3.gif) center no-repeat #fff;
 	 background-size:100px 100px;
 }
     
@@ -345,6 +345,7 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
 
+
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fabrica</span><span
                                 class="menu-arrow"></span></a>
@@ -352,6 +353,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                 <li><a href="FrmNosotros.aspx">Editar Fabrica</a></li>
                             </ul>
                         </li>
+
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
                                 class="menu-arrow"></span></a>
