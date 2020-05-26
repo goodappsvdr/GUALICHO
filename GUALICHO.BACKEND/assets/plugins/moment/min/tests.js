@@ -34364,7 +34364,7 @@
     test('calendar with custom formats', function (assert) {
         assert.equal(moment().calendar(null, {sameDay: '[Today]'}), 'Today', 'Today');
         assert.equal(moment().add(1, 'days').calendar(null, {nextDay: '[Tomorrow]'}), 'Tomorrow', 'Tomorrow');
-        assert.equal(moment([1985, 1, 4]).calendar(null, {sameElse: 'YYYY-MM-DD'}), '1985-02-04', 'Else');
+        assert.equal(moment([1985, 1, 4]).calendar(null, {sameElse: 'YYYY-MM-DD'}), '1985-02-04', Else');
     });
 
     test('invalid', function (assert) {
