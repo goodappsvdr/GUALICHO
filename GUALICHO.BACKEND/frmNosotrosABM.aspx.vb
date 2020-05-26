@@ -65,7 +65,7 @@ Public Class frmNosotrosABM
 
 
 
-        lblTitulo.InnerText = "EDITAR NOSOTROS"
+        lblTitulo.InnerText = "EDITAR LA FABRICA"
 
         TxtTitulo.Text = oDs.Tables(0).Rows(0).Item("titulo").ToString
         TxtDescripcionPrinicipal.Text = oDs.Tables(0).Rows(0).Item("DescripcionPrincipal").ToString
@@ -90,7 +90,7 @@ Public Class frmNosotrosABM
 
 
             Dim tituloStatus As String
-            tituloStatus = "NOSOTROS SOMOS MODIFICADO EXITOSAMENTE"
+            tituloStatus = "LA FABRICA MODIFICADO EXITOSAMENTE"
 
             Session.Add("status", 1)
 
@@ -99,7 +99,7 @@ Public Class frmNosotrosABM
 
 
         ElseIf TxtTitulo.Text = "" Then
-            lblError.Text = "INGRESE UNA TÍTULO"
+            lblError.Text = "INGRESE UN TÍTULO"
 
         End If
     End Sub
@@ -126,7 +126,7 @@ Public Class frmNosotrosABM
         oDs = oObjeto.ModificarImagen(urlImagen)
 
         Dim tituloStatus As String
-        tituloStatus = "NOSOTROS MODIFICADO EXITOSAMENTE"
+        tituloStatus = "LA FABRICA MODIFICADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 

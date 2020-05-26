@@ -70,7 +70,7 @@ if it's not present, don't show loader */
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(https://gifimage.net/wp-content/uploads/2018/04/loading-gif-orange-8.gif) center no-repeat #fff;
+	background: url(https://gifimage.net/wp-content/uploads/2018/11/loading-gif-white-3.gif) center no-repeat #fff;
 	 background-size:100px 100px;
 }
    
