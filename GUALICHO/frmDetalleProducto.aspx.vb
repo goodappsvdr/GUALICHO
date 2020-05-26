@@ -516,7 +516,6 @@ Public Class frmDetalleProducto
 
 
 #End Region
-
 #Region "RedesSociales"
     Public Sub CargarContactos()
         Dim ods As New DataSet
@@ -555,7 +554,6 @@ Public Class frmDetalleProducto
         Else
             HrefInstagram.Visible = False
         End If
-
 
     End Sub
 #End Region

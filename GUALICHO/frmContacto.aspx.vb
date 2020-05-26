@@ -133,7 +133,7 @@ Public Class frmContacto
         Dim oObjeto As New Contactos
         ods = oObjeto.BuscarTodos
 
-      Dim twitter As String = ""
+        Dim twitter As String = ""
         Dim instagram As String = ods.Tables(0).Rows(0).Item("Url").ToString
         Dim facebook As String = ods.Tables(0).Rows(1).Item("Url").ToString
         Dim whatsapp As String = ods.Tables(0).Rows(2).Item("Url").ToString
@@ -165,7 +165,6 @@ Public Class frmContacto
         Else
             HrefInstagram.Visible = False
         End If
-
 
     End Sub
 #End Region
