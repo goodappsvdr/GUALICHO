@@ -605,7 +605,7 @@ span.round-tab:hover {
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmConsultas.aspx">Ver Contacto</a></li>
+                                <li><a href="frmContactoABM.aspx">Ver Contacto</a></li>
                             </ul>
                         </li>
 
