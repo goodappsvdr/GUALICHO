@@ -374,7 +374,7 @@ if it's not present, don't show loader */
                                             <span style="font-size: 17px; color: White; font-weight: bold;">QUIENES SOMOS</span>
                                             <br />
                                             <br />
-                                            <img src="Imagenes/quienes somos.png" style="height: 60px";/>
+                                            <img src="Imagenes/home.png" style="height: 60px";/>
                                         </center></div>
                                     </div>
                                 </a>
