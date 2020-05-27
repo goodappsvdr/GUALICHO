@@ -232,7 +232,7 @@ if it's not present, don't show loader */
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fábrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmNosotros.aspx">Editar Fábrica</a></li>
+                                <li><a href="frmNosotrosABM.aspx">Editar Fábrica</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
