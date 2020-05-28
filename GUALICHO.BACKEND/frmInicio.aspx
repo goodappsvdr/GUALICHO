@@ -366,28 +366,25 @@ if it's not present, don't show loader */
 
 
                         <div class="row">
+
                              <div class="col-md-3">
                                 <a href="FrmQuienesSomos.aspx">
-                                    <div class="wrap" style="background:#000">
+                                    <div class="wrap" style="background:#000;">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">QUIENES SOMOS</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/home.png" style="height: 60px";/>
+                                            
+                                            <img src="Imagenes/quienes somos.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
                             </div>
+
                             <div class="col-md-3">
                                 <a href="frmNosotrosABM.aspx">
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">LA FÁBRICA</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/history.png" style="height: 60px;" />
+                                            <img src="Imagenes/LaFabrica.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
