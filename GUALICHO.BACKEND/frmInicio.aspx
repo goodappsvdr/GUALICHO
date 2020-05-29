@@ -482,7 +482,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Consultas.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/Consultass.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
