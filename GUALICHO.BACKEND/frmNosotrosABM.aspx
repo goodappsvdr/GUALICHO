@@ -236,6 +236,7 @@ background-color:rgba(0, 0, 0, 0.5);
   color: #fff !important;
 }
       
+
       
 </style>
 <body class="fixed-left">
