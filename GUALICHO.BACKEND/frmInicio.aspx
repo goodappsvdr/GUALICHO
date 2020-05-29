@@ -261,11 +261,11 @@ if it's not present, don't show loader */
                         </li>
 
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Portada</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmBannersABM.aspx">Nuevo Slider</a></li>
-                                <li><a href="frmBanners.aspx">Editar Sliders</a></li>
+                                <li><a href="frmBannersABM.aspx">Nueva Portada</a></li>
+                                <li><a href="frmBanners.aspx">Editar Portada</a></li>
                             </ul>
                         </li>
 
@@ -282,7 +282,7 @@ if it's not present, don't show loader */
                             class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmMarcasABM.aspx">Nueva marca</a></li>
+                                <li><a href="frmMarcasABM.aspx">Nueva Marca</a></li>
                                 <li><a href="frmMarcas.aspx">Editar Marcas</a></li>
                             </ul>
                         </li>
@@ -306,18 +306,18 @@ if it's not present, don't show loader */
                         </li>
 
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Productos</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmItemsABM.aspx">Nuevo Item</a></li>
-                                <li><a href="frmItems.aspx">Editar Items</a></li>
+                                <li><a href="frmItemsABM.aspx">Nuevo Producto</a></li>
+                                <li><a href="frmItems.aspx">Editar Producto</a></li>
                             </ul>
                         </li>
 
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes de Productos</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmItemImagenes.aspx">Agregar Imágenes</a></li>
+                                <li><a href="frmItemImagenes.aspx">Agregar Imágenes de Prdocutos</a></li>
                             </ul>
                         </li>
 
@@ -395,10 +395,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">NUEVO SLIDER</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/banner.png" style="height: 60px;" />
+                                            <img src="Imagenes/Portada.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -410,28 +407,22 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">AGREGAR SPONSOR</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/sponsors.png" style="height: 60px;" />
+                                            <img src="Imagenes/Sponsor.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
                             
                            
                         </div>
+
                         <div class="row">
 
-                            
                             <div class="col-md-3">
                                 <a href="frmMarcasABM.aspx">
                                     <div class="wrap" style="background:#000">
                                       <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">NUEVA MARCA</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/Marca.png" style="height: 60px;" />
+                                            <img src="Imagenes/MarcaP.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -442,10 +433,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">NUEVO RUBRO</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/rubros.png" style="height: 60px;" />
+                                            <img src="Imagenes/Rubro.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -456,10 +444,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">NUEVO SUB RUBRO</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/subrubros.png" style="height: 60px;" />
+                                            <img src="Imagenes/SubRubro.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -470,10 +455,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">ITEMS</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/item.png" style="height: 60px;" />
+                                            <img src="Imagenes/Productos.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -488,10 +470,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">AGREGAR IMÁGEN</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/addimg.png" style="height: 60px;" />
+                                            <img src="Imagenes/ImagenProducto.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -503,10 +482,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">CONSULTAS</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/consultas.png" style="height: 60px;" />
+                                            <img src="Imagenes/Consultas.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -517,10 +493,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <span style="font-size: 17px; color: White; font-weight: bold;">CONTACTO</span>
-                                            <br />
-                                            <br />
-                                            <img src="Imagenes/contact.png" style="height: 60px;" />
+                                            <img src="Imagenes/Contacto.png" style="height: 20%; width:60%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
