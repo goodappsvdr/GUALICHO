@@ -95,8 +95,8 @@ Public Class frmBusquedaItems
             MenuCerrarSesionMobile.Visible = True
             ' MenuMisConsultasMobile.Visible = True
 
-
         Else
+
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False

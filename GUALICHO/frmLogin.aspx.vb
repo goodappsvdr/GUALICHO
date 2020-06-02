@@ -262,16 +262,16 @@ Public Class frmLogin
 
 
 
-        Dim Email_evento As String = "gualichocerveceria@yahoo.com"
-        Dim Pass_evento As String = "Rock2356"
+        Dim Email_evento As String = "logistica.ideastdi@gmail.com"
+        Dim Pass_evento As String = "password.9"
 
 
 
 
-        Dim Desde As New MailAddress(Email_evento, "HIERCONS")
+        Dim Desde As New MailAddress(Email_evento, "GUALICHO")
 
         Dim destinatarios As String = emailCliente
-        Dim msg As New MailMessage(Desde.ToString, destinatarios, "Recupero de Contraseña", "Nueva contraseña: " + vbCrLf + NuevoPass + vbCrLf + "HIERCONS")
+        Dim msg As New MailMessage(Desde.ToString, destinatarios, "Recupero de Contraseña", "Nueva contraseña: " + vbCrLf + NuevoPass + vbCrLf + "GUALICHO")
 
         Dim smptHost As String
         smptHost = "smtp.gmail.com"

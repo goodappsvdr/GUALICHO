@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frmDetalleProducto
+Partial Public Class frmDetalleProductoOld
 
     '''<summary>
     '''Control imagenRedesSociales.

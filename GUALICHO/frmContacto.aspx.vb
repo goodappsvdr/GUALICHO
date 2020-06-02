@@ -52,7 +52,7 @@ Public Class frmContacto
         TxtEmail.InnerText = Email
         TxtTelefono.InnerText = Telefono
 
-        IframeMapa.Attributes("src") = Mapa
+        IframeMapa.Src = Mapa
     End Sub
 #End Region
 

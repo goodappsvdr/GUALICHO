@@ -3,10 +3,11 @@ Imports System.Web.Script.Serialization
 Imports System.Web.Script.Services
 Imports System.Web.Services
 Imports GUALICHO.AD
-Public Class frmDetalleProducto
+Public Class frmDetalleProductoOld
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Main()
 
         If Page.IsPostBack = False Then
             ValidarMenu()
@@ -909,4 +910,5 @@ Public Class frmDetalleProducto
 
     End Sub
 #End Region
+
 End Class

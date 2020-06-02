@@ -64,14 +64,17 @@
   transition: all 0.3s ease 0s;
   width: 45px;
   z-index: 200;
+  display:none !important;
 }
-#scrollUp:hover {
-}
+    #scrollUp:hover {
+        display: none !important;
+    }
 
 @-webkit-keyframes scroll-ani-to-top {
   0% {
     opacity: 0;
     bottom: 0;
+
   }
   50% {
     opacity: 1;
@@ -97,20 +100,23 @@
   }
 }
 #scrollUp:hover i {
-  -webkit-animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
-          animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
-  height: 100%;
-  left: 0;
-  margin-bottom: -25px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+    -webkit-animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
+    animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
+    height: 100%;
+    left: 0;
+    margin-bottom: -25px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: none !important;
 }
 #scrollUp i {
-  color: #fff;
+    color: #fff;
+    display: none !important;
 }
- #scrollUp {
-  background: black none repeat scroll 0 0;
+#scrollUp {
+    background: black none repeat scroll 0 0;
+    display: none !important;
 }
 
 .drop :hover{

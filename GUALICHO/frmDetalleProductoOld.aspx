@@ -1,11 +1,12 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProducto.aspx.vb" Inherits="GUALICHO.frmDetalleProducto" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProductoOld.aspx.vb" Inherits="GUALICHO.frmDetalleProductoOld" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html class="no-js" lang="zxx">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>.:: GUALICHO ::.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>.:: GUALICHO ::.</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -18,8 +19,6 @@
       <meta property="og:image"  runat="server" id="imagenRedesSociales"  content="" >
      <meta property="og:description" runat="server" id="DescripcionRedesSociales" content="">
 
-
-    
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Owl Carousel min css -->
@@ -40,292 +39,283 @@
 
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+    
+
+
 </head>
-<style>
-    .BtnBusquedaClase {
-        background: white none repeat scroll 0 0;
-        border: 0 none;
-        border-radius: 0;
-        cursor: pointer;
-        height: 60px;
-        line-height: 60px;
-        position: absolute;
-        right: 40px;
-        top: 0;
-        margin-top: 50px;
-        margin-right: -38px;
-        width: 60px;
-        transition: 0.3s;
-    }
+    <style>
+        
+            .BtnBusquedaClase {
+            background: white none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    right: 40px;
+    top: 0;
+   margin-top: 50px;
+    margin-right: -38px;
+    width: 60px;
+    transition: 0.3s;
+        }
 
 
         .BtnBusquedaClase:hover::before {
-            color: #fff;
-            background: #000;
-        }
+    color: #fff;
+    background:#000;
 
-        .BtnBusquedaClase::before {
-            color: #333;
-            content: "";
-            display: block;
-            font-family: Material-Design-Iconic-Font;
-            font-size: 29px;
-            transition: color 300ms ease 0s;
-        }
+}
+.BtnBusquedaClase::before {
+    color: #333;
+    content: "";
+    display: block;
+    font-family: Material-Design-Iconic-Font;
+    font-size: 29px;
+    transition: color 300ms ease 0s;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
 
-    *:before, *:after {
-        box-sizing: border-box;
-    }
 
-
-    .MenuWebNuevo {
+         .MenuWebNuevo {
         padding: 20px 0px 20px 0px;
-    }
-
-
-    @media only screen and (min-width: 0px) and (max-width:800px) {
-
-
-        .MenuWebNuevo {
-            padding: 0px 0px 0px 0px;
         }
-    }
 
-    .main__menu > li:hover > a {
+          
+       @media only screen and (min-width: 0px) and (max-width:800px) {  
+                    
+       
+         .MenuWebNuevo {
+        padding: 0px 0px 0px 0px;
+        }
+       
+       }
+
+       .main__menu > li:hover > a {
         color: #AFB0B8;
-    }
-
-    .main__menu li.drop ul.dropdown li:hover > a {
+        }
+        .main__menu li.drop ul.dropdown li:hover > a {
         background: #fafafa none repeat scroll 0 0;
         color: #AFB0B8;
-    }
-
-    .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
+        }
+        .main__menu li.drop ul.dropdown.mega_dropdown li:hover > a {
         background: transparent none repeat scroll 0 0;
         color: #AFB0B8;
-    }
+        }
 
-    .btnCarrito {
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        position: fixed;
-        bottom: 0;
-        right: 0;
+        .btnCarrito {
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        position:fixed; 
+        bottom:0;
+        right:0;  
         margin-bottom: 35px;
-        margin-right: 35px;
-        background: #1CA811;
-        border-radius: 50%;
-        border: 2px solid black;
-        height: 80px;
-        width: 80px;
-    }
-    .btnCarrito:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
+        margin-right: 35px; 
+        background:#1CA811;
+        border-radius:50%; 
+        border:2px solid black;
+        height:80px; 
+        width:80px;
+        }
+
+        
+*:focus {
+    outline:none !Important;
+}
+
+.btnCarrito:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+a.button-cart {
+ position:fixed; 
+        bottom:0;
+        right:0;  
+        margin-bottom: 35px;
+        margin-right: 35px; 
+	width: 168px;
+	height: 46px;
+	border-radius: 40px;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
+}
 
 
-    *:focus {
-        outline: none !Important;
-    }
+a.button-cart.active {
+    width: 178px;
+}
 
+a.button-cart:hover {
+	text-decoration: none;
+}
+
+.button-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 14px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);
+    -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+    transform-origin: bottom left;
+    overflow: hidden;
     
-    a.button-cart {
-         z-index:999999;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        margin-bottom: 35px;
-        margin-right: 35px;
-        width: 168px;
-        height: 46px;
-        border-radius: 40px;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-        transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
-    }
+    
+    background: rgba(61,252,255,1);
+    background: -moz-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(61,252,255,1)), color-stop(100%, rgba(175,255,211,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+    background: linear-gradient(135deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
+    transition: all .3s cubic-bezier(.7,0,.5,1.4);
+}
 
-
-        a.button-cart.active {
-            width: 178px;
-        }
-
-        a.button-cart:hover {
-            text-decoration: none;
-        }
-
-    .button-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border-radius: 14px;
-        z-index: 1;
-        box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
-        transform-origin: bottom left;
-        overflow: hidden;
-        background: rgba(61,252,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(61,252,255,1)), color-stop(100%, rgba(175,255,211,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: linear-gradient(135deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
-
-    .circle {
-        cursor: pointer !important;
-        position: absolute;
-        overflow: hidden;
-        z-index: 2;
-        top: -22px;
-        left: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 14px;
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
-        transform-origin: bottom left;
-        animation-delay: 0.2s;
-        box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);
-        background: rgba(229,201,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
-
-    .button-cart.active .circle {
-        -webkit-animation: moveUpDown 0.4s ease-in-out;
-        animation-iteration-count: 1;
-        cursor: pointer !important;
-    }
-
-    .icon-cart svg {
-        position: absolute;
-        width: 22px;
-        z-index: 3;
-        top: 14px;
-        left: 12px;
-        fill: #433746;
-        -webkit-animation: quickFadeIn 0.4s ease backwards;
-        animation-delay: 0.7s;
-        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.3s;
-        cursor: pointer !important;
-    }
-
-    .button-cart.active .icon-cart svg {
-        top: 60px;
-    }
-
-    .icon-checkmark svg {
-        position: absolute;
-        width: 22px;
-        height: 26px;
-        z-index: 3;
-        top: -30px;
-        left: 14px;
-        fill: #433746;
-        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.4s;
-    }
-
-    .button-cart.active .icon-checkmark svg {
-        top: 12px;
-    }
-
-    .text {
-        color: #221f25;
-        font-weight: 600;
-        font-size: 14px;
-    }
-
-    .text-before {
-        position: absolute;
-        left: 50px;
-        top: 13px;
-        z-index: 4;
-        -webkit-animation: quickFadeIn 0.4s ease-out backwards;
-        animation-delay: 0.6s;
-        transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.1s;
-    }
-
-    a.button-cart.active .text-before {
-        top: 80px;
-    }
-
-    .text-after {
-        position: absolute;
-        left: 50px;
-        top: 13px;
-        z-index: 4;
-        top: -30px;
-        transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.2s;
-    }
-
-    a.button-cart.active .text-after {
-        top: 13px;
-    }
-
-    /* KEYFRAMES */
-    @-webkit-keyframes quickScaleIn {
-        From {
-            -webkit-transform: scale(0);
-        }
-
-        To {
-            -webkit-transform: scale(1);
-        }
-    }
-
-    @-webkit-keyframes quickFadeIn {
-        From {
-            opacity: 0;
-        }
-
-        To {
-            opacity: 1;
-        }
-    }
-
-    @-webkit-keyframes moveUpDown {
-        0% {
+        .circle {
+             cursor:pointer !important;
+            position: absolute;
+            overflow: hidden;
+            z-index: 2;
             top: -22px;
+            left: -12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 14px;
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
+            transform-origin: bottom left;
+            animation-delay: 0.2s;
+            box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);
+            background: rgba(229,201,255,1);
+            background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
         }
 
+.button-cart.active .circle {
+    -webkit-animation: moveUpDown 0.4s ease-in-out;
+    animation-iteration-count: 1;
+  cursor:pointer !important;
+}
+
+        .icon-cart svg {
+            position: absolute;
+            width: 22px;
+            z-index: 3;
+            top: 14px;
+            left: 12px;
+            fill: #433746;
+            -webkit-animation: quickFadeIn 0.4s ease backwards;
+            animation-delay: 0.7s;
+            transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+            transition-delay: 0.3s;
+            cursor: pointer !important;
+        }
+
+.button-cart.active .icon-cart svg {
+    top: 60px;
+}
+
+.icon-checkmark svg {
+   	position: absolute;
+    width: 22px;
+    height: 26px;
+    z-index: 3;
+    top: -30px;
+    left: 14px;
+    fill: #433746;
+    transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+    transition-delay: 0.4s;
+}
+
+.button-cart.active .icon-checkmark svg {
+    top: 12px;
+}
+
+.text {
+	color: #221f25;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.text-before {
+	position: absolute;
+    left: 50px;
+    top: 13px;
+    z-index: 4;
+    -webkit-animation: quickFadeIn 0.4s ease-out backwards;
+    animation-delay: 0.6s;
+    transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
+    transition-delay: 0.1s;
+}
+
+a.button-cart.active .text-before {
+    top: 80px;
+}
+
+.text-after {
+	position: absolute;
+    left: 50px;
+    top: 13px;
+    z-index: 4;
+    top: -30px;
+    transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
+    transition-delay: 0.2s;
+}
+
+a.button-cart.active .text-after {
+    top: 13px;
+}
+
+/* KEYFRAMES */
+@-webkit-keyframes quickScaleIn {
+From {
+    -webkit-transform: scale(0);
+}
+To {
+    -webkit-transform: scale(1);
+}
+}
+
+@-webkit-keyframes quickFadeIn {
+From {
+    opacity: 0;
+}
+To {
+   opacity: 1;
+}
+}
+
+@-webkit-keyframes moveUpDown {
+    0% {
+        top: -22px;
+    }
         50% {
             top: -16px;
         }
-
         100% {
             top: -22px;
         }
-    }
+}
 
 
-    .EliminarItem {
-        cursor: pointer;
-        font-size: 27px;
-        color: black;
-        font-weight: 700;
-        padding: 5px 16px 5px 16px;
-        text-align: right;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        float: right;
-        margin-top: 16px;
-        border-radius: 50%;
-        background: #AAAAAA;
-    }
-</style>
+        .EliminarItem {
+            cursor:pointer;
+        font-size: 27px; color: black; font-weight: 700;  padding: 5px 16px 5px 16px;  text-align: right;  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);transition: all 0.3s cubic-bezier(.25,.8,.25,1);  float: right; margin-top: 16px;border-radius: 50%; background: #AAAAAA;
+        }
+    </style>
 <body>
 
   
@@ -1145,4 +1135,8 @@
 
     </form>
 </body>
+
+   
+
 </html>
+

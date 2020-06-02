@@ -94,6 +94,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CodigoCarrito.js" />
     <Content Include="css\ajax-loader.gif" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\core.css" />
@@ -137,10 +138,11 @@
     <Content Include="frmContacto.aspx" />
     <Content Include="frmCuentaError.aspx" />
     <Content Include="frmCuentaExito.aspx" />
-    <Content Include="frmDetalleProducto.aspx" />
+    <Content Include="frmDetalleProductoOld.aspx" />
     <Content Include="FrmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
     <Content Include="FrmNosotros.aspx" />
+    <Content Include="frmDetalleProducto.aspx" />
     <Content Include="FrmRegistro.aspx" />
     <Content Include="frmRubros.aspx" />
     <Content Include="FrmServicios.aspx" />
@@ -289,6 +291,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarritoWS.vb" />
     <Compile Include="ContactoWS.vb" />
     <Compile Include="CriteriosWS.vb" />
     <Compile Include="frmActivarUsuario.aspx.designer.vb">
@@ -326,11 +329,11 @@
       <DependentUpon>frmCuentaExito.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="frmDetalleProducto.aspx.designer.vb">
-      <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+    <Compile Include="frmDetalleProductoOld.aspx.designer.vb">
+      <DependentUpon>frmDetalleProductoOld.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frmDetalleProducto.aspx.vb">
-      <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+    <Compile Include="frmDetalleProductoOld.aspx.vb">
+      <DependentUpon>frmDetalleProductoOld.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="FrmInicio.aspx.designer.vb">
@@ -353,6 +356,13 @@
     <Compile Include="FrmNosotros.aspx.vb">
       <DependentUpon>FrmNosotros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDetalleProducto.aspx.designer.vb">
+      <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleProducto.aspx.vb">
+      <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="FrmRegistro.aspx.designer.vb">
       <DependentUpon>FrmRegistro.aspx</DependentUpon>

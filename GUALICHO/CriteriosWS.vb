@@ -4,7 +4,7 @@
     Public Property Pass() As String
 
 
-
+    Public Property ID_Carrito() As String
     Public Property ID_Evento() As String
 
     Public Property ID_Funcion() As String
@@ -17,11 +17,11 @@
 
     Public Property ID_Pass() As String
 
-    Public Property Cantidad() As String
+    Public Property Cantidad() As Double
 
     Public Property ID_Usuario() As String
 
-
+    Public Property Imagen() As String
 
     'PORTAL
     Public Property ID_PortalEvento() As String
