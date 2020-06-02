@@ -653,24 +653,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.js"></script>
 
     
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
 
     <script>
      
-     
-     
-     
         $(document).ready(function () {
-
-
          
         });
 
-
         function EnviarConsulta() {
-
 
             var RazonSocial = $('#TxtNombreConsulta').val();
             var Email = $('#TxtEmailConsulta').val();
@@ -678,23 +671,9 @@
             var Asunto = $('#TxtAsuntoConsulta').val();
             var Mensaje = $('#TxtMensajeConsulta').val();
 
-            
-            
-            
-            
-
-
-
-
-
             var par = "{\"RazonSocial\":\"" + RazonSocial + "\"" + ",\"Email\":\"" + Email + "\"" + ",\"Mensaje\":\"" + Mensaje + "\"" + ",\"Asunto\":\"" + Asunto + "\"}";
 
-
             var payload = { cadena: par };
-
-
-
-
 
             $.ajax({
                 type: "POST",
@@ -704,14 +683,10 @@
                 dataType: "json",
                 success: function (data) {
 
-
                     var json = $.parseJSON(data.d);
                     var status = json.Status;
 
-
-
                     if (status == 200) {
-
 
                         swal({
                             backdrop: true,
@@ -728,21 +703,13 @@
                              $('#TxtMensajeConsulta').val('');
                         })
 
-
-
                     } else if (status == 401) {
-
-
-
 
                         swal.close();
 
-
                         swal("ERROR", "No se pudo enviar la consulta", "warning");
 
-
                     }
-
 
                 },
                 error: function (xmlHttpRequest, textStatus, errorThrown) {
@@ -750,10 +717,8 @@
                     console.log(textStatus);
                     console.log(errorThrown);
 
-
                 },
                 beforeSend: function () {
-
 
                     $("#DivLoader1").show();
 
@@ -775,8 +740,75 @@
 
     </script>
 
+         <script>
+             function EnviarEmailContacto() {
 
-         </form>
+                 var Email = $('#TxtEmailContacto').val();
+
+                 var par = "{\"Email\":\"" + Email + "\"}";
+
+                 var payload = { cadena: par };
+
+                 $.ajax({
+                     type: "POST",
+                     url: "frmInicio.aspx/EnviarEmailContacto_Ws",
+                     data: JSON.stringify(payload),
+                     contentType: "application/json; charset=utf-8",
+                     dataType: "json",
+                     success: function (data) {
+
+                         var json = $.parseJSON(data.d);
+                         var status = json.Status;
+
+                         if (status == 200) {
+
+                             //swal({
+                             //    backdrop: true,
+                             //    allowOutsideClick: false,
+                             //    title: 'Email enviado con Éxito!!',
+                             //    text: 'Pronto seras respondido/a',
+                             //    type: 'success',
+                             //    confirmButtonText: 'CONTINUAR',
+                             //}).then(function () {
+                             //    window.location = "frmDetalleProducto.aspx?ID=" + ID_Item;
+                             //})
+
+                             swal("Email enviado con Éxito!!", "Pronto seras respondido/a", "success");
+
+
+                         } else if (status == 401) {
+
+                             swal.close();
+
+                             swal("ERROR", "No se pudo enviar la consulta", "warning");
+
+                         }
+
+                     },
+                     error: function (xmlHttpRequest, textStatus, errorThrown) {
+                         console.log(xmlHttpRequest.responseText);
+                         console.log(textStatus);
+                         console.log(errorThrown);
+
+                     },
+                     beforeSend: function () {
+
+                         $("#btnEnviarEmailContacto").hide();
+                         $("#btnEnviarEmailContactoGif").show();
+
+                     },
+                     complete: function () {
+
+                         $("#btnEnviarEmailContacto").show();
+                         $("#btnEnviarEmailContactoGif").hide();
+
+                     }
+                 })
+             }
+        </script>
+
+
+</form>
 </body>
 
 </html>
