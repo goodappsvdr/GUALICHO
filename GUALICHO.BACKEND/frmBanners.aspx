@@ -232,7 +232,7 @@ if it's not present, don't show loader */
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fábrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="FrmNosotros.aspx">Editar Fábrica</a></li>
+                                <li><a href="frmNosotrosABM.aspx">Editar Fábrica</a></li>
                             </ul>
                         </li>
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
@@ -246,11 +246,11 @@ if it's not present, don't show loader */
 
 
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Sliders</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Portada</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmBannersABM.aspx">Nuevo Slider</a></li>
-                                <li><a href="frmBanners.aspx">Editar Sliders</a></li>
+                                <li><a href="frmBannersABM.aspx">Nueva Portada</a></li>
+                                <li><a href="frmBanners.aspx">Editar Portada</a></li>
                             </ul>
                         </li>
 
@@ -290,17 +290,17 @@ if it's not present, don't show loader */
                             </ul>
                         </li>
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Productos</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmItemsABM.aspx">Nuevo Item</a></li>
-                                <li><a href="frmItems.aspx">Editar Items</a></li>
+                                <li><a href="frmItemsABM.aspx">Nuevo Producto</a></li>
+                                <li><a href="frmItems.aspx">Editar Producto</a></li>
                             </ul>
                         </li>
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
+                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes de Productos</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmItemImagenes.aspx">Agregar Imágenes</a></li>
+                                <li><a href="frmItemImagenes.aspx">Agregar Imágenes de Productos</a></li>
                             </ul>
                         </li>
                         <li id="men_Consultas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
