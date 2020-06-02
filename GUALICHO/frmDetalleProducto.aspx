@@ -682,34 +682,125 @@
      
 
               
-        <div class="htc__brand__area bg__cat--4">
+        <div class="htc__brand__area bg__cat--3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ht__brand__inner">
-                            <ul class="brand__list owl-carousel clearfix">
-                        <asp:Repeater id="RepeaterSponsors" runat="server">
+                            <ul class="brand__list owl-carousel clearfix" id="DivSponsors">
+
+                                <asp:Repeater id="RepeaterSponsors" runat="server">
                                     <ItemTemplate>
-                               
-                                    <li><img style="width:100%; object-fit:cover;" src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
-                          
+
+                                        <li><img style="width:100%; object-fit:cover;"
+                                                src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
+
                                     </ItemTemplate>
                                 </asp:Repeater>
+
+                                <%-- <li><a href="#"><img src="images/brand/2.png" alt="brand images"></a></li>
+                              <li><a href="#"><img src="images/brand/3.png" alt="brand images"></a></li>
+                                <li><a href="#"><img src="images/brand/4.png" alt="brand images"></a></li>
+                                <li><a href="#"><img src="images/brand/5.png" alt="brand images"></a></li>
+                                <li><a href="#"><img src="images/brand/5.png" alt="brand images"></a></li>
+                                <li><a href="#"><img src="images/brand/1.png" alt="brand images"></a></li>
+                                <li><a href="#"><img src="images/brand/2.png" alt="brand images"></a></li>--%>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
- 
-      <footer id="htc__footer" style="background-color:#000">
+        <!-- End Brand Area -->
+        <!-- Start Blog Area -->
+        <%--  <section class="htc__blog__area bg__cat--3 ptb--100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="section__title--2 text-center">
+                            <h2 class="title__line">Noticias recientes</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ht__blog__wrap clearfix">
+                      
+                        <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="blog">
+                                <div class="blog__thumb">
+                                    <a href="blog-details.html">
+                                        <img src="images/blog/blog-img/1.jpg" alt="blog images">
+                                    </a>
+                                </div>
+                                <div class="blog__details">
+                                    <div class="bl__date">
+                                        <span>March 22, 2016</span>
+                                    </div>
+                                    <h2><a href="blog-details.html">Lorem ipsum dolor sit amet, consec tetur adipisicing elit</a></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="blog__btn">
+                                        <a href="blog-details.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="blog">
+                                <div class="blog__thumb">
+                                    <a href="blog-details.html">
+                                        <img src="images/blog/blog-img/2.jpg" alt="blog images">
+                                    </a>
+                                </div>
+                                <div class="blog__details">
+                                    <div class="bl__date">
+                                        <span>May 22, 2017</span>
+                                    </div>
+                                    <h2><a href="blog-details.html">Lorem ipsum dolor sit amet, consec tetur adipisicing elit</a></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="blog__btn">
+                                        <a href="blog-details.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+               
+                        <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="blog">
+                                <div class="blog__thumb">
+                                    <a href="blog-details.html">
+                                        <img src="images/blog/blog-img/3.jpg" alt="blog images">
+                                    </a>
+                                </div>
+                                <div class="blog__details">
+                                    <div class="bl__date">
+                                        <span>March 22, 2018</span>
+                                    </div>
+                                    <h2><a href="blog-details.html">Lorem ipsum dolor sit amet, consec tetur adipisicing elit</a></h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="blog__btn">
+                                        <a href="blog-details.html">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+             
+                    </div>
+                </div>
+            </div>
+        </section>--%>
+        <!-- End Blog Area -->
+        <!-- End Banner Area -->
+        <!-- Start Footer Area -->
+        <footer id="htc__footer" style="background-color:#000">
             <!-- Start Footer Widget -->
             <div class="footer__container bg__black" background-color:#000 style ="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%; background-repeat:no-repeat">
                 <div class="container">
                     <div class="row" style="background-color:#000">
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="footer">
+                            <div class="footer" >
                                 <h2 class="title__line--2"></h2>
                                 <div class="ft__details">
                                     <p style="font-family: 'Poppins', sans-serif;color:#fff">Recordás cuando ibas a tu bar
@@ -748,7 +839,7 @@
                                 <div class="ft__inner">
                                     <ul class="ft__list" style="font-family: 'Poppins', sans-serif;">
                                         <li><a style="color:#fff" href="frminicio.aspx">Principal</a></li>
-                                        <li><a style="color:#fff" href="frmnosotros.aspx">La Fabrica</a></li>
+                                        <li><a style="color:#fff" href="frmnosotros.aspx">La Fábrica</a></li>
                                         <li><a style="color:#fff" href="frmContacto.aspx">Contacto</a></li>
                                         <%--    <li><a href="#">Terms  & Condition</a></li>
                                         <li><a href="#">Manufactures</a></li>--%>
@@ -809,318 +900,194 @@
             </div>
             <!-- End Copyright Area -->
         </footer>
-      
-
         <!-- End Footer Style -->
-    </div>
-    <!-- Body main wrapper end -->
+        </div>
+        <!-- Body main wrapper end -->
 
-    <!-- Placed js at the end of the document so the pages load faster -->
+        <!-- Placed js at the end of the document so the pages load faster -->
 
-    <!-- jquery latest version -->
-    <script src="js/vendor/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap framework js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- All js plugins included in this file. -->
-    <script src="js/plugins.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Waypoints.min.js. -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- Main js file that contents all jQuery plugins activation. -->
-    <script src="js/main.js"></script>
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap framework js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- All js plugins included in this file. -->
+        <script src="js/plugins.js"></script>
+        <script src="js/slick.min.js"></script>
 
 
-                      <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content" style="    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #999;
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 6px;
-    outline: 0;
-    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
-    /* box-shadow: 0 3px 9px rgba(0,0,0,.5); */">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-				<h4 class="modal-title" id="myModalLabel">Consulta</h4>
-			</div>
-			<div id="ModalBody" class="modal-body " runat="server">
-			
-             <br />
+
+        <script src="js/owl.carousel.min.js"></script>
 
 
-                <input id="TxtNombre" runat="server" placeholder="Nombre y Apellido" style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
-                <br />  <br />
-                <input id="TxtEmail" runat="server" placeholder="Email" style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
-                 <br />  <br />
-                <input id="TxtTelefono" runat="server" placeholder="Teléfono" style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif;" />
-                 <br />  <br />
-                <textarea id="TxtMensaje" placeholder="Escribe tu consulta sobre este producto..." style="border:none; border-bottom:1px solid #000; color:#000; width:100%; font-size:14px;font-family: 'Poppins', sans-serif; background:white;"></textarea>
-                    <br />  <br />
-
-                
-
-                                        <button onclick="EnviarConsulta()" id="cmdEnviarConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:100%;    font-size:14px;  ">Enviar</button>
-                        <%--     <asp:TextBox ID="txtNombre" title="Se necesita un nombre" class="span1" Width="96%" required  placeholder="Nombre y Apellido"  runat="server"></asp:TextBox>
-                                             <br />
-                             <asp:TextBox ID="txtTelefono" class="span1" Width="96%" required  placeholder="Telefono"  runat="server"></asp:TextBox>
-                            <br />
-                             <asp:TextBox ID="txtEmail" type="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" class="span1" Width="96%" required  placeholder="Email"  runat="server"></asp:TextBox>
-                             <br />
-                                <asp:TextBox ID="txtMensaje" class="span1" Width="96%" Height="150px" style="font-size:14px; "  placeholder="Mensaje"  runat="server" TextMode="MultiLine"></asp:TextBox>
-                                 <br />
-                                 <asp:Button Visible="true" ID="cmdConsultar"  style=" background:#203f56; color:White; border:none; height:45px; width:99%;    font-size:14px;  " runat="server" Text="Enviar Consulta"></asp:Button>
-		
-        
-        	--%>
-            </div>
-
-               <div id="ModalBodyGif" class="modal-body" style=" min-height:320px; display:none;">
-             <center>
-             <img src="https://www.pointcomfort.com/ResourcePackages/PointComfort/assets/dist/images/spinner.gif"  style=" margin-top:120px; height:50px;"/>
-         </center>
-                 </div>
 
 
-		</div>
-	</div>
-</div>
 
-         </form>
 
+
+
+
+        <script>
+            var owl = $('#DivSponsors');
+            owl.owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 3000
+                //autoplayHoverPause: true
+            });
+            $('.play').on('click', function () {
+                owl.trigger('play.owl.autoplay', [3000])
+            })
+            $('.stop').on('click', function () {
+                owl.trigger('stop.owl.autoplay')
+            })
+        </script>
+
+
+        <script>
+
+            var owl = $('#DivBanners');
+            owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 10000
+                //autoplayHoverPause: true
+            });
+            $('.play').on('click', function () {
+                owl.trigger('play.owl.autoplay', [10000])
+            })
+            $('.stop').on('click', function () {
+                owl.trigger('stop.owl.autoplay')
+            })
+        </script>
+
+
+        <!-- Waypoints.min.js. -->
+        <script src="js/waypoints.min.js"></script>
+        <!-- Main js file that contents all jQuery plugins activation. -->
+
+
+
+        <script src="js/main.js"></script>
+
+
+
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.css"
+            rel="stylesheet" type="text/css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.js"></script>
+
+
+
+
+
+
+        <%-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>--%>
+
+        <script>
+
+            function EnviarEmailContacto() {
+
+                var Email = $('#TxtEmailContacto').val();
+
+
+                var par = "{\"Email\":\"" + Email + "\"}";
+
+
+                var payload = {
+                    cadena: par
+                };
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "frmInicio.aspx/EnviarEmailContacto_Ws",
+                    data: JSON.stringify(payload),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+
+
+                        var json = $.parseJSON(data.d);
+                        var status = json.Status;
+
+
+
+                        if (status == 200) {
+
+
+                            //swal({
+                            //    backdrop: true,
+                            //    allowOutsideClick: false,
+                            //    title: 'Email enviado con Éxito!!',
+                            //    text: 'Pronto seras respondido/a',
+                            //    type: 'success',
+                            //    confirmButtonText: 'CONTINUAR',
+                            //}).then(function () {
+                            //    window.location = "frmDetalleProducto.aspx?ID=" + ID_Item;
+                            //})
+
+                            swal("Email enviado con Éxito!!", "Pronto seras respondido/a", "success");
+
+
+                        } else if (status == 401) {
+
+
+
+
+                            swal.close();
+
+
+                            swal("ERROR", "No se pudo enviar la consulta", "warning");
+
+
+                        }
+
+
+                    },
+                    error: function (xmlHttpRequest, textStatus, errorThrown) {
+                        console.log(xmlHttpRequest.responseText);
+                        console.log(textStatus);
+                        console.log(errorThrown);
+
+
+                    },
+                    beforeSend: function () {
+
+
+
+                        $("#btnEnviarEmailContacto").hide();
+                        $("#btnEnviarEmailContactoGif").show();
+
+
+
+                    },
+                    complete: function () {
+
+
+                        $("#btnEnviarEmailContacto").show();
+                        $("#btnEnviarEmailContactoGif").hide();
+
+
+
+                    }
+                })
+            }
+
+
+            function ClickBusqueda() {
+
+                var busqueda = $('#TxtBusquedaGenerica').val();
+                window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
+            }
+        </script>
+
+    </form>
 </body>
-
-    
-
-
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.css" rel="stylesheet" type="text/css">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.js"></script>
-
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-
-               <script>
-                   var owl = $('#DivSponsors');
-                   owl.owlCarousel({
-                       items: 3,
-                       loop: true,
-                       margin: 10,
-                       autoplay: true,
-                       autoplayTimeout: 3000
-                       //autoplayHoverPause: true
-                   });
-                   $('.play').on('click', function () {
-                       owl.trigger('play.owl.autoplay', [3000])
-                   })
-                   $('.stop').on('click', function () {
-                       owl.trigger('stop.owl.autoplay')
-                   })
-
-            </script>
-
-
-    <script>
-
-        function EnviarConsulta() {
-
-
-
-            var RazonSocial = $('#TxtNombre').val();
-            var Email = $('#TxtEmail').val();
-
-            var Mensaje = $('#TxtMensaje').val();
-            var Telefono = $('#TxtTelefono').val();
-
-
-            var urlParams = new URLSearchParams(window.location.search);
-            var ID_Item = urlParams.get('ID');
-
-
-
-            var par = "{\"RazonSocial\":\"" + RazonSocial + "\"" + ",\"Email\":\"" + Email + "\"" + ",\"Mensaje\":\"" + Mensaje + "\"" + ",\"ID_Item\":\"" + ID_Item + "\"" + ",\"Telefono\":\"" + Telefono + "\"}";
-
-
-            var payload = { cadena: par };
-
-
-
-
-
-            $.ajax({
-                type: "POST",
-                url: "frmDetalleProducto.aspx/Consulta_Enviar_Ws",
-                data: JSON.stringify(payload),
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (data) {
-
-
-                    var json = $.parseJSON(data.d);
-                    var status = json.Status;
-
-
-
-                    if (status == 200) {
-
-
-                        swal({
-                            backdrop: true,
-                            allowOutsideClick: false,
-                            title: 'Consulta enviada con Éxito!!',
-                            text: 'Pronto seras respondido/a',
-                            type: 'success',
-                            confirmButtonText: 'CONTINUAR',
-                        }).then(function () {
-                            window.location = "frmDetalleProducto.aspx?ID=" + ID_Item;
-                        })
-
-
-
-                    } else if (status == 401) {
-
-
-
-
-                        swal.close();
-
-
-                        swal("ERROR", "No se pudo enviar la consulta", "warning");
-
-
-                    }
-
-
-                },
-                error: function (xmlHttpRequest, textStatus, errorThrown) {
-                    console.log(xmlHttpRequest.responseText);
-                    console.log(textStatus);
-                    console.log(errorThrown);
-
-
-                },
-                beforeSend: function () {
-
-
-                    $("#ModalBodyGif").show();
-                    $("#ModalBody").hide();
-
-                },
-                complete: function () {
-
-                    $("#ModalBodyGif").hide();
-                    $("#ModalBody").show();
-
-
-                }
-            })
-
-
-
-
-
-
-        }
-
-
-        function EnviarEmailContacto() {
-
-            var Email = $('#TxtEmailContacto').val();
-
-
-            var par = "{\"Email\":\"" + Email + "\"}";
-
-
-            var payload = { cadena: par };
-
-
-            $.ajax({
-                type: "POST",
-                url: "FrmDetalleProducto.aspx/EnviarEmailContacto_Ws",
-                data: JSON.stringify(payload),
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (data) {
-
-
-                    var json = $.parseJSON(data.d);
-                    var status = json.Status;
-
-
-
-                    if (status == 200) {
-
-
-                        //swal({
-                        //    backdrop: true,
-                        //    allowOutsideClick: false,
-                        //    title: 'Email enviado con Éxito!!',
-                        //    text: 'Pronto seras respondido/a',
-                        //    type: 'success',
-                        //    confirmButtonText: 'CONTINUAR',
-                        //}).then(function () {
-                        //    window.location = "frmDetalleProducto.aspx?ID=" + ID_Item;
-                        //})
-
-                        swal("Email enviado con Éxito!!", "Pronto seras respondido/a", "success");
-
-
-                    } else if (status == 401) {
-
-
-
-
-                        swal.close();
-
-
-                        swal("ERROR", "No se pudo enviar la consulta", "warning");
-
-
-                    }
-
-
-                },
-                error: function (xmlHttpRequest, textStatus, errorThrown) {
-                    console.log(xmlHttpRequest.responseText);
-                    console.log(textStatus);
-                    console.log(errorThrown);
-
-
-                },
-                beforeSend: function () {
-
-
-
-                    $("#btnEnviarEmailContacto").hide();
-                    $("#btnEnviarEmailContactoGif").show();
-
-
-
-                },
-                complete: function () {
-
-
-                    $("#btnEnviarEmailContacto").show();
-                    $("#btnEnviarEmailContactoGif").hide();
-
-
-
-                }
-            })
-        }
-
-        function ClickBusqueda() {
-
-            var busqueda = $('#TxtBusquedaGenerica').val();
-            window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
-        }
-    </script>
-
-    </body>
 
    
 

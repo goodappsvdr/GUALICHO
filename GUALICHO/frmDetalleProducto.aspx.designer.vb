@@ -246,40 +246,4 @@ Partial Public Class frmDetalleProducto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HrefWhatsapp As Global.System.Web.UI.HtmlControls.HtmlAnchor
-
-    '''<summary>
-    '''Control ModalBody.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ModalBody As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''Control TxtNombre.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtNombre As Global.System.Web.UI.HtmlControls.HtmlInputText
-
-    '''<summary>
-    '''Control TxtEmail.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtEmail As Global.System.Web.UI.HtmlControls.HtmlInputText
-
-    '''<summary>
-    '''Control TxtTelefono.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTelefono As Global.System.Web.UI.HtmlControls.HtmlInputText
 End Class
