@@ -357,7 +357,7 @@
 <body>
 
     
-     <a href="#" class="button-cart" style="cursor:pointer;" onclick="AbrirModalCarrito()">
+     <a href="#" class="button-cart" style="cursor:pointer;" id="btnCarrito" runat="server">
     <span class="circle">
       <span class="icon icon-cart" >
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 459.529 459.529" style="enable-background:new 0 0 459.529 459.529;" xml:space="preserve">
@@ -497,6 +497,7 @@
                                                 </li>
                                                 <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                                 <li><a href="frmContacto.aspx">CONTACTO</a></li>
+                                                              <li runat="server" id="MenuMisCompras"><a href="FrmMisCompras.aspx">MIS COMPRAS</a></li>
                                                 <li style="display:block;" runat="server" visible="false"
                                                     id="MenuIniciarSesion"><a style="color:#000;"
                                                         href="frmLogin.aspx">INGRESAR</a></li>
@@ -530,6 +531,7 @@
         font-family: 'Poppins', sans-serif;
    "
                                                             href="frmContacto.aspx">CONTACTO</a></li>
+                                                           <li runat="server" id="MenuMisComprasMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmMisCompras.aspx">MIS COMPRAS</a></li>
                                                     <li style="display:block;" runat="server" visible="false"
                                                         id="MenuIniciarSesionMobile"><a style="color:#000;"
                                                             href="frmLogin.aspx">INICIAR SESIÓN</a></li>
