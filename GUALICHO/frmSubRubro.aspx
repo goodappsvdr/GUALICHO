@@ -122,7 +122,7 @@
         width: 168px;
         height: 46px;
         border-radius: 40px;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
         transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
     }
 
@@ -143,7 +143,7 @@
         bottom: 0;
         border-radius: 14px;
         z-index: 1;
-        box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);
+        /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
@@ -171,7 +171,7 @@
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
         transform-origin: bottom left;
         animation-delay: 0.2s;
-        box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);
+        /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
         background: rgba(229,201,255,1);
         background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
         background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
@@ -561,7 +561,7 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="bradcaump__inner">
-                                <nav class="bradcaump-inner" style="background-color:black" >>
+                                <nav class="bradcaump-inner" style="background-color:black" >
                                   <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Principal</a>
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
                                   <span class="breadcrumb-item active" style="color:white;">SubRubro</span>
@@ -1017,10 +1017,10 @@
                                             style="font-family: 'Poppins', sans-serif;background-color:#fff" placeholder="Su email*">
                                         <div class="send__btn">
 
-                                            <button class="fr__btn" style="border:none;background-color:#fff;color:#000"
+                                            <button class="fr__btn" style="border:none;background-color:#AFB0B8;color:#000"
                                                 onclick="EnviarEmailContacto()" id="btnEnviarEmailContacto"
                                                 type="button">Enviar</button>
-                                            <button class="fr__btn" style="border:none; display:none;background-color:#fff;color:#000 "
+                                            <button class="fr__btn" style="border:none; display:none;background-color:#AFB0B8;color:#000 "
                                                 id="btnEnviarEmailContactoGif" type="button">Enviando<img
                                                     src="Imagenes/btngif.gif"
                                                     style="height:20px; margin-left:10px;" /></button>
