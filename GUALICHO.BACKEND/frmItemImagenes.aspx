@@ -348,13 +348,13 @@ if it's not present, don't show loader */
                             <div class="card-box table-responsive">
                          
                                 <h4 class="header-title m-t-0 m-b-30">
-                                    ITEM</h4>
+                                    PRODUCTO</h4>
                                 
                                 <table id="datatable" class="table table-striped table-bordered" style="cursor:pointer;">
                                     <thead>
                                         <tr>
                                             <th class="style1">
-                                                Item
+                                                Producto
                                             </th>
                                             
                                         </tr>
