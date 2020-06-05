@@ -464,7 +464,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#000; font-size:18px; "> Nombre del Banner</span>
+                                         <span style="color:#000; font-size:18px; "> Nombre de la Portada</span>
                                              <asp:TextBox ID="txtDescripcion" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
@@ -569,7 +569,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <br />
                                        <center>
                                         <button  type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
-                    VOLVER A BANNERS</button>
+                    VOLVER A PORTADAS</button>
                     </center>
                                        </div>
                                        </section>

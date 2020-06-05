@@ -860,7 +860,7 @@ span.round-tab:hover {
                                        
                                        <div class="col col-md-12">
 
-  <span style="color:#000; font-size:18px; "> Estado del Item</span>
+  <span style="color:#000; font-size:18px; "> Estado del Producto</span>
                                             
 
 
@@ -956,7 +956,7 @@ span.round-tab:hover {
                                                <div class="col col-md-4">
 
                                                 <br />
-                                            <span style="color:#000; font-size:18px; ">Imágen del Item</span><br />
+                                            <span style="color:#000; font-size:18px; ">Imágen del Producto</span><br />
                                         <img src="" id="ImgItem" runat="server"  style=" width:220px;  height:220px;border: 8px solid #fff;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover;" />
 

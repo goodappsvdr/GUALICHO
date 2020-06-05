@@ -348,13 +348,13 @@ if it's not present, don't show loader */
                             <div class="card-box table-responsive">
                          
                                 <h4 class="header-title m-t-0 m-b-30">
-                                    BANNERS</h4>
+                                    PORTADAS</h4>
                                 
                                 <table id="datatable" class="table table-striped table-bordered" style="cursor:pointer;">
                                     <thead>
                                         <tr>
                                             <th class="style1">
-                                                Banners
+                                                Portadas
                                             </th>
                                             
                                         </tr>
@@ -378,7 +378,7 @@ if it's not present, don't show loader */
                                 </table>
                                 
  <center>
-                                <a href="./frmBannersABM.aspx" style=" background:#000 !important; border: 1px solid #000 !important;" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5"> NUEVO BANNER</a>
+                                <a href="./frmBannersABM.aspx" style=" background:#000 !important; border: 1px solid #000 !important;" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5"> NUEVA PORTADA</a>
                            
                         
                             </center>
