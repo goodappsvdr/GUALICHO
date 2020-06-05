@@ -47,7 +47,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Lexim.MercadoPago">
-      <HintPath>..\..\SAN_MATEO\DLL\DLLS\Lexim.MercadoPago.dll</HintPath>
+      <HintPath>..\DLL\Lexim.MercadoPago.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

@@ -168,6 +168,74 @@ background-color:rgba(0, 0, 0, 0.5);
     left: 0;
     }
       
+/*estilos del menu*/
+#sidebar-menu ul ul li.active a {
+  color: #fff;
+}
+#sidebar-menu ul ul a {
+  color: #838F9A;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border-left: 3px solid transparent;
+  display: block;
+  padding: 10px 20px 10px 65px;
+}
+#sidebar-menu ul ul a:hover {
+  color: #ffffff;
+}
+#sidebar-menu ul ul a i {
+  margin-right: 5px;
+}
+#sidebar-menu ul ul ul a {
+  padding-left: 80px;
+}
+#sidebar-menu .label {
+  margin-top: 2px;
+}
+#sidebar-menu .subdrop {
+  border-left: 3px solid #fff;
+  color: #fff !important;
+}
+#sidebar-menu > ul > li > a {
+  color: #838F9A;
+  display: block;
+  padding: 12px 20px;
+  margin: 4px 0px;
+  border-left: 3px solid transparent;
+}
+#sidebar-menu > ul > li > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#sidebar-menu > ul > li > a > span {
+  vertical-align: middle;
+}
+#sidebar-menu ul li a i {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 17px;
+  margin-left: 3px;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+}
+#sidebar-menu ul li a i.md {
+  font-size: 18px;
+}
+#sidebar-menu ul li a .drop-arrow {
+  float: right;
+}
+#sidebar-menu ul li a .drop-arrow i {
+  margin-right: 0px;
+}
+#sidebar-menu > ul > li > a.active {
+  border-left: 3px solid #fff;
+  color: #fff !important;
+}
       
     
 </style>
@@ -248,7 +316,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                            <li id="Men_QuienesSomos" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Quienes Somos</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Quienes Somos</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="FrmQuienesSomos.aspx">Editar Quienes Somos</a></li>
@@ -256,14 +324,15 @@ background-color:rgba(0, 0, 0, 0.5);
                         </li>
 
                         <li id="Men_Nosotros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>La Fábrica</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>La Fábrica</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmNosotrosABM.aspx">Editar Fábrica</a></li>
                             </ul>
                         </li>
+
                           <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                     <li><a href="frmServiciosABM.aspx">Nuevo Servicio</a></li>
@@ -271,9 +340,8 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
 
-
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Portada</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Portada</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmBannersABM.aspx">Nueva Portada</a></li>
@@ -282,7 +350,7 @@ background-color:rgba(0, 0, 0, 0.5);
                         </li>
 
                            <li id="Men_Sponsors" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Sponsors</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Sponsors</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmSponsorABM.aspx">Nuevo Sponsor</a></li>
@@ -290,46 +358,49 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
 
-
-
                         <li id="men_Marcas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmMarcasABM.aspx">Nueva marca</a></li>
+                                <li><a href="frmMarcasABM.aspx">Nueva Marca</a></li>
                                 <li><a href="frmMarcas.aspx">Editar Marcas</a></li>
                             </ul>
                         </li>
+
                         <li id="men_Rubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Rubros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmRubrosABM.aspx">Nuevo Rubro</a></li>
                                 <li><a href="frmRubros.aspx">Editar Rubros</a></li>
                             </ul>
                         </li>
+
                         <li id="men_SubRubros" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>SubRubros</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmSubRubrosABM.aspx">Nuevo SubRubro</a></li>
                                 <li><a href="frmSubRubros.aspx">Editar SubRubros</a></li>
                             </ul>
                         </li>
+
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Productos</span><span class="menu-arrow"></span></a>
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Productos</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmItemsABM.aspx">Nuevo Producto></li>
-                                <li><a href="frmItems.aspx">Editar Productos</a></li>
+                                <li><a href="frmItemsABM.aspx">Nuevo Producto</a></li>
+                                <li><a href="frmItems.aspx">Editar Producto</a></li>
                             </ul>
                         </li>
+
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Imágenes de Productos</span><span
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Imagenes de Productos</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="frmItemImagenes.aspx">Agregar Imágenes de Productos</a></li>
+                                <li><a href="frmItemImagenes.aspx">Agregar Imágenes de Prdocutos</a></li>
                             </ul>
                         </li>
+
                         <li id="men_Consultas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Consultas</span><span
                                 class="menu-arrow"></span></a>
@@ -337,8 +408,9 @@ background-color:rgba(0, 0, 0, 0.5);
                                 <li><a href="frmConsultas.aspx">Ver Consultas</a></li>
                             </ul>
                         </li>
-                         <li id="men_Contacto" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
+
+                        <li id="men_Contacto" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
+                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Contacto</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmContactoABM.aspx">Ver Contacto</a></li>
@@ -347,10 +419,10 @@ background-color:rgba(0, 0, 0, 0.5);
 
                         
                         <li id="men_CambiarPass" visible="false" runat="server"><a href="frmCambiarPass.aspx"
-                            class="waves-effect"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
                         </a></li>
                         <li id="men_CerrarSesion" visible="false" runat="server"><a onserverclick="CerrarSesion"
-                            runat="server" class="waves-effect"><i class="zmdi zmdi-lock"></i><span>Cerrar Sesión
+                            runat="server" class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-lock"></i><span>Cerrar Sesión
                             </span></a></li>
                     </ul>
                     <div class="clearfix">
@@ -470,7 +542,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                               </div>
                                               </div>
-                                              <div class="row"  style=" background:#ff6600;   padding:20px;">
+                                              <div class="row"  style=" background:lightgray;   padding:20px;">
                                               
                                               <div class="col col-md-8">
 

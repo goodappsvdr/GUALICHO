@@ -506,7 +506,7 @@ if it's not present, don't show loader */
                                         <center>
                                             <p style="color:white; font-weight:bold;  font-size:12px;">PEDIDOS MERCADO PAGO</p>
                                             <br />
-                                            <img src="Imagenes/mp.png" style="height: 55px; width:auto; margin-top:-15px;"/>
+                                            <img src="Imagenes/mp.png" style="height: 20%; width:auto; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>

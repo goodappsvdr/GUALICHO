@@ -869,6 +869,7 @@ Public Class frmDetalleProductoOld
 
 
 #End Region
+
 #Region "RedesSociales"
     Public Sub CargarContactos()
         Dim ods As New DataSet

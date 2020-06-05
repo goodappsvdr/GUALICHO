@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProductoOld.aspx.vb" Inherits="GUALICHO.frmDetalleProductoOld" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmDetalleProductoOld.aspx.vb" Inherits="GUALICHO.frmDetalleProductoOld" %>
 
 
 <!doctype html>
@@ -807,7 +807,7 @@ To {
             <!-- Start Footer Widget -->
             <div class="footer__container bg__black" background-color:#000 style ="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%; background-repeat:no-repeat">
                 <div class="container">
-                    <div class="row" style="background-color:#000">
+                    <div class="row" style="background-color:transparent;">
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="footer" >

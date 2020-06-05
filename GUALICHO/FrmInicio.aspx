@@ -426,7 +426,7 @@
                                             <ul class="main__menu">
                                                 <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
                                                 <li class="drop"><a href="frmNosotros.aspx" class="auto-style1">LA
-                                                        FABRICA</a></li>
+                                                        FÁBRICA</a></li>
                                                 <%-- <li class="drop"><a href="#">women</a>--%>
 
 
@@ -749,14 +749,14 @@
 
 
         <!-- Start Category Area -->
-        <section class="htc__category__area ptb--100" style="padding: 20px 0;">
+       <%-- <section class="htc__category__area ptb--100" style="padding: 20px 0;">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="section__title--2 text-center">
-                            <h2 class="title__line">Novedades</h2>
+                            <h2 class="title__line">Novedades</h2>--%>
                             <%--<p>But I must explain to you how all this mistaken idea</p>--%>
-                        </div>
+                       <%-- </div>
                     </div>
                 </div>
                 <div class="htc__product__container">
@@ -764,9 +764,9 @@
                         <div class="product__list clearfix mt--30">
 
                             <asp:Repeater ID="RepeaterUltimosProductos" runat="server">
-                                <ItemTemplate>
+                                <ItemTemplate>--%>
                                     <!-- Start Single Category -->
-                                    <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
+                                   <%-- <div class="col-md-4 col-lg-3 col-sm-4 col-xs-12">
                                         <div class="category">
                                             <div class="ht__cat__thumb">
                                                 <a href='<%# Eval("url")%>'>
@@ -779,12 +779,12 @@
                                                 <ul class="product__action">
                                                     <li><a href='<%# Eval("url")%>' style="font-family: 'Poppins', sans-serif;
                                                         line-height: 3.7;
-                                                        width: 120px;">Ver detalles</a></li>
+                                                        width: 120px;">Ver detalles</a></li>--%>
 
-                                                    <%--                                            <li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
+                                                    <%--<li><a href="cart.html"><i class="icon-handbag icons"></i></a></li>
 
                                             <li><a href="#"><i class="icon-shuffle icons"></i></a></li>--%>
-                                                </ul>
+                                              <%--  </ul>
                                             </div>
                                             <div class="fr__product__inner">
                                                 <h4><a href='<%# Eval("url")%>'
@@ -801,7 +801,7 @@
                                     </div>
 
                                 </ItemTemplate>
-                            </asp:Repeater>
+                            </asp:Repeater>--%>
 
                             <!-- End Single Category -->
 
@@ -832,13 +832,13 @@
                                 <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
                             </div>
                             <div class="banner__info">
-                                <div style="border-color:transparent; left:20px;" class="pointer__tooltip pointer--3 align-left">
+                                <%--<div style="border-color:transparent; left:20px;" class="pointer__tooltip pointer--3 align-left">--%>
                                     <%--<img src="Imagenes/icono cerveza blanco.png" "/>--%>
-                                    <div class="tooltip__box">
+                                    <%--<div class="tooltip__box">--%>
 
-                                        <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip1">
+                                        <%--<p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip1">
                                         </p>
-                                    </div>
+                                    </div>--%>
                                 </div>
                                 <%-- <div class="pointer__tooltip pointer--4 align-top">
                                     <div class="tooltip__box">
@@ -847,13 +847,13 @@
                                     </div>
                                 </div>--%>
                                 
-                                <div style="border-color:transparent;" class="pointer__tooltip pointer--5 align-bottom">
+                                <%--<div style="border-color:transparent;" class="pointer__tooltip pointer--5 align-bottom">--%>
                                 <%--<img src="Imagenes/icono cerveza blanco.png" />--%>
-                                    <div class="tooltip__box">
+                                    <%--<div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip3">
                                         </p>
-                                    </div>
+                                    </div>--%>
                                 </div>
                                 <%--<div class="pointer__tooltip pointer--6 align-top">
                                     <div class="tooltip__box">
@@ -861,13 +861,13 @@
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip4"></p>
                                     </div>
                                 </div>--%>
-                                <div style="border-color:transparent; left:450px" class="pointer__tooltip pointer--7 align-top">
+                                <%--<div style="border-color:transparent; left:450px" class="pointer__tooltip pointer--7 align-top">--%>
                                     <%--<img src="Imagenes/icono cerveza blanco.png" />--%>
-                                    <div class="tooltip__box">
+                                    <%--<div class="tooltip__box">
 
                                         <p style="font-family: 'Poppins', sans-serif;" runat="server" id="TxtTooltip5">
                                         </p>
-                                    </div>
+                                    </div>--%>
                                 </div>
                             </div>
                         </div>
@@ -999,9 +999,9 @@
         <!-- Start Footer Area -->
         <footer id="htc__footer" style="background-color:#000">
             <!-- Start Footer Widget -->
-            <div class="footer__container bg__black" background-color:#000 style ="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%; background-repeat:no-repeat">
+            <div class="footer__container bg__black" background-color:#000; style ="background-image:url(Imagenes/PRUEBA2.PNG);background-size:100%;width:100%; background-repeat:no-repeat">
                 <div class="container">
-                    <div class="row" style="background-color:#000">
+                    <div class="row" style="background-color:transparent;">
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="footer" >
