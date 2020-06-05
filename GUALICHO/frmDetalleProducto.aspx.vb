@@ -73,7 +73,7 @@ Public Class frmDetalleProducto
 
         TxtTitulo.InnerHtml = oDs.Tables(0).Rows(0).Item("Descripcion").ToString
 
-        TxtPrecio1.InnerHtml = "$ " & FormatNumber(oDs.Tables(0).Rows(0).Item("Precio").ToString, 2)
+        TxtPrecio1.InnerHtml = "$ " & (oDs.Tables(0).Rows(0).Item("Precio").ToString)
 
         TxtPrecio.InnerHtml = "$ " & FormatNumber(oDs.Tables(0).Rows(0).Item("Precio").ToString, 2)
         TxtPrecioCalculo.InnerText = FormatNumber(oDs.Tables(0).Rows(0).Item("Precio").ToString, 2)
