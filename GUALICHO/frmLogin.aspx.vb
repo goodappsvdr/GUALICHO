@@ -8,11 +8,23 @@ Public Class frmLogin
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Page.IsPostBack = False Then
+            ValidarCarrito()
             CargarMenuRubros()
             ValidarMenu()
             CargarSponsors()
         End If
     End Sub
+#Region "Validar Carrito"
+    Public Sub ValidarCarrito()
+        If User.Identity.IsAuthenticated = True Then
+            btnCarrito.Attributes("onclick") = "AbrirModalCarrito()"
+        Else
+            btnCarrito.Attributes("onclick") = "IrLogin()"
+        End If
+
+
+    End Sub
+#End Region
 
 
 #Region "Menu"
@@ -299,21 +311,22 @@ Public Class frmLogin
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-            '  MenuMisConsultas.Visible = True
+           MenuMisCompras.Visible = true
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-           ' MenuMisConsultasMobile.Visible = True
+          MenuMisComprasMobile.Visible = True
 
 
         Else
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False
-            '  MenuMisConsultas.Visible = true
+
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-           ' MenuMisConsultasMobile.Visible = True
+            MenuMisComprasMobile.Visible = False
+            MenuMisCompras.Visible = False
         End If
     End Sub
 

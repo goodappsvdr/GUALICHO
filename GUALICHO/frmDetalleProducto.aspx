@@ -330,7 +330,7 @@
 
   
   
-     <a href="#" class="button-cart" style="cursor:pointer;" onclick="AbrirModalCarrito()">
+     <a href="#" class="button-cart" style="cursor:pointer;" id="btnCarrito" runat="server">
     <span class="circle">
       <span class="icon icon-cart" >
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 459.529 459.529" style="enable-background:new 0 0 459.529 459.529;" xml:space="preserve">
@@ -460,6 +460,8 @@
                                         </li>
                                        <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
+                                            <li runat="server" id="MenuMisCompras"><a href="FrmMisCompras.aspx">MIS COMPRAS</a></li>
+                                    
                                          <li style="display:block;" runat="server"  id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
                                         <li style="display:block;" runat="server" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
@@ -481,8 +483,9 @@
                                             </li>
                                             <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
-                                             <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                                <li runat="server" id="MenuMisComprasMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmMisCompras.aspx">MIS COMPRAS</a></li>
+                                             <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:white;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
+                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
                                 </div> 
@@ -683,7 +686,7 @@
                                 <h6 >Marca: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtMarca" runat="server">MNG001</span></i></h6>
                                       <h6 >Rubro: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtRubro" runat="server">MNG001</span></i></h6>
                                                        <h6 >Sub Rubro: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtSubRubro" runat="server">MNG001</span></i></h6>
-                                <h6 >Precio: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtPrecio1" runat="server">MNG001</span></i></h6>
+                                <h6 runat="server" id="lblPrecio" >Precio: <i><span style="font-family: 'Poppins', sans-serif;" id="TxtPrecio1" runat="server">MNG001</span></i></h6>
                                        <span style="display:none;" id="TxtPrecioCalculo" runat="server"></span>
                                         <span style="display:none;" id="TxtImagenUrl" runat="server"></span>
                               <%--  <ul class="rating">
@@ -696,25 +699,34 @@
                             
                                 <div class="ht__pro__desc">
                                     <div class="sin__desc">
-                                   
+                                 
+                                    </div>
                                     
-                                    </div><br />
+                                    <br />
 
                                      <ul  class="pro__prize">
                                    
                                     <li  style="font-size:35px; color:#000;"  id="TxtPrecio" runat="server"></li>
 
                                 </ul>
+
+
+
+                                      <div runat="server" id="DivAgregarCarrito">
+                                    <br />
                                     
-                                    <br />
-
-                                    <input type="number" onclick="CalcularTotal()"  onkeyup="ValidarTotalClick()" min="1" value="1"  id="TxtCantidad" style="font-size:25px; font-family: 'Poppins', sans-serif; color:black;"/>
+                                    <input type="number" onclick="CalcularTotal()"  onkeyup="ValidarTotalClick()" min="1" value="1"  id="TxtCantidad" style=" text-align:center; font-size:25px; font-family: 'Poppins', sans-serif; color:black;"/>
                                     <br />
                                     <br />
 
+                                  
                                     <button type="button" onclick="ValidarAgregarCarrito()"  style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
-                                    
-                                    <br /> <br />
+                                    </div>
+                                    <br />
+                                 </div>
+
+
+
                                         <button runat="server" id="CmdAbrirConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " data-toggle="modal" data-target="#miModal">Hacer una consulta <span class="glyphicon glyphicon-send" style="font-size:18px; margin-left:15px;"></span></button>
 
                                  

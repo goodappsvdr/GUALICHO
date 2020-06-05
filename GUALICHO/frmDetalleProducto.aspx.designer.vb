@@ -32,6 +32,15 @@ Partial Public Class frmDetalleProducto
     Protected WithEvents DescripcionRedesSociales As Global.System.Web.UI.HtmlControls.HtmlMeta
 
     '''<summary>
+    '''Control btnCarrito.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnCarrito As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control RepeaterMenuRubros.
     '''</summary>
     '''<remarks>
@@ -39,6 +48,15 @@ Partial Public Class frmDetalleProducto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents RepeaterMenuRubros As Global.System.Web.UI.WebControls.Repeater
+
+    '''<summary>
+    '''Control MenuMisCompras.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents MenuMisCompras As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control MenuIniciarSesion.
@@ -75,6 +93,15 @@ Partial Public Class frmDetalleProducto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents RepeaterMenuRubrosMobile As Global.System.Web.UI.WebControls.Repeater
+
+    '''<summary>
+    '''Control MenuMisComprasMobile.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents MenuMisComprasMobile As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control MenuIniciarSesionMobile.
@@ -167,6 +194,15 @@ Partial Public Class frmDetalleProducto
     Protected WithEvents TxtSubRubro As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
+    '''Control lblPrecio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblPrecio As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
     '''Control TxtPrecio1.
     '''</summary>
     '''<remarks>
@@ -201,6 +237,15 @@ Partial Public Class frmDetalleProducto
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TxtPrecio As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Control DivAgregarCarrito.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents DivAgregarCarrito As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control CmdAbrirConsulta.

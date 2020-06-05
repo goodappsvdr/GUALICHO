@@ -42,4 +42,20 @@
 
     Public Property ConfirmarPass() As String
 
+
+
+    Public Property Domicilio() As String
+
+    Public Property Geolatitud() As String
+
+    Public Property Geolongitud() As String
+    Public Property EntreCalles() As String
+
+
+
+
+
+
+
+
 End Class

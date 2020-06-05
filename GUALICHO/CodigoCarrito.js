@@ -21,9 +21,18 @@ $(document).ready(function () {
 
 function AbrirModalCarrito() {
 
+
     $('#ModalCarrito').modal('toggle');
     $('#ModalCarrito').modal('show');
     //$('#ModalCarrito').modal('hide');
+
+
+}
+
+
+function IrLogin() {
+
+    window.location.replace('frmLogin.aspx');
 
 
 }
@@ -204,7 +213,11 @@ function EliminarCarrito() {
 
             if (status == 200) {
 
+               
+                swal.close();
                 BuscarCarrito_Ws();
+
+
             } else if (status == 401) {
 
 
@@ -594,6 +607,17 @@ function ValidarFinalizarCompra() {
         }
     });
 }
+
+
+function FinalizarCompra() {
+
+    window.location.replace('FrmFinalizarCompra.aspx');
+
+}
+
+
+
+
 
 
 function EnviarConsulta() {

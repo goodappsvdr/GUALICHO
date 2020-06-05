@@ -109,9 +109,247 @@
         }
        
        }
+
+        *:focus {
+        outline: none !Important;
+    }
+
+    
+    a.button-cart {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index:999999;
+        margin-bottom: 35px;
+        margin-right: 35px;
+        width: 168px;
+        height: 46px;
+        border-radius: 40px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
+    }
+
+
+        a.button-cart.active {
+            width: 178px;
+        }
+
+        a.button-cart:hover {
+            text-decoration: none;
+        }
+
+    .button-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 14px;
+        z-index: 1;
+        box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);
+        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+        transform-origin: bottom left;
+        overflow: hidden;
+        background: rgba(61,252,255,1);
+        background: -moz-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(61,252,255,1)), color-stop(100%, rgba(175,255,211,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        background: linear-gradient(135deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
+        transition: all .3s cubic-bezier(.7,0,.5,1.4);
+    }
+
+    .circle {
+        cursor: pointer !important;
+        position: absolute;
+        overflow: hidden;
+        z-index: 2;
+        top: -22px;
+        left: -12px;
+        width: 50px;
+        height: 50px;
+        border-radius: 14px;
+        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
+        transform-origin: bottom left;
+        animation-delay: 0.2s;
+        box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);
+        background: rgba(229,201,255,1);
+        background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
+        background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+        background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
+        transition: all .3s cubic-bezier(.7,0,.5,1.4);
+    }
+
+    .button-cart.active .circle {
+        -webkit-animation: moveUpDown 0.4s ease-in-out;
+        animation-iteration-count: 1;
+        cursor: pointer !important;
+    }
+
+    .icon-cart svg {
+        position: absolute;
+        width: 22px;
+        z-index: 3;
+        top: 14px;
+        left: 12px;
+        fill: #433746;
+        -webkit-animation: quickFadeIn 0.4s ease backwards;
+        animation-delay: 0.7s;
+        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+        transition-delay: 0.3s;
+        cursor: pointer !important;
+    }
+
+    .button-cart.active .icon-cart svg {
+        top: 60px;
+    }
+
+    .icon-checkmark svg {
+        position: absolute;
+        width: 22px;
+        height: 26px;
+        z-index: 3;
+        top: -30px;
+        left: 14px;
+        fill: #433746;
+        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+        transition-delay: 0.4s;
+    }
+
+    .button-cart.active .icon-checkmark svg {
+        top: 12px;
+    }
+
+    .text {
+        color: #221f25;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .text-before {
+        position: absolute;
+        left: 50px;
+        top: 13px;
+        z-index: 4;
+        -webkit-animation: quickFadeIn 0.4s ease-out backwards;
+        animation-delay: 0.6s;
+        transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
+        transition-delay: 0.1s;
+    }
+
+    a.button-cart.active .text-before {
+        top: 80px;
+    }
+
+    .text-after {
+        position: absolute;
+        left: 50px;
+        top: 13px;
+        z-index: 4;
+        top: -30px;
+        transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
+        transition-delay: 0.2s;
+    }
+
+    a.button-cart.active .text-after {
+        top: 13px;
+    }
+
+    /* KEYFRAMES */
+    @-webkit-keyframes quickScaleIn {
+        From {
+            -webkit-transform: scale(0);
+        }
+
+        To {
+            -webkit-transform: scale(1);
+        }
+    }
+
+    @-webkit-keyframes quickFadeIn {
+        From {
+            opacity: 0;
+        }
+
+        To {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes moveUpDown {
+        0% {
+            top: -22px;
+        }
+
+        50% {
+            top: -16px;
+        }
+
+        100% {
+            top: -22px;
+        }
+    }
+
+
+    .EliminarItem {
+        cursor: pointer;
+        font-size: 27px;
+        color: black;
+        font-weight: 700;
+        padding: 5px 16px 5px 16px;
+        text-align: right;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        float: right;
+        margin-top: 16px;
+        border-radius: 50%;
+        background: #AAAAAA;
+    }
                      
     </style>
 <body>
+
+    
+     <a href="#" class="button-cart" style="cursor:pointer;" id="btnCarrito" runat="server">
+    <span class="circle">
+      <span class="icon icon-cart" >
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 459.529 459.529" style="enable-background:new 0 0 459.529 459.529;" xml:space="preserve">
+          <g>
+            <path d="M17,55.231h48.733l69.417,251.033c1.983,7.367,8.783,12.467,16.433,12.467h213.35c6.8,0,12.75-3.967,15.583-10.2
+						l77.633-178.5c2.267-5.383,1.7-11.333-1.417-16.15c-3.117-4.817-8.5-7.65-14.167-7.65H206.833c-9.35,0-17,7.65-17,17
+						s7.65,17,17,17H416.5l-62.9,144.5H164.333L94.917,33.698c-1.983-7.367-8.783-12.467-16.433-12.467H17c-9.35,0-17,7.65-17,17
+						S7.65,55.231,17,55.231z" />
+            <path d="M135.433,438.298c21.25,0,38.533-17.283,38.533-38.533s-17.283-38.533-38.533-38.533S96.9,378.514,96.9,399.764
+						S114.183,438.298,135.433,438.298z" />
+            <path d="M376.267,438.298c0.85,0,1.983,0,2.833,0c10.2-0.85,19.55-5.383,26.35-13.317c6.8-7.65,9.917-17.567,9.35-28.05
+						c-1.417-20.967-19.833-37.117-41.083-35.7c-21.25,1.417-37.117,20.117-35.7,41.083
+						C339.433,422.431,356.15,438.298,376.267,438.298z" />
+          </g>
+        </svg>
+      </span>
+
+      <span class="icon icon-checkmark"  >
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background: new 0 0 511.999 511.999;" xml:space="preserve">
+          <g>
+            <path d="M506.231,75.508c-7.689-7.69-20.158-7.69-27.849,0l-319.21,319.211L33.617,269.163c-7.689-7.691-20.158-7.691-27.849,0
+					c-7.69,7.69-7.69,20.158,0,27.849l139.481,139.481c7.687,7.687,20.16,7.689,27.849,0l333.133-333.136
+					C513.921,95.666,513.921,83.198,506.231,75.508z" />
+          </g>
+        </svg>
+      </span>
+    </span>
+
+    <span class="button-bg">
+      <span class="text text-before" style="font-family: 'Poppins', sans-serif;">Abrir Carrito</span>
+    </span>
+  </a>
+
      <form runat="server">
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -217,6 +455,7 @@
                                         </li>
                                        <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
+                                                  <li runat="server" id="MenuMisCompras"><a href="FrmMisCompras.aspx">MIS COMPRAS</a></li>
                                          <li style="display:block;" runat="server"  id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
                                         <li style="display:block;" runat="server" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
@@ -239,8 +478,9 @@
                                             </li>
                                             <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
-                                             <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style="color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                                   <li runat="server" id="MenuMisComprasMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmMisCompras.aspx">MIS COMPRAS</a></li>
+                                             <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:white;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
+                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
                                 </div> 
@@ -548,7 +788,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
-
+            <script src="CodigoCarrito.js"></script>
     <script>
 
 
@@ -834,6 +1074,87 @@
         }
     </script>
 
+
+
+                <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content" style="    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title">Mi Carrito</h4>
+			</div>
+
+
+
+			<div id="ModalBodyCarrito" class="modal-body ">
+			
+                <table class="table table-striped" style="font-family: 'Poppins', sans-serif;">
+                 <thead>
+      <tr>
+       
+        <th>Producto</th>
+        <th>Imagen</th>
+          <th>Cantidad</th>
+          <th style="text-align:right;">Precio</th>
+          <th style="text-align:right;">Total</th>
+          <th></th>
+      </tr>
+    </thead>
+    <tbody id="GrillaCarrito">
+
+        </tbody>
+
+</table>
+
+                <br />
+
+                <span style="float:right; margin-right:20px; color:black; font-size:22px; font-family: 'Poppins', sans-serif;" id="TxtTotalGeneral"></span>
+               
+
+             <br />
+
+                <hr />
+
+                <div class="row">
+                 
+                    <div class="col-xs-12 col-md-12">
+                        <div style="float:right;">
+                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
+                        <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
+                      <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:130px;    font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
+                       </div>
+                            </div>
+
+                </div>
+                
+                        
+                       
+               
+   
+           
+              
+            </div>
+
+
+
+               <div id="ModalBodyGifCarrito" class="modal-body" style=" min-height:320px; display:none;">
+             <center>
+             <img src="https://www.pointcomfort.com/ResourcePackages/PointComfort/assets/dist/images/spinner.gif"  style=" margin-top:120px; height:50px;"/>
+         </center>
+                 </div>
+
+
+		</div>
+	</div>
+</div>
          </form>
 </body>
 
