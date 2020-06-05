@@ -90,7 +90,7 @@ Public Class frmSubRubrosABM
 
             TituloOrden.InnerText = "Orden"
         Else
-            lblTitulo.InnerText = "NUEVO RUBRO"
+            lblTitulo.InnerText = "NUEVO SUBRUBRO"
             TituloOrden.InnerText = "Orden Sugerido"
             BuscarOrdenSugerido()
             chkActivo.Checked = True

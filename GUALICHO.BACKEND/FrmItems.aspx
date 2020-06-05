@@ -348,13 +348,13 @@ if it's not present, don't show loader */
                             <div class="card-box table-responsive">
                          
                                 <h4 class="header-title m-t-0 m-b-30">
-                                    ITESM</h4>
+                                    PRODUCTOS</h4>
                                 
                                 <table id="datatable" class="table table-striped table-bordered" style="cursor:pointer;">
                                     <thead>
                                         <tr>
                                             <th class="style1">
-                                                Item
+                                                PRODUCTO
                                             </th>
                                               <th class="style1">
                                                 Rubro
@@ -408,7 +408,7 @@ if it's not present, don't show loader */
                                 
  <center>
                                 <a href="./frmItemsABM.aspx" style="                                        background: #000 !important;
-                                        border: 1px solid #000 !important;" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5"> NUEVO ITEM</a>
+                                        border: 1px solid #000 !important;" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5"> NUEVO PRODUCTO</a>
                            
                         
                             </center>

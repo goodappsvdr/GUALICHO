@@ -109,7 +109,7 @@ Public Class frmItemsABM
 
         If oDs.Tables(0).Rows.Count > 0 Then
             ImgItem.Visible = True
-            lblTitulo.InnerText = "EDITAR ITEM"
+            lblTitulo.InnerText = "EDITAR PRODUCTO"
             HfID_Item.Value = oDs.Tables(0).Rows(0).Item("ID_Item")
             TxtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion")
             txtDetalle.Text = oDs.Tables(0).Rows(0).Item("Detalle")
@@ -137,7 +137,7 @@ Public Class frmItemsABM
             CargarSubRubros(CboRubro.SelectedValue)
             CboSubRubro.SelectedValue = oDs3.Tables(0).Rows(0).Item("ID_SubRubro")
         Else
-            lblTitulo.InnerText = "NUEVO ITEM"
+            lblTitulo.InnerText = "NUEVO PRODUCTO"
             chkActivo.Checked = True
         End If
     End Sub
@@ -173,7 +173,7 @@ Public Class frmItemsABM
         ElseIf TxtDescripcion.Text = "" Then
 
 
-            tituloStatus = "PASO 1: POR FAVOR ESCRIBA UN TÍTULO PARA EL ITEM"
+            tituloStatus = "PASO 1: POR FAVOR ESCRIBA UN TÍTULO PARA EL PRODUCTO"
             Session.Add("status", 2)
             Session.Add("titulo", tituloStatus)
             Session.Add("imagen", "Imagenes/IncorrectoTickets.png")
@@ -194,7 +194,7 @@ Public Class frmItemsABM
 
         ElseIf TxtDetalle.Text = "" Then
 
-            tituloStatus = "PASO 1: POR FAVOR ESCRIBA UN DETALLE PARA EL ITEM"
+            tituloStatus = "PASO 1: POR FAVOR ESCRIBA UN DETALLE PARA EL PRODUCTO"
             Session.Add("status", 2)
             Session.Add("titulo", tituloStatus)
             Session.Add("imagen", "Imagenes/IncorrectoTickets.png")
@@ -216,7 +216,7 @@ Public Class frmItemsABM
 
         ElseIf TxtPrecio.Text = "" Then
 
-            tituloStatus = "PASO 2: POR FAVOR ESCRIBA UN PRECIO PARA EL ITEM"
+            tituloStatus = "PASO 2: POR FAVOR ESCRIBA UN PRECIO PARA EL PRODUCTO"
             Session.Add("status", 2)
             Session.Add("titulo", tituloStatus)
             Session.Add("imagen", "Imagenes/IncorrectoTickets.png")
@@ -237,7 +237,7 @@ Public Class frmItemsABM
 
         ElseIf TxtStock.Text = "" Then
 
-            tituloStatus = "PASO 2: POR FAVOR ESCRIBA UN STOCK PARA EL ITEM"
+            tituloStatus = "PASO 2: POR FAVOR ESCRIBA UN STOCK PARA EL PRODUCTO"
             Session.Add("status", 2)
             Session.Add("titulo", tituloStatus)
             Session.Add("imagen", "Imagenes/IncorrectoTickets.png")
@@ -337,7 +337,7 @@ Public Class frmItemsABM
 
 
         Dim tituloStatus As String
-        tituloStatus = "ITEM AGREGADO EXITOSAMENTE"
+        tituloStatus = "PRODUCTO AGREGADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 
@@ -374,7 +374,7 @@ Public Class frmItemsABM
 
 
         Dim tituloStatus As String
-        tituloStatus = "ITEM MODIFICADO EXITOSAMENTE"
+        tituloStatus = "PRODUCTO MODIFICADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 
@@ -421,7 +421,7 @@ Public Class frmItemsABM
         oDs = oObjeto.ModificarImagen(HfID_Item.Value, urlImagen)
 
         Dim tituloStatus As String
-        tituloStatus = "ITEM MODIFICADO EXITOSAMENTE"
+        tituloStatus = "PRODUCTO MODIFICADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 
