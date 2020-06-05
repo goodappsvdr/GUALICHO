@@ -498,6 +498,19 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
+                            
+                            <div class="col-md-3">
+                                <a href="FrmPedidosMP.aspx">
+                                    <div class="wrap" style="background:#000">
+                                           <div class="divPrueba">
+                                        <center>
+                                            <p style="color:white; font-weight:bold;  font-size:12px;">PEDIDOS MERCADO PAGO</p>
+                                            <br />
+                                            <img src="Imagenes/mp.png" style="height: 55px; width:auto; margin-top:-15px;"/>
+                                        </center></div>
+                                    </div>
+                                </a>
+                            </div>
 
                             
                            

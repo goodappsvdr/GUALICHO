@@ -70,7 +70,7 @@ Public Class frmBannersABM
 
         If oDs.Tables(0).Rows.Count > 0 Then
             ImgBanner.Visible = True
-            lblTitulo.InnerText = "EDITAR PORTADA"
+            lblTitulo.InnerText = "EDITAR BANNER"
             HfID_Banner.Value = oDs.Tables(0).Rows(0).Item("ID_Banner")
             txtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion")
             TxtFechaFin.Text = oDs.Tables(0).Rows(0).Item("FechaFin")
@@ -79,7 +79,7 @@ Public Class frmBannersABM
 
             chkActivo.Checked = oDs.Tables(0).Rows(0).Item("Activo")
         Else
-            lblTitulo.InnerText = "NUEVA PORTADA"
+            lblTitulo.InnerText = "NUEVO BANNER"
             chkActivo.Checked = True
         End If
 
@@ -115,7 +115,7 @@ Public Class frmBannersABM
         oDs = oObjeto.ModificarBEWeb(HfID_Banner.Value, txtDescripcion.Text, TxtFechaFin.Text, chkActivo.Checked)
 
         Dim tituloStatus As String
-        tituloStatus = "PORTADA MODIFICADO EXITOSAMENTE"
+        tituloStatus = "BANNER MODIFICADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 
@@ -144,7 +144,7 @@ Public Class frmBannersABM
         oDs = oObjeto.ModificarImagen(HfID_Banner.Value, urlImagen)
 
         Dim tituloStatus As String
-        tituloStatus = "PORTADA MODIFICADA EXITOSAMENTE"
+        tituloStatus = "BANNER MODIFICADO EXITOSAMENTE"
 
         Session.Add("status", 1)
 
@@ -183,7 +183,7 @@ Public Class frmBannersABM
 
 
             Dim tituloStatus As String
-            tituloStatus = "PORTADA AGREGADA EXITOSAMENTE"
+            tituloStatus = "BANNER AGREGADO EXITOSAMENTE"
 
             Session.Add("status", 1)
 

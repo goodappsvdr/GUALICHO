@@ -407,14 +407,14 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
                         <li id="Men_Item" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Productos</span><span class="menu-arrow"></span></a>
+                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Items</span><span class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmItemsABM.aspx">Nuevo Producto</a></li>
                                 <li><a href="frmItems.aspx">Editar Producto</a></li>
                             </ul>
                         </li>
                         <li id="Men_ItemImagen" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Imagenes de Productos</span><span
+                            class="waves-effect"><i class="zmdi zmdi-view-list"></i><span>Imagenes Items</span><span
                                 class="menu-arrow"></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="frmItemImagenes.aspx">Agregar Imágenes de Productos</a></li>
@@ -711,7 +711,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <br />
                                        <center>
                                         <button  type="button" style=" width:50%; background:#000 !important; border: 1px solid #000 !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
-                    VOLVER A PRODUCTO IMÁGENES</button>
+                    VOLVER A ITEM IMÁGENES</button>
                     </center>
                                        </div>
                                        </section>

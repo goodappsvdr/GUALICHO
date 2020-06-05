@@ -717,21 +717,21 @@ Public Class frmDetalleProductoOld
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-            '  MenuMisConsultas.Visible = True
+            'MenuMisCompras.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-            ' MenuMisConsultasMobile.Visible = True
+            '  MenuMisComprasMobile.Visible = True
 
             CargarDatosUsuario()
         Else
 
             MenuIniciarSesion.Visible = True
             MenuCerrarSesion.Visible = False
-            '  MenuMisConsultas.Visible = true
+            ' MenuMisCompras.Visible = true
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
-            ' MenuMisConsultasMobile.Visible = True
+            ' MenuMisComprasMobile.Visible = True
         End If
     End Sub
 

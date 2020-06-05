@@ -464,7 +464,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#000; font-size:18px; "> Nombre de la Portada</span>
+                                         <span style="color:#000; font-size:18px; "> Nombre del Banner</span>
                                              <asp:TextBox ID="txtDescripcion" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>

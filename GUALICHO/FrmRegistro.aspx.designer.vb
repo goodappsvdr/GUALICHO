@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class FrmRegistro
 
     '''<summary>
+    '''Control btnCarrito.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnCarrito As Global.System.Web.UI.HtmlControls.HtmlAnchor
+
+    '''<summary>
     '''Control RepeaterMenuRubros.
     '''</summary>
     '''<remarks>
@@ -21,6 +30,15 @@ Partial Public Class FrmRegistro
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents RepeaterMenuRubros As Global.System.Web.UI.WebControls.Repeater
+
+    '''<summary>
+    '''Control MenuMisCompras.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents MenuMisCompras As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control MenuIniciarSesion.
@@ -57,6 +75,15 @@ Partial Public Class FrmRegistro
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents RepeaterMenuRubrosMobile As Global.System.Web.UI.WebControls.Repeater
+
+    '''<summary>
+    '''Control MenuMisComprasMobile.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents MenuMisComprasMobile As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control MenuIniciarSesionMobile.

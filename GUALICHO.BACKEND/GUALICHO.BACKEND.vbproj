@@ -1477,6 +1477,8 @@
     <Content Include="frmMarcasABM.aspx" />
     <Content Include="frmNosotrosABM.aspx" />
     <Content Include="frmNosotrosImagenes.aspx" />
+    <Content Include="FrmPedidosMP.aspx" />
+    <Content Include="frmPedidosMPDetalle.aspx" />
     <Content Include="frmQuienesSomos.aspx" />
     <Content Include="FrmRubros.aspx" />
     <Content Include="frmRubrosABM.aspx" />
@@ -1486,12 +1488,14 @@
     <Content Include="frmSponsors.aspx" />
     <Content Include="FrmSubRubros.aspx" />
     <Content Include="frmSubRubrosABM.aspx" />
+    <Content Include="Imagenes\acreditado.png" />
     <Content Include="Imagenes\addimg.png" />
     <Content Include="Imagenes\adyc.png" />
     <Content Include="Imagenes\banner.png" />
     <Content Include="Imagenes\Banners\23.png" />
     <Content Include="Imagenes\Banners\38.png" />
     <Content Include="Imagenes\Banners\44.png" />
+    <Content Include="Imagenes\cancelado.png" />
     <Content Include="Imagenes\cas.png" />
     <Content Include="Imagenes\cauc.png" />
     <Content Include="Imagenes\cerrar.png" />
@@ -1525,11 +1529,15 @@
     <Content Include="Imagenes\logonegro.png" />
     <Content Include="Imagenes\Logo_Coovilros_horizontal.png" />
     <Content Include="Imagenes\Marca.png" />
+    <Content Include="Imagenes\mp.png" />
     <Content Include="Imagenes\noti.jpg" />
     <Content Include="Imagenes\OkTickets.png" />
     <Content Include="Imagenes\pass.png" />
+    <Content Include="Imagenes\pendiente.png" />
     <Content Include="Imagenes\poli2.png" />
+    <Content Include="Imagenes\proceso.png" />
     <Content Include="Imagenes\QuienesSomos\QuienesSomos.png" />
+    <Content Include="Imagenes\rechazado.png" />
     <Content Include="Imagenes\rubros.png" />
     <Content Include="Imagenes\servicios.png" />
     <Content Include="Imagenes\sponsors.png" />
@@ -1874,6 +1882,20 @@
     <Compile Include="frmNosotrosImagenes.aspx.vb">
       <DependentUpon>frmNosotrosImagenes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmPedidosMP.aspx.designer.vb">
+      <DependentUpon>FrmPedidosMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPedidosMP.aspx.vb">
+      <DependentUpon>FrmPedidosMP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmPedidosMPDetalle.aspx.designer.vb">
+      <DependentUpon>frmPedidosMPDetalle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPedidosMPDetalle.aspx.vb">
+      <DependentUpon>frmPedidosMPDetalle.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmQuienesSomos.aspx.designer.vb">
       <DependentUpon>frmQuienesSomos.aspx</DependentUpon>

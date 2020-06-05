@@ -46,6 +46,9 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Lexim.MercadoPago">
+      <HintPath>..\..\SAN_MATEO\DLL\DLLS\Lexim.MercadoPago.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.SqlClient, Version=4.6.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -139,10 +142,16 @@
     <Content Include="frmCuentaError.aspx" />
     <Content Include="frmCuentaExito.aspx" />
     <Content Include="frmDetalleProductoOld.aspx" />
+    <Content Include="FrmFinalizarCompra.aspx" />
     <Content Include="FrmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
+    <Content Include="FrmMisCompras.aspx" />
     <Content Include="FrmNosotros.aspx" />
     <Content Include="frmDetalleProducto.aspx" />
+    <Content Include="FrmNotificacionMP.aspx" />
+    <Content Include="FrmPagoExitoso.aspx" />
+    <Content Include="frmPagoPendiente.aspx" />
+    <Content Include="frmPagoRechazado.aspx" />
     <Content Include="FrmRegistro.aspx" />
     <Content Include="frmRubros.aspx" />
     <Content Include="FrmServicios.aspx" />
@@ -151,6 +160,7 @@
     <Content Include="frmSubRubro.aspx" />
     <Content Include="Imagenes\btngif.gif" />
     <Content Include="Imagenes\checked.png" />
+    <Content Include="Imagenes\confirmado.png" />
     <Content Include="Imagenes\copmaco.png" />
     <Content Include="Imagenes\facebook.png" />
     <Content Include="Imagenes\favicon.png" />
@@ -163,9 +173,12 @@
     <Content Include="Imagenes\imgRubros.jpg" />
     <Content Include="Imagenes\instagram.png" />
     <Content Include="Imagenes\logo.png" />
+    <Content Include="Imagenes\mp.png" />
     <Content Include="Imagenes\p1.jpg" />
     <Content Include="Imagenes\p2.jpg" />
+    <Content Include="Imagenes\pendiente.png" />
     <Content Include="Imagenes\PRUEBA2.png" />
+    <Content Include="Imagenes\rechazado.png" />
     <Content Include="Imagenes\slider1.jpg" />
     <Content Include="Imagenes\slider2.jpg" />
     <Content Include="Imagenes\slider3.jpg" />
@@ -336,6 +349,13 @@
       <DependentUpon>frmDetalleProductoOld.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="FrmFinalizarCompra.aspx.designer.vb">
+      <DependentUpon>FrmFinalizarCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFinalizarCompra.aspx.vb">
+      <DependentUpon>FrmFinalizarCompra.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="FrmInicio.aspx.designer.vb">
       <DependentUpon>FrmInicio.aspx</DependentUpon>
     </Compile>
@@ -350,6 +370,13 @@
       <DependentUpon>frmLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="FrmMisCompras.aspx.designer.vb">
+      <DependentUpon>FrmMisCompras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMisCompras.aspx.vb">
+      <DependentUpon>FrmMisCompras.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="FrmNosotros.aspx.designer.vb">
       <DependentUpon>FrmNosotros.aspx</DependentUpon>
     </Compile>
@@ -362,6 +389,34 @@
     </Compile>
     <Compile Include="frmDetalleProducto.aspx.vb">
       <DependentUpon>frmDetalleProducto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FrmNotificacionMP.aspx.designer.vb">
+      <DependentUpon>FrmNotificacionMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotificacionMP.aspx.vb">
+      <DependentUpon>FrmNotificacionMP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FrmPagoExitoso.aspx.designer.vb">
+      <DependentUpon>FrmPagoExitoso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPagoExitoso.aspx.vb">
+      <DependentUpon>FrmPagoExitoso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmPagoPendiente.aspx.designer.vb">
+      <DependentUpon>frmPagoPendiente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagoPendiente.aspx.vb">
+      <DependentUpon>frmPagoPendiente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmPagoRechazado.aspx.designer.vb">
+      <DependentUpon>frmPagoRechazado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagoRechazado.aspx.vb">
+      <DependentUpon>frmPagoRechazado.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="FrmRegistro.aspx.designer.vb">
@@ -406,6 +461,8 @@
       <DependentUpon>frmSubRubro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="HttpResponseMessage.vb" />
+    <Compile Include="IHttpActionResult.vb" />
     <Compile Include="ModuloPrincipal.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
