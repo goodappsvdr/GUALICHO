@@ -765,10 +765,10 @@
                                             style="font-family: 'Poppins', sans-serif;background-color:#fff" placeholder="Su email*">
                                         <div class="send__btn">
 
-                                            <button class="fr__btn" style="border:none;background-color:#fff;color:#000"
+                                            <button class="fr__btn" style="border:none;background-color:#AFB0B8;color:#000"
                                                 onclick="EnviarEmailContacto()" id="btnEnviarEmailContacto"
                                                 type="button">Enviar</button>
-                                            <button class="fr__btn" style="border:none; display:none;background-color:#fff;color:#000 "
+                                            <button class="fr__btn" style="border:none; display:none;background-color:#AFB0B8;color:#000 "
                                                 id="btnEnviarEmailContactoGif" type="button">Enviando<img
                                                     src="Imagenes/btngif.gif"
                                                     style="height:20px; margin-left:10px;" /></button>
