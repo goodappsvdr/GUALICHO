@@ -125,7 +125,7 @@
         width: 168px;
         height: 46px;
         border-radius: 40px;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
         transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
     }
 
@@ -146,7 +146,7 @@
         bottom: 0;
         border-radius: 14px;
         z-index: 1;
-        box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);
+        /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
@@ -161,30 +161,30 @@
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
 
-    .circle {
-        cursor: pointer !important;
-        position: absolute;
-        overflow: hidden;
-        z-index: 2;
-        top: -22px;
-        left: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 14px;
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
-        transform-origin: bottom left;
-        animation-delay: 0.2s;
-        box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);
-        background: rgba(229,201,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
+        .circle {
+            cursor: pointer !important;
+            position: absolute;
+            overflow: hidden;
+            z-index: 2;
+            top: -22px;
+            left: -12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 14px;
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
+            transform-origin: bottom left;
+            animation-delay: 0.2s;
+            /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
+            background: rgba(229,201,255,1);
+            background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
+        }
 
     .button-cart.active .circle {
         -webkit-animation: moveUpDown 0.4s ease-in-out;
@@ -192,19 +192,19 @@
         cursor: pointer !important;
     }
 
-    .icon-cart svg {
-        position: absolute;
-        width: 22px;
-        z-index: 3;
-        top: 14px;
-        left: 12px;
-        fill: #433746;
-        -webkit-animation: quickFadeIn 0.4s ease backwards;
-        animation-delay: 0.7s;
-        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.3s;
-        cursor: pointer !important;
-    }
+        .icon-cart svg {
+            position: absolute;
+            width: 22px;
+            z-index: 3;
+            top: 14px;
+            left: 12px;
+            fill: #433746;
+            -webkit-animation: quickFadeIn 0.4s ease backwards;
+            animation-delay: 0.7s;
+            transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+            transition-delay: 0.3s;
+            cursor: pointer !important;
+        }
 
     .button-cart.active .icon-cart svg {
         top: 60px;
