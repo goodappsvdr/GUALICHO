@@ -667,7 +667,7 @@
             </div>
         </div>
         <!-- End Cart Panel -->
-        </div>
+        
         <!-- End Offset Wrapper -->
 
 
@@ -803,9 +803,7 @@
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+
         <!-- End Category Area -->
         <!-- Start Prize Good Area -->
         <section class="htc__good__sale bg__cat--3">
