@@ -471,8 +471,8 @@ To {
                                             </li>
                                             <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
-                                             <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:white;" href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#000;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                             <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:#fff;" href="frmLogin.aspx">INGRESAR</a></li>
+                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#fff;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
                                 </div> 

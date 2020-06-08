@@ -541,12 +541,8 @@
    "
                                                             href="frmContacto.aspx">CONTACTO</a></li>
                                                            <li runat="server" id="MenuMisComprasMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmMisCompras.aspx">MIS COMPRAS</a></li>
-                                                    <li style="display:block;" runat="server" visible="false"
-                                                        id="MenuIniciarSesionMobile"><a style="color:#000;"
-                                                            href="frmLogin.aspx">INICIAR SESIÓN</a></li>
-                                                    <li style="display: none;" runat="server" visible="false"
-                                                        id="MenuCerrarSesionMobile"><a style="color:#000;" id="A2"
-                                                            runat="server" onserverclick="CerrarSesion">SALIR</a></li>
+                                                    <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:#fff;" href="frmLogin.aspx">INGRESAR</a></li>
+                                             <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#fff;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                                 </ul>
                                             </nav>
                                         </div>
