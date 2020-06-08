@@ -4,22 +4,24 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <title>.:: GUALICHO ::.</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-  
-    <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 
- 
       <meta property="og:image"  runat="server" id="imagenRedesSociales"  content="" >
      <meta property="og:description" runat="server" id="DescripcionRedesSociales" content="">
 
+  <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>.:: GUALICHO ::.</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="Imagenes/favicon.png">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+    <!-- All css files are included here. -->
     <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Owl Carousel min css -->
@@ -37,9 +39,10 @@
     <link rel="stylesheet" href="css/custom.css">
 
 
-
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+
+    <link href="tableResponsive.css" rel="stylesheet" />
 </head>
 <style>
     .BtnBusquedaClase {
@@ -73,9 +76,11 @@
             transition: color 300ms ease 0s;
         }
 
-    *:before, *:after {
+    *:before,
+    *:after {
         box-sizing: border-box;
     }
+
 
 
     .MenuWebNuevo {
@@ -89,6 +94,31 @@
         .MenuWebNuevo {
             padding: 0px 0px 0px 0px;
         }
+    }
+
+
+    /*.social__link li a:hover i {
+    background: rgba(0, 0, 0, 0.212) none repeat scroll 0 0;
+    color: rgba(0, 0, 0, 0.212);
+}
+
+       .social__link li a i {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 65px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 32px;
+}*/
+
+
+    .auto-style1 {
+        left: 0px;
+        top: 0px;
     }
 
     .main__menu > li:hover > a {
@@ -105,35 +135,34 @@
         color: #AFB0B8;
     }
 
-    .btnCarrito {
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        margin-bottom: 35px;
-        margin-right: 35px;
-        background: #1CA811;
-        border-radius: 50%;
-        border: 2px solid black;
-        height: 80px;
-        width: 80px;
+
+    /*icono cerveza*/
+    .pointer__tooltip:before {
+        content: "\f0fc";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        font-family: FontAwesome;
+        color: #000;
+        font-size: 23px;
+        width: 100%;
+        height: 100%;
     }
-    .btnCarrito:hover {
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
+
 
 
     *:focus {
         outline: none !Important;
     }
 
-    
+
     a.button-cart {
-         z-index:999999;
         position: fixed;
         bottom: 0;
         right: 0;
+        z-index: 999999;
         margin-bottom: 35px;
         margin-right: 35px;
         width: 168px;
@@ -152,7 +181,7 @@
             text-decoration: none;
         }
 
-     .button-bg {
+    .button-bg {
         position: absolute;
         top: 0;
         left: 0;
@@ -164,8 +193,8 @@
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
-        background: #EDDE5D;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: #EDDE5D; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
@@ -306,7 +335,7 @@
         font-size: 27px;
         color: black;
         font-weight: 700;
-        padding: 5px 16px 5px 16px;
+        padding: 10px 15px;
         text-align: right;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -314,6 +343,13 @@
         margin-top: 16px;
         border-radius: 50%;
         background: #AAAAAA;
+    }
+
+
+
+    .fr__btn:hover {
+        background: #000 none repeat scroll 0 0;
+        color: #fff;
     }
 </style>
 <body>
@@ -525,23 +561,36 @@
         <!-- Start Offset Wrapper -->
         <div class="offset__wrapper">
             <!-- Start Search Popap -->
-      <div class="search__area" style="height:170px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="search__inner" style="padding-right: 60px;">
-                                <form action="#" method="get">
-                                    <input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica"  type="text" style="background: #fff none repeat scroll 0 0; border: medium none; color: #333; font-size: 25px; font-weight: 300; height: 60px; margin-top: 50px; line-height: 60px; padding: 0 70px 0 20px; text-align: left; font-family: 'Poppins', sans-serif; ">
-                                    <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
-                                </form>
-                                <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">
-                                    <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+      <div class="search__area" style="height: 170px;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="search__inner" style="padding-right: 60px;">
+                                    <form action="#" method="get">
+                                        <input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica" type="text"
+                                            style="
+        background: #fff none repeat scroll 0 0;
+        border: medium none;
+        color: #333;
+        font-size: 25px;
+        font-weight: 300;
+        height: 60px;
+        margin-top: 50px;
+        line-height: 60px;
+        padding: 0 70px 0 20px;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;">
+                                        <button class="BtnBusquedaClase" type="button"
+                                            onclick="ClickBusqueda()"></button>
+                                    </form>
+                                    <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">
+                                        <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <!-- End Search Popap -->
             <!-- Start Cart Panel -->
             <div class="shopping__cart">
@@ -926,25 +975,17 @@
         </div>
        
        
-         
-           <!-- jquery latest version -->
-    <script src="js/vendor/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap framework js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- All js plugins included in this file. -->
-    <script src="js/plugins.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Waypoints.min.js. -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- Main js file that contents all jQuery plugins activation. -->
-    <script src="js/main.js"></script>
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-3.2.1.min.js"></script>
+        <!-- Bootstrap framework js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- All js plugins included in this file. -->
+        <script src="js/plugins.js"></script>
+        <script src="js/slick.min.js"></script>
 
 
 
-          <script src="CodigoCarrito.js"></script>
-
-
+        <script src="js/owl.carousel.min.js"></script>
 
 
 
@@ -968,7 +1009,6 @@
 
 
         <script>
-
             var owl = $('#DivBanners');
             owl.owlCarousel({
                 items: 1,
@@ -988,7 +1028,6 @@
 
 
         <script src="js/waypoints.min.js"></script>
-     
 
 
 
@@ -1003,6 +1042,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.10.1/sweetalert2.min.js"></script>
 
 
+        
+          <script src="CodigoCarrito.js"></script>
 
                  <div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
 	<div class="modal-dialog" role="document">
@@ -1064,7 +1105,7 @@
 
 
 
-         <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
+               <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content" style="    -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -1084,15 +1125,16 @@
 
 			<div id="ModalBodyCarrito" class="modal-body ">
 			
-                <table class="table table-striped" style="font-family: 'Poppins', sans-serif;">
+              
+                <table class="responsive-table striped" style="font-family: 'Poppins', sans-serif;">
                  <thead>
       <tr>
        
-        <th>Producto</th>
-        <th>Imagen</th>
-          <th>Cantidad</th>
-          <th style="text-align:right;">Precio</th>
-          <th style="text-align:right;">Total</th>
+        <th></th>
+        <th></th>
+          <th></th>
+          <th style="text-align:right;"></th>
+          <th style="text-align:right;"></th>
           <th></th>
       </tr>
     </thead>
@@ -1101,7 +1143,7 @@
         </tbody>
 
 </table>
-
+                
                 <br />
 
                 <span style="float:right; margin-right:20px; color:black; font-size:22px; font-family: 'Poppins', sans-serif;" id="TxtTotalGeneral"></span>
@@ -1111,15 +1153,26 @@
 
                 <hr />
 
-                <div class="row">
+                  <div class="row">
                  
-                    <div class="col-xs-12 col-md-12">
-                        <div style="float:right;">
-                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
-                        <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
-                      <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:130px;    font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
-                       </div>
+                    <div class="col-md-4" style="margin-bottom:10px;">
+                        <center>
+                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;   font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
+                       </center>
                             </div>
+                                       <div class="col-md-4" style="margin-bottom:10px;">
+                                           <center>
+                                            <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
+                                          </center>
+                                           </div>
+
+                           <div class="col-md-4" style="margin-bottom:10px;">
+                               <center>
+                                                     <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;  font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
+                              </center>
+                               </div>
+
+
 
                 </div>
                 
@@ -1143,8 +1196,6 @@
 		</div>
 	</div>
 </div>
-
-
     </form>
 </body>
 </html>

@@ -33,7 +33,7 @@
 
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-
+       <link href="tableResponsive.css" rel="stylesheet" />
     
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzCw_sQmmwGsAMRKUWhrzMBxG_6WXwmnk&libraries=places"></script>
 </head>
@@ -143,43 +143,43 @@
                 text-decoration: none;
             }
 
-         .button-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border-radius: 14px;
-        z-index: 1;
-        /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
-        transform-origin: bottom left;
-        overflow: hidden;
-        background: #EDDE5D;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
+        .button-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 14px;
+            z-index: 1;
+            /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+            transform-origin: bottom left;
+            overflow: hidden;
+            background: #EDDE5D; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
+        }
 
-    .circle {
-        cursor: pointer !important;
-        position: absolute;
-        overflow: hidden;
-        z-index: 2;
-        top: -22px;
-        left: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 14px;
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
-        transform-origin: bottom left;
-        animation-delay: 0.2s;
-        /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
-        background: #000;
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
+        .circle {
+            cursor: pointer !important;
+            position: absolute;
+            overflow: hidden;
+            z-index: 2;
+            top: -22px;
+            left: -12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 14px;
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
+            transform-origin: bottom left;
+            animation-delay: 0.2s;
+            /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
+            background: #000;
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
+        }
 
         .button-cart.active .circle {
             -webkit-animation: moveUpDown 0.4s ease-in-out;
@@ -531,7 +531,7 @@
 
                         <div id="PanelCarrito">
                                             
-                                                <table class="table table-striped" style="font-family: 'Poppins', sans-serif;">
+                                                <table class="responsive-table striped" style="font-family: 'Poppins', sans-serif;">
                  <thead>
       <tr>
        
@@ -812,7 +812,7 @@
         $(document).ready(function () {
 
 
-            
+
 
             CargarFinalizarCompra();
 
@@ -824,34 +824,55 @@
 
 
         function ValidarPagar() {
-            swal({
-                title: "¿Estas seguro/a de finalizar y pagar la compra?",
-                type: "question",
-                showCancelButton: true,
-                cancelButtonText: 'CANCELAR',
-                reverseButtons: true,
-                confirmButtonText: 'ACEPTAR',
-                confirmButtonColor: '#39b2c7',
-                closeOnConfirm: false,
-                showLoaderOnConfirm: true,
-                allowOutsideClick: false,
-                preConfirm: function () {
 
-                    FinalizarPagar();
+            var Domicilio_ = $("#TxtDomicilio").val();
+            var EntreCalles_ = $("#TxtEntreCalles").val();
 
-                }
-            });
+
+            if (Domicilio_=='') {
+
+                swal("ATENCIÓN", "Complete el campo domicilio", "warning");
+
+            } else if (EntreCalles_=='') {
+
+                swal("ATENCIÓN", "Complete el campo entre calles", "warning");
+
+            } else {
+
+                swal({
+                    title: "¿Estas seguro/a de finalizar y pagar la compra?",
+                    type: "question",
+                    showCancelButton: true,
+                    cancelButtonText: 'CANCELAR',
+                    reverseButtons: true,
+                    confirmButtonText: 'ACEPTAR',
+                    confirmButtonColor: '#39b2c7',
+                    closeOnConfirm: false,
+                    showLoaderOnConfirm: true,
+                    allowOutsideClick: false,
+                    preConfirm: function () {
+
+                        FinalizarPagar();
+
+                    }
+                });
+
+
+            }
+
+
+           
         }
 
         function FinalizarPagar() {
 
-            var Domicilio_=  $("#TxtDomicilio").val();
-            var Geolatitud_ =   $("#TxtGeolatitud").val();
-            var Geolongitud_ =  $("#TxtGeoLongitud").val();
-            var EntreCalles_ =  $("#TxtEntreCalles").val();
-            
-        
-            
+            var Domicilio_ = $("#TxtDomicilio").val();
+            var Geolatitud_ = $("#TxtGeolatitud").val();
+            var Geolongitud_ = $("#TxtGeoLongitud").val();
+            var EntreCalles_ = $("#TxtEntreCalles").val();
+
+
+
 
             var par = { Domicilio: Domicilio_, Geolatitud: Geolatitud_, Geolongitud: Geolongitud_, EntreCalles: EntreCalles_ };
             var payload = { cadena: JSON.stringify(par) };
@@ -874,10 +895,10 @@
 
                         var Url = json.Data;
 
-                 //       alert(Url);
+                        //       alert(Url);
 
                         window.location.replace(Url);
-                        
+
 
 
                     } else {
@@ -912,16 +933,6 @@
 
 
         }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -980,8 +991,9 @@
 
                         $("#GrillaFinalizarCompra").empty();
                         for (var x = 0; x < json.Carrito.length; x++) {
-                            $("#GrillaFinalizarCompra").append(" <tr ><th style='vertical-align: middle;'>" + json.Carrito[x].Descripcion + "</th><td><img style='height:80px; width:80px; object-fit:cover; border-radius:50%;' src='" + json.Carrito[x].Imagen + "'</></td><td style='vertical-align: middle;'>" + json.Carrito[x].Cantidad + "</td><td style='text-align:right; vertical-align: middle;'>" + json.Carrito[x].Precio + "</td><td style='text-align:right; vertical-align: middle;'>" + json.Carrito[x].Total + "</td><td><span onclick='ValidarEliminarItemCompra(" + json.Carrito[x].ID_Carrito + "," + '"' + json.Carrito[x].Descripcion + '"' + ")' aria-hidden='true' class='EliminarItem'>&times;</span></td></tr>")
+                            $("#GrillaFinalizarCompra").append(" <tr ><th style='vertical-align: middle; text-align: center;'>" + json.Carrito[x].Descripcion + "</th><td><img style='height:80px; width:80px; object-fit:cover; border-radius:50%;' src='" + json.Carrito[x].Imagen + "'</></td><td style='vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Cantidad + "</td><td style='text-align:right; vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Precio + "</td><td style='text-align:right; vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Total + "</td><td style='vertical-align: middle; text-align: center;'><img onclick='ValidarEliminarItemCompra(" + json.Carrito[x].ID_Carrito + "," + '"' + json.Carrito[x].Descripcion + '"' + ")' style='height:30px; width:30px; cursor:pointer; object-fit:cover; ' src='Imagenes/trash.png' </></td></tr>")
                         };
+
 
 
                         $("#TxtTotalGeneralFinalizarCompra").html(json.TotalGeneral);
@@ -1088,8 +1100,8 @@
                     $("#ModalBodyGifCarrito").show();
                     $("#ModalBodyCarrito").hide();
 
-                    
-                    
+
+
 
 
 
@@ -1208,7 +1220,8 @@
     </script>
 
 
-                <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
+               
+                         <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content" style="    -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -1228,15 +1241,16 @@
 
 			<div id="ModalBodyCarrito" class="modal-body ">
 			
-                <table class="table table-striped" style="font-family: 'Poppins', sans-serif;">
+              
+                <table class="responsive-table striped" style="font-family: 'Poppins', sans-serif;">
                  <thead>
       <tr>
        
-        <th>Producto</th>
-        <th>Imagen</th>
-          <th>Cantidad</th>
-          <th style="text-align:right;">Precio</th>
-          <th style="text-align:right;">Total</th>
+        <th></th>
+        <th></th>
+          <th></th>
+          <th style="text-align:right;"></th>
+          <th style="text-align:right;"></th>
           <th></th>
       </tr>
     </thead>
@@ -1245,7 +1259,7 @@
         </tbody>
 
 </table>
-
+                
                 <br />
 
                 <span style="float:right; margin-right:20px; color:black; font-size:22px; font-family: 'Poppins', sans-serif;" id="TxtTotalGeneral"></span>
@@ -1255,15 +1269,26 @@
 
                 <hr />
 
-                <div class="row">
+                  <div class="row">
                  
-                    <div class="col-xs-12 col-md-12">
-                        <div style="float:right;">
-                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
-                        <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
-                      <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:130px;    font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
-                       </div>
+                    <div class="col-md-4" style="margin-bottom:10px;">
+                        <center>
+                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;   font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
+                       </center>
                             </div>
+                                       <div class="col-md-4" style="margin-bottom:10px;">
+                                           <center>
+                                            <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
+                                          </center>
+                                           </div>
+
+                           <div class="col-md-4" style="margin-bottom:10px;">
+                               <center>
+                                                     <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;  font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
+                              </center>
+                               </div>
+
+
 
                 </div>
                 
@@ -1287,6 +1312,9 @@
 		</div>
 	</div>
 </div>
+
+
+		
 
          </form>
 </body>

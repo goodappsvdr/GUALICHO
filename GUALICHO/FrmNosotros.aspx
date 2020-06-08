@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- User style -->
     <link rel="stylesheet" href="css/custom.css">
-
+       <link href="tableResponsive.css" rel="stylesheet" />
 
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -921,7 +921,8 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
         }
 
     </script>
-                <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
+    
+               <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none;" aria-hidden="true">
 	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content" style="    -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -941,15 +942,16 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
 
 			<div id="ModalBodyCarrito" class="modal-body ">
 			
-                <table class="table table-striped" style="font-family: 'Poppins', sans-serif;">
+              
+                <table class="responsive-table striped" style="font-family: 'Poppins', sans-serif;">
                  <thead>
       <tr>
        
-        <th>Producto</th>
-        <th>Imagen</th>
-          <th>Cantidad</th>
-          <th style="text-align:right;">Precio</th>
-          <th style="text-align:right;">Total</th>
+        <th></th>
+        <th></th>
+          <th></th>
+          <th style="text-align:right;"></th>
+          <th style="text-align:right;"></th>
           <th></th>
       </tr>
     </thead>
@@ -958,7 +960,7 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
         </tbody>
 
 </table>
-
+                
                 <br />
 
                 <span style="float:right; margin-right:20px; color:black; font-size:22px; font-family: 'Poppins', sans-serif;" id="TxtTotalGeneral"></span>
@@ -968,15 +970,26 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
 
                 <hr />
 
-                <div class="row">
+                  <div class="row">
                  
-                    <div class="col-xs-12 col-md-12">
-                        <div style="float:right;">
-                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
-                        <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:150px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
-                      <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:130px;    font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
-                       </div>
+                    <div class="col-md-4" style="margin-bottom:10px;">
+                        <center>
+                        <button type="button" style=" margin-right:20px; background:#B60A0A; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;   font-size:14px;"  onclick="ValidarEliminarTodo()">VACIAR CARRITO</button>
+                       </center>
                             </div>
+                                       <div class="col-md-4" style="margin-bottom:10px;">
+                                           <center>
+                                            <button type="button" style="margin-right:20px; background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;    font-size:14px;"  onclick="ValidarFinalizarCompra()">FINALIZAR COMPRA</button>
+                                          </center>
+                                           </div>
+
+                           <div class="col-md-4" style="margin-bottom:10px;">
+                               <center>
+                                                     <button type="button" style=" margin-right:20px; background:black; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:170px;  min-width:170px;  font-size:14px;"  onclick="CerrarModalCarrito()">CERRAR</button>
+                              </center>
+                               </div>
+
+
 
                 </div>
                 

@@ -150,7 +150,7 @@ function BuscarCarrito_Ws() {
 
                 $("#GrillaCarrito").empty();
                 for (var x = 0; x < json.Carrito.length; x++) {
-                    $("#GrillaCarrito").append(" <tr ><th style='vertical-align: middle;'>" + json.Carrito[x].Descripcion + "</th><td><img style='height:80px; width:80px; object-fit:cover; border-radius:50%;' src='" + json.Carrito[x].Imagen + "'</></td><td style='vertical-align: middle;'>" + json.Carrito[x].Cantidad + "</td><td style='text-align:right; vertical-align: middle;'>" + json.Carrito[x].Precio + "</td><td style='text-align:right; vertical-align: middle;'>" + json.Carrito[x].Total + "</td><td><span onclick='ValidarEliminarItem(" + json.Carrito[x].ID_Carrito + "," + '"' + json.Carrito[x].Descripcion + '"' + ")' aria-hidden='true' class='EliminarItem'>&times;</span></td></tr>")
+                    $("#GrillaCarrito").append(" <tr ><th style='vertical-align: middle; text-align: center;'>" + json.Carrito[x].Descripcion + "</th><td><img style='height:80px; width:80px; object-fit:cover; border-radius:50%;' src='" + json.Carrito[x].Imagen + "'</></td><td style='vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Cantidad + "</td><td style='text-align:right; vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Precio + "</td><td style='text-align:right; vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Total + "</td><td style='vertical-align: middle; text-align: center;'><img onclick='ValidarEliminarItem(" + json.Carrito[x].ID_Carrito + "," + '"' + json.Carrito[x].Descripcion + '"' + ")' style='height:30px; width:30px; cursor:pointer; object-fit:cover; ' src='Imagenes/trash.png' </></td></tr>")
                 };
 
 
@@ -415,10 +415,10 @@ function AgregarAlCarrito() {
 
 
                 $("#GrillaCarrito").empty();
-
                 for (var x = 0; x < json.Carrito.length; x++) {
-                    $("#GrillaCarrito").append(" <tr ><th style='vertical-align: middle;'>" + json.Carrito[x].Descripcion + "</th><td><img style='height:80px; width:80px; object-fit:cover; border-radius:50%;' src='" + json.Carrito[x].Imagen + "'</></td><td style='vertical-align: middle;'>" + json.Carrito[x].Cantidad + "</td><td style='text-align:right; vertical-align: middle;'>" + json.Carrito[x].Precio + "</td><td style='text-align:right; vertical-align: middle;'>" + json.Carrito[x].Total + "</td><td><span onclick='ValidarEliminarItem(" + json.Carrito[x].ID_Carrito + "," + '"' + json.Carrito[x].Descripcion + '"' + ")' aria-hidden='true' class='EliminarItem'>&times;</span></td></tr>")
+                    $("#GrillaCarrito").append(" <tr ><th style='vertical-align: middle; text-align: center;'>" + json.Carrito[x].Descripcion + "</th><td><img style='height:80px; width:80px; object-fit:cover; border-radius:50%;' src='" + json.Carrito[x].Imagen + "'</></td><td style='vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Cantidad + "</td><td style='text-align:right; vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Precio + "</td><td style='text-align:right; vertical-align: middle;  text-align: center;'>" + json.Carrito[x].Total + "</td><td style='vertical-align: middle; text-align: center;'><img onclick='ValidarEliminarItem(" + json.Carrito[x].ID_Carrito + "," + '"' + json.Carrito[x].Descripcion + '"' + ")' style='height:30px; width:30px; cursor:pointer; object-fit:cover; ' src='Imagenes/trash.png' </></td></tr>")
                 };
+
 
 
 

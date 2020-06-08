@@ -309,15 +309,16 @@ Public Class FrmRegistro
 
 
 
-        Dim Email_evento As String = "gualichocerveceria@yahoo.com"
-        Dim Pass_evento As String = "Rock2356"
+        Dim Email_evento As String = "logistica.ideastdi@gmail.com"
+        Dim Pass_evento As String = "password.9"
 
 
 
-        Dim Desde As New MailAddress(Email_evento, "HIERCONS")
+
+        Dim Desde As New MailAddress(Email_evento, "GUALICHO")
 
         Dim destinatarios As String = emailCliente
-        Dim msg As New MailMessage(Desde.ToString, destinatarios, "ACTIVACIÓN DE CUENTA", "Clickea en el siguiente link para activar tu cuenta" + vbCrLf + "Link: " + link + vbCrLf + "HIERCONS")
+        Dim msg As New MailMessage(Desde.ToString, destinatarios, "ACTIVACIÓN DE CUENTA", "Clickea en el siguiente link para activar tu cuenta" + vbCrLf + "Link: " + link + vbCrLf + "GUALICHO")
 
         Dim smptHost As String
         smptHost = "smtp.gmail.com"

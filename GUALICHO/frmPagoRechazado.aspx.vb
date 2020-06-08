@@ -16,6 +16,8 @@ Public Class frmPagoRechazado
             CargarSponsors()
             CargarContactos()
         End If
+
+
     End Sub
 #Region "Validar Carrito"
     Public Sub ValidarCarrito()
@@ -51,11 +53,11 @@ Public Class frmPagoRechazado
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-           MenuMisCompras.Visible = true
+            MenuMisCompras.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-           MenuMisComprasMobile.Visible = True
+            MenuMisComprasMobile.Visible = True
 
 
         Else

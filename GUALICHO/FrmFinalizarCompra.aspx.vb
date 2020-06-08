@@ -412,9 +412,9 @@ Public Class FrmFinalizarCompra
 
 
             Dim back_urls As New MercadoPago.DataStructures.Preference.BackUrls
-            back_urls.Success = "https://www.gualicho.com.ar/frmPagoExitoso.aspx"
-            back_urls.Failure = "https://www.gualicho.com.ar/frmPagoRechazado.aspx"
-            back_urls.Pending = "https://www.gualicho.com.ar/frmPagoPendiente.aspx"
+            back_urls.Success = "https://cerveceriagualicho.com/frmPagoExitoso.aspx"
+            back_urls.Failure = "https://cerveceriagualicho.com/frmPagoRechazado.aspx"
+            back_urls.Pending = "https://cerveceriagualicho.com/frmPagoPendiente.aspx"
 
 
 

@@ -93,14 +93,16 @@ Public Class FrmMisCompras
 #Region "ValidarMenu"
     Public Sub ValidarMenu()
 
+
+
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-           MenuMisCompras.Visible = true
+            MenuMisCompras.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-           MenuMisComprasMobile.Visible = True
+            MenuMisComprasMobile.Visible = True
 
 
         Else
