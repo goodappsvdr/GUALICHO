@@ -95,6 +95,7 @@ Public Class frmRubros
 
         'RepeaterItemsLista.DataSource = ods.Tables(0)
         'RepeaterItemsLista.DataBind()
+
     End Sub
 
 #Region "ValidarMenu"
