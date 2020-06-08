@@ -162,137 +162,127 @@
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
-        background: rgba(61,252,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(61,252,255,1)), color-stop(100%, rgba(175,255,211,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: linear-gradient(135deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        background: #EDDE5D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
 
-    .circle {
-        cursor: pointer !important;
-        position: absolute;
-        overflow: hidden;
-        z-index: 2;
-        top: -22px;
-        left: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 14px;
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
-        transform-origin: bottom left;
-        animation-delay: 0.2s;
-        /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
-        background: rgba(229,201,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
-
-    .button-cart.active .circle {
-        -webkit-animation: moveUpDown 0.4s ease-in-out;
-        animation-iteration-count: 1;
-        cursor: pointer !important;
-    }
-
-    .icon-cart svg {
-        position: absolute;
-        width: 22px;
-        z-index: 3;
-        top: 14px;
-        left: 12px;
-        fill: #433746;
-        -webkit-animation: quickFadeIn 0.4s ease backwards;
-        animation-delay: 0.7s;
-        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.3s;
-        cursor: pointer !important;
-    }
-
-    .button-cart.active .icon-cart svg {
-        top: 60px;
-    }
-
-    .icon-checkmark svg {
-        position: absolute;
-        width: 22px;
-        height: 26px;
-        z-index: 3;
-        top: -30px;
-        left: 14px;
-        fill: #433746;
-        transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.4s;
-    }
-
-    .button-cart.active .icon-checkmark svg {
-        top: 12px;
-    }
-
-    .text {
-        color: #221f25;
-        font-weight: 600;
-        font-size: 14px;
-    }
-
-    .text-before {
-        position: absolute;
-        left: 50px;
-        top: 13px;
-        z-index: 4;
-        -webkit-animation: quickFadeIn 0.4s ease-out backwards;
-        animation-delay: 0.6s;
-        transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.1s;
-    }
-
-    a.button-cart.active .text-before {
-        top: 80px;
-    }
-
-    .text-after {
-        position: absolute;
-        left: 50px;
-        top: 13px;
-        z-index: 4;
-        top: -30px;
-        transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
-        transition-delay: 0.2s;
-    }
-
-    a.button-cart.active .text-after {
-        top: 13px;
-    }
-
-    /* KEYFRAMES */
-    @-webkit-keyframes quickScaleIn {
-        From {
-            -webkit-transform: scale(0);
+        .circle {
+            cursor: pointer !important;
+            position: absolute;
+            overflow: hidden;
+            z-index: 2;
+            top: -22px;
+            left: -12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 14px;
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
+            transform-origin: bottom left;
+            animation-delay: 0.2s;
+            /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
+            background: #000;
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
         }
 
-        To {
-            -webkit-transform: scale(1);
-        }
-    }
-
-    @-webkit-keyframes quickFadeIn {
-        From {
-            opacity: 0;
+        .button-cart.active .circle {
+            -webkit-animation: moveUpDown 0.4s ease-in-out;
+            animation-iteration-count: 1;
+            cursor: pointer !important;
         }
 
-        To {
-            opacity: 1;
+        .icon-cart svg {
+            position: absolute;
+            width: 22px;
+            z-index: 3;
+            top: 14px;
+            left: 12px;
+            fill: #fff;
+            -webkit-animation: quickFadeIn 0.4s ease backwards;
+            animation-delay: 0.7s;
+            transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+            transition-delay: 0.3s;
+            cursor: pointer !important;
         }
-    }
+
+        .button-cart.active .icon-cart svg {
+            top: 60px;
+        }
+
+        .icon-checkmark svg {
+            position: absolute;
+            width: 22px;
+            height: 26px;
+            z-index: 3;
+            top: -30px;
+            left: 14px;
+            fill: #433746;
+            transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
+            transition-delay: 0.4s;
+        }
+
+        .button-cart.active .icon-checkmark svg {
+            top: 12px;
+        }
+
+        .text {
+            color: #221f25;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .text-before {
+            position: absolute;
+            left: 50px;
+            top: 13px;
+            z-index: 4;
+            -webkit-animation: quickFadeIn 0.4s ease-out backwards;
+            animation-delay: 0.6s;
+            transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
+            transition-delay: 0.1s;
+        }
+
+        a.button-cart.active .text-before {
+            top: 80px;
+        }
+
+        .text-after {
+            position: absolute;
+            left: 50px;
+            top: 13px;
+            z-index: 4;
+            top: -30px;
+            transition: all 0.2s cubic-bezier(.7,0,.5,1.4);
+            transition-delay: 0.2s;
+        }
+
+        a.button-cart.active .text-after {
+            top: 13px;
+        }
+
+        /* KEYFRAMES */
+        @-webkit-keyframes quickScaleIn {
+            From {
+                -webkit-transform: scale(0);
+            }
+
+            To {
+                -webkit-transform: scale(1);
+            }
+        }
+
+        @-webkit-keyframes quickFadeIn {
+            From {
+                opacity: 0;
+            }
+
+            To {
+                opacity: 1;
+            }
+        }
 
     @-webkit-keyframes moveUpDown {
         0% {

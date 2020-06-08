@@ -191,13 +191,9 @@
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
-        background: rgba(61,252,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(61,252,255,1)), color-stop(100%, rgba(175,255,211,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
-        background: linear-gradient(135deg, rgba(61,252,255,1) 0%, rgba(175,255,211,1) 100%);
+        background: #EDDE5D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
@@ -216,13 +212,7 @@
         transform-origin: bottom left;
         animation-delay: 0.2s;
         /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
-        background: rgba(229,201,255,1);
-        background: -moz-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(229,201,255,1)), color-stop(100%, rgba(255,219,222,1)));
-        background: -webkit-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -o-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: -ms-linear-gradient(-45deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
-        background: linear-gradient(135deg, rgba(229,201,255,1) 0%, rgba(255,219,222,1) 100%);
+        background: #000;
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
@@ -239,7 +229,7 @@
         z-index: 3;
         top: 14px;
         left: 12px;
-        fill: #433746;
+        fill: #fff;
         -webkit-animation: quickFadeIn 0.4s ease backwards;
         animation-delay: 0.7s;
         transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
