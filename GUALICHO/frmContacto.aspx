@@ -622,7 +622,7 @@
                     <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
                           <h2 style="font-family: 'Poppins', sans-serif;" class="title__line--6">UBICACIÓN</h2>
                         <div class="map-contacts--2">
-                           <iframe id="IframeMapa" runat="server" src="" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                           <iframe id="IframeMapa" runat="server" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436131.2779909104!2d-64.13177017567422!3d-31.351372897207085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943263a1866db325%3A0x727ac70f0bc2dae3!2sGualicho%20Cerveza%20Artesanal!5e0!3m2!1ses!2sar!4v1591620925720!5m2!1ses!2sar" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
