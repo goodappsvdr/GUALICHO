@@ -431,7 +431,7 @@
                                         </li>--%>
 
 
-                                        <li class="drop"><a href="#">PRODUCTOS</a>
+                                        <li class="drop"><a href="#">BEER STORE</a>
                                             <ul class="dropdown">
                                                 
                                                 <asp:Repeater runat="server" ID="RepeaterMenuRubros">
@@ -456,7 +456,7 @@
                                         <ul>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">PRINCIPAL</a></li>
                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">LA FÁBRICA</a></li>
-                                            <li><a style="font-family: 'Poppins', sans-serif;" href="#">PRODUCTOS</a>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="#">BEER STORE</a>
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
