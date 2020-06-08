@@ -130,7 +130,7 @@ Public Class frmBannersABM
         oDs = oObjeto.ModificarBEWeb(HfID_Banner.Value, txtDescripcion.Text, TxtFechaFin.Text, chkActivo.Checked)
 
         Dim urlImagen As String
-        urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/Banners/"
+        urlImagen = "https://cerveceriagualicho.com/Admin/Imagenes/Banners/"
 
 
 
@@ -169,7 +169,7 @@ Public Class frmBannersABM
 
 
             Dim urlImagen As String
-            urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/Banners/"
+            urlImagen = "https://cerveceriagualicho.com/Admin/Imagenes/Banners/"
 
 
             btnSubirImg.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/Banners/") & id_banner & ".png")

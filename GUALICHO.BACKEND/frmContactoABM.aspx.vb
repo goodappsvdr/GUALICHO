@@ -89,7 +89,7 @@ Public Class frmContactoABM_aspx
 
         If txtDireccion.Text <> "" And txtEmail.Text <> "" And txtTelefono.Text <> "" Then
 
-            Dim mapa As String = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3399.7944019908473!2d-63.54453088440215!3d-31.557256581357382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94332a52b0c2e023%3A0xfd7692428bc88a58!2sHier%20Cons%20Sh!5e0!3m2!1ses!2sar!4v1575993824277!5m2!1ses!2sar"
+            Dim mapa As String = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.295296340192!2d-60.71870868484613!3d-31.65313988132589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9feb1aecdbb%3A0xe86d658ba3f1e50a!2sGualicho%20Beer%20Store!5e0!3m2!1ses-419!2sar!4v1591615432827!5m2!1ses-419!2sar"
 
 
             Dim oDs As New DataSet

@@ -28,6 +28,7 @@ Public Class FrmNosotros
 
     End Sub
 #End Region
+
 #Region "Menu"
     Public Sub CargarMenuRubros()
 

@@ -296,7 +296,7 @@ Public Class frmItemsABM
 
 
         Dim urlImagen As String
-        urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/Items/"
+        urlImagen = "https://cerveceriagualicho.com/Admin/Imagenes/Items/"
 
         btnSubirImg.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/Items/") & id_item & ".png")
 
@@ -411,7 +411,7 @@ Public Class frmItemsABM
 
 
         Dim urlImagen As String
-        urlImagen = "http://168.197.51.109/GUALICHO/Admin/Imagenes/Items/"
+        urlImagen = "https://cerveceriagualicho.com/Admin/Imagenes/Items/"
 
         btnSubirImg.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/Items/") & HfID_Item.Value & ".png")
 
