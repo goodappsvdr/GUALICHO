@@ -65,7 +65,7 @@ Public Class frmContacto
         TxtEmail.InnerText = Email
         TxtTelefono.InnerText = Telefono
 
-        IframeMapa.Src = Mapa
+        'IframeMapa.src = Mapa
     End Sub
 #End Region
 
