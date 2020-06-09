@@ -266,69 +266,6 @@ Partial Public Class frmQuienesSomos
     Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control btnSubirImg.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnSubirImg As Global.System.Web.UI.WebControls.FileUpload
-
-    '''<summary>
-    '''Control ImgQS.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ImgQS As Global.System.Web.UI.HtmlControls.HtmlImage
-
-    '''<summary>
-    '''Control TxtTooltip1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip1 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip2 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip3 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip4 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip5.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip5 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''Control BtnAceptar.
     '''</summary>
     '''<remarks>
