@@ -547,7 +547,7 @@
     line-height: 60px;
     padding: 0 70px 0 20px;
     font-family: 'Poppins', sans-serif;
-    text-align: left;">
+    text-align: left;" onkeydown="EnterBusqueda()">
                                     <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
                                 </form>
                                 <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">
@@ -912,6 +912,12 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
 
             var busqueda = $('#TxtBusquedaGenerica').val();
             window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
+        }
+        function EnterBusqueda() {
+            if (event.keyCode == 13) {
+                var busqueda = $('#TxtBusquedaGenerica').val();
+                window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
+            }
         }
 
     </script>
