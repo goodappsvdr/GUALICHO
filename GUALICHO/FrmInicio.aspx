@@ -730,7 +730,7 @@
 
 
                         <div class="single__slide animation__style01 slider__fixed--height"
-                            style="background-color:white; width:100%; max-height:600px; background-image:url('<%# Eval("Imagen")%>'); background-repeat:no-repeat;background-size: 100%;">
+                            style="background-color:rgba(253, 253, 253, 0.12); width:100%; max-height:600px; background-image:url('<%# Eval("Imagen")%>'); background-repeat:no-repeat;background-size: 100%;">
                         </div>
                         <%--  <div class="single__slide animation__style01 slider__fixed--height"  style=" max-height:600px; background-image:url('Imagenes/slider1.jpg'); background-repeat:no-repeat;background-size: cover;">
                 </div>
