@@ -881,29 +881,19 @@
 
         <!-- End Top Rated Area -->
         <!-- Start Brand Area -->
-        <div class="htc__brand__area bg__cat--3">
+        <div class="htc__brand__area bg__cat--4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ht__brand__inner">
-                            <ul class="brand__list owl-carousel clearfix" id="DivSponsors">
-
-                                <asp:Repeater id="RepeaterSponsors" runat="server">
+                            <ul class="brand__list owl-carousel clearfix">
+                        <asp:Repeater id="RepeaterSponsors" runat="server">
                                     <ItemTemplate>
-
-                                        <li><img style="width:100%; object-fit:cover;"
-                                                src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
-
+                               
+                                    <li><img style="width:100%; object-fit:cover;" src="<%# Eval("Imagen").ToString%>" alt="brand images"></li>
+                          
                                     </ItemTemplate>
                                 </asp:Repeater>
-
-                                <%-- <li><a href="#"><img src="images/brand/2.png" alt="brand images"></a></li>
-                              <li><a href="#"><img src="images/brand/3.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="images/brand/4.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="images/brand/5.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="images/brand/5.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="images/brand/1.png" alt="brand images"></a></li>
-                                <li><a href="#"><img src="images/brand/2.png" alt="brand images"></a></li>--%>
                             </ul>
                         </div>
                     </div>

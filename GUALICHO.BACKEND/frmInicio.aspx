@@ -372,8 +372,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000;">
                                            <div class="divPrueba">
                                         <center>
-                                            
-                                            <img src="Imagenes/quienes somos.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/quienes somos.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -384,7 +383,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/LaFabrica.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/LaFabrica.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -395,7 +394,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Portada.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/Portada.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -407,7 +406,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Sponsor.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/Sponsor.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -422,7 +421,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                       <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/MarcaP.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/MarcaP.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -433,7 +432,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Rubro.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/Rubro.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -444,7 +443,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/SubRubro.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/SubRubro.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -455,7 +454,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Productos.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/Productos.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -470,7 +469,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/ImagenProducto.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/ImagenProducto.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -482,7 +481,7 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Consultass.png" style="height: 20%; width:60%; margin-top:-15px;"/>
+                                            <img src="Imagenes/Consultass.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
@@ -493,26 +492,22 @@ if it's not present, don't show loader */
                                     <div class="wrap" style="background:#000">
                                            <div class="divPrueba">
                                         <center>
-                                            <img src="Imagenes/Contacto.png" style="height: 20%; width:60%; margin-top:-15px;"/>
-                                        </center></div>
-                                    </div>
-                                </a>
-                            </div>
-                            
-                            <div class="col-md-3">
-                                <a href="FrmPedidosMP.aspx">
-                                    <div class="wrap" style="background:#000">
-                                           <div class="divPrueba">
-                                        <center>
-                                            <p style="color:white; font-weight:bold;  font-size:12px;">PEDIDOS MERCADO PAGO</p>
-                                            <br />
-                                            <img src="Imagenes/mp.png" style="height: 20%; width:auto; margin-top:-15px;"/>
+                                            <img src="Imagenes/Contacto.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
                             </div>
 
-                            
+                            <div class="col-md-3">
+                                <a href="FrmPedidosMP.aspx">
+                                    <div class="wrap" style="background:#000">
+                                           <div class="divPrueba">
+                                        <center>
+                                            <img src="Imagenes/mercadoPago.png" style="height: 20%; width:55%; margin-top:-15px;"/>
+                                        </center></div>
+                                    </div>
+                                </a>
+                            </div>
                            
                         </div>
                        
