@@ -50,15 +50,6 @@ Partial Public Class FrmSubRubros
     Protected WithEvents Men_Nosotros As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''Control Men_Servicios.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Men_Servicios As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
     '''Control Men_Banners.
     '''</summary>
     '''<remarks>
@@ -138,6 +129,15 @@ Partial Public Class FrmSubRubros
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents men_Contacto As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Control Men_Servicios.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Men_Servicios As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
     '''Control men_CambiarPass.

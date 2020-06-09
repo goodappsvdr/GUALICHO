@@ -817,7 +817,7 @@
 
              var owl = $('#DivSponsors');
              owl.owlCarousel({
-                 items: 3,
+                 items: 5,
                  loop: true,
                  margin: 10,
                  autoplay: true,

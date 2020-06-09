@@ -865,7 +865,7 @@ El compromiso firme con la satisfacción de nuestros clientes hace de Linea Dora
            <script>
                var owl = $('#DivSponsors');
                owl.owlCarousel({
-                   items: 3,
+                   items: 5,
                    loop: true,
                    margin: 10,
                    autoplay: true,

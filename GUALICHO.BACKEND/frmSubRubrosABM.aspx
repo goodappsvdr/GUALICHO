@@ -348,16 +348,6 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
 
-                          <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
-                                class="menu-arrow"></span></a>
-                            <ul class="list-unstyled">
-                                    <li><a href="frmServiciosABM.aspx">Nuevo Servicio</a></li>
-                                <li><a href="frmServicios.aspx">Editar Servicio</a></li>
-                            </ul>
-                        </li>
-
-
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Portada</span><span
                                 class="menu-arrow"></span></a>
@@ -375,8 +365,6 @@ background-color:rgba(0, 0, 0, 0.5);
                                 <li><a href="frmSponsors.aspx">Editar Sponsor</a></li>
                             </ul>
                         </li>
-
-
 
                         <li id="men_Marcas" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Marcas</span><span
@@ -431,6 +419,14 @@ background-color:rgba(0, 0, 0, 0.5);
                             </ul>
                         </li>
 
+                        <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Mercado Pago</span><span
+                                class="menu-arrow"></span></a>
+                            <ul class="list-unstyled">
+                                    <li><a href="FrmPedidosMP.aspx">Ver Mercado Pago</a></li>
+                                <%--<li><a href="frmServicios.aspx">Editar Servicio</a></li>--%>
+                            </ul>
+                        </li>
                         
                         <li id="men_CambiarPass" visible="false" runat="server"><a href="frmCambiarPass.aspx"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
