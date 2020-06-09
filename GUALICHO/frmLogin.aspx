@@ -114,6 +114,20 @@
         outline: none !Important;
     }
 
+        .main__menu>li:hover>a {
+        color: #AFB0B8;
+    }
+
+    .main__menu li.drop ul.dropdown li:hover>a {
+        background: #fafafa none repeat scroll 0 0;
+        color: #AFB0B8;
+    }
+
+    .main__menu li.drop ul.dropdown.mega_dropdown li:hover>a {
+        background: transparent none repeat scroll 0 0;
+        color: #AFB0B8;
+    }
+
     
     a.button-cart {
         position: fixed;
@@ -137,24 +151,24 @@
         a.button-cart:hover {
             text-decoration: none;
         }
- .button-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border-radius: 14px;
-        z-index: 1;
-        /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
-        transform-origin: bottom left;
-        overflow: hidden;
-        background: #EDDE5D;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
+        .button-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 14px;
+            z-index: 1;
+            /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+            transform-origin: bottom left;
+            overflow: hidden;
+            background: #EDDE5D; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
+        }
 
         .circle {
             cursor: pointer !important;
@@ -445,8 +459,8 @@
                                        <%-- <li  runat="server" visible="false" id="MenuMisConsultas"><a href="frmServicios.aspx">SERVICIOS</a></li>--%>
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
                                                   <li runat="server" id="MenuMisCompras"><a href="FrmMisCompras.aspx">MIS COMPRAS</a></li>
-                                         <li style="display:block;" runat="server"  id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
-                                        <li style="display:block;" runat="server" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                         <li style="display:block;" runat="server"  id="MenuIniciarSesion"><a href="frmLogin.aspx">INGRESAR</a></li>
+                                        <li style="display:block;" runat="server" id="MenuCerrarSesion"><a  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
                                     </ul>
                                 </nav>
@@ -468,7 +482,7 @@
                                             <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
                                                    <li runat="server" id="MenuMisComprasMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmMisCompras.aspx">MIS COMPRAS</a></li>
-                                            <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:#fff;" href="frmLogin.aspx">INGRESAR</a></li>
+                                            <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmLogin.aspx">INGRESAR</a></li>
                                              <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#fff;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
