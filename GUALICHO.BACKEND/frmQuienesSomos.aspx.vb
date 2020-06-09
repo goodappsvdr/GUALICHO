@@ -71,13 +71,13 @@ Public Class frmQuienesSomos
         TxtSubtitulo.Text = oDs.Tables(0).Rows(0).Item("subtitulo").ToString
         TxtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion").ToString
 
-        ImgQS.Src = oDs.Tables(0).Rows(0).Item("Imagen").ToString
+        'ImgQS.Src = oDs.Tables(0).Rows(0).Item("Imagen").ToString
 
-        TxtTooltip1.Text = oDs.Tables(0).Rows(0).Item("tooltip1").ToString
-        TxtTooltip2.Text = oDs.Tables(0).Rows(0).Item("tooltip2").ToString
-        TxtTooltip3.Text = oDs.Tables(0).Rows(0).Item("tooltip3").ToString
-        TxtTooltip4.Text = oDs.Tables(0).Rows(0).Item("tooltip4").ToString
-        TxtTooltip5.Text = oDs.Tables(0).Rows(0).Item("tooltip5").ToString
+        'TxtTooltip1.Text = oDs.Tables(0).Rows(0).Item("tooltip1").ToString
+        'TxtTooltip2.Text = oDs.Tables(0).Rows(0).Item("tooltip2").ToString
+        'TxtTooltip3.Text = oDs.Tables(0).Rows(0).Item("tooltip3").ToString
+        'TxtTooltip4.Text = oDs.Tables(0).Rows(0).Item("tooltip4").ToString
+        'TxtTooltip5.Text = oDs.Tables(0).Rows(0).Item("tooltip5").ToString
 
     End Sub
 
@@ -90,7 +90,7 @@ Public Class frmQuienesSomos
 
             Dim oDs As New DataSet
             Dim oObjeto As New QuienesSomos
-            oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text, TxtTooltip1.Text, TxtTooltip2.Text, TxtTooltip3.Text, TxtTooltip4.Text, TxtTooltip5.Text)
+            'oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text, TxtTooltip1.Text, TxtTooltip2.Text, TxtTooltip3.Text, TxtTooltip4.Text, TxtTooltip5.Text)
 
 
 
@@ -113,7 +113,7 @@ Public Class frmQuienesSomos
     Private Sub ModificarQuienesSomosconImagen()
         Dim oDs As New DataSet
         Dim oObjeto As New QuienesSomos
-        oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text, TxtTooltip1.Text, TxtTooltip2.Text, TxtTooltip3.Text, TxtTooltip4.Text, TxtTooltip5.Text)
+        'oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text, TxtTooltip1.Text, TxtTooltip2.Text, TxtTooltip3.Text, TxtTooltip4.Text, TxtTooltip5.Text)
 
 
         Dim urlImagen As String
@@ -121,7 +121,7 @@ Public Class frmQuienesSomos
 
 
 
-        btnSubirImg.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/QuienesSomos/") & "QuienesSomos" & ".png")
+        'btnSubirImg.SaveAs(HttpContext.Current.Server.MapPath("./Imagenes/QuienesSomos/") & "QuienesSomos" & ".png")
 
 
 
@@ -140,24 +140,24 @@ Public Class frmQuienesSomos
 
     End Sub
 
-    Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
+    'Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
 
 
 
-        If btnSubirImg.HasFile = False Then
-            ModificarQuienesSomos()
-            Response.Redirect("frmQuienesSomos.aspx")
-        Else
-            ModificarQuienesSomosconImagen()
-            Response.Redirect("frmQuienesSomos.aspx")
-        End If
+    '    If btnSubirImg.HasFile = False Then
+    '        ModificarQuienesSomos()
+    '        Response.Redirect("frmQuienesSomos.aspx")
+    '    Else
+    '        ModificarQuienesSomosconImagen()
+    '        Response.Redirect("frmQuienesSomos.aspx")
+    '    End If
 
 
 
 
 
 
-    End Sub
+    'End Sub
 
 #End Region
 

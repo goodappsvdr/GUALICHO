@@ -498,7 +498,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
 
-                                            <div class="row">
+                                           <%-- <div class="row">
 
                                                     <div class="col col-md-6">
                                                    <br />
@@ -580,7 +580,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        </div>
 
 
-</div>
+</div>--%>
 
 
 
