@@ -68,7 +68,7 @@ Public Class frmDetalleProducto
 
 
 
-        'TxtProducto.InnerHtml = oDs.Tables(0).Rows(0).Item("Descripcion").ToString
+        TxtProducto.InnerHtml = oDs.Tables(0).Rows(0).Item("Descripcion").ToString
 
 
         TxtTitulo.InnerHtml = oDs.Tables(0).Rows(0).Item("Descripcion").ToString

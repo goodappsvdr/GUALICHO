@@ -91,7 +91,7 @@ Public Class frmRubros
 
         ods1 = oRubro.Rubros_BuscarPorID(id_rubro)
 
-        'txtRubro.InnerHtml = ods1.Tables(1).Rows(0).Item("Descripcion").ToString
+        txtRubro.InnerHtml = ods1.Tables(1).Rows(0).Item("Descripcion").ToString
 
         'RepeaterItemsLista.DataSource = ods.Tables(0)
         'RepeaterItemsLista.DataBind()

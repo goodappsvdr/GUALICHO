@@ -550,12 +550,20 @@
         </div>
         <!-- End Offset Wrapper -->
         <!-- Start Bradcaump area -->
-        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(imagenes/portadas-secciones-wualicho-2.jpg) no-repeat scroll center center / cover ;">
-             <div class="ht__bradcaump__wrap">
+        <div class="ht__bradcaump__area" style="background: rgba(0, 0, 0, 0) url(imagenes/imgRubros.png) no-repeat scroll center center / cover ;">
+            <div class="ht__bradcaump__wrap">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
-                            
+                            <div class="bradcaump__inner">
+                                <nav class="bradcaump-inner" >
+                                  <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Principal</a>
+                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
+                                  <span class="breadcrumb-item active" style="color:white;">Productos</span>
+                                           <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
+                                     <span class="breadcrumb-item active" style="color:white;" id="txtRubro" runat="server">Productos</span>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
