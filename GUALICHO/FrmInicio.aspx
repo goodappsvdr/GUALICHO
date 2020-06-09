@@ -603,7 +603,7 @@
         line-height: 60px;
         padding: 0 70px 0 20px;
         text-align: left;
-        font-family: 'Poppins', sans-serif;" onkeydown="EnterBusqueda" >
+        font-family: 'Poppins', sans-serif;" onkeydown="EnterBusqueda()" >
                                         <button class="BtnBusquedaClase" type="button"
                                             onclick="ClickBusqueda()"" ></button>
                                     </form>
