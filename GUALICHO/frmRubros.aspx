@@ -944,7 +944,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="ht__brand__inner">
-                            <ul class="brand__list owl-carousel clearfix">
+                            <ul class="brand__list owl-carousel clearfix" id="DivSponsors">
                         <asp:Repeater id="RepeaterSponsors" runat="server">
                                     <ItemTemplate>
                                
@@ -1097,7 +1097,7 @@
            <script>
                var owl = $('#DivSponsors');
                owl.owlCarousel({
-                   items: 3,
+                   items: 5,
                    loop: true,
                    margin: 10,
                    autoplay: true,
