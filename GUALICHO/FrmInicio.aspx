@@ -590,7 +590,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="search__inner" style="padding-right: 60px;">
-                                    <form action="#" method="get">
+                                    <form action="#" method="get" >
                                         <input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica" type="text"
                                             style="
         background: #fff none repeat scroll 0 0;
@@ -603,9 +603,9 @@
         line-height: 60px;
         padding: 0 70px 0 20px;
         text-align: left;
-        font-family: 'Poppins', sans-serif;">
+        font-family: 'Poppins', sans-serif;" onkeydown="EnterBusqueda" >
                                         <button class="BtnBusquedaClase" type="button"
-                                            onclick="ClickBusqueda()" onkeypress="EnterBusqueda()" ></button>
+                                            onclick="ClickBusqueda()"" ></button>
                                     </form>
                                     <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">
                                         <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
@@ -824,7 +824,7 @@
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                         <div class="prize__inner">
                             <div class="prize__thumb">
-                                <img runat="server" id="ImgQuienesSomos" src="Imagenes/logo.png" alt="banner images">
+                                <img runat="server" id="ImgQuienesSomos" src="Imagenes/somos gualicho.png" alt="banner images">
                             </div>
                             <div class="banner__info">
                                 <%--<div style="border-color:transparent; left:20px;" class="pointer__tooltip pointer--3 align-left">--%>
@@ -1264,8 +1264,7 @@
                 var busqueda = $('#TxtBusquedaGenerica').val();
                 window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
             }
-        </script>
-        <script>
+
             function EnterBusqueda() {
                 if (event.keyCode == 13) {
                     var busqueda = $('#TxtBusquedaGenerica').val();
@@ -1273,6 +1272,7 @@
                 }
             }
         </script>
+        
 
 
                  <div class="modal fade" id="ModalCarrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style=" display:none; z-index:99999999;" aria-hidden="true">
