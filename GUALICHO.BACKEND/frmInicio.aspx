@@ -367,10 +367,10 @@ if it's not present, don't show loader */
 
                         <div class="row">
 
-                             <div class="col-md-3">
+                            <div class="col-md-3">
                                 <a href="FrmQuienesSomos.aspx">
-                                    <div class="wrap" style="background:#000;">
-                                           <div class="divPrueba">
+                                    <div class="wrap" style="background:#000">
+                                      <div class="divPrueba">
                                         <center>
                                             <img src="Imagenes/quienes somos.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
@@ -381,7 +381,7 @@ if it's not present, don't show loader */
                             <div class="col-md-3">
                                 <a href="frmNosotrosABM.aspx">
                                     <div class="wrap" style="background:#000">
-                                           <div class="divPrueba">
+                                      <div class="divPrueba">
                                         <center>
                                             <img src="Imagenes/LaFabrica.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
@@ -389,10 +389,10 @@ if it's not present, don't show loader */
                                 </a>
                             </div>
 
-                             <div class="col-md-3">
+                            <div class="col-md-3">
                                 <a href="frmBannersABM.aspx">
                                     <div class="wrap" style="background:#000">
-                                           <div class="divPrueba">
+                                      <div class="divPrueba">
                                         <center>
                                             <img src="Imagenes/Portada.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
@@ -400,19 +400,16 @@ if it's not present, don't show loader */
                                 </a>
                             </div>
 
-
                             <div class="col-md-3">
                                 <a href="frmSponsors.aspx">
                                     <div class="wrap" style="background:#000">
-                                           <div class="divPrueba">
+                                      <div class="divPrueba">
                                         <center>
                                             <img src="Imagenes/Sponsor.png" style="height: 20%; width:55%; margin-top:-15px;"/>
                                         </center></div>
                                     </div>
                                 </a>
-                            
-                           
-                        </div>
+                            </div>
 
                         <div class="row">
 
@@ -475,7 +472,6 @@ if it's not present, don't show loader */
                                 </a>
                             </div>
                       
-
                             <div class="col-md-3">
                                 <a href="frmConsultas.aspx">
                                     <div class="wrap" style="background:#000">
@@ -508,14 +504,13 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
-                           
                         </div>
                        
                         <div class="row">
                             <div class="col-md-12">
                             <center>
                                 <img src="Imagenes/logonegro.png" style=" height:70px; margin-top:170px;"/>
-             </center>
+                            </center>
              
                             </div>
                             
