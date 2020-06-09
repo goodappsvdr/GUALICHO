@@ -479,8 +479,8 @@
 
                                         <li><a href="frmContacto.aspx">CONTACTO</a></li>
                                                 <li runat="server" id="MenuMisCompras"><a href="FrmMisCompras.aspx">MIS COMPRAS</a></li>
-                                         <li style="display:block;" runat="server"  id="MenuIniciarSesion"><a style="color:#000;" href="frmLogin.aspx">INGRESAR</a></li>
-                                        <li style="display:block;" runat="server" id="MenuCerrarSesion"><a style="color:#000;"  id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
+                                         <li style="display:block;" runat="server"  id="MenuIniciarSesion"><a href="frmLogin.aspx">INGRESAR</a></li>
+                                        <li style="display:block;" runat="server" id="MenuCerrarSesion"><a id="A1" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
 
                                     </ul>
                                 </nav>

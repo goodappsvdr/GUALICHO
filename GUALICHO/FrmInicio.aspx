@@ -504,10 +504,9 @@
                                                 <li><a href="frmContacto.aspx">CONTACTO</a></li>
                                                               <li runat="server" id="MenuMisCompras"><a href="FrmMisCompras.aspx">MIS COMPRAS</a></li>
                                                 <li style="display:block;" runat="server" visible="false"
-                                                    id="MenuIniciarSesion"><a style="color:#000;"
-                                                        href="frmLogin.aspx">INGRESAR</a></li>
+                                                    id="MenuIniciarSesion"><a href="frmLogin.aspx">INGRESAR</a></li>
                                                 <li style="display:block;" runat="server" visible="false"
-                                                    id="MenuCerrarSesion"><a style="color:#000;" id="A1" runat="server"
+                                                    id="MenuCerrarSesion"><a id="A1" runat="server"
                                                         onserverclick="CerrarSesion">SALIR</a></li>
 
                                             </ul>
@@ -532,12 +531,9 @@
                                                         </ul>
                                                     </li>
                                                     <%-- <li  runat="server" visible="false" id="MenuMisConsultasMobile"><a href="FrmServicios.aspx">SERVICIOS</a></li>--%>
-                                                    <li><a style="
-        font-family: 'Poppins', sans-serif;
-   "
-                                                            href="frmContacto.aspx">CONTACTO</a></li>
+                                                    <li><a style="font-family: 'Poppins', sans-serif;" href="frmContacto.aspx">CONTACTO</a></li>
                                                            <li runat="server" id="MenuMisComprasMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmMisCompras.aspx">MIS COMPRAS</a></li>
-                                                    <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="color:#000; font-family: 'Poppins', sans-serif; color:#fff;" href="frmLogin.aspx">INGRESAR</a></li>
+                                                    <li style="display:block;" runat="server" id="MenuIniciarSesionMobile"><a style="font-family: 'Poppins', sans-serif;" href="frmLogin.aspx">INGRESAR</a></li>
                                              <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#fff;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                                 </ul>
                                             </nav>
