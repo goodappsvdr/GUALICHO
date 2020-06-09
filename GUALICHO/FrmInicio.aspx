@@ -605,7 +605,7 @@
         text-align: left;
         font-family: 'Poppins', sans-serif;">
                                         <button class="BtnBusquedaClase" type="button"
-                                            onclick="ClickBusqueda()"></button>
+                                            onclick="ClickBusqueda()" onkeypress="EnterBusqueda()" ></button>
                                     </form>
                                     <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">
                                         <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
@@ -1273,6 +1273,14 @@
 
                 var busqueda = $('#TxtBusquedaGenerica').val();
                 window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
+            }
+        </script>
+        <script>
+            function EnterBusqueda() {
+                if (event.keyCode == 13) {
+                    var busqueda = $('#TxtBusquedaGenerica').val();
+                    window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
+                }
             }
         </script>
 

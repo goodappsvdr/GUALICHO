@@ -456,7 +456,7 @@
                                                 <ul>
                                                      <asp:Repeater runat="server" ID="RepeaterMenuRubrosMobile">
                                              <ItemTemplate>
-                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'>CONSULTAR</a></li>
+                                              <li><a style="font-family: 'Poppins', sans-serif;" href='<%# Eval("url")%>'><%# Eval("Descripcion")%></a></li>
                                         </ItemTemplate>
                                                 </asp:Repeater>
                                                 </ul>
