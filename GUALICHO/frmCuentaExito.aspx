@@ -374,7 +374,7 @@
                             <div class="col-md-6 col-lg-6 col-sm-4 col-xs-3">
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
-                                        <li class="drop"><a href="frminicio.aspx">PRINCIPAL</a></li>
+                                        <li class="drop"><a href="frminicio.aspx">HOME</a></li>
                                              <li class="drop"><a href="frmNosotros.aspx">LA FÁBRICA</a></li>
                                        <%-- <li class="drop"><a href="#">women</a>--%>
                                           
@@ -454,7 +454,7 @@
                                    <div class="mobile-menu clearfix visible-xs visible-sm">
                                     <nav id="mobile_dropdown">
                                         <ul>
-                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">PRINCIPAL</a></li>
+                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmInicio.aspx">HOME</a></li>
                                            <li><a style="font-family: 'Poppins', sans-serif;" href="frmNosotros.aspx">LA FÁBRICA</a></li>
                                             <li><a style="font-family: 'Poppins', sans-serif;" href="#">BEER STORE</a>
                                                 <ul>
@@ -662,7 +662,7 @@
                                 <h2 class="title__line--2"></h2>
                                 <div class="ft__inner">
                                     <ul class="ft__list" style="font-family: 'Poppins', sans-serif;">
-                                        <li><a style="color:#fff" href="frminicio.aspx">Principal</a></li>
+                                        <li><a style="color:#fff" href="frminicio.aspx">Home</a></li>
                                         <li><a style="color:#fff" href="frmnosotros.aspx">La Fábrica</a></li>
                                         <li><a style="color:#fff" href="frmContacto.aspx">Contacto</a></li>
                                         <%--    <li><a href="#">Terms  & Condition</a></li>
