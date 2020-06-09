@@ -239,15 +239,6 @@ if it's not present, don't show loader */
                                 <li><a href="frmNosotrosABM.aspx">Editar Fábrica</a></li>
                             </ul>
                         </li>
-                          <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
-                            class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Servicios</span><span
-                                class="menu-arrow"></span></a>
-                            <ul class="list-unstyled">
-                                    <li><a href="frmServiciosABM.aspx">Nuevo Servicio</a></li>
-                                <li><a href="frmServicios.aspx">Editar Servicio</a></li>
-                            </ul>
-                        </li>
-
 
                         <li id="Men_Banners" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-view-list"></i><span>Portada</span><span
@@ -322,6 +313,14 @@ if it's not present, don't show loader */
                             </ul>
                         </li>
 
+                        <li id="Men_Servicios" visible="false" runat="server" class="has_sub"><a href="javascript:void(0);"
+                            class="waves-effect" style="background-color:#000;"><i class="zmdi zmdi-view-list"></i><span>Mercado Pago</span><span
+                                class="menu-arrow"></span></a>
+                            <ul class="list-unstyled">
+                                    <li><a href="FrmPedidosMP.aspx">Ver Mercado Pago</a></li>
+                                <%--<li><a href="frmServicios.aspx">Editar Servicio</a></li>--%>
+                            </ul>
+                        </li>
                         
                         <li id="men_CambiarPass" visible="false" runat="server"><a href="frmCambiarPass.aspx"
                             class="waves-effect" style="background:#000;"><i class="zmdi zmdi-refresh"></i><span>Cambiar Contraseña </span>
