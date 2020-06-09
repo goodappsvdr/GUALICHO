@@ -808,7 +808,7 @@
 
         <!-- End Category Area -->
         <!-- Start Prize Good Area -->
-        <section class="htc__good__sale bg__cat--3">
+        <section class="htc__good__sale bg__cat--3" style="margin-top:-65px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
@@ -881,7 +881,7 @@
 
         <!-- End Top Rated Area -->
         <!-- Start Brand Area -->
-        <div class="htc__brand__area bg__cat--4">
+        <div class="htc__brand__area bg__cat--4" style="margin-top:-65px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
