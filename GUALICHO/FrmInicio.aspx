@@ -803,7 +803,7 @@
         <!-- End Category Area -->
         <!-- Start Prize Good Area -->
         <section class="htc__good__sale bg__cat--3">
-            <div class="container" style="margin-top:-150px;">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                         <div class="fr__prize__inner">
@@ -817,7 +817,7 @@
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                         <div class="prize__inner">
                             <div class="prize__thumb">
-                                <img runat="server" style="margin-top:60px;" id="ImgQuienesSomos" src="Imagenes/somos gualicho.png" alt="banner images">
+                                <img runat="server" id="ImgQuienesSomos" src="Imagenes/somos gualicho.png" alt="banner images">
                             </div>
                             <div class="banner__info">
                                 <%--<div style="border-color:transparent; left:20px;" class="pointer__tooltip pointer--3 align-left">--%>
@@ -874,7 +874,7 @@
 
         <!-- End Top Rated Area -->
         <!-- Start Brand Area -->
-        <div class="htc__brand__area bg__cat--4" style="margin-top:-65px;">
+        <div class="htc__brand__area bg__cat--4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
