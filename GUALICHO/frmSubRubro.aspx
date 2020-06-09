@@ -555,7 +555,7 @@
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
                                   <span class="breadcrumb-item active" style="color:white;">SubRubro</span>
                                            <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
-                                     <span class="breadcrumb-item active" style="color:white;" id="txtSubRubro" runat="server">Subrubro</span>
+                                     <span class="breadcrumb-item active" style="color:white;" id="txtSubRubro" runat="server"></span>
                                 </nav>
                             </div>
                         </div>
