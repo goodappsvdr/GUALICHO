@@ -506,7 +506,7 @@
                         <div class="col-xs-12">
                             <div class="bradcaump__inner">
                                 <nav class="bradcaump-inner" style="background-color:black" >
-                                  <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Principal</a>
+                                  <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Home</a>
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
                                   <span class="breadcrumb-item active" style="color:white;">Finalizar Compra</span>
                                            
