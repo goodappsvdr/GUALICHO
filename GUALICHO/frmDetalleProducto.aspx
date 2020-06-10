@@ -649,7 +649,7 @@
                         <div class="col-xs-12">
                             <div class="bradcaump__inner">
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Principal</a>
+                                  <a class="breadcrumb-item" href="frmInicio.aspx" style="color:white;">Home</a>
                                   <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;" ></i></span>
                                   <a class="breadcrumb-item" href="frmRubros.aspx?ID=1075" style="color:white;">Producto</a>
                                    <span class="brd-separetor"><i class="zmdi zmdi-chevron-right" style="color:white;"></i></span>
