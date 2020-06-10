@@ -528,7 +528,7 @@ a.button-cart:hover {
                     <div class="row">
                         <div class="col-md-12">
                             <div class="search__inner" style="padding-right: 60px;">
-                                <form action="#" method="get"><input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica"  type="text" style="background: #fff none repeat scroll 0 0;
+                               <input placeholder="Qué estas buscando?" id="TxtBusquedaGenerica"  type="text" style="background: #fff none repeat scroll 0 0;
     border: medium none;
     color: #333;
     font-size: 25px;
@@ -538,8 +538,8 @@ a.button-cart:hover {
     line-height: 60px;
     padding: 0 70px 0 20px;
     text-align: left;
-    font-family: 'Poppins', sans-serif;" onkeydown="EnterBusqueda()">                                    <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
-                                </form>
+    font-family: 'Poppins', sans-serif;">                                    <button class="BtnBusquedaClase" type="button" onclick="ClickBusqueda()"></button>
+                              
                                 <div class="search__close__btn" style="    margin-right: -30px; margin-top: 55px;">
                                     <span class="search__close__btn_icon"><i class="zmdi zmdi-close"></i></span>
                                 </div>

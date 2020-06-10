@@ -2,6 +2,14 @@
 
 $(document).ready(function () {
 
+    $('#TxtBusquedaGenerica').keypress(function (e) {
+        if (e.which == 13) {
+            //e.preventDefault();
+            ClickBusqueda();
+        }
+    });
+
+
 
     BuscarCarrito_Ws();
 
