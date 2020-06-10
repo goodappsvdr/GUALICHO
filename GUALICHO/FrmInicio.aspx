@@ -1159,7 +1159,14 @@
           <script src="CodigoCarrito.js"></script>
 
 
-
+        <script>
+            function EnterBusqueda() {
+                if (event.keyCode == 13) {
+                    var busqueda = $('#TxtBusquedaGenerica').val();
+                    window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
+                }
+            }
+        </script>
 
 
         <script>
@@ -1258,12 +1265,7 @@
                 window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
             }
 
-            function EnterBusqueda() {
-                if (event.keyCode == 13) {
-                    var busqueda = $('#TxtBusquedaGenerica').val();
-                    window.location = "frmBusquedaItems.aspx?Busqueda=" + busqueda;
-                }
-            }
+            
         </script>
         
 
