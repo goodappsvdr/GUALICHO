@@ -478,7 +478,7 @@
                                     <div class="header__search search search__open">
                                         <a href="#"><i class="icon-magnifier icons"></i></a>
                                     </div>
-                                    <div class="header__account search search__open" style="cursor:pointer; margin-left:-15px;">
+                                    <div class="header__account search search__open" style="cursor:pointer; margin-left:-10px;">
                                     
                                 
                             
