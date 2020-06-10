@@ -757,7 +757,7 @@
                                     <br />
 
                                   
-                                    <button type="button" onclick="ValidarAgregarCarrito()"  style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
+                                    <button type="button" id="btnAgregarCarrito" runat="server" onclick="ValidarAgregarCarrito()" style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
                                     </div>
                                     <br />
                                  </div>

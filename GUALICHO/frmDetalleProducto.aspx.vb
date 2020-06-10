@@ -16,6 +16,7 @@ Public Class frmDetalleProducto
             CargarImagenesItems()
             CargarSponsors()
             CargarContactos()
+
         End If
     End Sub
 
@@ -25,8 +26,10 @@ Public Class frmDetalleProducto
     Public Sub ValidarCarrito()
         If User.Identity.IsAuthenticated = True Then
             btnCarrito.Attributes("onclick") = "AbrirModalCarrito()"
+
         Else
             btnCarrito.Attributes("onclick") = "IrLogin()"
+            btnAgregarCarrito.Attributes("onclick") = "IrLogin()"
         End If
 
 
@@ -737,11 +740,11 @@ Public Class frmDetalleProducto
         If User.Identity.IsAuthenticated = True Then
             MenuIniciarSesion.Visible = False
             MenuCerrarSesion.Visible = True
-           MenuMisCompras.Visible = true
+            MenuMisCompras.Visible = True
 
             MenuIniciarSesionMobile.Visible = False
             MenuCerrarSesionMobile.Visible = True
-           MenuMisComprasMobile.Visible = True
+            MenuMisComprasMobile.Visible = True
 
             CargarDatosUsuario()
 
@@ -756,7 +759,7 @@ Public Class frmDetalleProducto
             MenuIniciarSesionMobile.Visible = True
             MenuCerrarSesionMobile.Visible = False
 
-            DivAgregarCarrito.Visible = False
+            DivAgregarCarrito.Visible = True
 
 
             MenuMisComprasMobile.Visible = False
@@ -780,18 +783,18 @@ Public Class frmDetalleProducto
 #Region "DatosUsuario"
     Public Sub CargarDatosUsuario()
 
-        '    Dim ods As New DataSet
-        '    Dim oObjeto As New User_Profile
+        'Dim ods As New DataSet
+        'Dim oObjeto As New User_Profile
 
-        '    Dim newUser As MembershipUser = Membership.GetUser
-        '    Dim newUserId As Guid = DirectCast(newUser.ProviderUserKey, Guid)
+        'Dim newUser As MembershipUser = Membership.GetUser
+        'Dim newUserId As Guid = DirectCast(newUser.ProviderUserKey, Guid)
 
-        '    ods = oObjeto.BuscarPorUserId(newUserId)
+        'ods = oObjeto.BuscarPorUserId(newUserId)
 
 
-        '    txtEmail.value = ods.Tables(0).Rows(0).Item("Usuario").ToString
+        'TxtEmail.Value = ods.Tables(0).Rows(0).Item("Usuario").ToString
 
-        '    TxtNombre.Value = ods.Tables(0).Rows(0).Item("RazonSocial").ToString
+        'TxtNombre.Value = ods.Tables(0).Rows(0).Item("RazonSocial").ToString
 
 
     End Sub
