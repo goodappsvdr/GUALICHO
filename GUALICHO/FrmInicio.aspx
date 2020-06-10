@@ -422,7 +422,7 @@
 
                                     </div>
 
-                                    <div class="col-md-6 col-lg-6 col-sm-4 col-xs-3">
+                                    <div class="col-md-9 col-lg-8 col-sm-4 col-xs-3">
                                         <nav class="main__menu__nav hidden-xs hidden-sm">
                                             <ul class="main__menu">
                                                 <li class="drop"><a href="frminicio.aspx">HOME</a></li>
@@ -535,27 +535,27 @@
                                             </nav>
                                         </div>
                                     </div>
-                                    <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
+                                    <div class="col-md-1 col-lg-1 col-sm-4 col-xs-4">
                                         <div class="header__right" style="padding-right: 40px;">
                                             <div class="header__search search search__open">
                                                 <a href="#"><i class="icon-magnifier icons"></i></a>
                                             </div>
-                                            <div class="header__account search search__open" style="cursor:pointer;">
+                                            <div class="header__account search search__open" style="cursor:pointer; margin-left:-15px;">
 
 
 
-                                                <span style="font-family: 'Poppins', sans-serif;">Buscar</span>
+                                                <span style="font-family: 'Poppins', sans-serif; margin-left:0; ">Buscar</span>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"
-                                        style=" padding: 0px 10px 0px 0px; ">
+                                    <%--<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"--%>
+                                        <%--style=" /*padding: 0px 10px 0px 0px;*/ ">--%>
                                         <%--<div class="logo">
                                      <a href="frminicio.aspx"><img src="imagenes/copmaco.png"  style="max-height: 90px;" alt="logo images"></a>
                                 </div>--%>
 
-                                    </div>
+                                   <%-- </div>--%>
 
                                 </div>
                             </div>

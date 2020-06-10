@@ -363,7 +363,7 @@
                                 
                             </div>
     
-                            <div class="col-md-6 col-lg-6 col-sm-4 col-xs-3">
+                            <div class="col-md-9 col-lg-8 col-sm-4 col-xs-3">
                                 <nav class="main__menu__nav hidden-xs hidden-sm">
                                     <ul class="main__menu">
                                         <li class="drop"><a href="frminicio.aspx">HOME</a></li>
@@ -466,12 +466,12 @@
                                     </nav>
                                 </div> 
                             </div>
-                            <div class="col-md-2 col-lg-2 col-sm-4 col-xs-4">
+                            <div class="col-md-1 col-lg-1 col-sm-4 col-xs-4">
                                 <div class="header__right" style="padding-right: 40px;">
                                     <div class="header__search search search__open">
                                         <a href="#"><i class="icon-magnifier icons"></i></a>
                                     </div>
-                                    <div class="header__account search search__open" style="cursor:pointer;">
+                                    <div class="header__account search search__open" style="cursor:pointer; margin-left:-15px;">
                                     
                                 
                             
