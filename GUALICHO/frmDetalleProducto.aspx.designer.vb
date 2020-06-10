@@ -248,6 +248,15 @@ Partial Public Class frmDetalleProducto
     Protected WithEvents DivAgregarCarrito As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
+    '''Control btnAgregarCarrito.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnAgregarCarrito As Global.System.Web.UI.HtmlControls.HtmlButton
+
+    '''<summary>
     '''Control CmdAbrirConsulta.
     '''</summary>
     '''<remarks>
