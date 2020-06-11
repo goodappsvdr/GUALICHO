@@ -5,11 +5,12 @@ Imports System.Web.Script.Services
 Imports System.Web.Services
 Public Class FrmMisCompras
     Inherits System.Web.UI.Page
-
+    Dim HoraActual As String
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        HoraActual = FechaHoraServidor()
 
         If Page.IsPostBack = False Then
-
+            ComprobarEstadoPedidos()
             ValidarCarrito()
             ValidarMenu()
             CargarMenuRubros()
@@ -31,11 +32,47 @@ Public Class FrmMisCompras
         Dim newUserId As Guid = DirectCast(newUser.ProviderUserKey, Guid)
 
 
+
+
         oDs = oObjeto.BuscarPorUserId(newUserId)
 
+        If oDs.Tables(0).Rows.Count = 0 Then
 
-        RepeaterMisPedidos.DataSource = oDs.Tables(0)
-        RepeaterMisPedidos.DataBind()
+            txtMensaje.InnerText = "No se registran compras hasta el momento."
+
+        Else
+
+            RepeaterMisPedidos.DataSource = oDs.Tables(0)
+            RepeaterMisPedidos.DataBind()
+
+        End If
+
+
+
+    End Sub
+
+    Private Sub ComprobarEstadoPedidos()
+        Dim oDs As New DataSet
+        Dim oPedido As New PedidosMP
+
+        Dim newUser As MembershipUser = Membership.GetUser
+        Dim newUserId As Guid = DirectCast(newUser.ProviderUserKey, Guid)
+
+        'Busco las compras que estan en estado Pendiente y finalizado
+
+        oDs = oPedido.BuscarPorUserId(newUserId)
+
+
+
+        For i = 0 To oDs.Tables(0).Rows.Count - 1
+
+            If CDate(oDs.Tables(0).Rows(i).Item("Fecha")).AddHours(3) >= HoraActual Then
+                'modificar el estado y ponerlo como consultado
+                oPedido.CambiarAConsultado(oDs.Tables(0).Rows(i).Item("id_pedido"), 7)
+            End If
+
+        Next
+
 
     End Sub
 

@@ -537,6 +537,9 @@
 
                         <center>
 
+
+  <span id="txtMensaje" runat="server" style="font-size: 25px; color:black; font-family: 'Poppins', sans-serif;" text=""></span><br />      
+
                                   <asp:Repeater runat="server" ID="RepeaterMisPedidos">
              <ItemTemplate>
              <div  class="row DivPedidos"  >
@@ -546,7 +549,7 @@
                           </div>
 
                               <div class="col-md-3" style=" padding-bottom:24px;">
-                                 <span style="font-size: 16px; font-weight:bold; color: #555555;"><%# Eval("Nropedido")%> </span><br />
+                                 <%--<span style="font-size: 16px; font-weight:bold; color: #555555;"><%# Eval("Nropedido")%> </span><br />--%>
                                   <span style="font-size: 14px; color: #999;"><%# Eval("Fecha")%> </span>
                                 </div>
 
@@ -573,13 +576,16 @@
 
                           <asp:HiddenField ID="hd1"  Value='<%# Eval("id_pedido")%>' runat="server" />     
 
-                       
+               
+
+
+
                           <div id="DivDetalle<%# Eval("id_pedido")%>" class="row" style="display:none; margin-left: 0.5px; width: 100%;  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)">
                              
 
 
                               
-
+                              
 
 
                                 <asp:Repeater ID="RepeaterPedidosDetalles" runat="server"><ItemTemplate>

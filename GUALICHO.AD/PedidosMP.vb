@@ -14,7 +14,7 @@ Public Class PedidosMP
     Public Sub New(ByVal str As String)
     End Sub
 
-    Public Function Agregar(tran As SqlTransaction, Fecha As Date, Usuario As Guid, Total As Double, Estado As Integer, Notificado As Integer, RazonSocial As String, Email As String, Direccion As String, Geolatitud As String, Geolongitud As String, EntreCalles As String, UrlMP As String) As Double
+    Public Function Agregar(tran As SqlTransaction, Fecha As DateTime, Usuario As Guid, Total As Double, Estado As Integer, Notificado As Integer, RazonSocial As String, Email As String, Direccion As String, Geolatitud As String, Geolongitud As String, EntreCalles As String, UrlMP As String) As Double
         Try
             Return oDatabase.ExecuteScalar(tran, "PedidosMP_Agregar", Fecha, Usuario, Total, Estado, Notificado, RazonSocial, Email, Direccion, Geolatitud, Geolongitud, EntreCalles, UrlMP)
         Catch ex As System.Exception
@@ -75,6 +75,14 @@ Public Class PedidosMP
             Throw ex
         End Try
 
+    End Function
+
+    Public Function CambiarAConsultado(ID_PedidoMP As Integer, estado As Integer) As DataSet
+        Try
+            Return oDatabase.ExecuteDataSet("PedidosMP_CambiarAConsultado", ID_PedidoMP, estado)
+        Catch ex As Exception
+            Throw ex
+        End Try
     End Function
 
 

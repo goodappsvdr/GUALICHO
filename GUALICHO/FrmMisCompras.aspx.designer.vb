@@ -113,6 +113,15 @@ Partial Public Class FrmMisCompras
     Protected WithEvents A2 As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
+    '''Control txtMensaje.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txtMensaje As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
     '''Control RepeaterMisPedidos.
     '''</summary>
     '''<remarks>
