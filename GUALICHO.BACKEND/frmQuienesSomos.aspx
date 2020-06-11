@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmQuienesSomos.aspx.vb" Inherits="GUALICHO.BACKEND.frmQuienesSomos" %>
+﻿<%@ Page Language="vb" Debug="true" AutoEventWireup="false" CodeBehind="frmQuienesSomos.aspx.vb" Inherits="GUALICHO.BACKEND.frmQuienesSomos" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -26,6 +26,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     <script src="assets/js/modernizr.min.js"></script>
+
+
+   
 
       <link href="css/wowCss.css" rel="stylesheet" type="text/css" />
 
@@ -127,19 +130,18 @@ input[type="checkbox"]:disabled {
   
 }
 
-input[type="checkbox"]:after {
-  content: '';
-  position: relative;
-  
-  left: 40%;
-  top: 16%;
-  width: 25%;
-  height: 50%;
-  border: solid #fff;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  display: none;
-}
+    input[type="checkbox"]:after {
+        content: '';
+        position: relative;
+        left: 40%;
+        top: 16%;
+        width: 25%;
+        height: 50%;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        display: none;
+    }
 
 input[type="checkbox"]:checked:after {
   display: block;
@@ -292,7 +294,7 @@ background-color:rgba(0, 0, 0, 0.5);
                     <!-- Page title -->
                     <ul class="nav navbar-nav navbar-left">
                         <li>
-                            <button class="button-menu-mobile open-left">
+                            <button class="button-menu-mobile open-left" type="button">
                                 <i class="zmdi zmdi-menu"></i>
                             </button>
 
@@ -491,12 +493,12 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                            <div class="col col-md-12">
                                            <span runat="server" id="Span1" style="color:#000; font-size:18px;  " >Descripción</span>
-                                             <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
+                                               <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="200px" Width="100%"></asp:TextBox>
+                                             <%--<asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
+                                                    class="form-control"  Height="200px" Width="100%"></asp:TextBox>--%>
                                       </div>
 </div>
-
-
 
                                            <%-- <div class="row">
 
@@ -598,7 +600,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                       <%--  <button type="button" style=" width:100%; background:#000 !important; border: 1px solid #000 !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR</button>--%>
 
-                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
+                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#000 !important; border: 1px solid #000 !important; border-radius: 2em; padding: 6px 18px;"  Text="ACEPTAR"></asp:Button>
 
 
                                        </div>
@@ -704,7 +706,7 @@ background-color:rgba(0, 0, 0, 0.5);
    
    
     <!-- END wrapper -->
-    <script>
+    <script type="text/javascript">
         var resizefunc = [];
     </script>
     <!-- jQuery  -->
@@ -738,13 +740,13 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
             setTimeout(function () {
-                document.getElementById("DivStatus").style.display = "none";
-            }, 5000);
+               document.getElementById("DivStatus").style.display = "none";
+            },5000);
 
         });
 </script>
 
-<script>
+<script type="text/javascript">
     function CerrarStatus() {
         document.getElementById("DivStatus").style.display = "none";
     }
@@ -754,15 +756,13 @@ background-color:rgba(0, 0, 0, 0.5);
     <script type="text/javascript">
         $(window).load(function () {
             // Animate loader off screen
-            $(".se-pre-con").fadeOut("slow"); ;
+            $(".se-pre-con").fadeOut("slow"); 
         });
     </script>
 
-
-
     
     <script src="Scripts/wowJs.js" type="text/javascript"></script>
-        <script>
+        <script type="text/javascript">
             new WOW().init();
 </script>
 

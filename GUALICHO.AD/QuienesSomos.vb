@@ -21,9 +21,9 @@ Public Class QuienesSomos
             Throw ex
         End Try
     End Function
-    Public Function ModificarBEWeb(Titulo As String, Subtitulo As String, Descripcion As String, Tooltip1 As String, Tooltip2 As String, Tooltip3 As String, Tooltip4 As String, Tooltip5 As String) As DataSet
+    Public Function ModificarBEWeb(Titulo As String, Subtitulo As String, Descripcion As String) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("QuienesSomos_ModificarBE", Titulo, Subtitulo, Descripcion, Tooltip1, Tooltip2, Tooltip3, Tooltip4, Tooltip5)
+            Return oDatabase.ExecuteDataSet("QuienesSomos_ModificarBE", Titulo, Subtitulo, Descripcion)
         Catch ex As System.Exception
             Throw ex
         End Try

@@ -108,7 +108,7 @@ if it's not present, don't show loader */
                     <!-- Page title -->
                     <ul class="nav navbar-nav navbar-left">
                         <li>
-                            <button class="button-menu-mobile open-left">
+                            <button class="button-menu-mobile open-left" type="button">
                                 <i class="zmdi zmdi-menu"></i>
                             </button>
 
