@@ -90,7 +90,7 @@ Public Class frmQuienesSomos
 
             Dim oDs As New DataSet
             Dim oObjeto As New QuienesSomos
-            'oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text, TxtTooltip1.Text, TxtTooltip2.Text, TxtTooltip3.Text, TxtTooltip4.Text, TxtTooltip5.Text)
+            oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text)
 
 
 
@@ -113,7 +113,7 @@ Public Class frmQuienesSomos
     Private Sub ModificarQuienesSomosconImagen()
         Dim oDs As New DataSet
         Dim oObjeto As New QuienesSomos
-        'oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text, TxtTooltip1.Text, TxtTooltip2.Text, TxtTooltip3.Text, TxtTooltip4.Text, TxtTooltip5.Text)
+        oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text)
 
 
         Dim urlImagen As String
@@ -140,24 +140,26 @@ Public Class frmQuienesSomos
 
     End Sub
 
-    'Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
+    Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles BtnAceptar.Click
 
 
 
-    '    If btnSubirImg.HasFile = False Then
-    '        ModificarQuienesSomos()
-    '        Response.Redirect("frmQuienesSomos.aspx")
-    '    Else
-    '        ModificarQuienesSomosconImagen()
-    '        Response.Redirect("frmQuienesSomos.aspx")
-    '    End If
+        'If btnSubirImg.HasFile = False Then
+        '    ModificarQuienesSomos()
+        '    Response.Redirect("frmQuienesSomos.aspx")
+        'Else
+        '    ModificarQuienesSomosconImagen()
+        '    Response.Redirect("frmQuienesSomos.aspx")
+        'End If
 
 
+        ModificarQuienesSomos()
 
+        Status()
 
+        Session.Clear()
 
-
-    'End Sub
+    End Sub
 
 #End Region
 
@@ -189,5 +191,7 @@ Public Class frmQuienesSomos
     Private Sub btnVolver_ServerClick(sender As Object, e As System.EventArgs) Handles btnVolver.ServerClick
         Response.Redirect("frmQuienesSomos.aspx")
     End Sub
+
+
 #End Region
 End Class

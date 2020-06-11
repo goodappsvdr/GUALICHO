@@ -292,7 +292,7 @@ background-color:rgba(0, 0, 0, 0.5);
                     <!-- Page title -->
                     <ul class="nav navbar-nav navbar-left">
                         <li>
-                            <button class="button-menu-mobile open-left">
+                            <button class="button-menu-mobile open-left" type="button">
                                 <i class="zmdi zmdi-menu"></i>
                             </button>
 

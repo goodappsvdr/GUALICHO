@@ -471,7 +471,7 @@ span.round-tab:hover {
                             <!-- Page title -->
                             <ul class="nav navbar-nav navbar-left">
                                 <li>
-                                    <button class="button-menu-mobile open-left">
+                                    <button class="button-menu-mobile open-left" type="button">
                                         <i class="zmdi zmdi-menu"></i>
                                     </button>
                                 </li>
