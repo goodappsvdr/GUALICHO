@@ -558,6 +558,15 @@
                 <hr />
 
 
+                             <div class="col-md-12">
+                                    <center>
+                                        <span style="font-family: 'Poppins', sans-serif; font-size:16px; color:black;">Forma y costo de envío a tratar con el vendedor.</span>
+                                    </center>
+
+                                </div>
+                            <br /><br />
+
+
                             <div class="row">
                                   <div class="col-md-6">
                             <span style="font-family: 'Poppins', sans-serif; font-size:16px; color:black;">Domicilio:</span>
@@ -581,6 +590,10 @@
                           
 
                                      </div>
+
+
+                               
+
 
                        
                             </div>
