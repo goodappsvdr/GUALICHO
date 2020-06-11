@@ -85,5 +85,13 @@ Public Class PedidosMP
         End Try
     End Function
 
+    Public Function BuscarPendientes() As DataSet
+        Try
+            Return oDatabase.ExecuteDataSet("PedidosMP_BuscarPendientes")
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
+
 
 End Class

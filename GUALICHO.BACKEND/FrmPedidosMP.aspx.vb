@@ -1,9 +1,11 @@
 ﻿Imports GUALICHO.AD
 Public Class FrmPedidosMP
     Inherits System.Web.UI.Page
-
+    Dim HoraActual As String
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        HoraActual = FechaHoraServidor()
 
+        ComprobarEstadoPedidos()
         CargarMenuRoles()
         PedidosBuscarTodos()
 
@@ -63,6 +65,29 @@ Public Class FrmPedidosMP
         RepeaterPedidos.DataBind()
     End Sub
 
+
+    Private Sub ComprobarEstadoPedidos()
+        Dim oDs As New DataSet
+        Dim oObjeto As New PedidosMP
+        oDs = oObjeto.BuscarPendientes
+
+        'Busco las compras que estan en estado Pendiente
+
+
+
+
+
+        For i = 0 To oDs.Tables(0).Rows.Count - 1
+
+            If CDate(oDs.Tables(0).Rows(i).Item("Fecha")).AddHours(3) >= HoraActual Then
+                'modificar el estado y ponerlo como consultado
+                oObjeto.CambiarAConsultado(oDs.Tables(0).Rows(i).Item("ID_PedidoMP"), 7)
+            End If
+
+        Next
+
+
+    End Sub
 
 #End Region
 End Class
