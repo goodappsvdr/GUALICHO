@@ -757,13 +757,13 @@
                                     <br />
 
                                   
-                                    <button type="button" id="btnAgregarCarrito" runat="server" onclick="ValidarAgregarCarrito()" style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
+                                    <button type="button" id="btnAgregarCarrito" runat="server" onclick="ValidarAgregarCarrito()" style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:white; border:none; height:45px; width:350px;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
                                     </div>
                                     <br />
                                  </div>
 
-
-
+                                       
+                                        
                                         <button runat="server" id="CmdAbrirConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " data-toggle="modal" data-target="#miModal">Hacer una consulta <span class="glyphicon glyphicon-send" style="font-size:18px; margin-left:15px;"></span></button>
 
                                  

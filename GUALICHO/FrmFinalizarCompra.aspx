@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- User style -->
     <link rel="stylesheet" href="css/custom.css">
-
+    <link rel="stylesheet" href="css/font-awesome.css"
 
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -530,7 +530,7 @@
 
                         <div id="PanelCarrito">
                                             
-                                                <table class="responsive-table striped" style="font-family: 'Poppins', sans-serif;">
+                                                <table class="responsive-table striped" style="font-family: 'Poppins', sans-serif;width:100%">
                  <thead>
       <tr>
        
@@ -569,6 +569,7 @@
                           
                             
                             <input id="TxtGeoLongitud"  style="display:none;" />
+                                      <br /><br />
                                       </div>
 
                                  <div class="col-md-6">
@@ -587,11 +588,16 @@
                             <br />   <br />
 
                             <div class="row">
-                                 <div class="col-md-12">
-                                     <center>
-                                       <button type="button" style="margin-right:20px; background:#035EB9; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:100%; max-width:400px;    font-size:14px;"  onclick="ValidarPagar()">FINALIZAR Y PAGAR CON MERCADO PAGO <img src="Imagenes/mp.png" style="height:30px; margin-left:10px;" /></button>
-                                   </center>
+                                 <div class="col-md-6">
+                                    
+                                       <button type="button" style="margin-right:20px; background:#035EB9; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:100%;     font-size:14px;"  onclick="ValidarPagar()">FINALIZAR Y PAGAR CON MERCADO PAGO <img src="Imagenes/mp.png" style="height:30px; margin-left:10px;" /></button>
+                                        
+                                     <br /><br />
                                          </div>
+                              
+                                <div class="col-md-6">
+                                     <button type="button" id="btnCoordinarEnvio" runat="server" onclick="CoordinarEnvio()" style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:100%;    font-size:14px;  " >CORDINAR ENVÍO CON EL VENDEDOR <img src="Imagenes/whatsappblanco.png" style="margin-left:10px; width:25px;height:25px"></img></button>
+                                    </div>
                             </div>
                             
 

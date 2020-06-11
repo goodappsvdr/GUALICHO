@@ -113,6 +113,15 @@ Partial Public Class FrmFinalizarCompra
     Protected WithEvents A2 As Global.System.Web.UI.HtmlControls.HtmlAnchor
 
     '''<summary>
+    '''Control btnCoordinarEnvio.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnCoordinarEnvio As Global.System.Web.UI.HtmlControls.HtmlButton
+
+    '''<summary>
     '''Control RepeaterSponsors.
     '''</summary>
     '''<remarks>

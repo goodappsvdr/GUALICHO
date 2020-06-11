@@ -189,6 +189,7 @@
     <Content Include="Imagenes\trash.png" />
     <Content Include="Imagenes\warning.png" />
     <Content Include="Imagenes\whatsapp.png" />
+    <Content Include="Imagenes\whatsappblanco.png" />
     <Content Include="images\banner\big-img\1.png" />
     <Content Include="images\banner\big-img\2.png" />
     <Content Include="images\bg\1.jpg" />

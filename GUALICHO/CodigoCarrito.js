@@ -45,6 +45,13 @@ function IrLogin() {
 
 }
 
+function CoordinarEnvio() {
+
+    var win = window.open('https://api.whatsapp.com/send?phone=543425685623&text=Hola%2c%20me%20gustaría%20coordinar%20el%20%20envío%20%20de%20%20mí%20%20compra%20&source=&data=&app_absent=')
+
+    win.focus();
+}
+
 function CerrarModalCarrito() {
     $('#ModalCarrito').modal('hide');
 }
