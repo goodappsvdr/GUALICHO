@@ -79,7 +79,7 @@ Public Class FrmPedidosMP
 
         For i = 0 To oDs.Tables(0).Rows.Count - 1
 
-            If CDate(oDs.Tables(0).Rows(i).Item("Fecha")).AddHours(3) >= HoraActual Then
+            If CDate(oDs.Tables(0).Rows(i).Item("Fecha")).AddHours(3) <= HoraActual Then
                 'modificar el estado y ponerlo como consultado
                 oObjeto.CambiarAConsultado(oDs.Tables(0).Rows(i).Item("ID_PedidoMP"), 7)
             End If
