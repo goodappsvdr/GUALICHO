@@ -66,9 +66,9 @@ Public Class FrmMisCompras
 
         For i = 0 To oDs.Tables(0).Rows.Count - 1
 
-            If oDs.Tables(0).Rows(i).Item("Estado") = 1 Then
+            If oDs.Tables(0).Rows(i).Item("Estado") = "Pendiente" Then
 
-                If CDate(oDs.Tables(0).Rows(i).Item("Fecha")).AddHours(3) >= HoraActual Then
+                If CDate(oDs.Tables(0).Rows(i).Item("Fecha")).AddHours(3) <= HoraActual Then
                     'modificar el estado y ponerlo como consultado
                     oPedido.CambiarAConsultado(oDs.Tables(0).Rows(i).Item("id_pedido"), 7)
                 End If
