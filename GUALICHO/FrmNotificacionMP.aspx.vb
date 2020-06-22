@@ -177,6 +177,24 @@ Public Class FrmNotificacionMP
                 If status = "approved" Then
 
                     ods = oObjeto.ModificarEstado(transaccion, ID_Pedido, 2)
+
+
+                    Dim ods1 As New DataSet
+                    Dim oObjeo1 As New PedidosDetalleMP
+
+                    ods1 = oObjeo1.BuscarID_PedidoMP(ID_Pedido)
+
+
+                    For i = 0 To ods1.Tables(0).Rows.Count - 1
+                        'ACTUALIZAR STOCK
+                        Dim ods6 As New DataSet
+                        Dim oObjeto6 As New Items
+
+                        ods6 = oObjeto6.Items_ActualizarStock_New(transaccion, ods1.Tables(0).Rows(i).Item("ID_Item"), ods1.Tables(0).Rows(i).Item("Cantidad"))
+
+                    Next
+
+
                 ElseIf status = "in_process" Then
 
                     ods = oObjeto.ModificarEstado(transaccion, ID_Pedido, 4)

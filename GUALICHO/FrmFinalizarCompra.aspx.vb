@@ -378,11 +378,6 @@ Public Class FrmFinalizarCompra
                 ID_PedidoDetalleMP_New = oObjeto4.Agregar(transaccion, ID_PedidoMP_New, oDs.Tables(0).Rows(i).Item("ID_Item"), "", "", oDs.Tables(0).Rows(i).Item("Cantidad"), oDs.Tables(0).Rows(i).Item("Precio"), oDs.Tables(0).Rows(i).Item("Total"))
 
 
-                'ACTUALIZAR STOCK
-                Dim ods6 As New DataSet
-                Dim oObjeto6 As New Items
-
-                ods6 = oObjeto6.Items_ActualizarStock_New(transaccion, oDs.Tables(0).Rows(i).Item("ID_Item"), oDs.Tables(0).Rows(i).Item("Cantidad"))
 
             Next
 
