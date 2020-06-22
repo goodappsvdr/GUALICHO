@@ -34,7 +34,7 @@ Public Class FrmNotificacionMP
                 'MercadoPago.SDK.AccessToken = "APP_USR-6712721325584376-121908-36b3e1ace9f81bbb49c3e66f18bc47d5-341866614"
 
                 MercadoPago.SDK.ClientId = "6192370592363131"
-                MercadoPago.SDK.ClientSecret = "zl2Sq8B8Z7gK9rBUBahLtExu3BCIJkoQ"
+                MercadoPago.SDK.ClientSecret = "enI0eJPHYwqFIUkRjneDU4AHeSYcJemy"
                 MercadoPago.SDK.AccessToken = "APP_USR-6192370592363131-060416-248e249880906bb9d8a75036b49ae2a4-578779446"
             End If
 

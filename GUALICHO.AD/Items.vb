@@ -207,6 +207,16 @@ Public Class Items
         End Try
     End Function
 
+    Public Function Items_ActualizarStock_New(tran As SqlTransaction, ID_Item As Integer, CantidadItemsPedidos As Integer) As DataSet
+        Try
+            Return oDatabase.ExecuteDataSet(tran, "Items_ActualizarStock", ID_Item, CantidadItemsPedidos)
+        Catch ex As System.Exception
+            Throw ex
+        End Try
+    End Function
+
+
+
     Public Function Modificar(ID_Item As Integer, Descripcion As String, Detalle As String, Extendida As String, Imagen As String, Url As String, StockActual As String, Estado As Integer, ID_Marca As Integer, Activo As Boolean, EsServicio As Boolean, ID_TipoItem As Integer) As DataSet
         Try
             Return oDatabase.ExecuteDataSet("Items_Modificar", ID_Item, Descripcion, Detalle, Extendida, Imagen, Url, StockActual, Estado, ID_Marca, Activo, EsServicio, ID_TipoItem)
