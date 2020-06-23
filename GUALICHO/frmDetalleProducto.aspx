@@ -676,7 +676,7 @@
                                        
                                         <asp:Repeater runat="server" id="RepeaterImgGrandes"><ItemTemplate>
                                         <div role="tabpanel" class="<%# Eval("Clase")%>" id="img-tab-<%# Eval("ID")%>">
-                                            <img src="<%# Eval("Imagen")%>" style=" width:510px; height:550px; object-fit:cover;" alt="full-image">
+                                            <img src="<%# Eval("Imagen")%>" style=" width:100%; height:550px; object-fit:cover;" alt="full-image">
                                         </div>
                                       </ItemTemplate></asp:Repeater>
                                         
@@ -757,14 +757,14 @@
                                     <br />
 
                                   
-                                    <button type="button" id="btnAgregarCarrito" runat="server" onclick="ValidarAgregarCarrito()" style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:white; border:none; height:45px; width:350px;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
+                                    <button type="button" id="btnAgregarCarrito" runat="server" onclick="ValidarAgregarCarrito()" style=" background:#1CA811; font-family: 'Poppins', sans-serif; color:white; border:none; height:45px; width:75%;    font-size:14px;  " >Agregar al Carrito <span class="glyphicon glyphicon-shopping-cart" style="font-size:18px; margin-left:15px;"></span></button>
                                     </div>
                                     <br />
                                  </div>
 
                                        
                                         
-                                        <button runat="server" id="CmdAbrirConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:350px;    font-size:14px;  " data-toggle="modal" data-target="#miModal">Hacer una consulta <span class="glyphicon glyphicon-send" style="font-size:18px; margin-left:15px;"></span></button>
+                                        <button runat="server" id="CmdAbrirConsulta" type="button" style=" background:#000; font-family: 'Poppins', sans-serif; color:White; border:none; height:45px; width:75%;    font-size:14px;  " data-toggle="modal" data-target="#miModal">Hacer una consulta <span class="glyphicon glyphicon-send" style="font-size:18px; margin-left:15px;"></span></button>
 
                                  
                                     <hr />
