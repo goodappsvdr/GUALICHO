@@ -628,8 +628,8 @@ Public Class frmDetalleProducto
 
 
 
-        Dim Email_evento As String = "gualichobeerstore@gmail.com"
-        Dim Pass_evento As String = "Rock2356"
+        Dim Email_evento As String = "logistica.ideastdi@gmail.com"
+        Dim Pass_evento As String = "password.9"
 
         Dim Email_evento_consulta As String = "logistica.ideastdi@gmail.com"
 
