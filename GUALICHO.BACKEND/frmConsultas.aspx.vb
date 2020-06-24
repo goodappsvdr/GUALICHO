@@ -56,7 +56,7 @@ Public Class frmConsultas
 
     Private Sub ConsultasBuscarTodos()
         Dim oDs As New DataSet
-        Dim oObjeto As New Pedidos
+        Dim oObjeto As New Consultas
         oDs = oObjeto.BuscarTodos
         RepeaterConsultas.DataSource = oDs.Tables(0)
         RepeaterConsultas.DataBind()

@@ -597,10 +597,10 @@ Public Class frmDetalleProducto
 
 
 
+            Dim oConsulta As New Consultas
 
 
-
-            EnviarConsulta(Email, RazonSocial, Telefono, Mensaje)
+            oConsulta.Agregar(RazonSocial, Email, Telefono, Mensaje)
 
             Dim data = New With {
                      Key .Status = "200",
@@ -631,7 +631,7 @@ Public Class frmDetalleProducto
         Dim Email_evento As String = "logistica.ideastdi@gmail.com"
         Dim Pass_evento As String = "password.9"
 
-        Dim Email_evento_consulta As String = "logistica.ideastdi@gmail.com"
+        Dim Email_evento_consulta As String = "gualichobeerstore@gmail.com"
 
 
 

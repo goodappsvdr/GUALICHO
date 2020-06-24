@@ -554,7 +554,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                              
                                               <div class="col col-md-4">
 
-                                               <button type="button" style=" width:100%; height:100px; border-radius:0px; background:#000 !important; border: 1px solid #000 !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                                               <button id="cmdAceptar" runat="server" type="button" style=" width:100%; height:100px; border-radius:0px; background:#000 !important; border: 1px solid #000 !important;"  class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR Y ENVIAR RESPUESTA</button>
                     </div>
                                               </div>

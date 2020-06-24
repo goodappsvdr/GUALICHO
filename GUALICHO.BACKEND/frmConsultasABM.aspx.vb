@@ -64,18 +64,18 @@ Public Class frmConsultasABM
     Private Sub CargarConsulta()
         Dim ID As Integer = Request.QueryString("ID")
         Dim ods As New DataSet
-        Dim oObjeto As New PedidosDetalles
-        ods = oObjeto.BuscarPorID_Pedido(ID)
+        Dim oObjeto As New Consultas
+        ods = oObjeto.BuscarPorID(ID)
 
-        RepeaterPedidos.DataSource = ods.Tables(0)
-        RepeaterPedidos.DataBind()
+        'RepeaterPedidos.DataSource = ods.Tables(0)
+        'RepeaterPedidos.DataBind()
 
 
         If ods.Tables(0).Rows.Count > 0 Then
 
 
-            txtUsuario.Text = ods.Tables(0).Rows(0).Item("Usuario")
-            HfID_Consulta.Value = ods.Tables(0).Rows(0).Item("ID_Pedido")
+            txtUsuario.Text = ods.Tables(0).Rows(0).Item("Email")
+            HfID_Consulta.Value = ods.Tables(0).Rows(0).Item("ID_Consulta")
 
             TxtTelefono.Text = ods.Tables(0).Rows(0).Item("Telefono")
 
@@ -132,75 +132,83 @@ Public Class frmConsultasABM
 
     Protected Sub SendEmail()
 
-        Dim ods1 As New DataSet
-        Dim oPedidodetalle As New PedidosDetalles
-        ods1 = oPedidodetalle.BuscarPorID_Pedido(Request.QueryString("ID"))
+        'Dim ods1 As New DataSet
+        'Dim oConsulta As New Consultas
+        'ods1 = oConsulta.BuscarPorID(Request.QueryString("ID"))
+
+
+        Dim Email_evento As String = "logistica.ideastdi@gmail.com"
+        Dim Pass_evento As String = "password.9"
+
+        Dim Email_evento_consulta As String = txtUsuario.Text
 
 
 
-        Dim ods As New DataSet
-        Dim oitem As New Items
+        Dim Desde As New MailAddress(Email_evento, "GUALICHO")
 
-        ods = oitem.BuscarPorID(ods1.Tables(0).Rows(0).Item("ID_Item"))
+        Dim destinatarios As String = Email_evento_consulta
+        Dim msg As New MailMessage(Desde.ToString, destinatarios, "Respuesta a consulta", "Respuesta: " & txtEnviar.Text + vbCrLf + "GUALICHO CERVECERIA -")
 
-        Dim id_item As String = ods1.Tables(0).Rows(0).Item("ID_Item")
+        Dim smptHost As String
+        smptHost = "smtp.gmail.com"
 
-        Dim web As String = SingletonParametro("WEB", "WEB")
 
-        Dim body As String = Me.PopulateBody(txtEnviar.Text, _
-            ods.Tables(0).Rows(0).Item("Descripcion"), _
-             web & ods.Tables(0).Rows(0).Item("Url") & "?ID=" & id_item _
-        )
 
-        Dim emailconsulta As String = txtUsuario.Text
 
-        Dim asunto As String = SingletonParametro("TITULOEMAIL", "TITULOEMAIL")
+        Dim SmtpServer As New SmtpClient("smtp.gmail.com")
 
-        Me.SendHtmlFormattedEmail(emailconsulta, asunto, body)
+        Dim client As New SmtpClient(smptHost, 587)
+        client.DeliveryMethod = SmtpDeliveryMethod.Network
+        client.Port = 587
+        client.Credentials = New System.Net.NetworkCredential(Email_evento, Pass_evento)
+        client.EnableSsl = True
+
+        client.Send(msg)
+
     End Sub
-    Private Function PopulateBody(ByVal Descripcion As String, ByVal Titulo As String, ByVal Url As String) As String
-        Dim body As String = String.Empty
-        Dim reader As StreamReader = New StreamReader(Server.MapPath("~/EmailTemplate1.htm"))
-        body = reader.ReadToEnd
-        body = body.Replace("{Descripcion}", Descripcion)
-        body = body.Replace("{Titulo}", Titulo)
-        body = body.Replace("{Url}", Url)
-        Return body
-    End Function
-    Private Sub SendHtmlFormattedEmail(ByVal recepientEmail As String, ByVal subject As String, ByVal body As String)
-        Dim mailMessage As MailMessage = New MailMessage
-        mailMessage.From = New MailAddress(ConfigurationManager.AppSettings("UserName"))
-        mailMessage.Subject = subject
-        mailMessage.Body = body
-        mailMessage.IsBodyHtml = True
-        mailMessage.To.Add(New MailAddress(recepientEmail))
-        Dim smtp As SmtpClient = New SmtpClient
-        smtp.Host = ConfigurationManager.AppSettings("host")
-        smtp.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings("EnableSsl"))
-        Dim NetworkCred As System.Net.NetworkCredential = New System.Net.NetworkCredential
-        NetworkCred.UserName = ConfigurationManager.AppSettings("UserName")
-        NetworkCred.Password = ConfigurationManager.AppSettings("Password")
-        smtp.UseDefaultCredentials = True
-        smtp.Credentials = NetworkCred
-        smtp.Port = Integer.Parse(ConfigurationManager.AppSettings("port"))
-        smtp.Send(mailMessage)
-    End Sub
+    'Private Function PopulateBody(ByVal Descripcion As String, ByVal Titulo As String, ByVal Url As String) As String
+    '    Dim body As String = String.Empty
+    '    Dim reader As StreamReader = New StreamReader(Server.MapPath("~/EmailTemplate1.htm"))
+    '    body = reader.ReadToEnd
+    '    body = body.Replace("{Descripcion}", Descripcion)
+    '    body = body.Replace("{Titulo}", Titulo)
+    '    body = body.Replace("{Url}", Url)
+    '    Return body
+    'End Function
+    'Private Sub SendHtmlFormattedEmail(ByVal recepientEmail As String, ByVal subject As String)
+    '    Dim mailMessage As MailMessage = New MailMessage
+    '    mailMessage.From = New MailAddress(ConfigurationManager.AppSettings("UserName"))
+    '    mailMessage.Subject = subject
+    '    mailMessage.Body = txtEnviar.Text
+    '    mailMessage.IsBodyHtml = True
+    '    mailMessage.To.Add(New MailAddress(recepientEmail))
+    '    Dim smtp As SmtpClient = New SmtpClient
+    '    smtp.Host = ConfigurationManager.AppSettings("host")
+    '    smtp.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings("EnableSsl"))
+    '    Dim NetworkCred As System.Net.NetworkCredential = New System.Net.NetworkCredential
+    '    NetworkCred.UserName = ConfigurationManager.AppSettings("UserName")
+    '    NetworkCred.Password = ConfigurationManager.AppSettings("Password")
+    '    smtp.UseDefaultCredentials = True
+    '    smtp.Credentials = NetworkCred
+    '    smtp.Port = Integer.Parse(ConfigurationManager.AppSettings("port"))
+    '    smtp.Send(mailMessage)
+    'End Sub
 
     Protected Sub cmdAceptar_Click(sender As Object, e As EventArgs) Handles cmdAceptar.ServerClick
 
-        If HfID_Consulta.Value <> "" Then
 
-            ModificarEstadoPedido()
-            If lblError.Text = "" Then
 
-                '///////////////////EnviarEmail///////////////////////////////
-                If txtEnviar.Text <> "" Then
+
+
+
+        '///////////////////EnviarEmail///////////////////////////////
+        If txtEnviar.Text <> "" Then
 
 
                     If txtUsuario.Text.Contains("@") Then
 
-
-                        SendEmail()
+                ModificarEstadoPedido()
+                SendEmail()
 
 
 
@@ -220,18 +228,17 @@ Public Class frmConsultasABM
 
 
                 End If
-                '///////////////////EnviarNotificacion///////////////////////////////
+        '///////////////////EnviarNotificacion///////////////////////////////
 
 
 
-                '///////////////////FinEnviarNotificacion///////////////////////////////
+        '///////////////////FinEnviarNotificacion///////////////////////////////
 
 
 
-            End If
 
 
-        End If
+
 
     End Sub
 
@@ -239,9 +246,9 @@ Public Class frmConsultasABM
         lblError.Text = ""
 
         Dim oDs As New DataSet
-        Dim oObjeto As New Pedidos
+        Dim oObjeto As New Consultas
 
-        oDs = oObjeto.ModificarEstado(HfID_Consulta.Value, 2)
+        oDs = oObjeto.ModificarEstado(Request.QueryString("ID"), 2)
 
     End Sub
 #End Region

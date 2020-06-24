@@ -21,9 +21,9 @@ Public Class Consultas
             Throw ex
         End Try
     End Function
-    Public Function BuscarPorID() As DataSet
+    Public Function BuscarPorID(ID_Consulta As Integer) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("Consultas_BuscarPorID")
+            Return oDatabase.ExecuteDataSet("Consultas_BuscarPorID", ID_Consulta)
         Catch ex As System.Exception
             Throw ex
         End Try
@@ -35,5 +35,14 @@ Public Class Consultas
             Throw ex
         End Try
     End Function
+
+    Public Function ModificarEstado(ID_Consulta As Integer, Estado As Integer) As DataSet
+        Try
+            Return oDatabase.ExecuteDataSet("Consultas_ModificarEstado", ID_Consulta, Estado)
+        Catch ex As Exception
+            Throw ex
+        End Try
+    End Function
+
 End Class
 

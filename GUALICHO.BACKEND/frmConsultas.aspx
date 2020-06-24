@@ -355,12 +355,13 @@ if it's not present, don't show loader */
                             <table id="datatable" class="table table-striped table-bordered" style="cursor: pointer;">
                                 <thead>
                                     <tr>
-                                        <th class="style1">Usuario
+                                        <th class="style1">Nombre
                                         </th>
-                                        <th class="style1">Razón Social
+                                        <th class="style1">Email
                                         </th>
                                         <th class="style1">Teléfono
                                         </th>
+
                                         <th class="style1">Fecha
                                         </th>
                                     </tr>
@@ -371,16 +372,17 @@ if it's not present, don't show loader */
                                             <tr onclick="window.open( '<%# Eval("urlweb")%>','_top' ); return false;">
                                                 <th>
                                                     <a style="text-decoration: none;">
-                                                        <%# Eval("Usuario")%></a>
+                                                        <%# Eval("Nombre")%></a>
                                                 </th>
                                                 <th>
                                                     <a style="text-decoration: none;">
-                                                        <%# Eval("RazonSocial")%></a>
+                                                        <%# Eval("Email")%></a>
                                                 </th>
                                                 <th>
                                                     <a style="text-decoration: none;">
                                                         <%# Eval("Telefono")%></a>
                                                 </th>
+
                                                 <th>
                                                     <a style="text-decoration: none;">
                                                         <%# Eval("Fecha")%></a>
