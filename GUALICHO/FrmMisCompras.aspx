@@ -38,6 +38,22 @@
 
     
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzCw_sQmmwGsAMRKUWhrzMBxG_6WXwmnk&libraries=places"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     <!-- Preloader -->
+    <link href="css/Preloader.css" rel="stylesheet" />
+
+    <script>
+        /*Preloaded*/
+        window.addEventListener('load', function () {
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+            menus();
+        });/**/
+    </script>
+    <!-- Fin Preloader -->
+
 </head>
     <style>
         .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
@@ -324,6 +340,16 @@
 <body>
 
     
+    <!-- Preloader -->
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Fin Preloader -->
+
      <a href="#" class="button-cart" style="cursor:pointer;" id="btnCarrito" runat="server">
     <span class="circle">
       <span class="icon icon-cart" >

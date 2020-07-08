@@ -34,6 +34,22 @@
        <link href="tableResponsive.css" rel="stylesheet" />
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     <!-- Preloader -->
+    <link href="css/Preloader.css" rel="stylesheet" />
+
+    <script>
+        /*Preloaded*/
+        window.addEventListener('load', function () {
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+            menus();
+        });/**/
+    </script>
+    <!-- Fin Preloader -->
+
 </head>
     <style>
 
@@ -303,6 +319,16 @@
     }
     </style>
 <body>
+    
+    <!-- Preloader -->
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Fin Preloader -->
 
     
      <a href="#" class="button-cart" style="cursor:pointer;" id="btnCarrito" runat="server">

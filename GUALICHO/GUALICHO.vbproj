@@ -124,6 +124,7 @@
     <Content Include="css\plugins\meanmenu.css" />
     <Content Include="css\plugins\slick-theme.css" />
     <Content Include="css\plugins\slick.css" />
+    <Content Include="css\Preloader.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\shortcode\default.css" />
     <Content Include="css\shortcode\footer.css" />
