@@ -145,7 +145,7 @@
     }
 
     
-    a.button-cart {
+   a.button-cart {
         position: fixed;
         bottom: 0;
         right: 0;
@@ -167,24 +167,25 @@
         a.button-cart:hover {
             text-decoration: none;
         }
-        .button-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            border-radius: 14px;
-            z-index: 1;
-            /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
-            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
-            transform-origin: bottom left;
-            overflow: hidden;
-            background: #EDDE5D; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
-            transition: all .3s cubic-bezier(.7,0,.5,1.4);
-        }
+
+    .button-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 14px;
+        z-index: 1;
+        /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
+        -webkit-animation: quickScaleIn 2.5s cubic-bezier(.7,0,.5,1.4) alternate;
+        transform-origin: bottom left;
+        overflow: hidden;
+        background: #EDDE5D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
+        transition: all .3s cubic-bezier(.7,0,.5,1.4);
+    }
 
         .circle {
             cursor: pointer !important;
@@ -198,7 +199,7 @@
             border-radius: 14px;
             -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
             transform-origin: bottom left;
-            animation-delay: 0.2s;
+            animation-delay: 2s;
             /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
             background: #000;
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
@@ -219,7 +220,7 @@
             left: 12px;
             fill: #fff;
             -webkit-animation: quickFadeIn 0.4s ease backwards;
-            animation-delay: 0.7s;
+            animation-delay: 2.5s;
             transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
             transition-delay: 0.3s;
             cursor: pointer !important;
@@ -301,35 +302,35 @@
             }
         }
 
-    @-webkit-keyframes moveUpDown {
-        0% {
-            top: -22px;
+        @-webkit-keyframes moveUpDown {
+            0% {
+                top: -22px;
+            }
+
+            50% {
+                top: -16px;
+            }
+
+            100% {
+                top: -22px;
+            }
         }
 
-        50% {
-            top: -16px;
+
+        .EliminarItem {
+            cursor: pointer;
+            font-size: 27px;
+            color: black;
+            font-weight: 700;
+            padding: 5px 16px 5px 16px;
+            text-align: right;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            float: right;
+            margin-top: 16px;
+            border-radius: 50%;
+            background: #AAAAAA;
         }
-
-        100% {
-            top: -22px;
-        }
-    }
-
-
-    .EliminarItem {
-        cursor: pointer;
-        font-size: 27px;
-        color: black;
-        font-weight: 700;
-        padding: 5px 16px 5px 16px;
-        text-align: right;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-        float: right;
-        margin-top: 16px;
-        border-radius: 50%;
-        background: #AAAAAA;
-    }
                      
     </style>
 <body>

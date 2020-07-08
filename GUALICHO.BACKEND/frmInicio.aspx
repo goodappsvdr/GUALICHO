@@ -33,16 +33,6 @@
      <!-- Preloader -->
     <link href="css/Preloader.css" rel="stylesheet" />
 
-    <script>
-        /*Preloaded*/
-        window.addEventListener('load', function () {
-            $('#onload').fadeOut();
-            $('body').removeClass('hidden');
-            menus();
-        });/**/
-    </script>
-    <!-- Fin Preloader -->
-
 </head>
 <style>
     /* Paste this css to your style sheet file or under head tag */

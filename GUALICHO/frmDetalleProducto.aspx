@@ -174,11 +174,11 @@
     }
 
 
-    a.button-cart {
+   a.button-cart {
         position: fixed;
         bottom: 0;
         right: 0;
-        z-index: 999999;
+        z-index:999999;
         margin-bottom: 35px;
         margin-right: 35px;
         width: 168px;
@@ -206,17 +206,17 @@
         border-radius: 14px;
         z-index: 1;
         /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+        -webkit-animation: quickScaleIn 2.5s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
-        background: #EDDE5D; /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D); /* Chrome 10-25, Safari 5.1-6 */
+        background: #EDDE5D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EDDE5D, #EDDE5D);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #EDDE5D, #EDDE5D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3dfcff', endColorstr='#afffd3', GradientType=1 );
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
 
-    .circle {
+        .circle {
         cursor: pointer !important;
         position: absolute;
         overflow: hidden;
@@ -228,9 +228,9 @@
         border-radius: 14px;
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
         transform-origin: bottom left;
-        animation-delay: 0.2s;
+        animation-delay: 2s;
         /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
-        background: #000;
+        background:#000;
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
@@ -249,7 +249,7 @@
         left: 12px;
         fill: #fff;
         -webkit-animation: quickFadeIn 0.4s ease backwards;
-        animation-delay: 0.7s;
+        animation-delay: 2.5s;
         transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
         transition-delay: 0.3s;
         cursor: pointer !important;
