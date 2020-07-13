@@ -69,7 +69,7 @@ Public Class frmQuienesSomos
 
         TxtTitulo.Text = oDs.Tables(0).Rows(0).Item("titulo").ToString
         TxtSubtitulo.Text = oDs.Tables(0).Rows(0).Item("subtitulo").ToString
-        TxtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion").ToString
+        TxtDescripcion.Content = oDs.Tables(0).Rows(0).Item("Descripcion").ToString
 
         'ImgQS.Src = oDs.Tables(0).Rows(0).Item("Imagen").ToString
 
@@ -90,7 +90,7 @@ Public Class frmQuienesSomos
 
             Dim oDs As New DataSet
             Dim oObjeto As New QuienesSomos
-            oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text)
+            oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Content)
 
 
 
@@ -113,7 +113,7 @@ Public Class frmQuienesSomos
     Private Sub ModificarQuienesSomosconImagen()
         Dim oDs As New DataSet
         Dim oObjeto As New QuienesSomos
-        oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Text)
+        oDs = oObjeto.ModificarBEWeb(TxtTitulo.Text, TxtSubtitulo.Text, TxtDescripcion.Content)
 
 
         Dim urlImagen As String
