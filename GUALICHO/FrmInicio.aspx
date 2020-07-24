@@ -513,7 +513,7 @@
 
                                             </ul>
                                         </nav>
-
+                                        <div id="menuMobilePrueba" style="display:none;">
                                         <div class="mobile-menu clearfix visible-xs visible-sm">
                                             <nav id="mobile_dropdown">
                                                 <ul>
@@ -540,7 +540,7 @@
                                                 </ul>
                                             </nav>
                                         </div>
-                                    </div>
+                                    </div></div>
                                     <div class="col-md-1 col-lg-1 col-sm-4 col-xs-4">
                                         <div class="header__right" style="padding-right: 40px;">
                                             <div class="header__search search search__open">

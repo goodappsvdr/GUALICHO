@@ -403,7 +403,7 @@
 
                                     </ul>
                                 </nav>
-
+                                <div id="menuMobilePrueba" style="display:none;">
                                    <div class="mobile-menu clearfix visible-xs visible-sm">
                                     <nav id="mobile_dropdown">
                                         <ul>
@@ -426,7 +426,7 @@
                                              <li style="display:block;" runat="server" id="MenuCerrarSesionMobile"><a style=" font-family: 'Poppins', sans-serif; color:#fff;"  id="A2" runat="server"  onserverclick="CerrarSesion">SALIR</a></li>
                                         </ul>
                                     </nav>
-                                </div> 
+                                </div> </div>
                             </div>
                             <div class="col-md-1 col-lg-1 col-sm-4 col-xs-4">
                                 <div class="header__right" style="padding-right: 40px;">
