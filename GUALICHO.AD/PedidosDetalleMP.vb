@@ -35,4 +35,16 @@ Public Class PedidosDetalleMP
 
     End Function
 
+    Public Function BuscarPorID_PedidoMP(ByVal ID_PedidoMP As Integer) As DataSet
+
+        Try
+
+            Return oDatabase.ExecuteDataSet("PedidosDetalleMP_BuscarPorID_PedidoMP", ID_PedidoMP)
+
+        Catch ex As System.Exception
+            Throw ex
+        End Try
+
+    End Function
+
 End Class
