@@ -27,6 +27,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
         <![endif]-->
     <script src="assets/js/modernizr.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     <!-- Preloader -->
+    <link href="css/Preloader.css" rel="stylesheet" />
+
 </head>
 <style>
     /* Paste this css to your style sheet file or under head tag */
@@ -410,8 +416,6 @@ if it's not present, don't show loader */
                                     </div>
                                 </a>
                             </div>
-
-                        <div class="row">
 
                             <div class="col-md-3">
                                 <a href="frmMarcasABM.aspx">

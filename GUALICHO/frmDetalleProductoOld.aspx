@@ -41,6 +41,21 @@
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 
     
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     <!-- Preloader -->
+    <link href="css/Preloader.css" rel="stylesheet" />
+
+    <script>
+        /*Preloaded*/
+        window.addEventListener('load', function () {
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+            menus();
+        });/**/
+    </script>
+    <!-- Fin Preloader -->
 
 
 </head>
@@ -132,28 +147,29 @@
 }
 
 a.button-cart {
-    position:fixed; 
-    bottom:0;
-    right:0;  
-    margin-bottom: 35px;
-    margin-right: 35px; 
-	width: 168px;
-	height: 46px;
-	border-radius: 40px;
-    /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
-    transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
-}
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index:999999;
+        margin-bottom: 35px;
+        margin-right: 35px;
+        width: 168px;
+        height: 46px;
+        border-radius: 40px;
+        /*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+        transition: all 0.5s cubic-bezier(.7,0,.5,1.4);
+    }
 
 
-a.button-cart.active {
-    width: 178px;
-}
+        a.button-cart.active {
+            width: 178px;
+        }
 
-a.button-cart:hover {
-	text-decoration: none;
-}
+        a.button-cart:hover {
+            text-decoration: none;
+        }
 
- .button-bg {
+    .button-bg {
         position: absolute;
         top: 0;
         left: 0;
@@ -162,7 +178,7 @@ a.button-cart:hover {
         border-radius: 14px;
         z-index: 1;
         /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+        -webkit-animation: quickScaleIn 2.5s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
         background: #EDDE5D;  /* fallback for old browsers */
@@ -172,24 +188,24 @@ a.button-cart:hover {
         transition: all .3s cubic-bezier(.7,0,.5,1.4);
     }
 
-    .circle {
-        cursor: pointer !important;
-        position: absolute;
-        overflow: hidden;
-        z-index: 2;
-        top: -22px;
-        left: -12px;
-        width: 50px;
-        height: 50px;
-        border-radius: 14px;
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
-        transform-origin: bottom left;
-        animation-delay: 0.2s;
-        /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
-        background: #000;
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
-        transition: all .3s cubic-bezier(.7,0,.5,1.4);
-    }
+        .circle {
+            cursor: pointer !important;
+            position: absolute;
+            overflow: hidden;
+            z-index: 2;
+            top: -22px;
+            left: -12px;
+            width: 50px;
+            height: 50px;
+            border-radius: 14px;
+            -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
+            transform-origin: bottom left;
+            animation-delay: 2s;
+            /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
+            background: #000;
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
+            transition: all .3s cubic-bezier(.7,0,.5,1.4);
+        }
 
         .button-cart.active .circle {
             -webkit-animation: moveUpDown 0.4s ease-in-out;
@@ -205,7 +221,7 @@ a.button-cart:hover {
             left: 12px;
             fill: #fff;
             -webkit-animation: quickFadeIn 0.4s ease backwards;
-            animation-delay: 0.7s;
+            animation-delay: 2.5s;
             transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
             transition-delay: 0.3s;
             cursor: pointer !important;
@@ -320,6 +336,16 @@ a.button-cart:hover {
 <body>
 
   
+    <!-- Preloader -->
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Fin Preloader -->
+
   
      <a href="#" class="button-cart" style="cursor:pointer;" onclick="AbrirModalCarrito()">
     <span class="circle">

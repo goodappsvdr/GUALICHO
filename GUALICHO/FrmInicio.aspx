@@ -39,6 +39,22 @@
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
 
     <link href="tableResponsive.css" rel="stylesheet" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+     <!-- Preloader -->
+    <link href="css/Preloader.css" rel="stylesheet" />
+
+    <script>
+        /*Preloaded*/
+        window.addEventListener('load', function () {
+            $('#onload').fadeOut();
+            $('body').removeClass('hidden');
+            menus();
+        });/**/
+    </script>
+    <!-- Fin Preloader -->
+
 
 </head>
 
@@ -191,7 +207,7 @@
         border-radius: 14px;
         z-index: 1;
         /*box-shadow: 0px 8px 16px 0px rgba(143, 255, 213, 0.26);*/
-        -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) alternate;
+        -webkit-animation: quickScaleIn 2.5s cubic-bezier(.7,0,.5,1.4) alternate;
         transform-origin: bottom left;
         overflow: hidden;
         background: #EDDE5D;  /* fallback for old browsers */
@@ -213,7 +229,7 @@
         border-radius: 14px;
         -webkit-animation: quickScaleIn 0.6s cubic-bezier(.7,0,.5,1.4) backwards;
         transform-origin: bottom left;
-        animation-delay: 0.2s;
+        animation-delay: 2s;
         /*box-shadow: 5px 5px 15px 0px rgba(238, 146, 255, 0.25);*/
         background: #000;
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5c9ff', endColorstr='#ffdbde', GradientType=1 );
@@ -234,7 +250,7 @@
         left: 12px;
         fill: #fff;
         -webkit-animation: quickFadeIn 0.4s ease backwards;
-        animation-delay: 0.7s;
+        animation-delay: 2.5s;
         transition: all 0.1s cubic-bezier(.7,0,.5,1.4);
         transition-delay: 0.3s;
         cursor: pointer !important;
@@ -336,7 +352,7 @@
         font-size: 27px;
         color: black;
         font-weight: 700;
-    padding: 10px 15px;
+        padding: 10px 15px;
         text-align: right;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -348,16 +364,25 @@
 
 
 
-        .fr__btn:hover {
-            background: #000 none repeat scroll 0 0;
-            color: #fff;
-        }
-
+    .fr__btn:hover {
+        background: #000 none repeat scroll 0 0;
+        color: #fff;
+    }
 </style>
 
 <body>
 
     
+    <!-- Preloader -->
+    <div class="centrado" id="onload">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Fin Preloader -->
+
      <a href="#" class="button-cart" style="cursor:pointer;" id="btnCarrito" runat="server">
     <span class="circle">
       <span class="icon icon-cart" >

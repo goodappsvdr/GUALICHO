@@ -68,8 +68,8 @@ Public Class frmNosotrosABM
         lblTitulo.InnerText = "EDITAR LA FÁBRICA"
 
         TxtTitulo.Text = oDs.Tables(0).Rows(0).Item("titulo").ToString
-        TxtDescripcionPrinicipal.Text = oDs.Tables(0).Rows(0).Item("DescripcionPrincipal").ToString
-        TxtDescripcionSecundaria.Text = oDs.Tables(0).Rows(0).Item("DescripcionSecundaria").ToString
+        TxtDescripcionPrinicipal.Content = oDs.Tables(0).Rows(0).Item("DescripcionPrincipal").ToString
+        TxtDescripcionSecundaria.Content = oDs.Tables(0).Rows(0).Item("DescripcionSecundaria").ToString
 
         ImgQS.Src = oDs.Tables(0).Rows(0).Item("Imagen").ToString
 
@@ -85,7 +85,7 @@ Public Class frmNosotrosABM
 
             Dim oDs As New DataSet
             Dim oObjeto As New Nosotros
-            oDs = oObjeto.Modificar(TxtTitulo.Text, TxtDescripcionPrinicipal.Text, TxtDescripcionSecundaria.Text)
+            oDs = oObjeto.Modificar(TxtTitulo.Text, TxtDescripcionPrinicipal.Content, TxtDescripcionSecundaria.Content)
 
 
 
@@ -108,7 +108,7 @@ Public Class frmNosotrosABM
     Private Sub ModificarQuienesSomosconImagen()
         Dim oDs As New DataSet
         Dim oObjeto As New Nosotros
-        oDs = oObjeto.Modificar(TxtTitulo.Text, TxtDescripcionPrinicipal.Text, TxtDescripcionSecundaria.Text)
+        oDs = oObjeto.Modificar(TxtTitulo.Text, TxtDescripcionPrinicipal.Content, TxtDescripcionSecundaria.Content)
 
 
         Dim urlImagen As String

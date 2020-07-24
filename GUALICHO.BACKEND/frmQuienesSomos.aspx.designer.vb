@@ -263,7 +263,7 @@ Partial Public Class frmQuienesSomos
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDescripcion As Global.Telerik.Web.UI.RadEditor
 
     '''<summary>
     '''Control BtnAceptar.

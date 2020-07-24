@@ -263,7 +263,7 @@ Partial Public Class frmNosotrosABM
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDescripcionPrinicipal As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDescripcionPrinicipal As Global.Telerik.Web.UI.RadEditor
 
     '''<summary>
     '''Control Span2.
@@ -281,7 +281,7 @@ Partial Public Class frmNosotrosABM
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDescripcionSecundaria As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtDescripcionSecundaria As Global.Telerik.Web.UI.RadEditor
 
     '''<summary>
     '''Control btnNosotrosImagenes.

@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="vb" Debug="true" AutoEventWireup="false" CodeBehind="frmQuienesSomos.aspx.vb" Inherits="GUALICHO.BACKEND.frmQuienesSomos" %>
 
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
@@ -491,14 +493,59 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                             <div class="row">
 
-                                           <div class="col col-md-12">
-                                           <span runat="server" id="Span1" style="color:#000; font-size:18px;  " >Descripción</span>
-                                               <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="200px" Width="100%"></asp:TextBox>
-                                             <%--<asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="200px" Width="100%"></asp:TextBox>--%>
-                                      </div>
-</div>
+                                           <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="row col-md-12 col-sm-12 col-xs-12" style="padding-bottom: 19px;">
+                                    <div class="input-field col s4" style="">
+                                        
+                                    <div class="input-field col s8" style="padding-top: 19px;">
+                                        <span runat="server" id="Span1" style="color:#000; font-size:18px;" >Descripción</span>
+                                        <telerik:RadEditor ID="TxtDescripcion" style="width:100%;" OnClientLoad="OnClientLoad"
+                                            Skin="Metro" runat="server" EditModes="Design" Language="es-AR" BorderColor="White"
+                                            BorderStyle="Solid" EnableResize="False">
+                                            <Paragraphs>
+                                                <telerik:EditorParagraph Tag="" Title="New EditorParagraph" />
+                                            </Paragraphs>
+                                            <Paragraphs>
+                                                <telerik:EditorParagraph Tag="" Title="New EditorParagraph" />
+                                            </Paragraphs>
+                                            <Tools>
+                                                <telerik:EditorToolGroup Tag="MainToolbar">
+                                                    <telerik:EditorTool Name="ForeColor" />
+                                                    <telerik:EditorTool Name="FontSize" Text="1" />
+                                                    <telerik:EditorSeparator />
+                                                    <telerik:EditorSplitButton Name="Undo">
+                                                    </telerik:EditorSplitButton>
+                                                    <telerik:EditorSplitButton Name="Redo">
+                                                    </telerik:EditorSplitButton>
+                                                    </telerik:EditorToolGroup>
+                                                    <telerik:EditorToolGroup>
+                                                    <telerik:EditorSeparator />
+                                                    <telerik:EditorTool Name="Bold" ShortCut="CTRL+B" />
+                                                    <telerik:EditorTool Name="Italic" ShortCut="CTRL+I" />
+                                                    <telerik:EditorSeparator />
+                                                    <telerik:EditorTool Name="JustifyLeft" />
+                                                    <telerik:EditorTool Name="JustifyCenter" />
+                                                    <telerik:EditorTool Name="JustifyRight" />
+                                                    <telerik:EditorTool Name="JustifyFull" />
+                                                    <telerik:EditorSeparator />
+                                                    <telerik:EditorTool Name="InsertOrderedList" />
+                                                    <telerik:EditorTool Name="InsertUnorderedList" />
+                                                </telerik:EditorToolGroup>
+                                            </Tools>
+                                            <Content>
+                                        
+
+
+
+                                            </Content>
+                                            <TrackChangesSettings CanAcceptTrackChanges="True" />
+                                        </telerik:RadEditor>
+                                    </div>
+                                </div>
+                            </div>
+                                        </div>
+
+                                                                        </div>
 
                                            <%-- <div class="row">
 
@@ -733,6 +780,24 @@ background-color:rgba(0, 0, 0, 0.5);
     <script src="assets/js/jquery.core.js"></script>
     <script src="assets/js/jquery.app.js"></script>
 
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+            setTimeout(function () {
+                document.getElementById("DivStatus").style.display = "none";
+            }, 4000);
+        });
+
+
+        function OnClientLoad(editor, args) {
+            var style = editor.get_contentArea().style;
+            style.backgroundImage = "none";
+            style.backgroundColor = "white";
+
+        }
+</script>
 
 
     <script type="text/javascript">
