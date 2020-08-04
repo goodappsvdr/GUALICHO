@@ -176,7 +176,7 @@ Public Class FrmNotificacionMP
 
                 If status = "approved" Then
 
-                    ods = oObjeto.ModificarEstado(transaccion, ID_Pedido, 10)
+                    ods = oObjeto.ModificarEstado(transaccion, ID_Pedido, 2)
 
 
                     Dim ods1 As New DataSet
